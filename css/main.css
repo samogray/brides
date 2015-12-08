@@ -24,6 +24,112 @@ body textarea:required:valid {
 	
 }
 body {
-	font-family: "RobotoRegular", sans-serif;
-	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	background-color: #ffffff;
+}
+.row {
+	margin:0;
+}
+.my-wrap{
+	max-width: 1240px;
+	margin: 0 auto;
+}
+.navbar{
+	padding-top:13px;
+	color:#707070;
+}
+.nav>li>a:hover {
+	text-decoration: none;
+	background-color: rgb(255, 255, 255);
+}
+.navbar-nav>li>a.btn {
+	text-shadow: 0 1px 0 rgba(255,255,255,.25);
+	padding: 10px 25px;
+	border: 1px solid #a9a9a9;
+	color:#707070;
+}
+a.btn {
+	border: 1px solid #a9a9a9;
+}
+
+.navbar-nav>li>a.btn:hover, ul.navbar-right a.dropdown-toggle.btn:hover{
+	color:#16b4dc;
+	  border: 1px solid #16b4dc;
+	  background-color: white;
+}
+ul.navbar-right a.dropdown-toggle.btn {
+	margin-right: 10px;
+	color:black;
+}
+.btn .caret {
+	margin-left: 10px;
+}
+ul.navbar-right .dropdown-menu>li>a:focus, ul.navbar-right .dropdown-menu>li>a:hover {
+	background-color:white;
+	background-image: none;
+	color:#16b4dc;
+}
+.navbar-right .dropdown-menu {
+	right: 10px;
+	left: 0px;
+}
+.dropdown-menu {
+	top: 94%;
+	min-width: 116px;
+}
+ul.nav.navbar-nav.navbar-right li.dropdown a {
+	background: url("../img/flag.png") no-repeat;
+	padding-left: 40px;
+	padding-right: 10px;
+}
+ul.nav.navbar-nav.navbar-right li.dropdown a.eng {
+	 background-position: 4px 12px;
+ }
+ul.nav.navbar-nav.navbar-right li.dropdown a.ger {
+	background-position: 4px -27px;
+}
+ul.nav.navbar-nav.navbar-right li.dropdown a.span {
+	background-position: 4px -53px;
+}
+ul.nav.navbar-nav.navbar-right li.dropdown a.ital {
+	background-position: 6px -81px;
+	padding-left: 40px;
+}
+.logo {
+	background: url("../img/heart.png") no-repeat 20px 10px;
+}
+a.logo.navbar-brand {
+	padding-left: 65px;
+	color: black;
+	font-weight: 800;
+	font-size: 36px;
+	font-family: 'OpenSans', sans-serif;
+	position: relative;
+	margin-right: 50px;
+}
+.logo>span {
+	font-size: 9px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #72cae6;
+	letter-spacing: 1px;
+	position: absolute;
+	top: 3px;
+	right: 9px;
+}
+ul.nav.navbar-nav.my-custom{
+	margin-left: 35px;
+}
+ul.my-custom li a{
+	color:#828282;
+	font-size: 18px;
+	padding-top: 21px;
+}
+ul.my-custom li a:hover{
+	color:#16b4dc;
+	cursor: pointer;}
+
+.carousel-inner .item{
+	max-height: 608px;
 }
