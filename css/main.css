@@ -34,10 +34,12 @@ body {
 .my-wrap{
 	max-width: 1240px;
 	margin: 0 auto;
+	position: relative;
 }
 .navbar{
 	padding-top:13px;
 	color:#707070;
+	margin-bottom: 10px;
 }
 .nav>li>a:hover {
 	text-decoration: none;
@@ -97,16 +99,17 @@ ul.nav.navbar-nav.navbar-right li.dropdown a.ital {
 	padding-left: 40px;
 }
 .logo {
-	background: url("../img/heart.png") no-repeat 20px 10px;
+	background: url("../img/heart.png") no-repeat 3px 10px;
 }
-a.logo.navbar-brand {
-	padding-left: 65px;
+a.logo {
+	padding-left: 50px;
 	color: black;
 	font-weight: 800;
 	font-size: 36px;
 	font-family: 'OpenSans', sans-serif;
 	position: relative;
 	margin-right: 50px;
+	margin-left: 10px;
 }
 .logo>span {
 	font-size: 9px;
@@ -126,10 +129,156 @@ ul.my-custom li a{
 	font-size: 18px;
 	padding-top: 21px;
 }
-ul.my-custom li a:hover{
+.no-visible{
+	display: none;
+}
+ul.my-custom li a:hover, a.dropdown-toggle.btn.no-visible.navbar-right:hover{
 	color:#16b4dc;
 	cursor: pointer;}
 
 .carousel-inner .item{
 	max-height: 608px;
+
+}
+.carousel-control .glyphicon-menu-left, .carousel-control .icon-prev {
+	top: 47%;
+	left:25px;
+	font-size: 36px;
+	position: absolute;
+}
+.carousel-inner {
+	position: relative;
+	overflow: hidden;
+	max-width: 1544px;
+	margin: 0 auto;
+}
+.carousel-control .glyphicon-menu-right, .carousel-control .icon-next {
+	top: 47%;
+	right: 25px;
+	font-size: 36px;
+	position: absolute;
+}
+.carousel-inner .item img{
+	max-width:100%;
+	margin: 0 auto;
+
+}
+a.dropdown-toggle.btn.no-visible.navbar-right {
+	padding: 10px 15px;
+	cursor: pointer;
+	color:#828282;
+}
+ul.dropdown-menu.menu {
+	top: 39px;
+	right: -2px;
+	text-align: center;
+}
+ul.nav.navbar-nav.navbar-right {
+	padding: 0;
+	margin-top: 6px;
+}
+.carousel-inner .my-wrap{
+
+}
+
+.panel.panel-default.promo{
+	position: absolute;
+	z-index: 1500;
+	background: rgba(0, 0, 0, 0.45);
+	color: white;
+	border: none;
+	border-radius: 0;
+}
+.panel.panel-default.promo.custom-panel{
+	bottom: 0;
+	max-width: 66.1290%;
+
+}
+.panel.panel-default.promo.panel-form{
+	bottom: 0;
+	right: 0;
+	max-width: 32.2580%;
+}
+.promo-block {
+	float: left;
+	background: url("../img/promo-panel.png")no-repeat;
+	font-size: 26px;
+	font-weight: 600;
+	padding: 15px 0 15px 88px;
+	margin-bottom: 40px;
+	margin-top: 45px;
+}
+.promo-info {
+	display: block;
+	font-size: 17px;
+	font-weight: 300;
+	margin-top: 7px;
+}
+.promo-account {
+	background-position: 19px 2px;
+}
+.promo-secure {
+	background-position: 19px -99px;
+	margin-top: 0;
+}
+.promo-ledies {
+	background-position: -400px 6px;
+
+
+}
+.promo-privates {
+	background-position: -400px -99px;
+	margin-top: 0;
+
+}
+
+.form-group label {
+	font-size: 14px;
+	text-align: right;
+}
+.form-footer{
+	text-align: center;
+	font-size: 12px;
+	padding: 10px;
+}
+#my-form h2{
+	font-size: 22px;
+	text-align: center;
+	padding: 20px;
+	font-weight: 300;
+}
+
+span.glyphicon.icon-facebook {
+	margin-right: 10px;
+	border-right: 1px solid #464546;
+	font-size: 19px;
+	display: inline-block;
+	position: absolute;
+	top: -1px;
+	left: 0px;
+	padding: 9px;
+}
+button.btn.btn-primary.center-block.fb {
+	position: relative;
+	padding-left: 37px;
+	margin-bottom: 18px;
+}
+.right {
+	text-align: right;
+}
+.number {
+	/* padding: 0 2px; */
+	padding-right: 0px;
+}
+button.btn.btn-default.center-block.custom-submit {
+	background-color: #5f9c10;
+	background-image: none;
+	border-radius: 0;
+	color: white;
+	text-shadow: none;
+	border: none;
+	font-size: 17px;
+}
+button.btn.btn-default.center-block.custom-submit:hover{
+	box-shadow: inset 0px 0px 2px 0px rgba(255,255,255,1);
 }
