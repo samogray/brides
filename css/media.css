@@ -75,6 +75,11 @@ ul.my-custom{
  a.dropdown-toggle.btn.no-visible.navbar-right {
   width: 100%;
   margin-bottom: 10px;
+  border: none;
+ }
+ a.dropdown-toggle.btn.no-visible.navbar-right:active, a.dropdown-toggle.btn.no-visible.navbar-right:hover{
+  box-shadow: none;
+  background-color: white;
  }
  span.glyphicon.glyphicon-menu-hamburger {
   margin-right: 10px;

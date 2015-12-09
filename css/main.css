@@ -36,6 +36,7 @@ body {
 	margin: 0 auto;
 	position: relative;
 }
+/*-------------------------HEADER--------------------------------*/
 .navbar{
 	padding-top:13px;
 	color:#707070;
@@ -290,4 +291,127 @@ button.btn.btn-default.center-block.custom-submit {
 }
 button.btn.btn-default.center-block.custom-submit:hover{
 	box-shadow: inset 0px 0px 2px 0px rgba(255,255,255,1);
+}
+/*-------------------------HEADER--------------------------------*/
+/*-----------Main-----------------------------------------------*/
+h3.title-ledies-group {
+	font-size: 24px;
+	text-align: center;
+	color: #959595;
+	margin-top: 50px;
+	font-weight: 400;
+	margin-bottom:35px;
+}
+span.line-decor {
+	width: 183px;
+	border-bottom: 1px solid #6a696e;
+	display: inline-block;
+	margin: 6px 34px;
+}
+.link-img {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}
+/*test*/
+.test-block{
+	float:left;
+	width: 25%;
+	margin-left:10px;
+}
+/**/
+.prev-anketa.center-block {
+	max-width: 294px;
+}
+.prev-anketa img{
+	max-width: 100%;
+}
+.online, .v-prof{
+	position: absolute;
+	right: 0;
+	display: block;
+	color: white;
+	font-size: 18px;
+	padding: 3px 7px;
+	text-decoration: none;
+}
+a.online:hover{
+	box-shadow:inset 0px 0px 0px 1px #fffdf8;
+	text-decoration: none;
+	color:white;
+}
+a.online {
+	background-color: #57b711;
+	top:0;
+	font-family: 'Open Sans', sans-serif;
+}
+.v-prof {
+	bottom: 0;
+	padding: 13px 13px 5px 30px;
+	background: rgba(0, 0, 0, 0.34) url("../img/profile-btn.png") no-repeat -155px 16px;
+	transition: all .2s ease-in-out;
+	font-family: 'Open Sans', sans-serif;
+}
+a.v-prof:hover{
+	text-decoration: none;
+	color:white;
+	padding: 18px 18px 10px 35px;
+
+}
+ul.action{
+	box-sizing: border-box;
+	width: 100%;
+	border-left:1px solid #e1e1e1;
+	border-right:1px solid #e1e1e1;
+	border-bottom:1px solid #e1e1e1;
+}
+ul.action li{
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	width: 33.33%;
+	border-right:1px solid #e1e1e1;
+	padding: 17px 13px 17px 35px;
+	color:#e1e1e1;
+	background:url("../img/profile-btn.png") no-repeat;
+
+}
+ul.action li a{
+	font-size: 14px;
+	color:#979797;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+}
+ul.action li:last-child{
+	border-right:none;
+}
+ul.action li.letter{
+	background-position: 10px -18px;
+}
+ul.action li.chat{
+	background-position: -86px -20px;
+
+}
+ul.action li.video{
+	background-position: -173px -19px;
+}
+h3.my-name {
+	font-size: 36px;
+	padding: 20px 0 0 7px;
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+}
+span.ind-online {
+	position: absolute;
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 15px;
+	top: 19px;
+	right: 77px;
+	background: #57b711;
+}
+span.y-old {
+	padding-left: 7px;
+	color: #a5a5a5;
 }
