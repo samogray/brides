@@ -95,6 +95,17 @@ ul.my-custom{
   color: black;
  }
 }
+@media (min-width: 1200px) {
+.no-padding-l {
+  padding-left: 0;
+ }
+ .no-padding-r {
+  padding-right: 0;
+ }
+ .no-padding{
+    padding: 0;
+ }
+}
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
