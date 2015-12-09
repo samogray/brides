@@ -54,7 +54,9 @@ body {
 a.btn {
 	border: 1px solid #a9a9a9;
 }
-
+.slide-cont, div.container-fluid{
+	padding: 0;
+}
 .navbar-nav>li>a.btn:hover, ul.navbar-right a.dropdown-toggle.btn:hover{
 	color:#16b4dc;
 	  border: 1px solid #16b4dc;
