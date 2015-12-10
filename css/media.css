@@ -2,44 +2,60 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1056px) {
-.carousel-inner .item, .carousel-control{
- display: none;
-}
- .panel.panel-default.promo{
+ .panel-body h1 {
+  margin: 80px 0;
+ }
+ .carousel-inner .item, .carousel-control {
+  display: none;
+ }
+
+ .panel.panel-default.promo {
   position: relative;
  }
- .carousel-inner{
+
+ .carousel-inner {
   background: url("../img/Slide1.jpg") repeat-y 50% 50%;
  }
- .navbar-nav>li {
-   float: right;
-   margin: 0 5px;
-   margin-right: 0;
-   background-color: transparent;
-  }
- ul.my-custom li a:hover{
+
+ .navbar-nav > li {
+  float: right;
+  margin: 0 5px;
+  margin-right: 0;
   background-color: transparent;
  }
- .panel.panel-default.promo.panel-form{
+
+ ul.my-custom li a:hover {
+  background-color: transparent;
+ }
+
+ .panel.panel-default.promo.panel-form {
   max-width: 100%;
  }
+
  .panel.panel-default.promo.custom-panel {
   bottom: 0;
   max-width: 100%;
  }
+
  .promo-block {
   font-size: 17px;
   font-weight: 600;
   padding: 15px 0 15px 88px;
   margin: 0;
  }
+
  .promo-info {
   font-size: 14px;
  }
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 989px) {
+ .panel-body h1 {
+  margin: 80px 0;
+ }
 ul.my-custom{
  display: none;
 }
@@ -54,15 +70,55 @@ ul.my-custom{
   width: 100%;
   margin: 0;
  }
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+ .panel-body h1 {
+  margin: 80px 0;
+ }
  .promo-block {
   float: none;
   width: 272px;
   margin: 0 auto;
  }
+ ul.nav.navbar-nav.navbar-right li.dropdown a.eng {
+  background-position: 32% 12px;
+ }
+ ul.nav.navbar-nav.navbar-right li.dropdown a {
+  text-align: center;
+ }
+ ul.nav.navbar-nav.navbar-right li.dropdown a.ger {
+  background-position: 32% -27px;
+ }
+ ul.nav.navbar-nav.navbar-right li.dropdown a.span {
+  background-position: 32% -53px;
+ }
+ ul.nav.navbar-nav.navbar-right li.dropdown a.ital {
+  background-position: 32% -81px;
+  padding-left: 40px;
+ }
+ span.line-decor {
+  width: 90px;
+  margin: 6px 17px;
+ }
+ span.ind-online {
+  right: 47px;
+ }
+ .center-block {
+  margin-bottom: 10px;
+ }
+ h1.title-news {
+  text-align: center;
+ }
+ .panel-body h1 {
+  margin: 80px 0;
+ }
+ .looking h3 {
+  padding-top: 99px;
+ }
+
  .navbar-nav>li {
   float:none;
  }
@@ -105,6 +161,9 @@ ul.my-custom{
  .no-padding{
     padding: 0;
  }
+ .panel-body h1 {
+  margin: 80px 0;
+ }
 }
 
 /* Extra Small Devices, Phones */
@@ -123,6 +182,21 @@ ul.my-custom{
  }
  input{
   margin: 10px auto;
+ }
+ .looking h3 {
+  font-size: 25px;
+ }
+ .looking>p {
+  font-size: 12px;
+ }
+ .looking a.btn {
+  padding: 9px 25px;
+ }
+ span.glyphicon.fa.fa-facebook {
+ display: none;
+ }
+ span.line-decor{
+  display: none;
  }
 }
 
