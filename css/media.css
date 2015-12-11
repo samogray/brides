@@ -5,7 +5,7 @@
  .panel-body h1 {
   margin: 80px 0;
  }
- .carousel-inner .item, .carousel-control {
+ header .carousel-inner .item, header .carousel-control {
   display: none;
  }
 
@@ -52,17 +52,37 @@
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 989px) {
+@media only screen and (max-width : 991px) {
+ span.y-old {
+  border-left: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 10px;
+ }
+ h3.my-name {
+  font-size: 36px;
+  padding: 20px 0 0 7px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  border-left: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+ }
+ .prev-anketa.center-block {
+  max-width: 292px;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 35px;
+ }
+
  .panel-body h1 {
   margin: 80px 0;
  }
-ul.my-custom{
+/*ul.my-custom{
  display: none;
 }
  .no-visible {
   display: inline-block;
-
- }
+ }*/
  ul.nav.navbar-nav.navbar-right {
   padding: 0;
   margin-top: 6px;
@@ -72,6 +92,23 @@ ul.my-custom{
  }
 
 }
+/* Only for menu */
+@media only screen and (max-width : 831px){
+ ul.my-custom{
+  display: none;
+ }
+ .no-visible {
+  display: inline-block;
+ }
+ ul.dropdown-menu.menu {
+  z-index: 2000;
+ }
+ .navbar-nav>li>.dropdown-menu {
+  z-index: 2000;
+ }
+}
+
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
@@ -107,7 +144,6 @@ ul.my-custom{
   right: 47px;
  }
  .center-block {
-  margin-bottom: 10px;
  }
  h1.title-news {
   text-align: center;
