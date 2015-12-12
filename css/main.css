@@ -252,6 +252,10 @@ footer.form-footer{
 	font-size: 12px;
 	padding: 10px;
 }
+footer.form-footer a{
+	color:white;
+	text-decoration: underline;
+}
 #my-form h2{
 	font-size: 22px;
 	text-align: center;
@@ -414,12 +418,10 @@ h3.my-name {
 }
 span.ind-online {
 	position: absolute;
-	display: block;
+	display: inline-block;
 	width: 10px;
 	height: 10px;
 	border-radius: 15px;
-	top: 19px;
-	right: 77px;
 	background: #57b711;
 }
 span.y-old {
@@ -795,6 +797,13 @@ p.article-news-text{
 .article-page-img {
 	float: right;
 	margin: 20px 0 0 35px;
+}
+.article-page-aside{
+	margin-bottom: 100px;
+}
+.article-news-image{
+	max-width:400px;
+
 }
 .article-news-image img {
 	max-width: 100%;
