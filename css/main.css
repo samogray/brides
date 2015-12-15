@@ -386,7 +386,8 @@ ul.action li{
 	float: left;
 	width: 33.33%;
 	border-right:1px solid #e1e1e1;
-	padding: 17px 13px 17px 32px;
+	padding: 17px 13px 17px 30px;
+	text-align: center;
 	color:#e1e1e1;
 	background:url("../img/profile-btn.png") no-repeat;
 	transition: all .5s ease-in-out;
@@ -398,11 +399,15 @@ ul.action li a{
 	display: block;
 	font-family: 'Open Sans', sans-serif;
 }
+li.right {
+	float: right;
+}
 ul.action li:hover {
 	background-color: rgba(33, 139, 232, 0.23);
 }
 ul.action li:last-child{
 	border-right:none;
+	float: right;
 }
 ul.action li.letter{
 	background-position: 7px -18px;

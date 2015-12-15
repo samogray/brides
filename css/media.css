@@ -21,6 +21,23 @@
   margin-bottom: 9px;
   float: left;
  }
+ .promo-account {
+  background-position: 19px 2px;
+ }
+ .promo-secure {
+  background-position: 19px -99px;
+  margin-top: 0;
+ }
+ .promo-ledies {
+  background-position: -400px 6px;
+
+
+ }
+ .promo-privates {
+  background-position: -400px -99px;
+  margin-top: 0;
+
+ }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1056px) {
@@ -75,7 +92,7 @@
  .promo-block {
   font-size: 17px;
   font-weight: 600;
-  padding: 15px 0 15px 88px;
+  padding: 23px 0 15px 88px;
   margin: 0;
  }
 
@@ -177,6 +194,9 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+ a.btn.right {
+  text-align: center;
+ }
 
  .panel-body h1 {
   margin: 80px 0;
@@ -223,7 +243,7 @@
   padding-top: 99px;
  }
 
- .navbar-nav>li {
+ .navbar-nav>li, li.right {
   float:none;
  }
  .no-visible {
