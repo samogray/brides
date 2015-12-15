@@ -309,6 +309,9 @@ button.btn.btn-default.center-block.custom-submit:hover{
 }
 /*-------------------------HEADER--------------------------------*/
 /*-----------Main-----------------------------------------------*/
+div#carousel-girl-online, div#carousel-girl-popular  {
+	padding: 0;
+}
 h3.title-ledies-group {
 	font-size: 24px;
 	text-align: center;
@@ -328,7 +331,7 @@ span.line-decor {
 	margin: 0 auto;
 	position: relative;
 }
-/*test*/
+/*test.html*/
 .test-block{
 	float:left;
 	width: 25%;
@@ -413,7 +416,7 @@ ul.action li.letter{
 	background-position: 7px -18px;
 }
 ul.action li.chat{
-	background-position: -87px -20px;
+	background-position: -89px -20px;
 
 }
 ul.action li.video{
@@ -562,7 +565,7 @@ p.about-brides  a {
 	display: inline-block;
 	position: absolute;
 	left: -204px;
-	top: 51px;
+	top: 37px;
 }
 .banner-logo img{
 	max-width:100%;
@@ -1006,9 +1009,15 @@ form#send-email label, form#reg-form label{
 	color:#6d6d6d;
 	font-size: 18px;
 }
-form#send-email input, form#reg-form input, form#send-email textarea{
+form#send-email input, form#reg-form input{
 	border-radius: 0;
 	height: 50px;
+	border: none;
+	padding: 10px 0 10px 10px;
+	box-sizing: border-box;
+}
+form#send-email textarea{
+	border-radius: 0;
 	border: none;
 	padding: 10px 0 10px 10px;
 	box-sizing: border-box;

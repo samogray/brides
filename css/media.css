@@ -14,11 +14,11 @@
   margin-top: 0;
   font-size: 17px;
   font-weight: 600;
-  padding: 6px 0 6px 88px;
+  padding: 15px 0 18px 88px;
   margin: 0;
   margin-right: 42px;
   margin-left: 97px;
-  margin-bottom: 9px;
+  margin-bottom: 0px;
   float: left;
  }
  .promo-account {
@@ -37,6 +37,18 @@
   background-position: -400px -99px;
   margin-top: 0;
 
+ }
+ .looking a.btn {
+  font-size: 15px;
+  padding: 10px 31px;
+ }
+ .looking p {
+  font-size: 20px;
+  margin-bottom: 40px;
+ }
+ .looking h3 {
+  font-size: 38px;
+  padding-bottom: 15px;
  }
 }
 /* Large Devices, Wide Screens */
@@ -61,14 +73,31 @@
  ul.my-custom li a:hover {
   background-color: transparent;
  }
-/*
- */
 
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
+ .banner-logo {
+  display: inline-block;
+  position: absolute;
+  left: -204px;
+  top: 72px;
+  width: 54.33%;
+ }
+ .looking a.btn {
+  font-size: 15px;
+  padding: 10px 31px;
+ }
+ .looking p {
+  font-size: 20px;
+  margin-bottom: 40px;
+ }
+ .looking h3 {
+  font-size: 38px;
+  padding-bottom: 15px;
+ }
  header .carousel-inner .item, header .carousel-control {
   display: none;
  }
@@ -188,12 +217,32 @@
  .navbar-nav>li>.dropdown-menu {
   z-index: 2000;
  }
+ span.line-decor {
+  margin: 6px 10px;
+ }
 }
-
 
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+ .looking a.btn {
+  font-size: 15px;
+  padding: 8px 20px;
+ }
+ .looking p {
+  font-size: 18px;
+  margin-bottom: 40px;
+ }
+ .looking h3 {
+  padding-top: 99px;
+ }
+ .banner-logo {
+  display: inline-block;
+  position: absolute;
+  left: -100px;
+  top: 82px;
+  width: 45.33%;
+ }
  a.btn.right {
   text-align: center;
  }
@@ -309,6 +358,12 @@
  }
 
 }
+@media only screen and (max-width : 625px){
+ .banner-logo{
+  display: none;
+ }
+}
+
 /*-----ONLY MINI SLIDER-----------*/
 @media only screen and (max-width : 506px) {
  .mini-slider {
