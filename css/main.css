@@ -526,7 +526,7 @@ p.about-brides  a {
 	text-align: center;
 	background:repeating-linear-gradient(#eee9df, #eee9df 7px, #e5dfd1 7px, #e5dfd1 13px );
 	padding-bottom: 90px;
-	border-bottom: 5px solid #16b4dc;
+
 	max-width: 2000px;
 	margin: 0 auto;
 	position: relative;
@@ -576,6 +576,7 @@ p.about-brides  a {
 footer.footer-page{
 	background-color: #f1f1f1;
 	padding-bottom: 70px;
+	border-top: 5px solid #16b4dc;
 }
 footer a.logo {
 	margin-left: 0;
@@ -914,7 +915,8 @@ p.article-news-text{
 }
 form#question input {
 	font-size: 18px;
-	padding: 25px 0 25px 10px;
+	padding: 10px 0 10px 10px;
+	height: 50px;
 	border-radius: 0;
 	width: 300px;
 	display:inline-block;
@@ -985,30 +987,35 @@ a.public-faq:hover{
 	font-weight: 900;
 	text-transform: uppercase;
 }
-form#send-email {
+form#send-email, form#reg-form {
 	background-color: #f4f4f4;
 	padding: 50px 20px 30px 0;
 	margin-bottom: 140px;
 }
-form#send-email label{
+.form#reg-form{
+	margin-bottom: 75px;
+}
+
+form#send-email label, form#reg-form label{
 	margin-bottom: 20px;
 	color:#6d6d6d;
 	font-size: 18px;
 }
-form#send-email input, form#send-email textarea{
+form#send-email input, form#reg-form input, form#send-email textarea{
 	border-radius: 0;
+	height: 50px;
 	border: none;
-	padding: 25px 0 25px 10px;
+	padding: 10px 0 10px 10px;
 	box-sizing: border-box;
 }
-form#send-email a.btn {
+form#send-email a.btn, form#reg-form a.btn {
 	margin-left: 15px;
 	margin-top: 115px;
 	padding: 10px 18px;
 	background-color: #1f68ba;
 	transition: all .2s ease-in-out;
 }
-form#send-email a.btn:hover{
+form#send-email a.btn:hover, form#reg-form a.btn:hover{
 	background-color: #218be8;
 }
 
@@ -1020,11 +1027,37 @@ h1.tittle-email {
 .send-emeil-info h4 {
 	color: #35900d;
 	font-size: 24px;
-	padding: 20px 0;
+	padding: 12px 0;
 }
 .send-emeil-info p {
 	font-size: 14px;
 	color: #9f9f9f;
 	line-height: 20px;
 	padding-bottom: 15px;
+}
+h1.title-create-ac {
+	font-family: "HelveticaLight", sans-serif;
+	padding-left: 15px;
+	color: #929292;
+	font-size: 34px;
+}
+span.prv-policy {
+	font-size: 14px;
+	color: #939393;
+	display: inline-block;
+	margin-top: 32px;
+}
+form#reg-form a.btn {
+	margin: 0;
+	margin-left: 15px;
+}
+img.cerds{
+	margin-bottom: 190px;
+}
+span.prv-policy a{
+	color: #939393;
+	text-decoration: underline;
+}
+span.prv-policy a:hover{
+	color: #0044cc;
 }
