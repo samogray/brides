@@ -599,10 +599,12 @@ p.about-brides  a {
 .looking a.btn:hover{
 	transform: Scale(1.1);
 }
-footer.footer-page{
+footer.footer-page {
 	background-color: #f1f1f1;
 	padding-bottom: 70px;
 	border-top: 5px solid #16b4dc;
+	max-width: 2000px;
+	margin: 0 auto;
 }
 footer a.logo {
 	margin-left: 0;
@@ -1079,6 +1081,7 @@ span.prv-policy {
 	color: #939393;
 	display: inline-block;
 	margin-top: 32px;
+	margin-bottom: 10px;
 }
 form#reg-form a.btn {
 	margin: 0;
@@ -1122,4 +1125,215 @@ img.inner-page-img-full {
 .row div.text-wrap.about-brides.clearfix:last-child{
 	margin-bottom: 135px;
 }
+/*-------------Ladies-catalog------------------*/
+.nav-inverse-lady-catalog{
+	background-color: #3c3c3c;
+	background-image: none;
+	color: white;
+	border-radius: 0;
+	border: none;
+	padding-top: 0;
+	min-height: 42px;
+}
+span.dashboard {
+	float: left;
+	display: inline-block;
+	font-size: 22px;
+	padding: 8px 15px;
+	color:#b3b3b3;
+}
+span.events {
+	background-color: red;
+	width: 20px;
+	border-radius: 17px;
+	height: 20px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 5px;
+	padding-right: 1px;
+	transition: all .2s ease-in-out;
+}
+ul.nav.navbar-nav.my-custom-lady-catalog a {
+	color: white;
+	font-size:14px;
+	position: relative;
+	transition: all .2s ease-in-out;
+	padding: 11px 15px;
+}
+ul.nav.navbar-nav.my-custom-lady-catalog a:hover span{
+	transform: Scale(1.2,1.2);
+}
+ul.nav.navbar-nav.my-custom-lady-catalog a:hover {
+	/* text-decoration: underline; */
+	background-color: #5e5e5e;
+}
+ul.nav.navbar-nav.navbar-right.lady-catalog-menu li a{
+	background-image: none;
+	color:white;
+	font-size: 14px;
+	padding: 11px 15px;
+	transition: all .2s ease-in-out;
+}
+ul.nav.navbar-nav.navbar-right.lady-catalog-menu li a:hover{
+	background-color: #5e5e5e;
+}
+ul.nav.navbar-nav.navbar-right.lady-catalog-menu>li{
+	float:left;
+}
+ul.nav.navbar-nav.navbar-right.lady-catalog-menu {
+	margin-top: 0;
+	width: initial;
+}
+.caret {
+	margin-left: 5px;
+}
+.menu-dashboard{
+	background-color: #3c3c3c;
+	color:white;
+}
+ul.menu-dashboard li a{
+	background-color: #3c3c3c;
 
+}
+ul.nav.navbar-nav.navbar-right.lady-catalog-menu ul.dropdown-menu.menu-dashboard{
+	padding:0;
+}
+ul.nav.navbar-nav.navbar-right.lady-catalog-menu ul.dropdown-menu.menu-dashboard li a:hover{
+	background-color: #5e5e5e;
+}
+.col-lg-12.no-padding {
+	padding: 0;
+}
+nav.navbar.nav-lady-catalog {
+	border: none;
+	border-bottom: 5px solid #c1ebf6;
+	border-radius: 0;
+	max-width: 2000px;
+	margin: 0 auto;
+}
+
+nav.navbar.nav-lady-catalog a.logo {
+	margin-right: 0;
+	margin-top: -3px;
+}
+ul.nav.navbar-nav.my-custom.menu-lady-catalog {
+	margin-left: 0;
+}
+ul.nav.navbar-nav.my-custom.menu-lady-catalog li a {
+	color: black;
+	font-size: 17px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	transition: all .5s ease-in-out;
+	padding: 15px 20px;
+}
+ul.nav.navbar-nav.my-custom.menu-lady-catalog li a:hover {
+	background-color: #c1ebf6;
+}
+ul.nav.navbar-nav >li a:visited, ul.nav.navbar-nav >li a:active,  {
+	background-color: #ffffff;
+	border: none;
+}
+ span.custom-caret {
+	color: #C1EBF6;
+}
+form#search-girl{
+	background-color:#f4f4f4 ;
+	max-width: 2000px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+form#search-girl .form-group{
+	text-align: right;
+	padding: 10px 0;
+}
+form#search-girl .form-group input, form#search-girl .form-group select{
+	height: 35px;
+	border-radius: 0;
+	border:none;
+	max-width: 190px;
+}
+form#search-girl .form-group input[type="number"]{
+	max-width: 85px;
+}
+form#search-girl .form-group select{
+	width: 190px;
+	-webkit-appearance: none;
+	background-image: url('../img/select-btn.png');
+	background-position: 176px center;
+	background-repeat: no-repeat;
+	line-height: 1em;
+	/* for FF */
+	-moz-appearance: none;
+	text-indent: 0.01px;
+	text-overflow: '';
+	/* for IE */
+	-ms-appearance: none;
+	appearance: none!important;
+}
+
+
+h1.lady-catalog-title {
+	font-size: 35px;
+	color: #353535;
+	text-align: left;
+	margin: 0;
+	border-right: 1px solid #d6d6d6;
+	padding: 10px 0;
+}
+.disabled {
+	cursor: pointer;
+}
+a.btn.select-em{
+	background-image: none;
+	border: none;
+	height: 35px;
+	border-radius: 0;
+	color:#5b5b5b;
+	background-color: white;
+	width: 190px;
+	position: relative;
+}
+a.btn.select-em span.caret {
+	position: absolute;
+	right: 10px;
+	top: 15px;
+}
+a.btn.select-em:hover{
+	background-color: white;
+}
+
+.select-em ul {
+	border-radius: 0;
+	background-color: white;
+	border: none;
+	width: 190px;
+	text-align: center;
+}
+div.number{
+	position: relative;
+}
+.min-up-btn, .min-down-btn, .max-up-btn, .max-down-btn{
+	position: absolute;
+	background: white;
+	display: block;
+	width: 18px;
+	height: 15px;
+	color:#B5B4B4;
+	font-size: 11px;
+}
+.max-up-btn, .min-up-btn {
+	right: 12px;
+	top: 15px;
+}
+.min-down-btn, .max-down-btn {
+	right: 12px;
+	top: 29px;
+}
+form#search-girl a.btn.search{
+
+}
+span.label-input {
+	display: block;
+}

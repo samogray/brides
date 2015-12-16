@@ -24,4 +24,36 @@ $(document).ready(function() {
             $( '.my-online-ctrl' ).fadeOut( 1000 );
         }
     );
+    var minMinAge =  $('.min-down-btn'),
+        plusMinAge = $('.min-up-btn'),
+        znachMin = parseInt($('#min-age').val());
+
+    plusMinAge.click(function(){
+        if (znachMin<70){
+            znachMin=znachMin+1;
+        }
+        $('#min-age').val(znachMin);
+    });
+    minMinAge.click(function(){
+        if (znachMin>18){
+            znachMin=znachMin-1;
+        }
+        $('#min-age').val(znachMin);
+    });
+    var minMaxAge =  $('.max-down-btn'),
+        plusMaxAge = $('.max-up-btn'),
+        znachMax = parseInt($('#max-age').val());
+
+    plusMaxAge.click(function(){
+        if (znachMax<70){
+            znachMax=znachMax+1;
+        }
+        $('#max-age').val(znachMax);
+    });
+    minMaxAge.click(function(){
+        if (znachMax>18){
+            znachMax=znachMax-1;
+        }
+        $('#max-age').val(znachMax);
+    });
 });
