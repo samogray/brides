@@ -865,7 +865,7 @@ span.glyphicon.glyphicon-triangle-left {
 }
 p.article-news-text{
 	display: block;
-	margin-bottom: 55px;
+	margin-bottom: 35px;
 }
 .article-page-img {
 	float: right;
@@ -1102,11 +1102,24 @@ span.prv-policy a:hover{
 	padding-left: 0;
 }
 h2.news-head.about-brides-head {
-	margin-bottom: 55px;
+	margin-bottom: 35px;
 }
 .text-wrap.about-brides.clearfix .mini-slider {
 	padding-bottom: 107px;
 }
 
-
+.inner-page-img {
+	max-width: 400px;
+	float: right;
+	margin: 20px 0 20px 20px;
+}
+img.inner-page-img-full {
+	border: 0;
+	max-width: 100%;
+	max-height: 397px;
+	margin-bottom: 35px;
+}
+.row div.text-wrap.about-brides.clearfix:last-child{
+	margin-bottom: 135px;
+}
 
