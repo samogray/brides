@@ -157,7 +157,7 @@ ul.my-custom li a:hover, a.dropdown-toggle.btn.no-visible.navbar-right:hover{
 	font-size: 36px;
 	position: absolute;
 }
-.carousel-inner {
+#carousel-header .carousel-inner {
 	position: relative;
 	overflow: hidden;
 	max-width: 2000px;
@@ -311,6 +311,24 @@ button.btn.btn-default.center-block.custom-submit:hover{
 /*-----------Main-----------------------------------------------*/
 div#carousel-girl-online, div#carousel-girl-popular  {
 	padding: 0;
+}
+a.my-right, a.my-left{
+	position: absolute;
+	font-size: 41px;
+	color: #6D6D6D;
+	transition: all .2s ease-in-out;
+	display: none;
+}
+a.my-right {
+	top: 35%;
+	right: -41px;
+}
+a.my-left {
+	top: 35%;
+	left: -41px;
+}
+a.my-right:hover, a.my-left:hover{
+	transform: Scale(1.2,1.2);
 }
 h3.title-ledies-group {
 	font-size: 24px;
@@ -740,8 +758,9 @@ ul.footer-title-gr.agency.service li.service-trip{
 	margin: 0 auto;
 	clear: both;
 }
-.page-header h1{
+.page-header h1 {
 	font-size: 52px;
+	font-family: "HelveticaRegular", sans-serif;
 }
 .breadcrumb {
 	padding-top: 0;
@@ -1075,3 +1094,19 @@ span.prv-policy a{
 span.prv-policy a:hover{
 	color: #0044cc;
 }
+
+/*-----------Inner-Page------------------*/
+.text-wrap.about-brides.clearfix {
+	max-width: 826px;
+	margin: 0 auto;
+	padding-left: 0;
+}
+h2.news-head.about-brides-head {
+	margin-bottom: 55px;
+}
+.text-wrap.about-brides.clearfix .mini-slider {
+	padding-bottom: 107px;
+}
+
+
+
