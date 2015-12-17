@@ -1410,6 +1410,8 @@ a.v-prof.btn:hover{
 	clear: both;
 	display: block;
 	font-size: 14px;
+	text-align: left;
+	padding-top: 7px;
 }
 input.check-star {
 	right: 12px;
