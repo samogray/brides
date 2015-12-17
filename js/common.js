@@ -56,4 +56,5 @@ $(document).ready(function() {
         }
         $('#max-age').val(znachMax);
     });
+
 });
