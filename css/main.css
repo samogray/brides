@@ -44,6 +44,7 @@ a.btn {
 	border-radius: 0;
 	font-size: 12px;
 	border-radius:0;
+	letter-spacing:1px;
 }
 .navbar{
 	padding-top:13px;
@@ -270,7 +271,7 @@ footer.form-footer a{
 	font-weight: 300;
 }
 
-span.glyphicon.fa.fa-facebook {
+button.btn.btn-primary.center-block.fb span.glyphicon.fa.fa-facebook {
 	margin-right: 10px;
 	border-right: 1px solid #464546;
 	font-size: 19px;
@@ -1607,4 +1608,117 @@ form#search-girl a.btn.search.adv-search:hover, form#search-girl a.btn.search:ho
 }
 a.btn.advanced-srch.my-color{
 	background-color: #f8f8f8;
+}
+/*-------------LOGIN-PAGE----------------------*/
+.header-login-page{
+	margin-bottom:50px;
+}
+article.login-page{
+	font-family: "HelveticaLight", sans-serif;
+	color:#5d5d5d;
+	padding-bottom:170px;
+}
+h1.title-login-page {
+	font-size: 30px;
+}
+.cont-girl{
+	background-color: #f8f8f8;
+	padding: 15px 40px 0 40px;
+	margin-bottom: 75px;
+}
+.cont-girl .prev-anketa.center-block.anketa-result {
+	max-width: 175px;
+	margin-bottom: 33px;
+}
+.cont-girl .prev-anketa.center-block.anketa-result .online {
+	font-size: 10px;
+}
+.cont-girl .prev-anketa.center-block.anketa-result h3.my-name {
+	font-size: 21px;
+	font-family: "HelveticaMedium", sans-serif;
+}
+.cont-girl .prev-anketa.center-block.anketa-result span.from-city{
+	font-family: "HelveticaLight", sans-serif;
+}
+.cont-girl .no-padding{
+	padding: 0 8px;
+}
+.text-aside-login-page {
+	font-size: 18px;
+	line-height: 24px;
+	color: #9f9f9f;
+}
+form#login-form{
+	background-color: #ebebeb;
+	padding: 35px 25px;
+}
+.group-fb .input-group-addon:first-child, a.btn.using-fb {
+	color: white;
+	background-color: #3c5a99;
+	border: none;
+	border-radius: 0;
+	transition: all .2s;
+}
+.group-fb .input-group-addon:first-child{
+	border-right: 1px solid white;
+	position: relative;
+}
+.group-fb .input-group-addon:first-child i.fa.fa-facebook {
+	position: absolute;
+	font-size: 25px;
+	bottom: -2px;
+	right: 2px;
+}
+a.proceed.btn {
+	border: none;
+	background-color: #1f68ba;
+	color: white;
+	letter-spacing: 1px;
+	padding: 12px 30px;
+	float:right;
+	transition: all .2s;
+}
+a.btn.using-fb:hover, a.proceed.btn:hover{
+	background-color: #4989d5;
+}
+form#login-form label{
+font-size: 14px;
+	color:#383838;
+	margin: 20px 0;
+}
+form#login-form input{
+	height: 50px;
+	border: none;
+	border-radius: 0;
+	margin-bottom: 3px;
+}
+a.forgout {
+	font-size: 14px;
+	color: #383838;
+	padding-top: 13px;
+	display: inline-block;
+}
+a.forgout:hover{
+	text-decoration: underline;
+}
+
+form#login-form .form-group{
+	margin-bottom: 50px;
+}
+a.btn.create-new-ac {
+	border: none;
+	background-color: #5f9c10;
+	color: white;
+}
+a.btn.create-new-ac {
+	border: none;
+	background-color: #5f9c10;
+	color: white;
+	margin-top: 30px;
+	padding: 12px 17px;
+	transition: all .2s;
+}
+a.btn.create-new-ac:hover{
+	background-color: #75b710;
+
 }
