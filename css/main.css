@@ -59,7 +59,9 @@ a.btn {
 	text-shadow: 0 1px 0 rgba(255,255,255,.25);
 	padding: 10px 25px;
 	border: 1px solid #a9a9a9;
-	color:#707070;
+	color: #707070;
+	border-radius: 5px;
+	font-family: "OpenSansRegular";
 }
 a.btn {
 	border: 1px solid #a9a9a9;
@@ -74,7 +76,7 @@ a.btn {
 }
 ul.navbar-right a.dropdown-toggle.btn {
 	margin-right: 10px;
-	color:black;
+	color: #707070;
 }
 .btn .caret {
 	margin-left: 10px;
