@@ -82,6 +82,10 @@
  form#search-girl .row.right {
   text-align: center;
  }
+ h3.label-advanced-search {
+  padding-left:0;
+ }
+
 
 }
 
@@ -348,7 +352,10 @@
   float: none;
  }
 
+ .col.no-padding.btn-search {
+  margin-right:0;
 
+ }
  nav.nav-lady-catalog ul.nav.navbar-nav.navbar-right li.dropdown a.eng {
   background-position: 28% 12px;
  }
@@ -467,6 +474,32 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  form#reg-form {
   padding: 50px 50px 30px 50px;
  }
+
+ /*----------FORM------------------*/
+ .col, .col.no-padding.btn-search{
+  display: block;
+  box-sizing: border-box;
+  width: 53.33%;
+  margin: 0 auto;
+ }
+ label.label-search {
+  font-size: 24px;
+  padding-top: 19px;
+  padding-bottom: 20px;
+ }
+ form#search-girl .row.right {
+  text-align: left;
+  border-top: 1px solid darkgrey;
+ }
+ form#search-girl a.btn.search {
+  width: 100%;
+ }
+
+ .invisible-form .wrap-number {
+  width: 246px;
+ }
+
+
 }
 @media (min-width: 1200px) {
 .no-padding-l {
@@ -574,6 +607,23 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
 /*---------------------------------*/
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 479px) {
+ .min-up-btn, .max-up-btn {
+  right: 12px;
+  top: 16px;
+ }
+ .col, .col.no-padding.btn-search {
+  width: 100%;
+ }
+ .min-down-btn, .max-down-btn {
+  right: 12px;
+  top: 31px;
+ }
+ form#search-girl a.btn.search {
+  width: 100%;
+ }
+ .btn-group.select-em {
+  margin-top: 8px;
+ }
  .mini-slider .carousel-indicators, .text-wrap.about-brides.clearfix .mini-slider .carousel-indicators {
   position: absolute;
   bottom: -160px;

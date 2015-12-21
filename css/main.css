@@ -1594,6 +1594,7 @@ h3.label-advanced-search {
 	padding-top: 12px;
 	font-size: 13px;
 	padding-left: 20px;
+	padding-bottom: 10px;
 }
  .form-group.select-cont,  .form-group.select-cont .a.btn.select-em, .form-group.select-cont .btn-group.select-em{
 	width: 100%;
@@ -1778,6 +1779,26 @@ a.btn.create-new-ac {
 a.btn.create-new-ac:hover{
 	background-color: #75b710;
 }
+
+.wrap-number{
+	width: 173px;
+}
+.invisible-form .wrap-number {
+	width: 248px;
+}
+.form-group.number.left-number {
+	float: left;
+}
+.form-group.number.right.right-number {
+	float: right;
+}
+.wrap-number span.to{
+	display: inline-block;
+	padding-top: 13px;
+	padding-left: 8px;
+}
+
+
 .sec-ico li{
 	display: inline-block;
 }
