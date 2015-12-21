@@ -73,18 +73,51 @@
  ul.my-custom li a:hover {
   background-color: transparent;
  }
-
+ h1.lady-catalog-title{
+  float: none;
+  text-align: center;
+  padding: 20px 0;
+  border: none;
+ }
+ form#search-girl .row.right {
+  text-align: center;
+ }
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
+ ul.nav.navbar-nav.my-custom {
+  margin-left: 0;
+ }
  .banner-logo {
   display: inline-block;
   position: absolute;
   left: -204px;
   top: 72px;
   width: 54.33%;
+ }
+ form#login-form {
+  background-color: #ebebeb;
+  padding: 35px 10%;
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;;
+ }
+ h1.title-login-page {
+  font-size: 30px;
+  text-align: center;
+ }
+ .cont-girl {
+  margin-bottom:0;
+ }
+ .input-group.group-fb {
+  display: inline-block;
+ }
+ .input-group.group-fb .input-group-addon {
+  display: inline-block;
+  height: 29px;
+  margin-right: -5px;
  }
  .looking a.btn {
   font-size: 15px;
@@ -169,7 +202,7 @@
  .no-visible {
   display: inline-block;
  }*/
- ul.nav.navbar-nav.navbar-right {
+ nav.nav-home-page ul.nav.navbar-nav.navbar-right {
   padding: 0;
   margin-top: 6px;
   float: none;
@@ -225,8 +258,47 @@
  .navbar-nav>li>.dropdown-menu {
   z-index: 2000;
  }
+ nav.navbar.nav-lady-catalog ul.dropdown-menu.menu {
+  width: 312px;
+ }
+ form#login-form {
+  background-color: #ebebeb;
+  padding: 35px 7%;
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+ }
+ .cont-girl {
+  margin-bottom:0;
+ }
+
  span.line-decor {
   margin: 6px 10px;
+ }
+ .wrap-img {
+  max-width: 300px;
+  height: 300px;
+ }
+ img.faq-img {
+  left: -174px;
+  top: -33px;
+ }
+ .wrap-img h1 {
+  color: white;
+  /* float: left; */
+  /* margin: 0 auto; */
+  position: absolute;
+  left: 49px;
+  top: 33px;
+  font-size: 6em;
+  font-weight: 900;
+  text-transform: uppercase;
+ }
+ nav.navbar.nav-lady-catalog {
+  padding-bottom: 20px;
+ }
+ .header-login-page{
+  display: none;
  }
 }
 
@@ -263,14 +335,28 @@
   width: 272px;
   margin: 0 auto;
  }
- ul.nav.navbar-nav.navbar-right li.dropdown a.eng {
-
-  background-position: 41% 12px;
+  ul.nav.navbar-nav.navbar-right li.dropdown a.eng {
+  margin-top: 30px;
+  background-position: 28% 12px;
 
  }
- ul.nav.navbar-nav.navbar-right li.dropdown a {
+ nav.nav-lady-catalog ul.nav.navbar-nav.no-visible.center-block{
+  width: 100%;
   text-align: center;
  }
+ nav.nav-lady-catalog .navbar-nav>li {
+  float: none;
+ }
+
+
+ nav.nav-lady-catalog ul.nav.navbar-nav.navbar-right li.dropdown a.eng {
+  background-position: 28% 12px;
+ }
+  ul.nav.navbar-nav.navbar-right li.dropdown a {
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+   }
  ul.nav.navbar-nav.navbar-right li.dropdown a.ger {
   background-position: 32% -27px;
  }
@@ -281,6 +367,21 @@
   background-position: 32% -81px;
   padding-left: 40px;
  }
+
+
+ nav.navbar.navbar-inverse.nav-inverse-lady-catalog ul.nav.navbar-nav.my-custom-lady-catalog{
+  float:left;
+ }
+ nav.navbar.navbar-inverse.nav-inverse-lady-catalog ul.nav.navbar-nav.navbar-right.lady-catalog-menu{
+  float: right;
+ }
+ nav.navbar.navbar-inverse.nav-inverse-lady-catalog .navbar-nav{
+  margin: 0;
+ }
+
+
+
+
  span.line-decor {
   width: 90px;
   margin: 6px 17px;
@@ -298,19 +399,29 @@
   padding-top: 99px;
  }
 
- .navbar-nav>li, li.right {
+ nav.nav-home-page .navbar-nav>li, li.right {
   float:none;
  }
- .no-visible {
+ nav.nav-home-page .no-visible {
   display: inline-block;
   float: none;
   width: 100%;
  }
 
- a.dropdown-toggle.btn.no-visible.navbar-right {
+nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
   width: 100%;
   margin-bottom: 10px;
-  border: none;
+  border: 1px solid darkgrey;
+  padding: 11px 10px;
+ }
+/* nav.navbar.nav-lady-catalog a.dropdown-toggle.btn.no-visible.navbar-right {
+  width: 200px;
+  margin-bottom: 10px;
+  border: 1px solid darkgrey;
+  padding: 11px 10px;
+ }*/
+ nav.navbar.nav-lady-catalog ul.dropdown-menu.menu {
+  text-align: left;
  }
  a.dropdown-toggle.btn.no-visible.navbar-right:active, a.dropdown-toggle.btn.no-visible.navbar-right:hover{
   box-shadow: none;
@@ -318,11 +429,13 @@
  }
  span.glyphicon.glyphicon-menu-hamburger {
   margin-right: 10px;
-  margin-top: 10px;
  }
  .col-xs-12 {
   width: 100%;
   text-align: center;
+ }
+ .text-aside-login-page{
+  text-align: left;
  }
  ul.navbar-right a.dropdown-toggle.btn {
   margin-bottom: 10px;
@@ -351,6 +464,9 @@
  h2.news-head {
   font-size: 34px;
  }
+ form#reg-form {
+  padding: 50px 50px 30px 50px;
+ }
 }
 @media (min-width: 1200px) {
 .no-padding-l {
@@ -365,41 +481,130 @@
 
 }
 @media only screen and (max-width : 625px){
+ .wrap-img {
+  max-width: 200px;
+  height: 200px;
+ }
+ .wrap-img h1 {
+  left: 30px;
+  top: 21px;
+  font-size: 4em;
+ }
  .banner-logo{
   display: none;
+ }
+ .page-header.question {
+  padding: 20px;
+ }
+ .page-header.question h1 {
+  font-size: 35px;
+  padding-top: 0px;
+  margin-bottom: 17px;
+ }
+
+ .page-header.question h2 {
+  font-size: 19px;
+  margin-bottom: 27px;
+ }
+ .question form {
+  text-align: center;
+  margin-bottom: 52px;
  }
 }
 
 /*-----ONLY MINI SLIDER-----------*/
-@media only screen and (max-width : 506px) {
+@media only screen and (max-width : 506px){
+ .faq>.media-left{
+  display: block;
+ }
+ .media-body-faq>h4.media-heading {
+  text-align: center;
+  margin-top: 27px;
+ }
+ a.public-faq {
+  text-align: center;
+  display: block;
+ }
  .mini-slider {
   padding-bottom: 167px;
  }
- .mini-slider .carousel-indicators {
+  .mini-slider .carousel-indicators {
   position: absolute;
   bottom: -160px;
   left: 50%;
   z-index: 15;
   width: 100%;
-  padding: 0 13%;
+  padding: 0 65px;
   margin-left: -50%;
   text-align: center;
   list-style: none;
  }
-}
-@media only screen and (max-width : 370px) {
- .mini-slider .carousel-indicators {
-  padding: 0 1%;
+ .text-wrap.about-brides.clearfix .mini-slider .carousel-indicators{
+  padding: 0 77px;
+
  }
+ .text-wrap.about-brides.clearfix .mini-slider {
+  padding-bottom: 190px;
+ }
+ form#login-form {
+  background-color: #ebebeb;
+  padding: 35px 1%;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+ }
+}
+@media only screen and (max-width : 390px) {
+
+ form#question input {
+  font-size: 18px;
+  padding: 10px 0 10px 10px;
+  height: 50px;
+  border-radius: 0;
+  width: 100%;
+  display: inline-block;
+  border: none;
+  /* margin-right: 10px; */
+ }
+ form#reg-form {
+  padding: 20px 0;
+ }
+
 }
 /*---------------------------------*/
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
- #my-form *{
-  float:none;
+@media only screen and (max-width : 479px) {
+ .mini-slider .carousel-indicators, .text-wrap.about-brides.clearfix .mini-slider .carousel-indicators {
+  position: absolute;
+  bottom: -160px;
+  left: 50%;
+  z-index: 15;
+  width: 100%;
+  padding: 0 0;
+  margin-left: -50%;
+  text-align: center;
+  list-style: none;
+ }
+ .mini-slider .carousel-indicators li, .text-wrap.about-brides.clearfix .mini-slider .carousel-indicators li {
+  width: 50%;
+  margin: 0;
+  text-align: center;
+  float: right;
+  margin-bottom: 5px;
+ }
+
+ #my-form input, #my-form label, #my-form .form-group, .col-xs-4, #my-form  .col-xs-6{
   width: 100%;
   text-align: center;
+  float: none;
  }
+ .button.btn.btn-primary.fb.fb-left{
+  width: 50px;
+ }
+ .button.btn.btn-primary.fb{
+  width: 200px;
+ }
+
  span.glyphicon.icon-facebook {
   margin-right: 10px;
   border-right:none;
@@ -425,11 +630,12 @@
  span.line-decor{
   display: none;
  }
+
  ul.nav.navbar-nav.navbar-right li.dropdown a.eng {
-
   background-position: 31% 12px;
-
  }
+
+
  /*---------Article page ---------*/
 
  .page-header h1, .article-media-body h4.media-heading a, h2.news-head{
