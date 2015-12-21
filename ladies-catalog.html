@@ -31,19 +31,19 @@
                 <nav class="navbar navbar-inverse nav-inverse-lady-catalog">
                     <div class="my-wrap clearfix">
                         <div class="row">
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 no-padding">
                             <span class="dashboard center-block">
                                Dashboard
                             </span>
                             </div>
-                            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
-                                <ul class="nav navbar-nav my-custom-lady-catalog">
+                            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 no-padding">
+                                <ul class="nav navbar-nav my-custom-lady-catalog dropdown">
                                     <li><a href="#0">Inbox <span class="events">8</span></a></li>
                                     <li><a href="#0">Chats<span class="events">8</span></a></li>
                                     <li><a href="#0">Video Calls</a></li>
                                 </ul>
                             </div>
-                            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
+                            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 no-padding">
                                 <ul class="nav navbar-nav navbar-right lady-catalog-menu">
                                     <li class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Profile<span class="caret"></span></a>
@@ -76,7 +76,8 @@
                             <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12">
                                 <ul class="nav navbar-nav no-visible center-block">
                                     <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle btn no-visible navbar-right" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>Menu</a>
+                                        <a href="#" class="dropdown-toggle btn no-visible navbar-right" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                            <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>Menu</a>
                                         <ul class="dropdown-menu menu">
                                             <li><a href="#">Gallery of Ladies</a></li>
                                             <li><a href="#">New Profiles</a></li>
@@ -172,11 +173,11 @@
                         <div class="invisible-form">
                             <div class="row">
                                 <div class="my-wrap clearfix">
-                                    <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 custom-grid">
                                         <div class="col-lg-4 col-md-4 col-sm-4 no-padding">
                                             <h3 class="label-advanced-search">Height</h3>
                                         </div>
-                                        <div class="col-lg-8 no-padding">
+                                        <div class="col-lg-8 col-sm-8 no-padding">
                                             <div class="wrap-number clearfix">
                                                 <div class="form-group number left-number">
                                                     <input type="number" class="form-control" id="test1" placeholder="18" min="18" max="70"  value="18">
@@ -195,16 +196,16 @@
                                         <div class="col-lg-4 col-md-4 col-sm-4 no-padding">
                                             <h3 class="label-advanced-search">Weight</h3>
                                         </div>
-                                        <div class="col-lg-8  no-padding">
+                                        <div class="col-lg-8 col-sm-8  no-padding">
                                             <div class="wrap-number clearfix">
                                                 <div class="form-group number left-number">
-                                                    <input type="number" class="form-control" id="" placeholder="18" min="18" max="70"  value="18">
+                                                    <input type="number" class="form-control" id="tt" placeholder="18" min="18" max="70"  value="18">
                                                     <span class="min-up-btn"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></span>
                                                     <span class="min-down-btn"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></span>
                                                 </div>
                                                 <span class="to">to</span>
                                                 <div class="form-group number right right-number">
-                                                    <input type="number" class="form-control" id="" placeholder="60" min="18" max="70" value="18">
+                                                    <input type="number" class="form-control" id="tt3" placeholder="60" min="18" max="70" value="18">
                                                     <span class="max-up-btn"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></span>
                                                     <span class="max-down-btn"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></span>
                                                 </div>
@@ -274,7 +275,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4  col-md-4 col-sm-6">
+                                    <div class="col-lg-4  col-md-4 col-sm-6 col-xs-6 custom-grid">
                                         <div class="col-lg-4  col-md-4 col-sm-4 no-padding">
                                             <h3 class="label-advanced-search ">Сhildren</h3>
                                         </div>
@@ -384,7 +385,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <div class="col-lg-4 col-md-4 col-sm-6 custom-grid">
                                         <div class="col-lg-4 col-lg-4 col-md-4 col-sm-4 no-padding ">
                                             <h3 class="label-advanced-search">Education</h3>
                                         </div>
@@ -605,9 +606,9 @@
                             </li>
                             <li><a href="#0" class="btn">1</a></li>
                             <li><a href="#0" class="btn active">2</a></li>
-                            <li><a href="#0" class="btn">3</a></li>
-                            <li><a href="#0" class="btn">4</a></li>
-                            <li><a href="#0" class="btn">5</a></li>
+                            <li class="none"><a href="#0" class="btn">3</a></li>
+                            <li class="none"><a href="#0" class="btn">4</a></li>
+                            <li class="none"><a href="#0" class="btn">5</a></li>
                             <li>
                                 <a href="#0" aria-label="Next">
                                     Next

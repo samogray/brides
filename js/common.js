@@ -60,5 +60,8 @@ $(document).ready(function() {
         $('.invisible-form').slideToggle();
         $(this).toggleClass('my-color');
         $('#icon').toggleClass('glyphicon-triangle-top');
-    })
+    });
+   /* $('.btn-dashboard').click(function(){
+        $(' ul.nav.navbar-nav.my-custom-lady-catalog.dropdown-menu').slideToggle();
+    })*/
 });

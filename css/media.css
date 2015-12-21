@@ -50,9 +50,17 @@
   font-size: 38px;
   padding-bottom: 15px;
  }
+ .col-lg-4.col-md-4.col-sm-6.col-xs-6.custom-grid {
+  border-right:none;
+ }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1056px) {
+
+ .col-lg-4.col-md-4.col-sm-6.col-xs-6.custom-grid {
+  border-right:none;
+ }
+
  .navbar-nav>li {
   float: right;
  }
@@ -91,6 +99,13 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
+ a.v-prof.btn {
+  padding: 4px 4px;
+  margin: 0;
+  position: relative;
+  margin-top: 10px;
+  top: 6px;
+ }
  ul.nav.navbar-nav.my-custom {
   margin-left: 0;
  }
@@ -364,6 +379,9 @@
   width: 200px;
   margin: 0 auto;
    }
+ ul.nav.navbar-nav.navbar-right.lady-catalog-menu li.dropdown a{
+  width: auto;
+ }
  ul.nav.navbar-nav.navbar-right li.dropdown a.ger {
   background-position: 32% -27px;
  }
@@ -374,20 +392,26 @@
   background-position: 32% -81px;
   padding-left: 40px;
  }
+ ul.nav.navbar-nav.navbar-right.lady-catalog-menu li a {
+  color: white;
+  font-size: 14px;
+  padding: 11px 11px;
+  transition: all .2s ease-in-out;
+ }
 
 
- nav.navbar.navbar-inverse.nav-inverse-lady-catalog ul.nav.navbar-nav.my-custom-lady-catalog{
-  float:left;
- }
- nav.navbar.navbar-inverse.nav-inverse-lady-catalog ul.nav.navbar-nav.navbar-right.lady-catalog-menu{
-  float: right;
- }
+
  nav.navbar.navbar-inverse.nav-inverse-lady-catalog .navbar-nav{
   margin: 0;
  }
 
 
-
+ ul.nav.navbar-nav.my-custom-lady-catalog.dropdown,
+ nav.navbar.navbar-inverse.nav-inverse-lady-catalog ul.nav.navbar-nav.navbar-right.lady-catalog-menu {
+  float:none;
+  width: 300px;
+  margin: 0 auto;
+ }
 
  span.line-decor {
   width: 90px;
@@ -496,9 +520,40 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  }
 
  .invisible-form .wrap-number {
-  width: 246px;
+  width: 171px;
  }
-
+ form#search-girl .invisible-form .form-group.number {
+  width: 70px;
+ }
+ ul.dropdown-menu.my-custom-lady-catalog{
+  position: absolute;
+  background-color: #3C3C3C;
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  width: 200px;
+  text-align: center;
+  top:36px;
+  display: none;
+ }
+ .open>ul.dropdown-menu.my-custom-lady-catalog{
+  position: absolute;
+  background-color: #3C3C3C;
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  width: 200px;
+  text-align: center;
+  top:36px;
+  display:block;
+  color:white;
+ }
+ .open>ul.dropdown-menu.my-custom-lady-catalog li a{
+  color:white;
+ }
+ a.dropdown-toggle.btn-dashboard{
+  display: inline-block;
+ }
+ ul.dropdown-menu.my-custom-lady-catalog li{
+  float:none;
+  margin: 0;
+ }
 
 }
 @media (min-width: 1200px) {
@@ -511,7 +566,12 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  .no-padding{
     padding: 0;
  }
-
+ .invisible-form .wrap-number {
+  width: 174px;
+ }
+ form#search-girl .invisible-form .form-group.number {
+  width: 70px;
+ }
 }
 @media only screen and (max-width : 625px){
  .wrap-img {
@@ -541,7 +601,7 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  }
  .question form {
   text-align: center;
-  margin-bottom: 52px;
+  margin-bottom: 0;
  }
 }
 
@@ -602,11 +662,29 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  form#reg-form {
   padding: 20px 0;
  }
-
+ ul.nav.navbar-nav.my-custom-lady-catalog.dropdown, nav.navbar.navbar-inverse.nav-inverse-lady-catalog .navbar-nav{
+  margin: 7.5px -15px;
+ }
 }
 /*---------------------------------*/
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 479px) {
+ .col-lg-4.col-md-4.col-sm-6.col-xs-6.custom-grid {
+  float: none;
+  width: 100%;
+ }
+ .invisible-form .wrap-number {
+  width: 200px;
+  margin: 0 auto;
+ }
+ form#search-girl .invisible-form .form-group.number {
+  width: 86px;
+ }
+ h3.label-advanced-search {
+  padding-top:0;
+  font-size: 15px;
+  padding-bottom:0;
+ }
  .min-up-btn, .max-up-btn {
   right: 12px;
   top: 16px;
@@ -695,6 +773,7 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
   padding-left:0;
   font-size: .8em;
  }
+
  p.article-news-text {
   margin-bottom: 10px;
  }
@@ -703,6 +782,9 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  }
  .article-media-body a.btn {
   margin: 10px 0 60px 0px;
+ }
+ ul li.none{
+  display: none;
  }
  /*-----------ArticlePage-END-------------*/
 }
