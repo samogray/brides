@@ -937,7 +937,7 @@ p.article-news-text{
 }
 .article-page-aside{
 	margin-bottom: 100px;
-	margin-top: 165px;
+	margin-top: 66px;
 }
 .article-news-image{
 	max-width:400px;
@@ -1852,4 +1852,15 @@ ul.sec-ico {
 }
 .sec-ico li a.cart{
 	background-position: -327px -10px;
+}
+
+
+.news-media-body a.btn.my-btn {
+	margin-bottom: 30px;
+}
+.media-body.article-media-body.news-media-body {
+	padding-left: 20px;
+}
+p.text-news.my-news {
+	padding-bottom: 20px;
 }
