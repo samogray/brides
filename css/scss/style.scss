@@ -1,0 +1,11 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: red;
+$bg-color:yellow;
+@import "chat/module.scss";
+
+.test {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background: $bg-color;
+  font-size: $font-size;
+}
