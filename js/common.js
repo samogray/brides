@@ -61,7 +61,5 @@ $(document).ready(function() {
         $(this).toggleClass('my-color');
         $('#icon').toggleClass('glyphicon-triangle-top');
     });
-   /* $('.btn-dashboard').click(function(){
-        $(' ul.nav.navbar-nav.my-custom-lady-catalog.dropdown-menu').slideToggle();
-    })*/
+    $('#myModal').modal('show');
 });

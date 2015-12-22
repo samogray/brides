@@ -574,6 +574,12 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  img.img-responsive.img-404 {
   margin-top:0;
  }
+ .big-img {
+  position: absolute;
+  right: 30%;
+  top: -6px;
+  max-width: 39%;
+ }
 }
 @media (min-width: 1200px) {
 .no-padding-l {
