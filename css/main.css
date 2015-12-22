@@ -946,7 +946,7 @@ p.article-news-text{
 .article-news-image img {
 	max-width: 100%;
 	border-bottom: 8px inset transparent;
-
+	min-height: 233px;
 }
 .article-news-image img:hover {
 	border-bottom: 8px inset #e4e4e0;
@@ -1863,4 +1863,13 @@ ul.sec-ico {
 }
 p.text-news.my-news {
 	padding-bottom: 20px;
+}
+.other-news a.btn.my-btn {
+	border-radius: 4px;
+}
+.other-news h4.media-heading a{
+	font-family: "OpenSansRegular", sans-serif;
+}
+.other-news h4.media-heading:hover{
+	font-weight: bold;
 }

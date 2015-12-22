@@ -447,6 +447,7 @@
   display: inline-block;
   float: none;
   width: 100%;
+  margin: 0 auto;
  }
 
 nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
@@ -565,6 +566,9 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
   margin: 0;
  }
 
+ .media.other-news {
+  text-align: left;
+ }
 }
 @media (min-width: 1200px) {
 .no-padding-l {
