@@ -1873,3 +1873,63 @@ p.text-news.my-news {
 .other-news h4.media-heading:hover{
 	font-weight: bold;
 }
+
+.text-error>h1 {
+	font-family: "OpenSansLight",sans-serif, "HelveticaLight";
+	font-size: 166px;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.text-error>h2 {
+	font-family: "OpenSansLight",sans-serif, "HelveticaLight";
+	font-size: 47px;
+	color: #767676;
+	margin-bottom: 30px;
+}
+.text-error>p{
+	font-family: "OpenSansLight",sans-serif, "HelveticaLight";
+	font-size: 12px;
+	color:#a2a2a2;
+	line-height: 18px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+.text-error>a.btn{
+	background-color: #5f9c10;
+	color: white;
+	border: none;
+	margin-bottom: 30px;
+
+}
+.text-error>a.btn:hover{
+	background-color: #529011;
+}
+.menu-404 ul.footer-title-gr.agency li {
+	background-image: none;
+	padding: 0;
+	margin: 0;
+	height: inherit;
+	margin-bottom: 15px;
+}
+.menu-404 ul.footer-title-gr.agency{
+	padding-bottom: 0;
+}
+.menu-404 ul.footer-title-gr li a:hover{
+	color: #0044cc;
+}
+.menu-404  .footer-title-gr {
+	border-left:none;
+	padding-left: 0;
+	text-align: left;
+}
+.article-error{
+	padding-top: 100px;
+}
+.menu-404 h1 {
+	padding: 0;
+	margin: 0;
+	font-size: 30px;
+	padding-top: 25px;
+	padding-left: 10px;
+}
