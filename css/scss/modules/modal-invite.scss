@@ -1,0 +1,210 @@
+@import "../variables.scss";
+@import "chat-index.scss";
+
+.invite-foto-wrap{
+  .link-girl{
+    background-color: white;
+    padding-left: 0;
+        &:hover{
+        background-color: white;
+      }
+  }
+}
+.invite-contetnt{
+  font-family: $font-normal;
+  font-size: $font-normal;
+  color: $color-grey-font2;
+}
+.invie-to{
+  font-family: $font-normal;
+  font-size: $font-size-big;
+  text-decoration-style: dotted;
+  padding: 30px 15px 0 0;
+  margin-bottom: 20px;
+}
+.id-girl{
+  font-family: $font-light;
+  color:$color-grey-line;
+  font-size: $font-size-sm;;
+}
+.name-pup-up{
+  text-decoration: none;
+  display: inline-block;
+  color:$color-blue-font;
+  border-bottom: 2px dashed $color-blue-font;
+  @include transition(all .3s ease-in-out);
+    &:hover{
+      text-decoration: none;
+      color:darken($color-blue-font,15%);
+      border-bottom: 2px dashed $color-blue-font;
+    }
+}
+.title-select-date {
+  margin-bottom: 15px;
+}
+.datepicker-wrap{
+  padding: 4px;
+  width: 100%;
+  border:1px solid $color-grey-line;
+  border-radius: 5px;
+  padding-top:0;
+  margin-bottom: 25px;
+
+  div#datepicker {
+    position: relative;
+    th{
+      border-radius: 0;
+    }
+    td {
+      border-radius: 0;
+      -webkit-border-radius:0;
+    }
+    td.active.day{
+      background-image: none;
+      background: $color-blue-font;
+      border: 3px solid #FFFFFF;
+      color:white;
+      &:hover{
+        background-image: none;
+        background: $color-blue-font;
+        border: 3px solid #FFFFFF;
+        color:white;
+      }
+    }
+
+    .table-condensed {
+      thead {
+        font-family: $font-bold;
+        tr{
+          background-color: $color-blue-font;
+          color: white;
+        }
+        .prev, .datepicker-switch, .next{
+          border-radius: 0;
+          padding: 8px 0;
+          &:hover{
+            background-color: $color-blue-font;
+            color: white;
+          }
+        }
+        .prev{
+          border-top-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+          &:hover{
+            background-color: darken($color-blue-font,20%);
+          }
+        }
+        .next{
+          border-top-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+          &:hover{
+            background-color: darken($color-blue-font,20%);
+          }
+        }
+        .dow {
+          background-color:white;
+          color: $color-grey-font2;
+          font-family: $font-bold;
+        }
+      }
+
+  }
+    tbody{
+      .day {
+        background: $color-grey;
+        border: 3px solid #FFFFFF;
+        -webkit-box-shadow: inset 0px 0px 0px 1px $color-grey-line;
+        -moz-box-shadow: inset 0px 0px 0px 1px $color-grey-line;
+        box-shadow: inset 0px 0px 0px 1px $color-grey-line;
+      }
+    }
+}
+
+}
+
+.datepicker table tr td.old, .datepicker table tr td.new {
+  visibility: hidden;
+}
+.datepicker table tr td.active:hover, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active:active, .datepicker table tr td.active:hover:active, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.active, .datepicker table tr td.active:hover.active, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active:hover.disabled, .datepicker table tr td.active.disabled.disabled, .datepicker table tr td.active.disabled:hover.disabled, .datepicker table tr td.active[disabled], .datepicker table tr td.active:hover[disabled], .datepicker table tr td.active.disabled[disabled], .datepicker table tr td.active.disabled:hover[disabled]{
+  background-image: none;
+  background: $color-blue-font;
+  border: 3px solid #FFFFFF;
+  color:white;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+.datepicker-inline, .datepicker-months .table-condensed, .datepicker-years .table-condensed{
+  width: 100%;
+}
+.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th {
+  padding: 10px;
+}
+
+.slider.slider-horizontal {
+  width: 100%;
+  height: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.slider-handle.round {
+  border-radius: 0;
+  background-image: none;
+  background-color: $color-blue-font;
+}
+
+.big-day {
+  color:$color-grey-font2;
+  font-family: $font-normal;
+  font-size: $font-size-big*2;
+  border:1px solid $color-grey-line;
+  background-color: $color-grey;
+  margin-bottom: 25px;
+  width: 125px;
+  height: 125px;
+  padding-top: 14px;
+  text-align: center;
+
+  span {
+    font-size: $font-size-xsm;
+    color: $color-grey-line;
+    font-family:$font-normal;
+    display: block;
+  }
+}
+.invite-time {
+  color:$color-blue-font;
+  font-size: $font-size-md;
+  font-family:$font-bold;
+  margin: 10px 0;
+}
+.invite-time-zone{
+  color:$color-grey-font2;
+  font-size: $font-size-xsm;
+  font-family:$font-bold;
+  span{
+    font-family:$font-light;
+    color: $color-grey-font;
+    display: inline-block;
+    margin-top: 15px;
+  }
+}
+
+a.invite-btn{
+  font-family: $font-bold;
+  color:white;
+  background-color: $color-green;
+  font-size: $font-size-sm;
+  font-family:$font-normal;
+  padding: 10px 15px;
+  margin-top: 25px;
+  float: right;
+  @include transition(all .3s ease-in-out);
+
+  &:hover{
+    transform: Scale(.9,.9);
+    color:white;
+  }
+}

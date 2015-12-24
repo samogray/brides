@@ -6,6 +6,10 @@ $(document).ready(function() {
             day:1
         }
     });
+
+    $('#datepicker').datepicker({
+
+    });
     $('#carousel-girl-popular, .my-popular-ctrl ').hover(
         function(){
         $('.my-popular-ctrl').fadeIn( 1000 );
@@ -62,4 +66,11 @@ $(document).ready(function() {
         $('#icon').toggleClass('glyphicon-triangle-top');
     });
     $('#myModal').modal('show');
+
+
+    $('#ex1').slider({
+        formatter: function(value) {
+            return 'Current value: ' + value;
+        }
+    });
 });

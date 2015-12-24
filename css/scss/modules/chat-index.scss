@@ -1,64 +1,4 @@
-$color-grey:#f6f6f6;
-$color-grey-line: #bebebe;
-$color-grey-dark:#e9e9e9;
-$color-grey-font:#646464;
-$color-grey-font2:#565656;
-$color-black:#000000;
-$color-green:#57b711;
-
-$color-blue:#c7edfc;
-$color-blue-font:#16b4dc;
-
-$font-bold:"OpenSansBold","HelveticaBold";
-$font-normal: "OpenSanst",sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
-$font-light:"OpenSansLight","HelveticaLight", "PT Sans", sans-serif;
-
-$font-size-big:35px;
-$font-size-md:24px;
-$font-size-sm:18px;
-$font-size-xsm:14px;
-$font-size-xxs:12px;
-
-$zero:0;
-
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
-  -ms-border-radius: $radius;
-  border-radius: $radius;
-}
-
-@mixin transition($transition...) {
-  -moz-transition:    $transition;
-  -o-transition:      $transition;
-  -webkit-transition: $transition;
-  transition:         $transition;
-}
-@mixin transition-property($property...) {
-  -moz-transition-property:    $property;
-  -o-transition-property:      $property;
-  -webkit-transition-property: $property;
-  transition-property:         $property;
-}
-@mixin transition-duration($duration...) {
-  -moz-transition-property:    $duration;
-  -o-transition-property:      $duration;
-  -webkit-transition-property: $duration;
-  transition-property:         $duration;
-}
-@mixin transition-timing-function($timing...) {
-  -moz-transition-timing-function:    $timing;
-  -o-transition-timing-function:      $timing;
-  -webkit-transition-timing-function: $timing;
-  transition-timing-function:         $timing;
-}
-@mixin transition-delay($delay...) {
-  -moz-transition-delay:    $delay;
-  -o-transition-delay:      $delay;
-  -webkit-transition-delay: $delay;
-  transition-delay:         $delay;
-}
-
+@import "../variables.scss";
 .col-sm-12 {
   padding:0;
 }
@@ -150,44 +90,41 @@ $zero:0;
       border: none;
     }
   }
+ }
+.link-girl{
+  display: block;
+  padding: 10px;
+  background-color: $color-grey;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
 
-  .link-girl{
-    display: block;
-    padding: 10px;
-    background-color: $color-grey;
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
-
-    @include transition(all .5s, ease-in-out);
-    &:hover{
-      background-color: $color-grey-dark;
-      text-decoration: none;
-    }
-    &:visited{
-      text-decoration: none;
-      color:$color-grey-line;
-    }
-    &:focus{
-      text-decoration: none;
-      color:$color-grey-line;
-    }
-    &.active{
-      background-color: $color-blue;
-    }
-
-    @media only screen and(max-width:991px){
-      border:none;
-    }
-
-    .bl{
-      float: left;
-      border: 1px solid $color-blue-font;
-      margin-right: 10px;
-    }
+  @include transition(all .5s, ease-in-out);
+  &:hover{
+    background-color: $color-grey-dark;
+    text-decoration: none;
+  }
+  &:visited{
+    text-decoration: none;
+    color:$color-grey-line;
+  }
+  &:focus{
+    text-decoration: none;
+    color:$color-grey-line;
+  }
+  &.active{
+    background-color: $color-blue;
   }
 
+  @media only screen and(max-width:991px){
+    border:none;
+  }
 
- }
+  .bl{
+    float: left;
+    border: 1px solid $color-blue-font;
+    margin-right: 10px;
+  }
+}
 
 .img-box{
   position: relative;
@@ -463,33 +400,7 @@ $zero:0;
 
   }
 
-  .view-profile {
-    display: block;
-    padding-left: 100px;
-    background: url(../img/new-window-icon.png) 75px 5px no-repeat;
-    padding-top: 6px;
-    margin-left: 21px;
 
-      @media only screen and (max-width:1155px){
-        clear: left;
-        margin-left: 0;
-        padding-left: 25px;
-        background-position: 0 4px;
-
-      }
-
-    @media only screen and(max-width: 767px){
-      clear: none;
-      padding-left: 100px;
-      background-position:75px 5px;
-      padding-top: 6px;
-      margin-left: 21px;
-    }
-
-
-
-
-  }
 
   a.btn{
     padding: 12px;
@@ -515,10 +426,41 @@ $zero:0;
   }
   a.btn.invite{
     margin-bottom: 15px;
+    @media only screen and(max-width: 767px){
+      margin-bottom: 0;
+          }
+
   }
   .start{
     background:url("../img/play.png") no-repeat 15px 10px;
   }
+}
+.view-profile {
+  display: block;
+  padding-left: 100px;
+  background: url(../img/new-window-icon.png) 75px 5px no-repeat;
+  padding-top: 6px;
+  margin-left: 21px;
+
+  @media only screen and (max-width:1155px){
+    clear: left;
+    margin-left: 0;
+    padding-left: 25px;
+    background-position: 0 4px;
+
+  }
+
+  @media only screen and(max-width: 767px){
+    clear: none;
+    padding-left: 100px;
+    background-position:75px 5px;
+    padding-top: 6px;
+    margin-left: 21px;
+  }
+
+
+
+
 }
 .navbar-right {
   @media (min-width: 768px){

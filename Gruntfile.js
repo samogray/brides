@@ -28,7 +28,7 @@ module.exports = function(grunt) {
         },
         watch: {
             styles:{
-                files:['css/scss/*.scss','css/scss/chat/*.scss','css/*.css'],
+                files:['css/scss/*.scss','css/scss/modules/*.scss','css/*.css'],
                 tasks: ['sass','cssmin'],
                 options: {
                     spawn: false,
