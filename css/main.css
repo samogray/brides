@@ -1442,6 +1442,7 @@ a.btn.advanced-srch {
 	font-size: 12px;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
+	z-index: 2000;
 }
 h3.res-serch-title {
 	color: #979797;

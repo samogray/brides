@@ -60,7 +60,7 @@ $zero:0;
 }
 
 .girl-list {
-  background-color:white;
+  background-color:$color-grey;
   width: 100%;
   padding: 10px 0;
   height: 100vh;
@@ -107,59 +107,61 @@ $zero:0;
             }
       }
 
-      .item-girl{
-        display: block;
-          a{
-            display: block;
-            padding: 10px;
-            background-color: $color-grey;
-            margin-bottom: 2px;
 
-            @include transition(all .5s, ease-in-out);
-              &:hover{
-                background-color: $color-grey-dark;
-                text-decoration: none;
-              }
-              &:visited{
-                  text-decoration: none;
-                  color:$color-grey-line;
-              }
-            &:focus{
-              text-decoration: none;
-              color:$color-grey-line;
-            }
-            &.active{
-              background-color: $color-blue;
-            }
-          }
-        .bl{
-          float: left;
-          border: 1px solid $color-blue-font;
-          margin-right: 10px;
-        }
-        .img-box{
-          position: relative;
-          border: 3px solid white;
-          background-color: white;
-          padding: 3px;
-          overflow: hidden;
-          width: 85px;
-          height: 85px;
-
-
-            img{
-              position: absolute;
-              top: 0;
-              left: -33px;
-            }
-        }
-        .img-box:before{
-          display: block;
-          border:2px solid white;
-        }
-
-      }
 }
+.item-girl{
+  display: block;
+  .link-girl{
+    display: block;
+    padding: 10px;
+    background-color: $color-grey;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+
+    @include transition(all .5s, ease-in-out);
+    &:hover{
+      background-color: $color-grey-dark;
+      text-decoration: none;
+    }
+    &:visited{
+      text-decoration: none;
+      color:$color-grey-line;
+    }
+    &:focus{
+      text-decoration: none;
+      color:$color-grey-line;
+    }
+    &.active{
+      background-color: $color-blue;
+    }
+
+    .bl{
+      float: left;
+      border: 1px solid $color-blue-font;
+      margin-right: 10px;
+    }
+  }
+
+
+ }
+
+.img-box{
+  position: relative;
+  border: 3px solid white;
+  background-color: white;
+  padding: 3px;
+  overflow: hidden;
+  width: 85px;
+  height: 85px;
+
+
+  img{
+    position: absolute;
+    top: 0;
+    left: -33px;
+  }
+}
+
 .name-girl{
   padding-top: 16px;
 
@@ -175,3 +177,231 @@ $zero:0;
         font-size: $font-size-xxs;
       }
   }
+
+
+.chat-wrap  {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  height: 100vh;
+
+
+  .wrote-wrap{
+    max-height: 60vh;
+    overflow: auto;
+    align-self: flex-start;
+  }
+
+  .title-chat-item{
+    font-family:$font-bold;
+    font-size:$font-size-xsm;
+    color:$color-grey-font2;
+    padding-left:5px;
+    width: auto;
+
+    span{
+      color: $color-grey-dark;
+      font-family: $font-normal;
+    }
+    .title-chat-time{
+      float: right;
+    }
+  }
+  .answer  {
+    background-color: $color-blue;
+    font-family: $font-normal;
+    color:$color-grey-font2;
+    padding: 10px;
+    font-size: $font-size-xsm;
+    margin-bottom: 20px;
+
+    .col-lg-1,.col-lg-11{
+      padding: 0;
+    }
+
+    .foto-wrap  {
+      position: relative;
+      overflow: hidden;
+      width: 35px;
+      height: 35px;
+      float: left;
+      @include border-radius(8px);
+      img{
+        position: absolute;
+        top: -7px;
+        left: -18px;
+        @include border-radius(8px);
+      }
+    }
+
+    p{
+      line-height: 24px;
+    }
+  }
+  .chat-item{
+    float:left;
+    width: 80%;
+  }
+  .my-question {
+    float:right;
+    width: 80%;
+    .answer{
+      background-color: $color-grey;
+    }
+  }
+
+
+
+  .type-mess  {
+    width: 100%;
+    clear: both;
+    margin-bottom: 20px;
+    flex: 1 100%;
+    align-self: flex-end;
+
+    .mess{
+      width: 100%;
+      background-color: $color-blue;
+      border:1px solid $color-blue-font;
+      font-size: $font-size-xsm;
+      background:  $color-blue url("../img/paper.png") no-repeat 1px 1px;
+      background-position: 99% 4%;
+      padding: 15px;
+      margin-bottom: -2px;
+
+      &:focus{
+        border:1px solid $color-blue-font;
+        box-shadow: none;
+        outline: none;
+      }
+    }
+    .btn{
+      color:$color-blue-font;
+      padding: 10px;
+      border:1px solid $color-blue-font;
+      float: left;
+      margin-top:0;
+      @include border-radius(0);
+      font-size: $font-size-xsm;
+      font-family:$font-normal;
+      border-top:none;
+      @include transition(all .3s, ease-in-out);
+    }
+    .smiles{
+      border-right: none;
+      &:hover{
+        background-color:darken($color-blue,15%);
+        color:white;
+      }
+    }
+
+    span.glyphicon {
+      margin-right: 5px;
+    }
+    .gift{
+      @extend .btn;
+      &:hover{
+        background-color:darken($color-blue,30%);
+        color:white;
+      }
+    }
+    .translate {
+      @extend .btn;
+      padding-left: 27px;
+      float:right;
+      background: url("../img/GoogleTranslate.png");
+      background-repeat: no-repeat;
+      background-position: 2px 10px;
+      border: none;
+      color:$color-grey-font;
+
+      &:hover{
+        color:$color-blue-font;
+      }
+    }
+    .navbar-right {
+      margin-right: 0;
+       a.dropdown-toggle.btn{
+         padding: 10px;
+
+         &:hover {
+           border:none;
+           color:$color-blue-font;
+         }
+      }
+      .dropdown-menu {
+        top: 31px;
+        min-width: 116px;
+        box-shadow: none;
+      }
+    }
+    a.btn.dropdown-toggle{
+      border: none;
+      color:$color-grey-font;
+      background: white;
+      float:right;
+      box-shadow: none;
+      padding: 6px;
+      margin-right: 0;
+
+    }
+
+  }
+
+}
+
+.view-profile-wrap{
+  background-color: $color-grey;
+  padding: 5px;
+  margin-top: 50px;
+  height: 93vh;
+
+      .link-girl{
+      border: none;
+      &:hover{background-color: $color-grey;}
+    }
+
+  .foto-profile {
+    margin-bottom: 15px;
+  }
+
+  .view-profile {
+    display: block;
+    padding-left: 100px;
+    background: url(../img/new-window-icon.png) 75px 5px no-repeat;
+    padding-top: 6px;
+    margin-left: 21px;
+  }
+
+  a.btn{
+    padding: 12px;
+    font-family:$font-normal;
+    border: 1px solid $color-blue-font;
+    background-color: $color-blue-font;
+    padding-left:47px;
+    color:white;
+    margin: 15px;
+    -webkit-box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,1);
+    @include border-radius(4px);
+    margin-top: 0;
+    @include  transition(all .3s ease-in-out);
+
+      &:hover{
+        background-color: $color-green;
+        border: 1px solid $color-green;
+      }
+  }
+  .invite{
+    background: url("../img/web-camera.png") no-repeat 15px 10px;
+  }
+
+  .start{
+    background:url("../img/play.png") no-repeat 15px 10px;
+
+  }
+}
+
+
