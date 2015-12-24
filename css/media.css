@@ -690,6 +690,10 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  ul.nav.navbar-nav.my-custom-lady-catalog.dropdown, nav.navbar.navbar-inverse.nav-inverse-lady-catalog .navbar-nav{
   margin: 7.5px -15px;
  }
+ ul.nav.navbar-nav.my-custom-lady-catalog.dropdown,
+ nav.navbar.navbar-inverse.nav-inverse-lady-catalog ul.nav.navbar-nav.navbar-right.lady-catalog-menu {
+  width: 100%;
+ }
 }
 /*---------------------------------*/
 /* Extra Small Devices, Phones */

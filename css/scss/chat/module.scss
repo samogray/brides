@@ -59,11 +59,31 @@ $zero:0;
   transition-delay:         $delay;
 }
 
+.col-sm-12 {
+  padding:0;
+}
+
+.f-right{
+  float:right;
+  @media only screen and(max-width: 767px){
+    float: none;
+    padding: 0;
+    border-top: 1px solid #16B4DC;
+    border-bottom: 1px solid #16B4DC;
+  }
+}
+
+
 .girl-list {
   background-color:$color-grey;
   width: 100%;
   padding: 10px 0;
   height: 100vh;
+  
+      @media only screen and(max-width: 991px){
+        height: auto;
+      }
+
 
       .input-search{
         display: block;
@@ -76,10 +96,23 @@ $zero:0;
             .glyphicon {
                 top: 9px;
                 left: 13px;
+              @media only screen and(max-width: 479px){
+                top: 17px;
+              }
               }
 
               form.form-inline {
                 border-bottom: 1px solid $color-grey-line;
+              }
+
+              .form-group{
+                @media only screen and(max-width: 767px){
+                  margin-bottom: 17px;
+                }
+                @media only screen and(max-width: 479px){
+                  margin-bottom: 30px;
+                }
+
               }
 
         input::-webkit-input-placeholder {text-transform: uppercase;}
@@ -111,6 +144,14 @@ $zero:0;
 }
 .item-girl{
   display: block;
+
+  @media only screen and(max-width:991px){
+        display: inline-block;
+    .link-girl{
+      border: none;
+    }
+  }
+
   .link-girl{
     display: block;
     padding: 10px;
@@ -133,6 +174,10 @@ $zero:0;
     }
     &.active{
       background-color: $color-blue;
+    }
+
+    @media only screen and(max-width:991px){
+      border:none;
     }
 
     .bl{
@@ -191,6 +236,8 @@ $zero:0;
     max-height: 60vh;
     overflow: auto;
     align-self: flex-start;
+    padding: 10px;
+    box-sizing: border-box;
   }
 
   .title-chat-item{
@@ -237,6 +284,7 @@ $zero:0;
 
     p{
       line-height: 24px;
+      padding-left: 10px;
     }
   }
   .chat-item{
@@ -286,7 +334,14 @@ $zero:0;
       font-size: $font-size-xsm;
       font-family:$font-normal;
       border-top:none;
-      @include transition(all .3s, ease-in-out);
+      @include transition(all .3s ease-in-out);
+
+        &:active{
+          outline: none;
+        }
+      &:focus{
+        outline: none;
+      }
     }
     .smiles{
       border-right: none;
@@ -306,10 +361,39 @@ $zero:0;
         color:white;
       }
     }
+    .translate-wrap {
+      float: right;
+      position: relative;
+
+      @media only screen and(max-width: 479px){
+        float: none;
+        width:100%;
+        clear: left;
+    }
+      ul.dropdown-menu{
+       right: 0;
+        bottom: 37px;
+        max-width: 120px;
+        @media only screen and(max-width: 479px){
+          right: 0!important;
+        }
+      }
+      a.btn {
+        border: none;
+        color:$color-grey-font2;
+        &:hover{
+          color:$color-blue-font;
+        }
+      }
+
+      .btn-group{
+        float:right;
+      }
+    }
     .translate {
       @extend .btn;
+      float:left;
       padding-left: 27px;
-      float:right;
       background: url("../img/GoogleTranslate.png");
       background-repeat: no-repeat;
       background-position: 2px 10px;
@@ -319,33 +403,16 @@ $zero:0;
       &:hover{
         color:$color-blue-font;
       }
-    }
-    .navbar-right {
-      margin-right: 0;
-       a.dropdown-toggle.btn{
-         padding: 10px;
-
-         &:hover {
-           border:none;
-           color:$color-blue-font;
-         }
-      }
-      .dropdown-menu {
-        top: 31px;
-        min-width: 116px;
-        box-shadow: none;
-      }
-    }
-    a.btn.dropdown-toggle{
-      border: none;
-      color:$color-grey-font;
-      background: white;
-      float:right;
-      box-shadow: none;
-      padding: 6px;
-      margin-right: 0;
 
     }
+
+
+    .title-chat-time{
+      @media only screen and(max-width: 479px){
+        display: none;
+      }
+    }
+
 
   }
 
@@ -357,6 +424,24 @@ $zero:0;
   margin-top: 50px;
   height: 93vh;
 
+  @media only screen and(max-width: 991px){
+    height: 100vh;
+    margin-top: 0;
+  }
+
+  @media only screen and(max-width: 767px){
+    height:auto;
+    margin-top: 0;
+  }
+
+  .item-girl {
+    @media only screen and(max-width: 767px){
+      height:auto;
+     width: 100%;
+    }
+
+  }
+
       .link-girl{
       border: none;
       &:hover{background-color: $color-grey;}
@@ -364,6 +449,11 @@ $zero:0;
 
   .foto-profile {
     margin-bottom: 15px;
+
+    @media only screen and(max-width: 767px){
+      display: none;
+    }
+
   }
 
   .view-profile {
@@ -372,6 +462,26 @@ $zero:0;
     background: url(../img/new-window-icon.png) 75px 5px no-repeat;
     padding-top: 6px;
     margin-left: 21px;
+
+      @media only screen and (max-width:1155px){
+        clear: left;
+        margin-left: 0;
+        padding-left: 25px;
+        background-position: 0 4px;
+
+      }
+
+    @media only screen and(max-width: 767px){
+      clear: none;
+      padding-left: 100px;
+      background-position:75px 5px;
+      padding-top: 6px;
+      margin-left: 21px;
+    }
+
+
+
+
   }
 
   a.btn{
@@ -401,6 +511,12 @@ $zero:0;
   .start{
     background:url("../img/play.png") no-repeat 15px 10px;
 
+  }
+}
+.navbar-right {
+  @media (min-width: 768px){
+    float: right!important;
+    margin-right:0;
   }
 }
 
