@@ -78,8 +78,7 @@ $zero:0;
   background-color:$color-grey;
   width: 100%;
   padding: 10px 0;
-  height: 100vh;
-  
+
       @media only screen and(max-width: 991px){
         height: auto;
       }
@@ -229,11 +228,9 @@ $zero:0;
   display: flex;
   flex-flow: row wrap;
   position: relative;
-  height: 100vh;
 
 
   .wrote-wrap{
-    max-height: 60vh;
     overflow: auto;
     align-self: flex-start;
     padding: 10px;
@@ -273,6 +270,7 @@ $zero:0;
       width: 35px;
       height: 35px;
       float: left;
+      margin: 7px;
       @include border-radius(8px);
       img{
         position: absolute;
@@ -322,6 +320,17 @@ $zero:0;
         border:1px solid $color-blue-font;
         box-shadow: none;
         outline: none;
+      }
+    }
+
+    .mess-translate{
+      background-color: $color-grey-dark;
+      border:2px dashed $color-blue-font;
+      margin-top: 15px;
+
+      &:focus {
+        background-color: $color-grey-dark;
+        border:2px dashed $color-blue-font;
       }
     }
     .btn{
@@ -422,10 +431,8 @@ $zero:0;
   background-color: $color-grey;
   padding: 5px;
   margin-top: 50px;
-  height: 93vh;
 
   @media only screen and(max-width: 991px){
-    height: 100vh;
     margin-top: 0;
   }
 
@@ -491,12 +498,11 @@ $zero:0;
     background-color: $color-blue-font;
     padding-left:47px;
     color:white;
-    margin: 15px;
+    margin: 0 15px;
     -webkit-box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,1);
     -moz-box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,1);
     box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,1);
     @include border-radius(4px);
-    margin-top: 0;
     @include  transition(all .3s ease-in-out);
 
       &:hover{
@@ -507,16 +513,29 @@ $zero:0;
   .invite{
     background: url("../img/web-camera.png") no-repeat 15px 10px;
   }
-
+  a.btn.invite{
+    margin-bottom: 15px;
+  }
   .start{
     background:url("../img/play.png") no-repeat 15px 10px;
-
   }
 }
 .navbar-right {
   @media (min-width: 768px){
     float: right!important;
     margin-right:0;
+  }
+}
+
+.chat-info{
+  padding: 15px;
+  font-size: $font-size-xxs;
+  li:first-child{
+    font-family: $font-bold;
+  }
+  li{
+    margin-bottom: 10px;
+    font-family: $font-normal;
   }
 }
 
