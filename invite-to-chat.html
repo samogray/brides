@@ -23,26 +23,50 @@
 </head>
 <body>
 <h1>Modal windowm loading</h1>
-<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="myModal">
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="myModalchat">
     <div class="modal-dialog modal-lg">
         <div class="modal-content invite-contetnt">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-8 no-padding-r">
+                    <div class="col-lg-8 col-md-8 no-padding-r">
                         <div class="invie-to">
-                            <h3>Invite <a href="#0" class="name-pup-up">Daryna</a> <sup class="id-girl">(ID:2356)</sup> to Chat</h3>
+                            <div class="invite-to-h3">Invite
+                                <div class="invite-link">
+                                    <a href="#0" data-toggle="tooltip"  class="name-pup-up">Daryna</a>
+                                    <div class="my-tooltip">
+                                        <div class="link-girl clearfix">
+                                            <div class="bl">
+                                                <div class="img-box ">
+                                                    <img src="img/girl-list-mini.jpg" alt="item-girl"/>
+                                                </div>
+                                            </div>
+                                            <div class="name-girl">
+                                                <h3 class="item-girl-name">Daryna<sup class="id-girl">(ID:2356)</sup></h3>
+                                                <span class="item-girl-from">25 years, from Lviv</span>
+                                            </div>
+                                            <span class="view-profile"><a href="#0">View Profile</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <sup class="id-girl">(ID:2356)</sup>
+                                to Chat
+                            </div>
                         </div>
                         <div class="row clearfix">
                             <h3 class="title-select-date">Please select a date when you want to chat</h3>
-                            <div class="col-lg-7 no-padding">
+                            <div class="col-lg-7 col-md-7 col-xs-12 no-padding">
                                 <div class="datepicker-wrap">
                                     <div id="datepicker" data-date="current"></div>
                                     <input type="hidden" id="my_hidden_input">
                                 </div>
+                                <div class="input-group date">
+                                    <input type="text" class="form-control" value="12-02-2012" id="datapicker-mobile">
+                                </div>
                                 <h3>Please select the time</h3>
                                 <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14"/>
                             </div>
-                            <div class="col-lg-5">
+                            <div class="col-lg-5 col-md-12">
                                 <div class="big-day">
                                     <h3 class="day"> 15</h3>
                                     <span class="month">january</span>
@@ -69,7 +93,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 no-padding-l">
+                    <div class="col-lg-4  col-md-4 no-padding-l">
                         <div class="invite-foto-wrap">
                             <div class="link-girl clearfix">
                                 <div class="bl">
@@ -77,7 +101,6 @@
                                         <img src="img/girl-list-mini.jpg" alt="item-girl"/>
                                     </div>
                                 </div>
-
                                 <div class="name-girl">
                                     <h3 class="item-girl-name">Daryna<sup class="id-girl">(ID:2356)</sup></h3>
                                     <span class="item-girl-from">25 years, from Lviv</span>

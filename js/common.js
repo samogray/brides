@@ -1,13 +1,9 @@
 $(document).ready(function() {
     $('#date').datepicker({
-        defaultViewDate:{
-            year:"1920",
-            month:0,
-            day:1
-        }
+
     });
 
-    $('#datepicker').datepicker({
+    $('#datepicker, #datapicker-mobile').datepicker({
 
     });
     $('#carousel-girl-popular, .my-popular-ctrl ').hover(
@@ -65,7 +61,7 @@ $(document).ready(function() {
         $(this).toggleClass('my-color');
         $('#icon').toggleClass('glyphicon-triangle-top');
     });
-    $('#myModal').modal('show');
+    $('#myModal, #myModalchat').modal('show');
 
 
     $('#ex1').slider({
@@ -73,4 +69,6 @@ $(document).ready(function() {
             return 'Current value: ' + value;
         }
     });
+
+
 });

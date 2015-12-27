@@ -14,6 +14,7 @@
   font-family: $font-normal;
   font-size: $font-normal;
   color: $color-grey-font2;
+  padding: 10px;
 }
 .invie-to{
   font-family: $font-normal;
@@ -21,34 +22,61 @@
   text-decoration-style: dotted;
   padding: 30px 15px 0 0;
   margin-bottom: 20px;
+  position: relative;
+
+}
+.invite-link {
+  position: relative;
+  display: inline-block;
+  &:hover .my-tooltip{
+    top:51px;
+    left: 0;
+    opacity: 1;
+    z-index: 5000;
+    visibility: visible;
+  }
 }
 .id-girl{
   font-family: $font-light;
   color:$color-grey-line;
   font-size: $font-size-sm;;
 }
-.name-pup-up{
+a.name-pup-up{
+  text-decoration: none;
+  display: inline-block;
+  color:$color-blue-font;
+  position: relative;
+  border-bottom: 2px dashed $color-blue-font;
+  @include transition(all .3s ease-in-out);
+&:hover {
   text-decoration: none;
   display: inline-block;
   color:$color-blue-font;
   border-bottom: 2px dashed $color-blue-font;
-  @include transition(all .3s ease-in-out);
-    &:hover{
-      text-decoration: none;
-      color:darken($color-blue-font,15%);
-      border-bottom: 2px dashed $color-blue-font;
-    }
+}
+  &:visited{
+    text-decoration: none;
+    display: inline-block;
+    color:$color-blue-font;
+    border-bottom: 2px dashed $color-blue-font;
+  }
 }
 .title-select-date {
   margin-bottom: 15px;
 }
 .datepicker-wrap{
   padding: 4px;
-  width: 100%;
   border:1px solid $color-grey-line;
   border-radius: 5px;
   padding-top:0;
   margin-bottom: 25px;
+  width: 340.453px;
+  @media only screen and(max-width: 991px){
+  margin: 10px auto;
+}
+  @media only screen and(max-width: 479px){
+    display: none;
+  }
 
   div#datepicker {
     position: relative;
@@ -141,6 +169,9 @@ table {
 }
 .table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th {
   padding: 10px;
+  @media only screen and(max-width: 479px){
+   padding: 8px;
+  }
 }
 
 .slider.slider-horizontal {
@@ -148,6 +179,9 @@ table {
   height: 20px;
   margin-top: 20px;
   margin-bottom: 40px;
+  @media only screen and(max-width: 1199px){
+    margin-bottom: 5px;
+  }
 }
 .slider-handle.round {
   border-radius: 0;
@@ -166,6 +200,17 @@ table {
   height: 125px;
   padding-top: 14px;
   text-align: center;
+  @media only screen and(max-width: 1199px){
+    display: inline-block;
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    font-size:98%;
+    vertical-align: middle;
+    margin-bottom: 0;
+    float: left;
+    margin-top:15px;
+  }
 
   span {
     font-size: $font-size-xsm;
@@ -174,11 +219,31 @@ table {
     display: block;
   }
 }
+.my-time-zone {
+  @media only screen and(max-width: 1199px){
+    display: inline-block;
+    font-size:98% ;
+    margin-right: 10px;
+    vertical-align: middle;
+    float: left;
+
+  }
+
+}
+.lady-time-zone{
+  @media only screen and(max-width: 1199px){
+    display: inline-block;
+    font-size:98% ;
+    vertical-align: middle;
+    float: left;
+  }
+}
 .invite-time {
   color:$color-blue-font;
   font-size: $font-size-md;
   font-family:$font-bold;
   margin: 10px 0;
+  vertical-align: middle;
 }
 .invite-time-zone{
   color:$color-grey-font2;
@@ -193,7 +258,6 @@ table {
 }
 
 a.invite-btn{
-  font-family: $font-bold;
   color:white;
   background-color: $color-green;
   font-size: $font-size-sm;
@@ -206,5 +270,69 @@ a.invite-btn{
   &:hover{
     transform: Scale(.9,.9);
     color:white;
+  }
+  &:visited{
+    color:white;
+  }
+
+  @media only screen and(max-width: 1199px){
+    float:left;
+    clear: both;
+    margin: 10px 10px 10px 0;
+  }
+}
+
+.my-tooltip{
+  position: absolute;
+  z-index:-1;
+  left: -16px;
+  top: -150px;
+  opacity: 0;
+  transition: all .3s ease-in-out;
+  .link-girl{
+    background-color: white;
+    width: 290px;
+    border: 2px solid #d5d5d5;
+    @include border-radius(4px);
+    -webkit-box-shadow: 10px 10px 21px -8px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 10px 21px -8px rgba(0,0,0,0.42);
+    box-shadow: 10px 10px 21px -8px rgba(0,0,0,0.42);
+  }
+  .name-girl {
+    padding-top: 0px;
+  }
+  .view-profile{
+    font-size: 17px;
+  }
+}
+
+.my-tooltip:before, .my-tooltip:after {
+  content: '';
+  position: absolute;
+  margin-left: -9px;
+  width: 0;
+  height: 0;
+  left: 36px;
+  top: -18px;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #d5d5d5;
+  z-index: 5000;
+
+}
+.my-tooltip:after{
+  margin-left: -9px;
+  border-bottom: 10px solid #FFF;
+  bottom: -3px;
+  z-index: 5000;
+  margin-left: -9px;
+  border-bottom: 10px solid #FFF;
+  top: -15px;
+  z-index: 5000;
+}
+.date{
+  display: none;
+  @media only screen and(max-width: 479px){
+    display: block;
+    width:100%;
   }
 }

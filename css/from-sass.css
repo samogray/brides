@@ -964,6 +964,7 @@
   font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   font-size: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   color: #565656;
+  padding: 10px;
 }
 
 .invie-to {
@@ -972,6 +973,19 @@
   text-decoration-style: dotted;
   padding: 30px 15px 0 0;
   margin-bottom: 20px;
+  position: relative;
+}
+
+.invite-link {
+  position: relative;
+  display: inline-block;
+}
+.invite-link:hover .my-tooltip {
+  top: 51px;
+  left: 0;
+  opacity: 1;
+  z-index: 5000;
+  visibility: visible;
 }
 
 .id-girl {
@@ -980,19 +994,27 @@
   font-size: 18px;
 }
 
-.name-pup-up {
+a.name-pup-up {
   text-decoration: none;
   display: inline-block;
   color: #16b4dc;
+  position: relative;
   border-bottom: 2px dashed #16b4dc;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.name-pup-up:hover {
+a.name-pup-up:hover {
   text-decoration: none;
-  color: #0f7b96;
+  display: inline-block;
+  color: #16b4dc;
+  border-bottom: 2px dashed #16b4dc;
+}
+a.name-pup-up:visited {
+  text-decoration: none;
+  display: inline-block;
+  color: #16b4dc;
   border-bottom: 2px dashed #16b4dc;
 }
 
@@ -1002,11 +1024,21 @@
 
 .datepicker-wrap {
   padding: 4px;
-  width: 100%;
   border: 1px solid #bebebe;
   border-radius: 5px;
   padding-top: 0;
   margin-bottom: 25px;
+  width: 340.453px;
+}
+@media only screen and (max-width: 991px) {
+  .datepicker-wrap {
+    margin: 10px auto;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .datepicker-wrap {
+    display: none;
+  }
 }
 .datepicker-wrap div#datepicker {
   position: relative;
@@ -1096,12 +1128,22 @@ table {
 .table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
   padding: 10px;
 }
+@media only screen and (max-width: 479px) {
+  .table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
+    padding: 8px;
+  }
+}
 
 .slider.slider-horizontal {
   width: 100%;
   height: 20px;
   margin-top: 20px;
   margin-bottom: 40px;
+}
+@media only screen and (max-width: 1199px) {
+  .slider.slider-horizontal {
+    margin-bottom: 5px;
+  }
 }
 
 .slider-handle.round {
@@ -1122,6 +1164,19 @@ table {
   padding-top: 14px;
   text-align: center;
 }
+@media only screen and (max-width: 1199px) {
+  .big-day {
+    display: inline-block;
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    font-size: 98%;
+    vertical-align: middle;
+    margin-bottom: 0;
+    float: left;
+    margin-top: 15px;
+  }
+}
 .big-day span {
   font-size: 14px;
   color: #bebebe;
@@ -1129,11 +1184,31 @@ table {
   display: block;
 }
 
+@media only screen and (max-width: 1199px) {
+  .my-time-zone {
+    display: inline-block;
+    font-size: 98%;
+    margin-right: 10px;
+    vertical-align: middle;
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .lady-time-zone {
+    display: inline-block;
+    font-size: 98%;
+    vertical-align: middle;
+    float: left;
+  }
+}
+
 .invite-time {
   color: #16b4dc;
   font-size: 24px;
   font-family: "OpenSansBold", "HelveticaBold";
   margin: 10px 0;
+  vertical-align: middle;
 }
 
 .invite-time-zone {
@@ -1149,7 +1224,6 @@ table {
 }
 
 a.invite-btn {
-  font-family: "OpenSansBold", "HelveticaBold";
   color: white;
   background-color: #57b711;
   font-size: 18px;
@@ -1165,6 +1239,77 @@ a.invite-btn {
 a.invite-btn:hover {
   transform: Scale(0.9, 0.9);
   color: white;
+}
+a.invite-btn:visited {
+  color: white;
+}
+@media only screen and (max-width: 1199px) {
+  a.invite-btn {
+    float: left;
+    clear: both;
+    margin: 10px 10px 10px 0;
+  }
+}
+
+.my-tooltip {
+  position: absolute;
+  z-index: -1;
+  left: -16px;
+  top: -150px;
+  opacity: 0;
+  transition: all .3s ease-in-out;
+}
+.my-tooltip .link-girl {
+  background-color: white;
+  width: 290px;
+  border: 2px solid #d5d5d5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 10px 10px 21px -8px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 10px 10px 21px -8px rgba(0, 0, 0, 0.42);
+  box-shadow: 10px 10px 21px -8px rgba(0, 0, 0, 0.42);
+}
+.my-tooltip .name-girl {
+  padding-top: 0px;
+}
+.my-tooltip .view-profile {
+  font-size: 17px;
+}
+
+.my-tooltip:before, .my-tooltip:after {
+  content: '';
+  position: absolute;
+  margin-left: -9px;
+  width: 0;
+  height: 0;
+  left: 36px;
+  top: -18px;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #d5d5d5;
+  z-index: 5000;
+}
+
+.my-tooltip:after {
+  margin-left: -9px;
+  border-bottom: 10px solid #FFF;
+  bottom: -3px;
+  z-index: 5000;
+  margin-left: -9px;
+  border-bottom: 10px solid #FFF;
+  top: -15px;
+  z-index: 5000;
+}
+
+.date {
+  display: none;
+}
+@media only screen and (max-width: 479px) {
+  .date {
+    display: block;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=from-sass.css.map */
