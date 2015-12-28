@@ -1,1 +1,131 @@
 @import "../variables.scss";
+/*----------detail-lady--------------------*/
+.name-profile {
+  font-family: $font-normal;
+  h3 {
+    color: black;
+    font-family: $font-normal;
+    font-size: $font-size-big;
+    margin-bottom: 7px;
+  }
+
+  p{
+    color: $color-grey-font;
+    font-size: $font-size-xsm;
+    margin-bottom: 7px;
+  }
+  span{
+    font-size: $font-size-xxs;
+  }
+}
+.value{
+  color:black;
+}
+.table-wrap{
+  max-width: 415px;
+  margin:39px auto;
+
+  table{
+    border-spacing: 2px;
+    font-size: $font-size-xsm;
+    color:$color-grey-line;
+    tbody{
+
+      tr{
+        td {
+          border:none;
+          padding-bottom: 6px;
+          a{
+            color:$color-blue-font;
+          }
+          span {
+            color:black;
+            padding-left: 5px;
+            &:hover{
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+}
+.event-btn {
+  text-align: center;
+  a.btn {
+    border: none;
+    font-size: $font-size-xxs;
+    font-family: $font-normal;
+    color:$color-grey-line;
+    background: transparent url("../img/button-profile.png") no-repeat;
+    white-space: normal;
+    width: 86px;
+    padding: 32px 0 5px;
+    vertical-align: text-top;
+    @include transition(all .3s ease-in-out);
+
+      &:hover {
+        transform: Scale(.9,.9);
+      }
+    @media (max-width: 1056px){
+      width: 83px;
+    }
+  }
+  a.inv {
+    background-position: 29px 0px;
+  }
+  a.start-chat {
+    background-position: -79px 0px;
+  }
+  a.write-letter {
+    background-position: -182px 0px;
+  }
+  a.add-to-fav {
+    background-position: -289px 0px;
+  }
+  a.like-here  {
+    background-position: -381px 0px;
+    margin-right: 0;
+  }
+}
+.btn-wrap{
+  text-align: center;
+  a.custum-btn{
+    margin: 0;
+    @media (max-width: 1056px){
+      padding-left: 44px;
+    }
+    @media (max-width: 767px){
+     display: block;
+      max-width: 220px;
+      margin: 0 auto;
+    }
+  }
+  a.custum-btn.send-letter {
+    background: #F9F9F9 url(../img/letter.png) 12px 9px no-repeat;
+    color:$color-grey-font;
+    border: 1px solid #F9F9F9;
+    @include transition(all .3s ease-in-out);
+
+    &:hover{
+      border: 1px solid $color-grey-line;
+    }
+
+  }
+  a.custum-btn.invite{
+    margin-bottom: 0;
+  }
+}
+.start-chat {
+  background: url("../img/chat-buble.png") no-repeat 12px 7px;
+  }
+
+.present{
+  background:url("../img/chat-buble.png") no-repeat -354px 9px;
+}
+.col-lg-9.col-md-9.col-sm-10.col-xs-12.text-left {
+  text-align: left;
+}
+/*--------------------------------------*/
