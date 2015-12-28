@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .col-sm-12 {
   padding: 0;
 }
@@ -120,7 +121,7 @@
   box-shadow: none;
   padding: 0;
   padding-left: 10px;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
 }
 .girl-list .input-search input.form-control:focus {
   border: none;
@@ -192,7 +193,7 @@
   padding-top: 16px;
 }
 .name-girl .item-girl-name {
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   color: #16b4dc;
   font-size: 24px;
 }
@@ -232,14 +233,14 @@
 }
 .chat-wrap .title-chat-item span {
   color: #e9e9e9;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
 }
 .chat-wrap .title-chat-item .title-chat-time {
   float: right;
 }
 .chat-wrap .answer {
   background-color: #c7edfc;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   color: #565656;
   padding: 10px;
   font-size: 14px;
@@ -327,7 +328,7 @@
   -ms-border-radius: 0;
   border-radius: 0;
   font-size: 14px;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   border-top: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -482,12 +483,12 @@
 }
 .chat-info li {
   margin-bottom: 10px;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
 }
 
 a.btn.custum-btn, .chat-wrap .type-mess a.custum-btn.gift, .chat-wrap .type-mess a.custum-btn.translate {
   padding: 12px;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   border: 1px solid #16b4dc;
   background-color: #16b4dc;
   padding-left: 47px;
@@ -649,7 +650,7 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   box-shadow: none;
   padding: 0;
   padding-left: 10px;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
 }
 .girl-list .input-search input.form-control:focus {
   border: none;
@@ -721,7 +722,7 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   padding-top: 16px;
 }
 .name-girl .item-girl-name {
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   color: #16b4dc;
   font-size: 24px;
 }
@@ -761,14 +762,14 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
 }
 .chat-wrap .title-chat-item span {
   color: #e9e9e9;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
 }
 .chat-wrap .title-chat-item .title-chat-time {
   float: right;
 }
 .chat-wrap .answer {
   background-color: #c7edfc;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   color: #565656;
   padding: 10px;
   font-size: 14px;
@@ -856,7 +857,7 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   -ms-border-radius: 0;
   border-radius: 0;
   font-size: 14px;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   border-top: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1011,12 +1012,12 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
 }
 .chat-info li {
   margin-bottom: 10px;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
 }
 
 a.btn.custum-btn, .chat-wrap .type-mess a.custum-btn.gift, .chat-wrap .type-mess a.custum-btn.translate {
   padding: 12px;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   border: 1px solid #16b4dc;
   background-color: #16b4dc;
   padding-left: 47px;
@@ -1065,14 +1066,14 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
 }
 
 .invite-contetnt {
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
-  font-size: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-size: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   color: #565656;
   padding: 10px;
 }
 
 .invie-to {
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   font-size: 35px;
   text-decoration-style: dotted;
   padding: 30px 15px 0 0;
@@ -1258,7 +1259,7 @@ table {
 
 .big-day {
   color: #565656;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   font-size: 70px;
   border: 1px solid #bebebe;
   background-color: #f6f6f6;
@@ -1284,7 +1285,7 @@ table {
 .big-day span {
   font-size: 14px;
   color: #bebebe;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   display: block;
 }
 
@@ -1331,7 +1332,7 @@ a.invite-btn {
   color: white;
   background-color: #57b711;
   font-size: 18px;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   padding: 10px 15px;
   margin-top: 25px;
   float: right;
@@ -1417,12 +1418,24 @@ a.invite-btn:visited {
 }
 
 /*----------detail-lady--------------------*/
+div.page-header.lady-page-header {
+  text-align: left;
+  padding-top: 14px;
+}
+div.page-header.lady-page-header .breadcrumb {
+  padding-top: 0;
+}
+
+article.detail-lady.clearfix {
+  padding-top: 35px;
+}
+
 .name-profile {
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
 }
 .name-profile h3 {
   color: black;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   font-size: 35px;
   margin-bottom: 7px;
 }
@@ -1469,7 +1482,7 @@ a.invite-btn:visited {
 .event-btn a.btn, .event-btn .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .event-btn a.gift, .event-btn .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .event-btn a.translate {
   border: none;
   font-size: 12px;
-  font-family: "OpenSanst", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
   color: #bebebe;
   background: transparent url("../img/button-profile.png") no-repeat;
   white-space: normal;
@@ -1507,7 +1520,7 @@ a.invite-btn:visited {
 }
 
 .btn-wrap {
-  text-align: center;
+  text-align: left;
 }
 .btn-wrap a.custum-btn {
   margin: 0;
@@ -1553,5 +1566,451 @@ a.invite-btn:visited {
 }
 
 /*--------------------------------------*/
+/*----profile-fotos-----------------------*/
+.profile-fotos h3.title-ledies-group {
+  margin-bottom: 8px;
+}
+
+.view-all {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #16b4dc;
+  font-size: 12px;
+}
+
+.info-foto {
+  text-align: center;
+  color: #bebebe;
+  font-size: 12px;
+  margin-top: 0;
+  position: relative;
+}
+.info-foto a span {
+  margin-right: 5px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.info-foto a:hover span {
+  -webkit-transform: Scale(1.5, 1.5);
+  -moz-transform: Scale(1.5, 1.5);
+  -ms-transform: Scale(1.5, 1.5);
+  -o-transform: Scale(1.5, 1.5);
+  transform: Scale(1.5, 1.5);
+  color: #16b4dc;
+}
+
+.slick-wrap {
+  margin-top: 45px;
+}
+.slick-wrap .prev, .slick-wrap .next {
+  display: block;
+  font-size: 35px;
+  color: #bebebe;
+  background: white;
+  opacity: .6;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 38%;
+  text-align: center;
+  padding-top: 2px;
+  cursor: pointer;
+  z-index: 2000;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.slick-wrap .prev:hover, .slick-wrap .next:hover {
+  opacity: .8;
+}
+.slick-wrap .prev {
+  left: 0;
+}
+.slick-wrap .next {
+  right: 0;
+}
+.slick-wrap img {
+  max-height: 200px;
+  margin: 5px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.slick-wrap .slick-slide {
+  width: auto;
+}
+.slick-wrap a {
+  text-decoration: none;
+}
+.slick-wrap a:hover img {
+  text-decoration: none;
+  transform: Scale(1.1, 1.1);
+}
+
+/******************************************/
+/*--------------About here------------------------*/
+.about-here {
+  padding: 0 100px;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-size: 18px;
+  color: #646464;
+  line-height: 30px;
+}
+@media (max-width: 871px) {
+  .about-here {
+    padding: 0 20px;
+  }
+}
+.about-here p {
+  margin-top: 40px;
+}
+@media (max-width: 871px) {
+  .about-here p {
+    clear: both;
+  }
+}
+
+.video-wrap {
+  min-height: 265px;
+  float: left;
+  margin: 15px 20px 20px 0;
+  width: 33.33%;
+  min-width: 410px;
+  background-color: #16b4dc;
+}
+@media (max-width: 871px) {
+  .video-wrap {
+    margin: 0 auto;
+    float: none;
+    width: 100%;
+    min-width: 230px;
+  }
+}
+
+/*---------------------------------*/
+/*-------------More Photos-----------*/
+.more-photos h3.title-ledies-group {
+  margin-bottom: 8px;
+}
+
+/*----------------------------------*/
+/*-------------do-you-like*-----------------*/
+.do-you-like {
+  text-align: center;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  color: #bebebe;
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+  max-width: 2000px;
+}
+.do-you-like h1 {
+  font-size: 35px;
+  color: #646464;
+  margin-bottom: 20px;
+}
+.do-you-like p {
+  line-height: 30px;
+  font-size: 24px;
+  color: #bebebe;
+}
+.do-you-like p a {
+  color: #16b4dc;
+  text-decoration: none;
+}
+.do-you-like p a:hover {
+  text-decoration: underline;
+}
+.do-you-like .or-you-can {
+  display: block;
+  font-size: 14px;
+  margin: 15px auto;
+}
+.do-you-like .btn-wrap {
+  margin-top: 35px;
+  text-align: center;
+}
+
+/*-----------------------------------------*/
+.other-photo-slider .prev, .other-photo-slider .next {
+  display: block;
+  font-size: 35px;
+  color: #bebebe;
+  background: white;
+  opacity: .6;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 38%;
+  text-align: center;
+  padding-top: 2px;
+  cursor: pointer;
+  z-index: 2000;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.other-photo-slider .prev:hover, .other-photo-slider .next:hover {
+  opacity: .8;
+}
+.other-photo-slider .prev {
+  left: 0;
+}
+.other-photo-slider .next {
+  right: 0;
+}
+.other-photo-slider .prev-anketa.center-block.anketa-result {
+  padding: 0 10px;
+}
+
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+}
+.slick-track:before, .slick-track:after {
+  content: "";
+  display: table;
+}
+.slick-track:after {
+  clear: both;
+}
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
+}
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-slide.slick-loading img {
+  display: none;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+/* Slider */
+.slick-loading .slick-list {
+  background: #fff url("./ajax-loader.gif") center center no-repeat;
+}
+
+/* Icons */
+@font-face {
+  font-family: "slick";
+  src: url("./fonts/slick.eot");
+  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Arrows */
+.slick-prev,
+.slick-next {
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 20px;
+  line-height: 0px;
+  font-size: 0px;
+  cursor: pointer;
+  background: transparent;
+  color: transparent;
+  top: 50%;
+  margin-top: -10px\9;
+  /*lte IE 8*/
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  padding: 0;
+  border: none;
+  outline: none;
+}
+.slick-prev:hover, .slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  outline: none;
+  background: transparent;
+  color: transparent;
+}
+.slick-prev:hover:before, .slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+  opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 0.25;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  color: white;
+  opacity: 0.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+  left: -25px;
+}
+[dir="rtl"] .slick-prev {
+  left: auto;
+  right: -25px;
+}
+.slick-prev:before {
+  content: "←";
+}
+[dir="rtl"] .slick-prev:before {
+  content: "→";
+}
+
+.slick-next {
+  right: -25px;
+}
+[dir="rtl"] .slick-next {
+  left: -25px;
+  right: auto;
+}
+.slick-next:before {
+  content: "→";
+}
+[dir="rtl"] .slick-next:before {
+  content: "←";
+}
+
+/* Dots */
+.slick-slider {
+  margin-bottom: 30px;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -45px;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+.slick-dots li button {
+  border: 0;
+  background: transparent;
+  display: block;
+  height: 20px;
+  width: 20px;
+  outline: none;
+  line-height: 0px;
+  font-size: 0px;
+  color: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+.slick-dots li button:hover, .slick-dots li button:focus {
+  outline: none;
+}
+.slick-dots li button:hover:before, .slick-dots li button:focus:before {
+  opacity: 1;
+}
+.slick-dots li button:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "•";
+  width: 20px;
+  height: 20px;
+  font-family: "slick";
+  font-size: 6px;
+  line-height: 20px;
+  text-align: center;
+  color: black;
+  opacity: 0.25;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+  color: black;
+  opacity: 0.75;
+}
 
 /*# sourceMappingURL=from-sass.css.map */
