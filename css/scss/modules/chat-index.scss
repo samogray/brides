@@ -2,7 +2,36 @@
 .col-sm-12 {
   padding:0;
 }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  max-width: 1240px;
+  margin: 0 auto;
+  @media only screen and(max-width:991px){
+      flex-wrap: wrap;
+  }
+}
+.flex-item.aside-right{
+  width: 100%;
+  @media only screen and(max-width:991px){
+    flex: 1 30%;
+  }
+  @media only screen and(max-width: 767px){
+    order: 1;
+    flex: 1 100%;
+  }
+}
+.flex-item.aside-left {
+  width: 100%;
+  background-color: #F6F6F6;
+  @media only screen and(max-width:991px){
+    border-bottom: 1px solid #16B4DC;
+    margin-bottom: 1px;
+  }
 
+}
 .f-right{
   float:right;
   @media only screen and(max-width: 767px){
@@ -85,10 +114,7 @@
   display: block;
 
   @media only screen and(max-width:991px){
-        display: inline-block;
-    .link-girl{
-      border: none;
-    }
+   float:left;
   }
  }
 .link-girl{
@@ -161,12 +187,17 @@
 
 
 .chat-wrap  {
-  width: 100%;
   display: flex;
   flex-flow: row wrap;
   position: relative;
 
+  @media only screen and(max-width:991px){
+    flex: 1 60%;
+  }
 
+  @media only screen and(max-width: 767px){
+order: 2;
+  }
   .wrote-wrap{
     overflow: auto;
     align-self: flex-start;
@@ -242,6 +273,7 @@
     margin-bottom: 20px;
     flex: 1 100%;
     align-self: flex-end;
+    padding:0 15px;
 
     .mess{
       width: 100%;
@@ -368,7 +400,7 @@
   background-color: $color-grey;
   padding: 5px;
   margin-top: 50px;
-
+height: 100vh;
   @media only screen and(max-width: 991px){
     margin-top: 0;
   }
