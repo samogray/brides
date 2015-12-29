@@ -420,6 +420,7 @@ span.line-decor {
 /**/
 .prev-anketa.center-block {
 	max-width: 292px;
+	padding: 0 10px;
 }
 .prev-anketa img{
 	max-width: 100%;
