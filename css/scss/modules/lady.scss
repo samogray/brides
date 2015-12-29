@@ -217,11 +217,13 @@ margin-top: 45px;
     width: auto;
   }
   a{
-
     text-decoration: none;
+    img{
+      border:3px solid white;
+    }
     &:hover img{
       text-decoration: none;
-      transform: Scale(1.1,1.1);
+     transform: Scale(1.1,1.1);
 
     }
 

@@ -16,10 +16,7 @@ module.exports = function(grunt) {
             }
         },
         cssmin: {
-            option:{
-                keepSpecialComments: 0,
-                report: "gzip"
-            },
+
             target:{
                 files: {
                     'css/style-min.css': ['css/reset.css', 'css/normalize.css','css/fonts.css','css/main.css','css/media.css','css/from-sass.css']

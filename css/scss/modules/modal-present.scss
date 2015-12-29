@@ -1,0 +1,147 @@
+@import "../variables.scss";
+.modal-dialog.modal-lg.big-lg {
+  width: 1240px;
+}
+.scrollbar-inner{
+  overflow: hidden;
+  max-height: 350px;
+
+}
+
+.present-tabs{
+  .tab-pane{
+
+  }
+
+
+li{
+  .glyphicon{
+    margin-right: 5px;
+  }
+  a{
+    font-family: $font-normal;
+    font-size: $font-size-sm;
+    color: $color-grey-line;
+    border: none;
+  }
+}
+  li.active>a{
+    color:$color-green!important;
+    background-color: $color-grey!important;
+  }
+
+}
+
+.present-content{
+  border: 1px solid #D5D5D5;
+  border-top: none;
+  .active {
+    background-color: $color-grey!important;
+  }
+  .nav-pills{
+    padding: 20px 4px;
+
+    li{
+      a{
+        font-size: $font-size-xsm;
+        padding: 10px 8px;
+      }
+    }
+  }
+}
+
+/*-----------GIFT-----------------*/
+.gift-wrapper{
+  display: block;
+  padding-right: 12px;
+}
+.gift{
+  padding: 8px;
+  position: relative;
+  border: 1px solid $color-grey;
+  cursor: pointer;
+  max-width: 188px;
+  @include transition(all .3s ease-in-out);
+
+
+  &:hover .event-present{
+    top: 220px;
+    left: -1px;
+    opacity: 1;
+    width: 101%;
+    border: 1px solid $color-blue-font;
+    border-top:none;
+    background-color: #e9f3f5;
+  }
+  &:hover{
+    border: 1px solid $color-blue-font;
+    background-color: #e9f3f5;
+  }
+  img{
+    height: 175px;
+  }
+}
+.event-present{
+  text-align:left;
+  font-size: 12px;
+  margin-top: 15px;
+  opacity: 0;
+  position: absolute;
+  background-color: $color-grey;
+  z-index: 3000;
+  top:0;
+  left: 1px;
+  padding: 0px 7px;
+  @include transition(all .3s ease-in-out);
+
+  .form-group.number.left-number{
+    float: none;
+    max-width:39px;
+    display: inline-block;
+    span{
+      color:$color-grey-line;
+    }
+    input{
+      padding: 0;
+    }
+    .min-up-btn,.min-down-btn{
+      width:13px;
+      right: 4px;
+      top:2px;
+    }
+    .min-down-btn{
+      top:14px;
+    }
+    .form-control{
+      height: 29px;
+      border-radius:0;
+      display: inline-block;
+      margin-top: 1px;
+    }
+  }
+  a.btn{
+    padding: 6px 6px;
+    border:none;
+    background-color: $color-green;
+    color: white;
+    &:hover{
+      background-color:#4F9F11;
+    }
+  }
+}
+.name-gift{
+  text-align: center;
+  padding-top:15px;
+  position: relative;
+  h3{
+    color:$color-blue-font;
+    font-size: $font-size-xsm;
+  }
+  span{
+    color:red;
+    font-size:$font-size-xxs;
+  }
+}
+
+
+/*----------------------------------*/

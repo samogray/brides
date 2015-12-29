@@ -1647,6 +1647,9 @@ article.detail-lady.clearfix {
 .slick-wrap a {
   text-decoration: none;
 }
+.slick-wrap a img {
+  border: 3px solid white;
+}
 .slick-wrap a:hover img {
   text-decoration: none;
   transform: Scale(1.1, 1.1);
@@ -2012,5 +2015,144 @@ article.detail-lady.clearfix {
   color: black;
   opacity: 0.75;
 }
+
+.modal-dialog.modal-lg.big-lg {
+  width: 1240px;
+}
+
+.scrollbar-inner {
+  overflow: hidden;
+  max-height: 350px;
+}
+
+.present-tabs li .glyphicon {
+  margin-right: 5px;
+}
+.present-tabs li a {
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-size: 18px;
+  color: #bebebe;
+  border: none;
+}
+.present-tabs li.active > a {
+  color: #57b711 !important;
+  background-color: #f6f6f6 !important;
+}
+
+.present-content {
+  border: 1px solid #D5D5D5;
+  border-top: none;
+}
+.present-content .active {
+  background-color: #f6f6f6 !important;
+}
+.present-content .nav-pills {
+  padding: 20px 4px;
+}
+.present-content .nav-pills li a {
+  font-size: 14px;
+  padding: 10px 8px;
+}
+
+/*-----------GIFT-----------------*/
+.gift-wrapper {
+  display: block;
+  padding-right: 12px;
+}
+
+.gift {
+  padding: 8px;
+  position: relative;
+  border: 1px solid #f6f6f6;
+  cursor: pointer;
+  max-width: 188px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.gift:hover .event-present {
+  top: 220px;
+  left: -1px;
+  opacity: 1;
+  width: 101%;
+  border: 1px solid #16b4dc;
+  border-top: none;
+  background-color: #e9f3f5;
+}
+.gift:hover {
+  border: 1px solid #16b4dc;
+  background-color: #e9f3f5;
+}
+.gift img {
+  height: 175px;
+}
+
+.event-present {
+  text-align: left;
+  font-size: 12px;
+  margin-top: 15px;
+  opacity: 0;
+  position: absolute;
+  background-color: #f6f6f6;
+  z-index: 3000;
+  top: 0;
+  left: 1px;
+  padding: 0px 7px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.event-present .form-group.number.left-number {
+  float: none;
+  max-width: 39px;
+  display: inline-block;
+}
+.event-present .form-group.number.left-number span {
+  color: #bebebe;
+}
+.event-present .form-group.number.left-number input {
+  padding: 0;
+}
+.event-present .form-group.number.left-number .min-up-btn, .event-present .form-group.number.left-number .min-down-btn {
+  width: 13px;
+  right: 4px;
+  top: 2px;
+}
+.event-present .form-group.number.left-number .min-down-btn {
+  top: 14px;
+}
+.event-present .form-group.number.left-number .form-control {
+  height: 29px;
+  border-radius: 0;
+  display: inline-block;
+  margin-top: 1px;
+}
+.event-present a.btn, .event-present .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .event-present a.gift, .event-present .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .event-present a.translate {
+  padding: 6px 6px;
+  border: none;
+  background-color: #57b711;
+  color: white;
+}
+.event-present a.btn:hover, .event-present .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .event-present a.gift:hover, .event-present .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .event-present a.translate:hover {
+  background-color: #4F9F11;
+}
+
+.name-gift {
+  text-align: center;
+  padding-top: 15px;
+  position: relative;
+}
+.name-gift h3 {
+  color: #16b4dc;
+  font-size: 14px;
+}
+.name-gift span {
+  color: red;
+  font-size: 12px;
+}
+
+/*----------------------------------*/
 
 /*# sourceMappingURL=from-sass.css.map */
