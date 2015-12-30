@@ -2061,6 +2061,7 @@ article.detail-lady.clearfix {
 }
 
 .gift {
+  box-sizing: border-box;
   padding: 8px;
   position: relative;
   border: 1px solid #f6f6f6;
@@ -2075,7 +2076,7 @@ article.detail-lady.clearfix {
   top: 220px;
   left: -1px;
   opacity: 1;
-  width: 101%;
+  width: 188px;
   border: 1px solid #16b4dc;
   border-top: none;
   background-color: #e9f3f5;
@@ -2089,6 +2090,7 @@ article.detail-lady.clearfix {
 }
 
 .event-present {
+  box-sizing: border-box;
   text-align: left;
   font-size: 12px;
   margin-top: 15px;
@@ -2097,37 +2099,12 @@ article.detail-lady.clearfix {
   background-color: #f6f6f6;
   z-index: 3000;
   top: 0;
-  left: 1px;
+  left: 0;
   padding: 0px 7px;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
-.event-present .form-group.number.left-number {
-  float: none;
-  max-width: 39px;
-  display: inline-block;
-}
-.event-present .form-group.number.left-number span {
-  color: #bebebe;
-}
-.event-present .form-group.number.left-number input {
-  padding: 0;
-}
-.event-present .form-group.number.left-number .min-up-btn, .event-present .form-group.number.left-number .min-down-btn {
-  width: 13px;
-  right: 4px;
-  top: 2px;
-}
-.event-present .form-group.number.left-number .min-down-btn {
-  top: 14px;
-}
-.event-present .form-group.number.left-number .form-control {
-  height: 29px;
-  border-radius: 0;
-  display: inline-block;
-  margin-top: 1px;
 }
 .event-present a.btn, .event-present .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .event-present a.gift, .event-present .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .event-present a.translate {
   padding: 6px 6px;
@@ -2137,6 +2114,32 @@ article.detail-lady.clearfix {
 }
 .event-present a.btn:hover, .event-present .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .event-present a.gift:hover, .event-present .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .event-present a.translate:hover {
   background-color: #4F9F11;
+}
+
+.form-group.number.left-number.cart-number {
+  float: none;
+  max-width: 39px;
+  display: inline-block;
+}
+.form-group.number.left-number.cart-number span {
+  color: #bebebe;
+}
+.form-group.number.left-number.cart-number input {
+  padding: 0;
+}
+.form-group.number.left-number.cart-number .min-up-btn, .form-group.number.left-number.cart-number .min-down-btn {
+  width: 13px;
+  right: 4px;
+  top: 2px;
+}
+.form-group.number.left-number.cart-number .min-down-btn {
+  top: 14px;
+}
+.form-group.number.left-number.cart-number .form-control {
+  height: 29px;
+  border-radius: 0;
+  display: inline-block;
+  margin-top: 1px;
 }
 
 .name-gift {
@@ -2154,5 +2157,125 @@ article.detail-lady.clearfix {
 }
 
 /*----------------------------------*/
+/*---------------CART-----------------*/
+.cart {
+  background-color: #16b4dc;
+  padding: 15px;
+  color: white;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+}
+.cart span.glyphicon-gift {
+  font-size: 44px;
+  float: left;
+  margin-right: 20px;
+  vertical-align: baseline;
+}
+.cart p {
+  font-size: 14px;
+  font-family: "OpenSansLight", "HelveticaLight", "PT Sans", sans-serif;
+}
+.cart h3 {
+  font-size: 24px;
+  padding-top: 5px;
+}
+.cart a.btn, .cart .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .cart a.gift, .cart .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .cart a.translate {
+  background: #57B711;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  margin: 19px 0 0 0;
+  float: right;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.cart a.btn:hover, .cart .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .cart a.gift:hover, .cart .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .cart a.translate:hover {
+  background: #4b9711;
+}
+
+.my-cart {
+  padding: 15px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  clear: both;
+  margin-top: 15px;
+}
+.my-cart .item-cart {
+  display: block;
+  margin-bottom: 20px;
+}
+.my-cart .item-cart a {
+  color: white;
+  text-decoration: none;
+}
+.my-cart .item-cart .cart-center {
+  width: 50%;
+  display: inline-block;
+}
+.my-cart .item-cart h3 {
+  font-family: "OpenSansBold", "HelveticaBold";
+  font-size: 14px;
+  padding-top: 0;
+}
+.my-cart .item-cart span {
+  font-size: 12px;
+}
+.my-cart .item-cart .wrap-right {
+  float: right;
+  margin-left: 15px;
+  padding-right: 21px;
+  position: relative;
+}
+.my-cart .item-cart .wrap-right .close-item {
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+.my-cart .item-cart .wrap-right .close-item span {
+  font-size: 18px;
+}
+.my-cart .item-cart .wrap-right .close-item span:hover {
+  color: #F18F8F;
+}
+.my-cart .item-cart img {
+  float: left;
+  margin-right: 15px;
+}
+
+/**************************************/
+.total {
+  font-family: "OpenSansLight", "HelveticaLight", "PT Sans", sans-serif;
+  margin-top: 15px;
+}
+
+.total-credit {
+  float: right;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+}
+
+.yuo-credit {
+  padding-left: 30px;
+  color: black;
+  font-size: 14px;
+  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  margin-top: 20px;
+  line-height: 21px;
+}
+.yuo-credit a {
+  display: block;
+  color: #16b4dc;
+}
+
+.zero-credit {
+  color: red;
+  font-family: "OpenSansBold", "HelveticaBold";
+}
+
+.have-credit {
+  color: #57b711;
+  font-family: #57b711;
+}
 
 /*# sourceMappingURL=from-sass.css.map */

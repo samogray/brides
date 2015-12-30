@@ -56,6 +56,7 @@ li{
   padding-right: 12px;
 }
 .gift{
+  box-sizing: border-box;
   padding: 8px;
   position: relative;
   border: 1px solid $color-grey;
@@ -68,7 +69,7 @@ li{
     top: 220px;
     left: -1px;
     opacity: 1;
-    width: 101%;
+    width: 188px;
     border: 1px solid $color-blue-font;
     border-top:none;
     background-color: #e9f3f5;
@@ -82,6 +83,7 @@ li{
   }
 }
 .event-present{
+  box-sizing: border-box;
   text-align:left;
   font-size: 12px;
   margin-top: 15px;
@@ -90,35 +92,11 @@ li{
   background-color: $color-grey;
   z-index: 3000;
   top:0;
-  left: 1px;
+  left: 0;
   padding: 0px 7px;
   @include transition(all .3s ease-in-out);
 
-  .form-group.number.left-number{
-    float: none;
-    max-width:39px;
-    display: inline-block;
-    span{
-      color:$color-grey-line;
-    }
-    input{
-      padding: 0;
-    }
-    .min-up-btn,.min-down-btn{
-      width:13px;
-      right: 4px;
-      top:2px;
-    }
-    .min-down-btn{
-      top:14px;
-    }
-    .form-control{
-      height: 29px;
-      border-radius:0;
-      display: inline-block;
-      margin-top: 1px;
-    }
-  }
+
   a.btn{
     padding: 6px 6px;
     border:none;
@@ -127,6 +105,31 @@ li{
     &:hover{
       background-color:#4F9F11;
     }
+  }
+}
+.form-group.number.left-number.cart-number{
+  float: none;
+  max-width:39px;
+  display: inline-block;
+  span{
+    color:$color-grey-line;
+  }
+  input{
+    padding: 0;
+  }
+  .min-up-btn,.min-down-btn{
+    width:13px;
+    right: 4px;
+    top:2px;
+  }
+  .min-down-btn{
+    top:14px;
+  }
+  .form-control{
+    height: 29px;
+    border-radius:0;
+    display: inline-block;
+    margin-top: 1px;
   }
 }
 .name-gift{
@@ -145,3 +148,124 @@ li{
 
 
 /*----------------------------------*/
+/*---------------CART-----------------*/
+.cart{
+  background-color: $color-blue-font;
+  padding: 15px;
+  color:white;
+  font-family: $font-normal;
+span.glyphicon-gift{
+  font-size: 44px;
+  float: left;
+  margin-right: 20px;
+  vertical-align: baseline;
+}
+
+p{
+  font-size: $font-size-xsm;
+  font-family: $font-light;
+}
+  h3{
+    font-size: $font-size-md;
+    padding-top: 5px;
+  }
+  a.btn {
+    background: #57B711;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    margin: 19px 0 0 0;
+    float: right;
+    font-family:$font-normal;
+    @include transition(all .3s ease-in-out);
+
+    &:hover{
+      background: #4b9711;
+    }
+  }
+}
+.my-cart {
+  padding: 15px 0;
+  border-top:1px solid white;
+  border-bottom: 1px solid white;
+  clear: both;
+  margin-top: 15px;
+
+  .item-cart{
+    display: block;
+    margin-bottom: 20px;
+
+    a{
+      color:white;
+      text-decoration: none;
+    }
+
+      .cart-center{
+        width: 50%;
+        display: inline-block;
+      }
+      h3{
+        font-family: $font-bold;
+        font-size: $font-size-xsm;
+        padding-top: 0;
+      }
+      span{
+        font-size: $font-size-xxs;
+      }
+
+      .wrap-right{
+        float:right;
+        margin-left: 15px;
+        padding-right: 21px;
+        position: relative;
+
+        .close-item{
+          position: absolute;
+          right: 0;
+          top:5px;
+          span{
+            font-size: 18px;
+              &:hover{
+                color:#F18F8F;
+              }
+          }
+        }
+      }
+      img{
+        float:left;
+        margin-right: 15px;
+      }
+
+  }
+
+}
+/**************************************/
+
+.total{
+  font-family: $font-light;
+  margin-top:15px;
+}
+.total-credit{
+  float: right;
+  font-family: $font-normal;
+}
+.yuo-credit{
+  padding-left:30px ;
+  color:black;
+  font-size: 14px;
+  font-family:$font-normal;
+  margin-top: 20px;
+  line-height: 21px;
+  a{
+    display: block;
+    color:$color-blue-font;
+  }
+  }
+.zero-credit{
+  color:red;
+  font-family: $font-bold;
+}
+.have-credit{
+  color:$color-green;
+  font-family:$color-green;
+}
