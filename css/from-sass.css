@@ -2017,7 +2017,28 @@ article.detail-lady.clearfix {
 }
 
 .modal-dialog.modal-lg.big-lg {
-  width: 1240px;
+  width: 90%;
+  max-width: 1240px;
+}
+
+.flex-wrap-modal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+@media (max-width: 1275px) {
+  .flex-wrap-modal {
+    flex-wrap: wrap;
+  }
+}
+
+.modal-item.main {
+  width: 100%;
+}
+@media (max-width: 661px) {
+  .modal-item.main .invie-to {
+    font-size: 26px;
+  }
 }
 
 .scrollbar-inner {
@@ -2033,6 +2054,12 @@ article.detail-lady.clearfix {
   font-size: 18px;
   color: #bebebe;
   border: none;
+}
+@media (max-width: 847px) {
+  .present-tabs li {
+    float: none;
+    background-color: white !important;
+  }
 }
 .present-tabs li.active > a {
   color: #57b711 !important;
@@ -2056,8 +2083,10 @@ article.detail-lady.clearfix {
 
 /*-----------GIFT-----------------*/
 .gift-wrapper {
-  display: block;
+  display: flex;
   padding-right: 12px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .gift {
@@ -2214,6 +2243,11 @@ article.detail-lady.clearfix {
   width: 50%;
   display: inline-block;
 }
+@media (max-width: 390px) {
+  .my-cart .item-cart .cart-center {
+    width: 62%;
+  }
+}
 .my-cart .item-cart h3 {
   font-family: "OpenSansBold", "HelveticaBold";
   font-size: 14px;
@@ -2242,6 +2276,11 @@ article.detail-lady.clearfix {
 .my-cart .item-cart img {
   float: left;
   margin-right: 15px;
+}
+@media (max-width: 390px) {
+  .my-cart .item-cart img {
+    float: none;
+  }
 }
 
 /**************************************/

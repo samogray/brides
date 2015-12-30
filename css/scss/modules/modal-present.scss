@@ -1,7 +1,27 @@
 @import "../variables.scss";
 .modal-dialog.modal-lg.big-lg {
-  width: 1240px;
+  width: 90%;
+  max-width: 1240px;
 }
+.flex-wrap-modal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  @media (max-width: 1275px){
+    flex-wrap: wrap;
+  }
+}
+.modal-item.main {
+  width: 100%;
+
+  .invie-to{
+    @media (max-width: 661px){
+      font-size: 26px;
+    }
+  }
+}
+
+
 .scrollbar-inner{
   overflow: hidden;
   max-height: 350px;
@@ -23,6 +43,10 @@ li{
     font-size: $font-size-sm;
     color: $color-grey-line;
     border: none;
+  }
+  @media (max-width: 847px){
+    float:none;
+    background-color: white!important;
   }
 }
   li.active>a{
@@ -52,8 +76,10 @@ li{
 
 /*-----------GIFT-----------------*/
 .gift-wrapper{
-  display: block;
+  display: flex;
   padding-right: 12px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .gift{
   box-sizing: border-box;
@@ -203,6 +229,9 @@ p{
       .cart-center{
         width: 50%;
         display: inline-block;
+        @media (max-width: 390px){
+          width: 62%;
+        }
       }
       h3{
         font-family: $font-bold;
@@ -234,6 +263,9 @@ p{
       img{
         float:left;
         margin-right: 15px;
+        @media (max-width: 390px){
+          float:none;
+        }
       }
 
   }
