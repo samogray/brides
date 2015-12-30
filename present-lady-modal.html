@@ -19,10 +19,11 @@
     <link rel="stylesheet" href="libs/bootstrap-datepicker-1.5.0-dist/css/bootstrap-datepicker.min.css"/>
     <link rel="stylesheet" href="css/bootstrap-slider.min.css"/>
     <link rel="stylesheet" href="css/jquery.scrollbar.css"/>
+    <link rel="stylesheet" href="css/chosen.min.css"/>
     <link rel="stylesheet" href="css/style-min.css"/>
 
 </head>
-<body>
+<>
 <h1>Modal windowm loading</h1>
 <div class="modal fade bs-example-modal-lg " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="myModalchat">
     <div class="modal-dialog modal-lg big-lg">
@@ -54,7 +55,7 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-lg-12">
+                            <div class="col-lg-12 no-padding">
                                 <div>
                                     <!-- Nav tabs -->
                                     <ul class="nav nav-tabs present-tabs" role="tablist">
@@ -281,10 +282,156 @@
                                             </div>
                                         </div>
                                         <div role="tabpanel" class="tab-pane" id="GiftCard">...</div>
-                                        <div role="tabpanel" class="tab-pane" id="Credits">...</div>
+                                        <div role="tabpanel" class="tab-pane" id="Credits">
+                                            <header class="form-header">
+                                                <p>You have <span class="zero-credit">0 credits</span> on your balance.</p>
+                                                <p>You need to buy <span>587 Credits</span> to complete your order.</p>
+                                            </header>
+                                            <div class="gift-wrapper gift-form">
+                                                <div class="flex-item form-width">
+                                                    <h3 class="title-credit">Select Credits Package</h3>
+                                                    <ul class="credit-package">
+                                                        <li>
+                                                            <div class="input-group">
+                                                                <label class="radio-inline">
+                                                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio" value="option1">
+                                                                    <span class="price-credit">10 Credits</span><span class="price-value">$14.99<b class="promo-save">you save 10%</b></span>
+                                                                </label>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="input-group">
+                                                                <label class="radio-inline">
+                                                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                                    <span class="price-credit">25 Credits</span><span class="price-value">$14.99<b class="promo-save">you save 20%</b></span>
+                                                                </label>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="input-group">
+                                                                <label class="radio-inline">
+                                                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1">
+                                                                    <span class="price-credit">50 Credits</span><span class="price-value">$14.99<b class="promo-save">you save 30%</b></span>
+                                                                </label>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="input-group">
+                                                                <label class="radio-inline">
+                                                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option1">
+                                                                    <span class="price-credit">100 Credits</span><span class="price-value">$14.99<b class="promo-save">you save 30%</b></span>
+                                                                </label>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="input-group">
+                                                                <label class="radio-inline">
+                                                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option1">
+                                                                    <span class="price-credit">400 Credits</span><span class="price-value">$14.99<b class="promo-save">you save 40%</b></span>
+                                                                </label>
+                                                            </div>
+                                                        </li>
+                                                        <li class="active">
+                                                            <div class="input-group">
+                                                                <label class="radio-inline">
+                                                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option1">
+                                                                    <span class="price-credit">800 Credits</span><span class="price-value">$14.99<b class="promo-save">you save 50%</b></span>
+                                                                </label>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="input-group">
+                                                                <label class="radio-inline">
+                                                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option1">
+                                                                    <span class="price-credit">1000 Credits</span><span class="price-value">$14.99<b class="promo-save">you save 10%</b></span>
+                                                                </label>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <h3  class="title-credit">Convert Exact Amount</h3>
+                                                    <ul class="credit-package">
+                                                        <li>
+                                                            <div class="input-group">
+                                                                <label class="radio-inline">
+                                                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio7" value="option1">
+                                                                    <span class="price-credit">587 Credits</span><span class="price-value">$500.99<b class="promo-save">you save 10%</b></span>
+                                                                </label>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="flex-item form-width">
+                                                    <h3  class="title-credit">Pay by Credit Card</h3>
+                                                    <form id="pay-card">
+                                                        <div class="form-group has-feedback">
+                                                            <label for="card-numer">Card Number</label>
+                                                            <input type="email" class="form-control has-success" id="card-numer" placeholder="Card Number">
+                                                            <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                                                            <span id="inputSuccess2Status" class="sr-only">(success)</span>
+                                                        </div>
+                                                        <div class="form-group clearfix">
+                                                            <label>Valid thru</label>
+                                                            <div class="select-wrap">
+                                                                <select class="mm form-control">
+                                                                    <option>00</option>
+                                                                    <option>02</option>
+                                                                    <option>03</option>
+                                                                    <option>04</option>
+                                                                </select>
+                                                                <span>/</span>
+                                                                <select class="yy form-control">
+                                                                    <option>00</option>
+                                                                    <option>02</option>
+                                                                    <option>03</option>
+                                                                    <option>04</option>
+                                                                </select>
+                                                                <div class="cvv-wrap">
+                                                                    <label for="cvv" class="cvv">CVV</label>
+                                                                    <span class="glyphicon glyphicon-question-sign" data-toggle="tooltip" data-placement="top" title="CVV"></span>
+                                                                    <input type="text" class="form-control has-success" id="cvv" placeholder="CVV">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group has-feedback">
+                                                            <label for="name-card">Name on Card</label>
+                                                            <input type="text" class="form-control has-error" id="name-card" placeholder="Name Card">
+                                                            <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+                                                            <span id="inputError2Status" class="sr-only">(error)</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="phone">Mobile Phone</label>
+                                                            <input type="text" class="form-control" id="phone" placeholder="Mobile Phone">
+                                                        </div>
+                                                        <div class="form-group">
+
+                                                        </div>
+                                                    </form>
+                                                    <div class="panel-mess warning">
+                                                        <h3>Inportant Warning!</h3>
+                                                        <span class="glyphicon glyphicon-warning-sign"></span>
+                                                        <p>Please fill all needed fields.
+                                                            We need to have a correct data to proceed.
+                                                        </p>
+                                                    </div>
+                                                    <div class="panel-mess success">
+                                                        <h3>Good Selection!</h3>
+                                                        <span class="glyphicon glyphicon-ok-circle"></span>
+                                                        <p>If you are about to convert the axact needed amount to
+                                                            credits you are loosing your possible discount.
+                                                        </p>
+                                                    </div>
+                                                    <div class="panel-mess info">
+                                                        <h3>Please notice!</h3>
+                                                        <span class="glyphicon glyphicon-info-sign"></span>
+                                                        <p>If you are about to convert the axact needed amount
+                                                            to credits you are loosing your possible discount.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div role="tabpanel" class="tab-pane" id="Complete">...</div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -379,6 +526,10 @@
                                     <a href="#0">Buy More Credits</a>
                                 </p>
                             </div>
+                            <div class="row clearfix">
+                                <a href="#0" class="link-norton"><img src="img/norton.jpg" alt="sec" class="img-responsive norton"></a>
+                                <a href="#0" class="link-mcafee"><img src="img/mcafee.jpg" alt="sec" class="img-responsive mcafee"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -399,8 +550,11 @@
 <script src="libs/bootstrap-datepicker-1.5.0-dist/js/bootstrap-datepicker.min.js"></script>
 <script src="js/bootstrap-slider.js"></script>
 <script src="js/jquery.scrollbar.min.js"></script>
+<script src="js/chosen.jquery.min.js"></script>
 <script>
     $('.scrollbar-inner').scrollbar();
+    $(".chosen-select").chosen();
+    $('[data-toggle="tooltip"]').tooltip();
 </script>
 <script src="js/common.js"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->

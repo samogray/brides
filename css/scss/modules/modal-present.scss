@@ -1,4 +1,5 @@
 @import "../variables.scss";
+@import "modal-gift-form.scss";
 .modal-dialog.modal-lg.big-lg {
   width: 90%;
   max-width: 1240px;
@@ -20,11 +21,17 @@
     }
   }
 }
+.modal-item.aside{
+  @media only screen and(max-width: 1275px){
+    margin: 0 auto;
+  }
+}
 
 
 .scrollbar-inner{
   overflow: hidden;
-  max-height: 350px;
+  max-height: 422px;
+  min-height: 335px;
 
 }
 
@@ -50,8 +57,24 @@ li{
   }
 }
   li.active>a{
-    color:$color-green!important;
-    background-color: $color-grey!important;
+    color:$color-green;
+    background-color: $color-grey;
+    @media only screen and(max-width: 847px){
+      background-color: white;
+      border: none;
+      &:focus{
+        background-color: white;
+      }
+    }
+    &:focus{
+      color:$color-green;
+      background-color: $color-grey;
+      @media only screen and(max-width: 847px){
+        background-color: white;
+        border:none;
+      }
+
+    }
   }
 
 }
@@ -60,7 +83,7 @@ li{
   border: 1px solid #D5D5D5;
   border-top: none;
   .active {
-    background-color: $color-grey!important;
+    background-color: $color-grey;
   }
   .nav-pills{
     padding: 20px 4px;
@@ -87,18 +110,20 @@ li{
   position: relative;
   border: 1px solid $color-grey;
   cursor: pointer;
-  max-width: 188px;
+  width: 188px;
   @include transition(all .3s ease-in-out);
 
 
   &:hover .event-present{
     top: 220px;
-    left: -1px;
     opacity: 1;
+    box-sizing: border-box;
     width: 188px;
     border: 1px solid $color-blue-font;
     border-top:none;
+    padding: 8px;
     background-color: #e9f3f5;
+    left:-1px;
   }
   &:hover{
     border: 1px solid $color-blue-font;
@@ -113,13 +138,14 @@ li{
   text-align:left;
   font-size: 12px;
   margin-top: 15px;
+  padding: 8px;
+  width: 188px;
   opacity: 0;
   position: absolute;
   background-color: $color-grey;
   z-index: 3000;
   top:0;
-  left: 0;
-  padding: 0px 7px;
+  left:-1px;
   @include transition(all .3s ease-in-out);
 
 
@@ -128,6 +154,7 @@ li{
     border:none;
     background-color: $color-green;
     color: white;
+    vertical-align: top;
     &:hover{
       background-color:#4F9F11;
     }
@@ -288,6 +315,7 @@ p{
   font-family:$font-normal;
   margin-top: 20px;
   line-height: 21px;
+  margin-bottom: 30px;
   a{
     display: block;
     color:$color-blue-font;
