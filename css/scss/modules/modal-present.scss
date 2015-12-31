@@ -103,6 +103,9 @@ li{
   padding-right: 12px;
   flex-direction: row;
   flex-wrap: wrap;
+  @media only screen and(max-width: 661px){
+    justify-content: center;
+  }
 }
 .gift{
   box-sizing: border-box;
