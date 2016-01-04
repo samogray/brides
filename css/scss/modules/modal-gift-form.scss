@@ -209,4 +209,83 @@ label.cvv {
 .link-mcafee {
   float:right;
   margin-top: 10px;
+  @media (max-width: 390px){
+    float:none;
+  }
+}
+.gift-wrapper.balance{
+  display: block;
+  padding: 20px;
+  min-height: 409px;
+  @media only screen and(max-width: 1275px){
+    min-height: 150px;
+  }
+
+  h3{
+    color:$color-blue-font;
+    font-family: $font-bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  p{
+    font-size: 14px;
+    color:black;
+    margin-bottom: 25px;
+    span.have-credit{
+      font-family:$font-bold;
+    }
+  }
+}
+.gift-wrapper.complete, .gift-wrapper.no-complete{
+  padding: 60px 20px;
+  text-align: center;
+  display: block;
+h1{
+  color:#8a8181;
+  font-size:36px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+  h3{
+    color:#919191;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  p{
+    color: #919191;
+    margin-bottom: 25px;
+    /* padding: 0px 135px; */
+    line-height: 25px;
+    width: 60%;
+    margin: 0 auto;
+
+  }
+  a.btn{
+    margin-top: 15px;
+    background: #1f68ba;
+    color:white;
+    font-family: $font-normal;
+    border:none;
+    outline: none;
+    font-size: 18px;
+    padding: 6px 31px;
+    @include transition(all .3s ease-in-out);
+
+    &:hover{
+      background: #1f519c;
+    }
+    
+  }
+}
+.gift-wrapper.complete {
+  h1{
+    color: $color-green;
+  }
+  a.btn{
+    background: #64b118;
+    @include transition(all .3s ease-in-out);
+    &:hover{
+      background: #64b118;
+    }
+  }
 }

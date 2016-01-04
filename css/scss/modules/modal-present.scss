@@ -16,6 +16,7 @@
   width: 100%;
 
   .invie-to{
+    padding-top:10px;
     @media (max-width: 661px){
       font-size: 26px;
     }
@@ -86,7 +87,9 @@ li{
     background-color: $color-grey;
   }
   .nav-pills{
-    padding: 20px 4px;
+    padding: 12px 4px;
+    border-bottom: 1px solid #B8B7B9;
+    margin-bottom: 15px;
 
     li{
       a{

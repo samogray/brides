@@ -63,8 +63,10 @@
                                             <span class="glyphicon glyphicon-gift"></span>Select Presents</a></li>
                                         <li role="presentation"><a href="#GiftCard" aria-controls="profile" role="tab" data-toggle="tab">
                                             <span class="glyphicon glyphicon-edit"></span> GiftCard Message</a></li>
-                                        <li role="presentation"><a href="#Credits" aria-controls="messages" role="tab" data-toggle="tab">
+                                        <li role="presentation"><a href="#Credits" aria-controls="credits" role="tab" data-toggle="tab">
                                             <span class="glyphicon glyphicon-usd"></span>Pay with Credits</a></li>
+                                        <li role="presentation"><a href="#balance" aria-controls="balance" role="tab" data-toggle="tab">
+                                            <span class="glyphicon glyphicon-usd"></span>Balance</a></li>
                                         <li role="presentation"><a href="#Complete" aria-controls="settings" role="tab" data-toggle="tab">
                                             <span class="glyphicon glyphicon-check"></span>Complete!</a></li>
                                     </ul>
@@ -314,8 +316,8 @@
                                                                             <h3>Select</h3>
                                                                             <span>free</span>
                                                                         </div>
-                                                                        <img src="img/card-mess.jpg" alt="present" class="img-responsive"/>
-                                                                        <span class="selected">selected</span>
+                                                                        <img src="img/card-mess.jpg" alt="present" class="img-responsive active"/>
+                                                                        <span class="selected" style="display: block">selected</span>
                                                                         <div class="for-hover"> </div>
                                                                     </div>
                                                                     <div class="name-gift">
@@ -422,14 +424,14 @@
                                                     <div class="row">
                                                         <div class="scrollbar-inner">
                                                             <div class="gift-wrapper">
-                                                                <div class="gift card-item">
+                                                                <div class="gift card-item active">
                                                                     <div class="img-wrap">
                                                                         <div class="center-hover">
                                                                             <h3>Select</h3>
                                                                             <span>free</span>
                                                                         </div>
-                                                                        <img src="img/card-mess.jpg" alt="present" class="img-responsive"/>
-                                                                        <span class="selected">selected</span>
+                                                                        <img src="img/card-mess.jpg" alt="present" class="img-responsive active"/>
+                                                                        <span class="selected" style="display: block">selected</span>
                                                                         <div class="for-hover"> </div>
                                                                     </div>
                                                                     <div class="name-gift">
@@ -440,6 +442,10 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </div>
+                                                <h3 class="title-ledies-group"><span class="line-decor"></span>Now create a personal message<span class="line-decor"></span></h3>
+                                                <div class="gift-wrapper-mess">
+                                                    <textarea  class="mess-gift scrollbar-inner"></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -591,7 +597,34 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div role="tabpanel" class="tab-pane" id="Complete">...</div>
+                                        <div role="tabpanel" class="tab-pane" id="balance">
+                                            <div class="gift-wrapper balance">
+                                                <h3>You Balance</h3>
+                                                <p>You have <span class="have-credit">800 credits</span> on your account.</p>
+                                                <h3>Cart Total</h3>
+                                                <p> <span class="have-credit">765 credits</span> will be charged from your account.</p>
+                                            </div>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="Complete">
+                                            <div class="gift-wrapper no-complete">
+                                                <h1>Transaction Failed</h1>
+                                                <h3>Check your credit card balance</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur
+                                                    adipisicing elit. Adipisci blanditiis cupiditate,
+                                                    doloribus dolorum eligendi ex, facilis laudantium minima
+                                                    </p>
+                                                <a href="#0" class="btn">Try Again</a>
+                                            </div>
+                                            <div class="gift-wrapper complete">
+                                                <h1>Congratulations!</h1>
+                                                <h3>Your order has been processed!</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur
+                                                    adipisicing elit. Adipisci blanditiis cupiditate,
+                                                    doloribus dolorum eligendi ex, facilis laudantium minima
+                                                </p>
+                                                <a href="#0" class="btn">Close window</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -714,6 +747,7 @@
 <script src="js/chosen.jquery.min.js"></script>
 <script>
     $('.scrollbar-inner').scrollbar();
+   // $('.mess-gift').scrollbar();
     $(".chosen-select").chosen();
     $('[data-toggle="tooltip"]').tooltip();
 </script>
