@@ -57,7 +57,7 @@
     margin: 0;
     max-height: none !important;
     max-width: none !important;
-    overflow: scroll !important;
+    overflow: auto !important;
     outline: none;
     padding: 2px;
     position: relative !important;
@@ -784,8 +784,13 @@
 .scrollbar-chrome > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track { top: -19px; }
 
 
+.scroll-element.scroll-x {
+    display: none !important;
+}
 
-
+.scroll-textarea > .scroll-content > textarea{
+    overflow: auto;
+}
 
 
 

@@ -331,3 +331,32 @@ h1{
     }
   }
 }
+.jq-number{
+padding: 0;
+  .jq-number__field {
+    width: 46px;
+
+    input{
+      background: white;
+      padding: 5px 6px;
+      height: 30px;
+    }
+  }
+  .jq-number__spin{
+    border-radius:0;
+    background: white;
+    background-image: none;
+    top: 1px;
+    right: 5px;
+    width: 19px;
+    height: 15px;
+    border:none;
+    box-shadow: none;
+  }
+  .jq-number__spin:after{
+    left:5px;
+  }
+  .jq-number__spin.minus:after {
+    top: 18px;
+  }
+}

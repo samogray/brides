@@ -121,7 +121,7 @@
   box-shadow: none;
   padding: 0;
   padding-left: 10px;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
 .girl-list .input-search input.form-control:focus {
   border: none;
@@ -193,7 +193,7 @@
   padding-top: 16px;
 }
 .name-girl .item-girl-name {
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   color: #16b4dc;
   font-size: 24px;
 }
@@ -225,7 +225,7 @@
   box-sizing: border-box;
 }
 .chat-wrap .title-chat-item {
-  font-family: "OpenSansBold", "HelveticaBold";
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
   font-size: 14px;
   color: #565656;
   padding-left: 5px;
@@ -233,14 +233,14 @@
 }
 .chat-wrap .title-chat-item span {
   color: #e9e9e9;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
 .chat-wrap .title-chat-item .title-chat-time {
   float: right;
 }
 .chat-wrap .answer {
   background-color: #c7edfc;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   color: #565656;
   padding: 10px;
   font-size: 14px;
@@ -328,7 +328,7 @@
   -ms-border-radius: 0;
   border-radius: 0;
   font-size: 14px;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   border-top: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -479,16 +479,16 @@
   font-size: 12px;
 }
 .chat-info li:first-child {
-  font-family: "OpenSansBold", "HelveticaBold";
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
 }
 .chat-info li {
   margin-bottom: 10px;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
 
 a.btn.custum-btn, .chat-wrap .type-mess a.custum-btn.gift, .chat-wrap .type-mess a.custum-btn.translate {
   padding: 12px;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   border: 1px solid #16b4dc;
   background-color: #16b4dc;
   padding-left: 47px;
@@ -650,7 +650,7 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   box-shadow: none;
   padding: 0;
   padding-left: 10px;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
 .girl-list .input-search input.form-control:focus {
   border: none;
@@ -722,7 +722,7 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   padding-top: 16px;
 }
 .name-girl .item-girl-name {
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   color: #16b4dc;
   font-size: 24px;
 }
@@ -754,7 +754,7 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   box-sizing: border-box;
 }
 .chat-wrap .title-chat-item {
-  font-family: "OpenSansBold", "HelveticaBold";
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
   font-size: 14px;
   color: #565656;
   padding-left: 5px;
@@ -762,14 +762,14 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
 }
 .chat-wrap .title-chat-item span {
   color: #e9e9e9;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
 .chat-wrap .title-chat-item .title-chat-time {
   float: right;
 }
 .chat-wrap .answer {
   background-color: #c7edfc;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   color: #565656;
   padding: 10px;
   font-size: 14px;
@@ -857,7 +857,7 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   -ms-border-radius: 0;
   border-radius: 0;
   font-size: 14px;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   border-top: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1008,16 +1008,16 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   font-size: 12px;
 }
 .chat-info li:first-child {
-  font-family: "OpenSansBold", "HelveticaBold";
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
 }
 .chat-info li {
   margin-bottom: 10px;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
 
 a.btn.custum-btn, .chat-wrap .type-mess a.custum-btn.gift, .chat-wrap .type-mess a.custum-btn.translate {
   padding: 12px;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   border: 1px solid #16b4dc;
   background-color: #16b4dc;
   padding-left: 47px;
@@ -1066,14 +1066,14 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
 }
 
 .invite-contetnt {
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
-  font-size: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
+  font-size: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   color: #565656;
   padding: 10px;
 }
 
 .invie-to {
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   font-size: 35px;
   text-decoration-style: dotted;
   padding: 30px 15px 0 0;
@@ -1168,7 +1168,7 @@ a.name-pup-up:visited {
   color: white;
 }
 .datepicker-wrap div#datepicker .table-condensed thead {
-  font-family: "OpenSansBold", "HelveticaBold";
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
 }
 .datepicker-wrap div#datepicker .table-condensed thead tr {
   background-color: #16b4dc;
@@ -1199,7 +1199,7 @@ a.name-pup-up:visited {
 .datepicker-wrap div#datepicker .table-condensed thead .dow {
   background-color: white;
   color: #565656;
-  font-family: "OpenSansBold", "HelveticaBold";
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
 }
 .datepicker-wrap div#datepicker tbody .day {
   background: #f6f6f6;
@@ -1259,7 +1259,7 @@ table {
 
 .big-day {
   color: #565656;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   font-size: 70px;
   border: 1px solid #bebebe;
   background-color: #f6f6f6;
@@ -1285,7 +1285,7 @@ table {
 .big-day span {
   font-size: 14px;
   color: #bebebe;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   display: block;
 }
 
@@ -1311,7 +1311,7 @@ table {
 .invite-time {
   color: #16b4dc;
   font-size: 24px;
-  font-family: "OpenSansBold", "HelveticaBold";
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
   margin: 10px 0;
   vertical-align: middle;
 }
@@ -1319,7 +1319,7 @@ table {
 .invite-time-zone {
   color: #565656;
   font-size: 14px;
-  font-family: "OpenSansBold", "HelveticaBold";
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
 }
 .invite-time-zone span {
   font-family: "OpenSansLight", "HelveticaLight", "PT Sans", sans-serif;
@@ -1332,7 +1332,7 @@ a.invite-btn {
   color: white;
   background-color: #64b118;
   font-size: 18px;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   padding: 10px 15px;
   margin-top: 25px;
   float: right;
@@ -1431,11 +1431,11 @@ article.detail-lady.clearfix {
 }
 
 .name-profile {
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
 .name-profile h3 {
   color: black;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   font-size: 35px;
   margin-bottom: 7px;
 }
@@ -1482,7 +1482,7 @@ article.detail-lady.clearfix {
 .event-btn a.btn, .event-btn .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .event-btn a.gift, .event-btn .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .event-btn a.translate {
   border: none;
   font-size: 12px;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   color: #bebebe;
   background: transparent url("../img/button-profile.png") no-repeat;
   white-space: normal;
@@ -1659,7 +1659,7 @@ article.detail-lady.clearfix {
 /*--------------About here------------------------*/
 .about-here {
   padding: 0 100px;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   font-size: 18px;
   color: #646464;
   line-height: 30px;
@@ -1705,7 +1705,7 @@ article.detail-lady.clearfix {
 /*-------------do-you-like*-----------------*/
 .do-you-like {
   text-align: center;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   color: #bebebe;
   padding: 50px 20px;
   background-color: #f8f8f8;
@@ -2060,7 +2060,7 @@ div.gift-wrapper.gift-form {
   line-height: 20px;
 }
 .form-header p span {
-  font-family: "OpenSansBold", "HelveticaBold";
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
 }
 
 .gift-form {
@@ -2073,7 +2073,7 @@ div.gift-wrapper.gift-form {
 .title-credit {
   color: #16b4dc;
   padding: 30px 0 15px;
-  font-family: "OpenSansBold", "HelveticaBold";
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
 }
 
 .credit-package li:hover {
@@ -2104,7 +2104,7 @@ div.gift-wrapper.gift-form {
   float: right;
   display: block;
   text-align: center;
-  font-family: "OpenSansBold", "HelveticaBold";
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
 }
 .credit-package span.price-value b.promo-save {
   display: block;
@@ -2302,7 +2302,7 @@ label.cvv {
 }
 .gift-wrapper.balance h3 {
   color: #16b4dc;
-  font-family: "OpenSansBold", "HelveticaBold";
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
   font-size: 18px;
   margin-bottom: 15px;
 }
@@ -2312,7 +2312,7 @@ label.cvv {
   margin-bottom: 25px;
 }
 .gift-wrapper.balance p span.have-credit {
-  font-family: "OpenSansBold", "HelveticaBold";
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
 }
 
 .gift-wrapper.complete, .gift-wrapper.no-complete {
@@ -2343,7 +2343,7 @@ label.cvv {
   margin-top: 15px;
   background: #1f68ba;
   color: white;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   border: none;
   outline: none;
   font-size: 18px;
@@ -2369,6 +2369,35 @@ label.cvv {
 }
 .gift-wrapper.complete a.btn:hover, .gift-wrapper.complete .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .gift-wrapper.complete a.gift:hover, .gift-wrapper.complete .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .gift-wrapper.complete a.translate:hover {
   background: #64b118;
+}
+
+.jq-number {
+  padding: 0;
+}
+.jq-number .jq-number__field {
+  width: 46px;
+}
+.jq-number .jq-number__field input {
+  background: white;
+  padding: 5px 6px;
+  height: 30px;
+}
+.jq-number .jq-number__spin {
+  border-radius: 0;
+  background: white;
+  background-image: none;
+  top: 1px;
+  right: 5px;
+  width: 19px;
+  height: 15px;
+  border: none;
+  box-shadow: none;
+}
+.jq-number .jq-number__spin:after {
+  left: 5px;
+}
+.jq-number .jq-number__spin.minus:after {
+  top: 18px;
 }
 
 .modal-dialog.modal-lg.big-lg {
@@ -2415,7 +2444,7 @@ label.cvv {
   margin-right: 5px;
 }
 .present-tabs li a {
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   font-size: 18px;
   color: #bebebe;
   border: none;
@@ -2586,7 +2615,7 @@ label.cvv {
   background-color: #16b4dc;
   padding: 15px;
   color: white;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
 .cart span.glyphicon-gift {
   font-size: 44px;
@@ -2609,7 +2638,7 @@ label.cvv {
   padding: 10px 10px;
   margin: 19px 0 0 0;
   float: right;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2644,7 +2673,7 @@ label.cvv {
   }
 }
 .my-cart .item-cart h3 {
-  font-family: "OpenSansBold", "HelveticaBold";
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
   font-size: 14px;
   padding-top: 0;
 }
@@ -2686,14 +2715,14 @@ label.cvv {
 
 .total-credit {
   float: right;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
 
 .yuo-credit {
   padding-left: 30px;
   color: black;
   font-size: 14px;
-  font-family: "OpenSansRegular", sans-serif, "HelveticaRegular", sans-serif, "PT Sans", sans-serif;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   margin-top: 20px;
   line-height: 21px;
   margin-bottom: 30px;
@@ -2705,7 +2734,7 @@ label.cvv {
 
 .zero-credit {
   color: red;
-  font-family: "OpenSansBold", "HelveticaBold";
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
 }
 
 .have-credit {
@@ -2974,6 +3003,265 @@ textarea.mess-gift.scrollbar-inner {
 }
 .slick-wrap2 span.prev.slick-arrow {
   left: 0;
+}
+
+@media only screen and (max-width: 847px) {
+  .menu-drop {
+    display: none;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 847px) {
+  .menu-drop {
+    display: block !important;
+  }
+}
+
+a.menu-account-btn {
+  margin: 30px auto;
+  width: 90%;
+  border: 1px solid #43B7D9;
+  color: #43B7D9;
+  display: none;
+  outline: none;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width: 847px) {
+  a.menu-account-btn {
+    display: block;
+  }
+}
+a.menu-account-btn:hover {
+  background-color: #0088dd;
+  border-radius: 4px;
+  color: white;
+}
+
+.menu-account {
+  margin-top: 40px;
+}
+.menu-account li.title {
+  background: url("../img/menu-account.png") no-repeat;
+  color: black;
+  font-size: 24px;
+  padding-top: 4px;
+}
+.menu-account li {
+  display: block;
+  padding: 0 35px;
+  margin-bottom: 25px;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
+  font-size: 14px;
+}
+.menu-account li:last-child {
+  margin-bottom: 0;
+}
+.menu-account li a {
+  color: #16b4dc;
+  font-size: 16px;
+  outline: none;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+.menu-account li a:hover {
+  text-decoration: underline;
+}
+.menu-account li a:hover .badge {
+  background: #16b4dc;
+  color: white;
+}
+.menu-account li a:hover .badge.men-online {
+  background: #64b118;
+  color: white;
+}
+.menu-account li a:hover b {
+  color: white;
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
+}
+.menu-account li .badge {
+  float: right;
+  background: white;
+  color: #bebebe;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  /*@media only screen and(max-width: 1155px){
+    display: block;
+    margin-top: 5px;
+    width: 42px;
+    float: none;
+  }*/
+}
+.menu-account li .badge b {
+  color: black;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.menu-account li.message {
+  background-position: 0px 4px;
+}
+.menu-account li.men {
+  background-position: 0px -239px;
+}
+.menu-account li.finance {
+  background-position: 0px -448px;
+}
+.menu-account li.my-profile {
+  background-position: 0 -588px;
+}
+
+.hello-name {
+  margin-top: 40px;
+  color: #353535;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
+}
+
+.info-profile {
+  background-color: #F6F9FA;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
+  border: 2px dashed #16b4dc;
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+}
+.info-profile h3 {
+  color: #353535;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.info-profile .progress {
+  margin-bottom: 25px;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  height: 15px;
+  background-image: none;
+}
+.info-profile p {
+  font-size: 14px;
+  color: #b0afaf;
+  width: 50%;
+  margin: 0 auto 25px;
+  line-height: 21px;
+}
+@media only screen and (max-width: 625px) {
+  .info-profile p {
+    width: 95%;
+  }
+}
+.info-profile .btn-wrap {
+  text-align: center;
+}
+.info-profile .btn-wrap a.btn, .info-profile .btn-wrap .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .info-profile .btn-wrap a.gift, .info-profile .btn-wrap .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .info-profile .btn-wrap a.translate {
+  padding: 8px 15px;
+  margin: 10px 5px;
+  background-color: #16b4dc;
+  color: white;
+  border: none;
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.info-profile .btn-wrap a.btn:hover, .info-profile .btn-wrap .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .info-profile .btn-wrap a.gift:hover, .info-profile .btn-wrap .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .info-profile .btn-wrap a.translate:hover {
+  background-color: #64b118;
+}
+
+.prev-anketa.center-block.men-anketa {
+  max-width: 200px;
+  text-align: center;
+}
+.prev-anketa.center-block.men-anketa h3.my-name {
+  font-size: 26px;
+  padding: 4px 0 0 0;
+}
+.prev-anketa.center-block.men-anketa .v-prof {
+  right: 45px;
+  padding-top: 3px;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
+  background-position: -157px 4px;
+  font-size: 11px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.prev-anketa.center-block.men-anketa .v-prof:hover {
+  padding-bottom: 10px;
+}
+.prev-anketa.center-block.men-anketa a.online {
+  font-size: 11px;
+}
+.prev-anketa.center-block.men-anketa ul.action li a {
+  font-size: 12px;
+}
+.prev-anketa.center-block.men-anketa ul.action li {
+  background: url(../img/profile-btn-mini.png) no-repeat;
+  padding: 7px 13px 7px 20px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.prev-anketa.center-block.men-anketa ul.action li:hover {
+  background-color: rgba(0, 166, 255, 0.24);
+}
+.prev-anketa.center-block.men-anketa ul.action li.letter {
+  background-position: 3px 7px;
+}
+.prev-anketa.center-block.men-anketa ul.action li.chat {
+  background-position: -62px 7px;
+}
+.prev-anketa.center-block.men-anketa ul.action li.video {
+  background-position: -124px 7px;
+}
+
+.other-photo-slider2 span.glyphicon.glyphicon-triangle-right {
+  padding: 6px 6px 6px 7px;
+  right: 15px;
+}
+.other-photo-slider2 span.glyphicon.glyphicon-triangle-left, .other-photo-slider2 span.glyphicon.glyphicon-triangle-right {
+  background: #43b6d8;
+  border-radius: 50%;
+  top: 30%;
+  font-size: 20px;
+  position: absolute;
+  z-index: 2000;
+  cursor: pointer;
+  color: white;
+  opacity: .6;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.other-photo-slider2 span.glyphicon.glyphicon-triangle-left:hover, .other-photo-slider2 span.glyphicon.glyphicon-triangle-right:hover {
+  opacity: .8;
+}
+.other-photo-slider2 .prev-anketa img {
+  max-width: 100%;
+  min-height: 250px;
+}
+
+article.new-men {
+  margin: 75px 0 150px;
+}
+
+a.v-prof:hover {
+  padding-bottom: 15px;
+}
+
+h1.lady-catalog-title.men-catalog {
+  padding: 10px 68px 10px 0;
 }
 
 /*# sourceMappingURL=from-sass.css.map */
