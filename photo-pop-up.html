@@ -20,21 +20,33 @@
     <link rel="stylesheet" href="css/bootstrap-slider.min.css"/>
     <link rel="stylesheet" href="css/jquery.scrollbar.css"/>
     <link rel="stylesheet" href="css/chosen.min.css"/>
+    <link rel="stylesheet" href="css/star-rating.min.css"/>
     <link rel="stylesheet" href="css/style-min.css"/>
 
 </head>
-<>
+<body style="background-color: rgba(0, 0, 0, 0.61)">
+
 <h1>Modal windowm loading</h1>
 <div class="modal fade bs-example-modal-lg " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="myModalchat">
-    <div class="modal-dialog modal-lg hoto-popup">
+    <div class="modal-dialog modal-lg photo-popup">
         <div class="modal-content invite-contetnt">
             <div class="container-fluid">
-                <img src="img/popup.jpg" class="img-responsive">
-                <div class="pop-up-footer">
-                    Olga Kachanova
-                    ID: 2659
-                    Rate the photo
-                    Rate the photo
+                <div class="slick-wrap2">
+                    <div><img src="img/popup.jpg" alt="daryna" class="img-responsive"></div>
+                    <div><img src="img/popup.jpg" alt="daryna" class="img-responsive"></div>
+                    <div><img src="img/popup.jpg" alt="daryna" class="img-responsive"></div>
+                </div>
+                <div class="pop-up-footer clearfix">
+                   <div class="name-girl">
+                       <h3>Olga Kachanova</h3>
+                       <span class="id-girl">ID: 2659</span>
+                   </div>
+                    <div class="rate">
+                       <span>Rate the photo</span> <span class="photo-rating">Photo rating</span>
+                        <input id="input-21e" value="0" type="number" class="rating form-control hide" min=0 max=5 step=0.5 data-size="xs" >
+                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -54,8 +66,24 @@
 <script src="js/bootstrap-slider.js"></script>
 <script src="js/jquery.scrollbar.min.js"></script>
 <script src="js/chosen.jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/star-rating.min.js"></script>
+
 <script>
-    // $('.mess-gift').scrollbar();
+    $('.slick-wrap2').slick({
+        speed: 300,
+        autoplay:true,
+        arrows:true,
+        focusOnSelect:true,
+        infinite:true,
+        nextArrow:'<span class="next"><i class="fa fa-angle-right"></i></span>',
+        prevArrow:'<span class="prev"><i class="fa fa-angle-left"></i></span>'
+    });
+    $("#input-21e").rating({
+        starCaptions: function(val) {
+                return val+'/5';
+        }
+    });
 </script>
 <script src="js/common.js"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->

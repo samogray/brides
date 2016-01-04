@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="libs/bootstrap-datepicker-1.5.0-dist/css/bootstrap-datepicker.min.css"/>
     <link rel="stylesheet" href="css/bootstrap-slider.min.css"/>
     <link rel="stylesheet" href="css/jquery.scrollbar.css"/>
+    <link rel="stylesheet" href="css/jquery.formstyler.css"/>
     <link rel="stylesheet" href="css/chosen.min.css"/>
     <link rel="stylesheet" href="css/style-min.css"/>
 
@@ -539,14 +540,14 @@
                                                         <div class="form-group clearfix">
                                                             <label>Valid thru</label>
                                                             <div class="select-wrap">
-                                                                <select class="mm form-control">
+                                                                <select class="mm">
                                                                     <option>00</option>
                                                                     <option>02</option>
                                                                     <option>03</option>
                                                                     <option>04</option>
                                                                 </select>
                                                                 <span>/</span>
-                                                                <select class="yy form-control">
+                                                                <select class="yy">
                                                                     <option>00</option>
                                                                     <option>02</option>
                                                                     <option>03</option>
@@ -744,12 +745,14 @@
 <script src="libs/bootstrap-datepicker-1.5.0-dist/js/bootstrap-datepicker.min.js"></script>
 <script src="js/bootstrap-slider.js"></script>
 <script src="js/jquery.scrollbar.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
 <script src="js/chosen.jquery.min.js"></script>
 <script>
     $('.scrollbar-inner').scrollbar();
    // $('.mess-gift').scrollbar();
     $(".chosen-select").chosen();
     $('[data-toggle="tooltip"]').tooltip();
+    $('.mm, .yy').styler();
 </script>
 <script src="js/common.js"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
