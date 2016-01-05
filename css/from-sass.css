@@ -3005,14 +3005,14 @@ textarea.mess-gift.scrollbar-inner {
   left: 0;
 }
 
-@media only screen and (max-width: 847px) {
+@media only screen and (max-width: 768px) {
   .menu-drop {
     display: none;
     max-width: 300px;
     margin: 0 auto;
   }
 }
-@media only screen and (min-width: 847px) {
+@media only screen and (min-width: 768px) {
   .menu-drop {
     display: block !important;
   }
@@ -3030,7 +3030,7 @@ a.menu-account-btn {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-@media only screen and (max-width: 847px) {
+@media only screen and (max-width: 768px) {
   a.menu-account-btn {
     display: block;
   }
@@ -3269,14 +3269,32 @@ h1.lady-catalog-title.men-catalog {
   flex-direction: row;
   flex-wrap: nowrap;
   width: 100%;
-  padding: 0 10px;
-  /* justify-content: space-between; */
-  align-items: stretch;
+}
+@media only screen and (max-width: 847px) {
+  .flex-container-my-photo {
+    padding: 0 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .flex-container-my-photo {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
 }
 .flex-container-my-photo .my-photo-flex {
-  /* padding: 0 10px; */
   margin: 0 5px 5px 0;
   max-height: 190px;
+}
+.flex-container-my-photo .my-photo-flex a {
+  display: block;
+  position: relative;
+}
+.flex-container-my-photo .my-photo-flex a span {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  color: #ffc600;
 }
 
 .jq-file__browse {

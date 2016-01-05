@@ -1,11 +1,11 @@
 @import "../variables.scss";
 .menu-drop{
-  @media only screen and(max-width:847px){
+  @media only screen and(max-width:768px){
   display: none;
     max-width: 300px;
     margin: 0 auto;
 }
-  @media only screen and(min-width:847px){
+  @media only screen and(min-width:768px){
     display: block!important;
   }
 }
@@ -17,7 +17,7 @@ a.menu-account-btn{
   display: none;
   outline: none;
   @include transition(all .3s ease-in-out);
-  @media only screen and(max-width:847px){
+  @media only screen and(max-width:768px){
     display: block;
   }
 
