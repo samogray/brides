@@ -1,0 +1,38 @@
+@import "../variables.scss";
+
+
+
+
+  .flex-container-mens-online{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .prev-anketa.center-block.anketa-result{
+      width: 231px;
+      a.v-prof.btn, span.from-city, a.online{
+        font-size: 12px;
+      }
+
+      h3.my-name {
+        font-size: 18px;
+      }
+      @media only screen and (max-width: 991px)
+      {
+        border: none;
+        background-color: white;
+        padding-bottom: 10px;
+      }
+     
+    }
+  }
+
+@media only screen and (max-width: 991px) {
+  a.v-prof.btn {
+    padding: 4px;
+    margin: 3px 0 0;
+    position: relative;
+    top: 6px;
+  }
+}
+
+

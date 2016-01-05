@@ -1,5 +1,6 @@
 @import "../variables.scss";
 .menu-drop{
+  margin-bottom:100px;
   @media only screen and(max-width:768px){
   display: none;
     max-width: 300px;
@@ -168,12 +169,7 @@ a.menu-account-btn{
     font-family: $font-normal;
     background-position: -157px 4px;
     font-size: 11px;
-    @include transition(all .3s ease-in-out);
-
-    &:hover{
-      padding-bottom: 10px;
-    }
-  }
+      }
   a.online {
     font-size: 11px;
   }
@@ -230,9 +226,7 @@ a.menu-account-btn{
 article.new-men {
   margin:75px 0 150px;
 }
-a.v-prof:hover {
-  padding-bottom: 15px;
-}
+
 
 h1.lady-catalog-title.men-catalog {
   padding: 10px 68px 10px 0;

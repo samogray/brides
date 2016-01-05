@@ -3005,6 +3005,9 @@ textarea.mess-gift.scrollbar-inner {
   left: 0;
 }
 
+.menu-drop {
+  margin-bottom: 100px;
+}
 @media only screen and (max-width: 768px) {
   .menu-drop {
     display: none;
@@ -3190,13 +3193,6 @@ a.menu-account-btn:hover {
   font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   background-position: -157px 4px;
   font-size: 11px;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.prev-anketa.center-block.men-anketa .v-prof:hover {
-  padding-bottom: 10px;
 }
 .prev-anketa.center-block.men-anketa a.online {
   font-size: 11px;
@@ -3256,10 +3252,6 @@ article.new-men {
   margin: 75px 0 150px;
 }
 
-a.v-prof:hover {
-  padding-bottom: 15px;
-}
-
 h1.lady-catalog-title.men-catalog {
   padding: 10px 68px 10px 0;
 }
@@ -3317,6 +3309,37 @@ h1.lady-catalog-title.men-catalog {
 
 .gallery-my-photo .info-profile {
   margin: 50px 0;
+}
+
+.flex-container-mens-online {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flex-container-mens-online .prev-anketa.center-block.anketa-result {
+  width: 231px;
+}
+.flex-container-mens-online .prev-anketa.center-block.anketa-result a.v-prof.btn, .flex-container-mens-online .prev-anketa.center-block.anketa-result .chat-wrap .type-mess a.v-prof.gift, .chat-wrap .type-mess .flex-container-mens-online .prev-anketa.center-block.anketa-result a.v-prof.gift, .flex-container-mens-online .prev-anketa.center-block.anketa-result .chat-wrap .type-mess a.v-prof.translate, .chat-wrap .type-mess .flex-container-mens-online .prev-anketa.center-block.anketa-result a.v-prof.translate, .flex-container-mens-online .prev-anketa.center-block.anketa-result span.from-city, .flex-container-mens-online .prev-anketa.center-block.anketa-result a.online {
+  font-size: 12px;
+}
+.flex-container-mens-online .prev-anketa.center-block.anketa-result h3.my-name {
+  font-size: 18px;
+}
+@media only screen and (max-width: 991px) {
+  .flex-container-mens-online .prev-anketa.center-block.anketa-result {
+    border: none;
+    background-color: white;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  a.v-prof.btn, .chat-wrap .type-mess a.v-prof.gift, .chat-wrap .type-mess a.v-prof.translate {
+    padding: 4px;
+    margin: 3px 0 0;
+    position: relative;
+    top: 6px;
+  }
 }
 
 /*# sourceMappingURL=from-sass.css.map */
