@@ -1,0 +1,39 @@
+@import "../variables.scss";
+.flex-container-my-photo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 0 10px;
+  /* justify-content: space-between; */
+  align-items: stretch;
+
+  .my-photo-flex {
+    /* padding: 0 10px; */
+    margin: 0 5px 5px 0;
+    max-height: 190px;
+  }
+}
+
+
+.jq-file__browse {
+  display: none;
+}
+.jq-file__name{
+  background-color: $color-blue-font;
+  color:white;
+  border:none;
+  padding: 0;
+  @include transition(all .3s ease-in-out);
+
+  &:hover{
+    background-color: $color-green;
+  }
+}
+
+.gallery-my-photo{
+  .info-profile{
+    margin: 50px 0;
+  }
+}
+

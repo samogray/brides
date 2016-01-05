@@ -3264,4 +3264,41 @@ h1.lady-catalog-title.men-catalog {
   padding: 10px 68px 10px 0;
 }
 
+.flex-container-my-photo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 0 10px;
+  /* justify-content: space-between; */
+  align-items: stretch;
+}
+.flex-container-my-photo .my-photo-flex {
+  /* padding: 0 10px; */
+  margin: 0 5px 5px 0;
+  max-height: 190px;
+}
+
+.jq-file__browse {
+  display: none;
+}
+
+.jq-file__name {
+  background-color: #16b4dc;
+  color: white;
+  border: none;
+  padding: 0;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.jq-file__name:hover {
+  background-color: #64b118;
+}
+
+.gallery-my-photo .info-profile {
+  margin: 50px 0;
+}
+
 /*# sourceMappingURL=from-sass.css.map */
