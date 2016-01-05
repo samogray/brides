@@ -3341,5 +3341,66 @@ h1.lady-catalog-title.men-catalog {
     top: 6px;
   }
 }
+h1.lady-catalog-title.men-catalog {
+  padding: 20px 0;
+}
+
+.my-finance {
+  /* .scroll-element.scroll-x {
+     display:block;
+   }*/
+}
+@media screen and (max-width: 390px) {
+  .my-finance .nav-pills > li {
+    float: none;
+  }
+}
+.my-finance .nav > li > a {
+  padding: 6px 10px;
+  font-size: 14px;
+}
+.my-finance .scrollbar-inner {
+  height: auto;
+  min-height: inherit;
+}
+.my-finance .nav-pills > li.active > a {
+  background-color: #16b4dc;
+  font-size: 14px;
+}
+.my-finance table.table-money {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  border-top: 3px solid #8bd9ed;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
+  font-size: 12px;
+  table-layout: auto;
+  border-left: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+.my-finance table.table-money thead th {
+  border: none;
+  color: #16b4dc;
+}
+.my-finance table.table-money tbody th.succes {
+  color: #64b118;
+}
+.my-finance table.table-money tbody th.error {
+  color: red;
+}
+.my-finance table.table-money tbody th.pending {
+  color: #565656;
+}
+.my-finance table.table-money .th-border {
+  border-left: 1px solid #DDDDDD;
+}
+
+@media screen and (max-width: 767px) {
+  .table-responsive {
+    border: none;
+  }
+}
 
 /*# sourceMappingURL=from-sass.css.map */

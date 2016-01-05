@@ -21,24 +21,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lady-account-my-photo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lady-account-my-photo.html">
+      <file leaf-file-name="present-lady-modal.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/present-lady-modal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.3461537">
-              <caret line="509" column="55" selection-start-line="509" selection-start-column="32" selection-end-line="509" selection-end-column="55" />
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="1" column="74" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
               <folding>
-                <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lady-account-mens-online.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lady-account-mens-online.html">
+      <file leaf-file-name="lady-profile-income.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lady-profile-income.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.0">
-              <caret line="508" column="62" selection-start-line="508" selection-start-column="62" selection-end-line="508" selection-end-column="62" />
+            <state vertical-scroll-proportion="-42.5">
+              <caret line="513" column="8" selection-start-line="513" selection-start-column="8" selection-end-line="513" selection-end-column="8" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -46,11 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lady-account-mens-online.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/scss/modules/lady-account-mens-online.scss">
+      <file leaf-file-name="lady-profile-income.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/scss/modules/lady-profile-income.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59130436">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.54202896">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/scss/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,9 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Login-page.html" />
-        <option value="$PROJECT_DIR$/404-1.html" />
-        <option value="$PROJECT_DIR$/404-2.html" />
         <option value="$PROJECT_DIR$/404-3.html" />
         <option value="$PROJECT_DIR$/404-4.html" />
         <option value="$PROJECT_DIR$/404-5.html" />
@@ -109,7 +118,6 @@
         <option value="$PROJECT_DIR$/css/scss/modules/photo-popup.scss" />
         <option value="$PROJECT_DIR$/photo-pop-up.html" />
         <option value="$PROJECT_DIR$/css/scss/modules/modal-gift-form.scss" />
-        <option value="$PROJECT_DIR$/css/jquery.scrollbar.css" />
         <option value="$PROJECT_DIR$/css/scss/variables.scss" />
         <option value="$PROJECT_DIR$/create-new-account.html" />
         <option value="$PROJECT_DIR$/lady-account.html" />
@@ -119,9 +127,13 @@
         <option value="$PROJECT_DIR$/css/scss/modules/lady-account-my-photo.scss" />
         <option value="$PROJECT_DIR$/lady-account-my-photo.html" />
         <option value="$PROJECT_DIR$/css/scss/modules/lady-account-page.scss" />
-        <option value="$PROJECT_DIR$/css/scss/style.scss" />
         <option value="$PROJECT_DIR$/lady-account-mens-online.html" />
         <option value="$PROJECT_DIR$/css/scss/modules/lady-account-mens-online.scss" />
+        <option value="$PROJECT_DIR$/lady-account-my-best-photo.html" />
+        <option value="$PROJECT_DIR$/css/scss/style.scss" />
+        <option value="$PROJECT_DIR$/lady-profile-income.html" />
+        <option value="$PROJECT_DIR$/css/jquery.scrollbar.css" />
+        <option value="$PROJECT_DIR$/css/scss/modules/lady-profile-income.scss" />
       </list>
     </option>
   </component>
@@ -301,10 +313,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28136882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20912547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32258064" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -333,7 +345,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28136882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20912547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24968234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -367,27 +379,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/404-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3942029">
-          <caret line="37" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="47" column="36" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.384615">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/404-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.02463768">
@@ -631,14 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/jquery.scrollbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/scss/modules/lady.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -684,19 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/present-lady-modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5318841">
-          <caret line="670" column="44" selection-start-line="670" selection-start-column="44" selection-end-line="670" selection-end-column="44" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lady-account.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923">
@@ -729,7 +699,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/style.scss">
+    <entry file="file://$PROJECT_DIR$/lady-account-my-best-photo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24637681">
           <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
@@ -739,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lady-account-my-photo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3461537">
-          <caret line="509" column="55" selection-start-line="509" selection-start-column="32" selection-end-line="509" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.088405795">
+          <caret line="509" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="640" selection-end-column="7" />
           <folding>
             <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -750,8 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lady-account-mens-online.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0">
-          <caret line="508" column="62" selection-start-line="508" selection-start-column="62" selection-end-line="508" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.11304348">
+          <caret line="508" column="62" selection-start-line="0" selection-start-column="0" selection-end-line="683" selection-end-column="7" />
           <folding>
             <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -760,8 +730,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/scss/modules/lady-account-mens-online.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59130436">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/present-lady-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="1" column="74" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jquery.scrollbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8072626">
+          <caret line="790" column="21" selection-start-line="790" selection-start-column="21" selection-end-line="790" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lady-profile-income.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-42.5">
+          <caret line="513" column="8" selection-start-line="513" selection-start-column="8" selection-end-line="513" selection-end-column="8" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/lady-profile-income.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54202896">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding />
         </state>
       </provider>

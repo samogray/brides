@@ -784,8 +784,11 @@
 .scrollbar-chrome > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track { top: -19px; }
 
 
-.scroll-element.scroll-x {
-    display: none !important;
+.gift-wrapper-mess .scroll-element.scroll-x {
+     display: none;
+ }
+.gift-wrapper-mess .scroll-element.scroll-y {
+    overflow-y: auto;
 }
 
 .scroll-textarea > .scroll-content > textarea{

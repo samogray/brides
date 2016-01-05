@@ -1,0 +1,72 @@
+@import "../variables.scss";
+
+h1.lady-catalog-title.men-catalog{
+  padding: 20px 0;
+}
+.my-finance {
+
+  .nav-pills>li{
+    @media screen and (max-width: 390px) {
+      float:none;
+    }
+  }
+    .nav > li > a {
+      padding: 6px 10px;
+      font-size: 14px;
+    }
+
+    /* .scroll-element.scroll-x {
+       display:block;
+     }*/
+    .scrollbar-inner {
+      height: auto;
+      min-height: inherit;
+    }
+    .nav-pills > li.active > a {
+      background-color: #16b4dc;
+      font-size: 14px;
+    }
+    table.table-money {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 20px;
+      margin-top: 50px;
+      border-top: 3px solid #8bd9ed;
+      font-family: $font-normal;
+      font-size: 12px;
+      table-layout: auto;
+      border-left: 1px solid #DDDDDD;
+      border-bottom: 1px solid #DDDDDD;
+      border-right: 1px solid #DDDDDD;
+
+      thead {
+        th {
+          border: none;
+          color: $color-blue-font;
+
+        }
+      }
+      tbody {
+        th.succes {
+          color: $color-green;
+        }
+        th.error {
+          color: red;
+        }
+        th.pending {
+          color: $color-grey-font2;
+        }
+
+      }
+      .th-border {
+        border-left: 1px solid #DDDDDD;
+
+      }
+    }
+  }
+
+@media screen and (max-width: 767px) {
+  .table-responsive {
+    border: none;
+  }
+}
