@@ -3384,6 +3384,10 @@ h1.lady-catalog-title.men-catalog {
   border: none;
   color: #16b4dc;
 }
+.my-finance table.table-money tbody a {
+  color: #16b4dc;
+  text-decoration: underline;
+}
 .my-finance table.table-money tbody th.succes {
   color: #64b118;
 }
@@ -3401,6 +3405,179 @@ h1.lady-catalog-title.men-catalog {
   .table-responsive {
     border: none;
   }
+}
+@media only screen and (max-width: 1056px) {
+  .nav-tabs > li {
+    float: none;
+  }
+}
+
+.nav.nav-tabs.tabs-inbox li span {
+  padding-right: 10px;
+}
+.nav.nav-tabs.tabs-inbox li span.fa {
+  font-size: 22px;
+}
+.nav.nav-tabs.tabs-inbox li > a {
+  background-color: #f4f4f4;
+  border-radius: 0;
+  color: #565656;
+}
+.nav.nav-tabs.tabs-inbox li.active > a {
+  border-radius: 0;
+  border-top: 2px solid #16b4dc;
+  background-color: white;
+}
+
+.tab-content-inbox {
+  padding: 10px 0 10px 10px;
+}
+
+.message-item {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width: 1056px) {
+  .message-item {
+    align-items: stretch;
+  }
+}
+@media only screen and (max-width: 847px) {
+  .message-item {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .message-item {
+    justify-content: flex-start;
+  }
+}
+.message-item:hover {
+  border: 1px solid #4ec4e3;
+  background-color: #f1f6f7;
+}
+.message-item .img-box-mes-item {
+  min-width: 98px;
+  height: 98px;
+  padding: 3px;
+  border: 1px solid #16B4DC;
+  margin-right: 20px;
+}
+@media only screen and (max-width: 479px) {
+  .message-item .img-box-mes-item {
+    margin: 0 auto;
+  }
+}
+.message-item .img-box-mes-item img {
+  width: 88px;
+  height: 88px;
+}
+@media only screen and (max-width: 847px) {
+  .message-item .from-mess {
+    width: 100%;
+    order: 2;
+    margin-top: 15px;
+  }
+}
+.message-item .from-mess a {
+  display: inline-block;
+  color: #16b4dc;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.message-item .from-mess a:hover span sup {
+  text-decoration: none !important;
+}
+.message-item .from-mess p {
+  font-size: 14px;
+  font-family: "OpenSansBoldItalic";
+  font-weight: 300;
+  line-height: 24px;
+  color: #606060;
+}
+.message-item .viev {
+  min-width: 226px;
+  text-align: right;
+}
+@media only screen and (max-width: 1056px) {
+  .message-item .viev {
+    min-width: 60px;
+  }
+}
+@media only screen and (max-width: 847px) {
+  .message-item .viev {
+    margin: 7px auto;
+    text-align: center;
+    order: 1;
+    min-width: 156px;
+  }
+}
+.message-item .viev .count, .message-item .viev a.btn, .message-item .viev .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .message-item .viev a.gift, .message-item .viev .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .message-item .viev a.translate {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 1056px) {
+  .message-item .viev .count, .message-item .viev a.btn, .message-item .viev .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .message-item .viev a.gift, .message-item .viev .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .message-item .viev a.translate {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+.message-item .viev .count {
+  text-align: center;
+  color: #d6d6d6;
+  font-size: 24px;
+}
+.message-item .viev .count span {
+  display: block;
+  padding-right: 0;
+  font-size: 12px;
+}
+.message-item .viev a.btn, .message-item .viev .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .message-item .viev a.gift, .message-item .viev .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .message-item .viev a.translate {
+  border: none;
+  font-size: 25px;
+  border-radius: 50%;
+}
+.message-item .viev .delete-mess {
+  background-color: #d6d6d6;
+  text-align: center;
+  /* padding: 5px; */
+  width: 45px;
+  height: 45px;
+  padding-left: 9px;
+  color: white;
+  padding-top: 7px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.message-item .viev .delete-mess:hover {
+  background: red;
+}
+.message-item .viev .viev-mess {
+  background: #16b4dc;
+  color: #fff;
+  width: 45px;
+  padding-left: 10px;
+  padding-top: 5px;
+  height: 45px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.message-item .viev .viev-mess:hover {
+  background: #64b118;
 }
 
 /*# sourceMappingURL=from-sass.css.map */

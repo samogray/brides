@@ -43,10 +43,13 @@ h1.lady-catalog-title.men-catalog{
         th {
           border: none;
           color: $color-blue-font;
-
         }
       }
       tbody {
+        a {
+          color: $color-blue-font;
+          text-decoration: underline;
+        }
         th.succes {
           color: $color-green;
         }
