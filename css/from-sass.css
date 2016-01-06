@@ -3342,7 +3342,7 @@ h1.lady-catalog-title.men-catalog {
   }
 }
 h1.lady-catalog-title.men-catalog {
-  padding: 20px 0;
+  padding-right: 50px;
 }
 
 .my-finance {
@@ -3406,6 +3406,17 @@ h1.lady-catalog-title.men-catalog {
     border: none;
   }
 }
+.count {
+  text-align: center;
+  color: #d6d6d6;
+  font-size: 24px;
+}
+.count span {
+  display: block;
+  padding-right: 0;
+  font-size: 12px;
+}
+
 @media only screen and (max-width: 1056px) {
   .nav-tabs > li {
     float: none;
@@ -3423,14 +3434,26 @@ h1.lady-catalog-title.men-catalog {
   border-radius: 0;
   color: #565656;
 }
+.nav.nav-tabs.tabs-inbox li > a:active {
+  outline: none;
+}
+.nav.nav-tabs.tabs-inbox li > a:focus {
+  outline: none;
+}
 .nav.nav-tabs.tabs-inbox li.active > a {
   border-radius: 0;
   border-top: 2px solid #16b4dc;
   background-color: white;
 }
+.nav.nav-tabs.tabs-inbox li.active > a:active {
+  outline: none;
+}
+.nav.nav-tabs.tabs-inbox li.active > a:focus {
+  outline: none;
+}
 
 .tab-content-inbox {
-  padding: 10px 0 10px 10px;
+  padding: 10px 0 10px 0;
 }
 
 .message-item {
@@ -3532,16 +3555,6 @@ h1.lady-catalog-title.men-catalog {
     margin-bottom: 10px;
   }
 }
-.message-item .viev .count {
-  text-align: center;
-  color: #d6d6d6;
-  font-size: 24px;
-}
-.message-item .viev .count span {
-  display: block;
-  padding-right: 0;
-  font-size: 12px;
-}
 .message-item .viev a.btn, .message-item .viev .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .message-item .viev a.gift, .message-item .viev .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .message-item .viev a.translate {
   border: none;
   font-size: 25px;
@@ -3578,6 +3591,117 @@ h1.lady-catalog-title.men-catalog {
 }
 .message-item .viev .viev-mess:hover {
   background: #64b118;
+}
+
+@media only screen and (max-width: 847px) {
+  .message-item.chat-history {
+    flex-wrap: nowrap;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .message-item.chat-history {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .message-item.chat-history .img-box-mes-item {
+    margin: 0 7px 7px;
+  }
+}
+.message-item.chat-history .from-mess {
+  flex-basis: 100%;
+}
+@media only screen and (max-width: 847px) {
+  .message-item.chat-history .from-mess {
+    order: 1;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .message-item.chat-history .from-mess {
+    order: 2;
+    flex-basis: inherit;
+  }
+}
+.message-item.chat-history .count {
+  text-align: left;
+  font-size: 18px;
+}
+.message-item.chat-history .count span {
+  display: inline-block;
+}
+@media only screen and (max-width: 1056px) {
+  .message-item.chat-history .viev {
+    min-width: 129px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .message-item.chat-history .viev {
+    text-align: left;
+    min-width: 80px;
+  }
+}
+
+.wrap-change-password {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+.wrap-change-password .info span {
+  color: #00f;
+  margin-top: 6px;
+}
+.wrap-change-password .info {
+  border: 2px dashed #16b4dc;
+  background-color: #e1f3f8;
+}
+.wrap-change-password .panel-mess {
+  padding: 20px;
+  margin-bottom: 35px;
+}
+.wrap-change-password .panel-mess p {
+  font-size: 14px;
+  float: right;
+  width: 90%;
+  line-height: 21px;
+}
+.wrap-change-password .panel-mess h3 {
+  font-size: 18px;
+  color: #16b4dc;
+}
+.wrap-change-password .form-group {
+  margin-bottom: 20px;
+  padding: 0 30px;
+}
+@media (max-width: 479px) {
+  .wrap-change-password .form-group {
+    padding: 0;
+  }
+}
+.wrap-change-password .form-group input {
+  height: 50px;
+  border-radius: 0;
+}
+.wrap-change-password .form-group label {
+  color: #6d6d6d;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.wrap-change-password a.btn, .wrap-change-password .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .wrap-change-password a.gift, .wrap-change-password .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .wrap-change-password a.translate {
+  border: none;
+  color: white;
+  background: #1f68ba;
+  padding: 9px 15px;
+  font-size: 14px;
+  float: right;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.wrap-change-password a.btn:hover, .wrap-change-password .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .wrap-change-password a.gift:hover, .wrap-change-password .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .wrap-change-password a.translate:hover {
+  background-color: #64b118;
 }
 
 /*# sourceMappingURL=from-sass.css.map */

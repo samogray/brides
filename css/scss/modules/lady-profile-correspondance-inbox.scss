@@ -1,4 +1,15 @@
 @import "../variables.scss";
+
+.count{
+  text-align: center;
+  color: #d6d6d6;
+  font-size: 24px;
+  span {
+    display: block;
+    padding-right: 0;
+    font-size: 12px;
+  }
+}
 .nav-tabs>li{
   @media only screen and(max-width:1056px) {
     float:none;
@@ -17,18 +28,30 @@
     background-color: #f4f4f4;
     border-radius: 0;
     color:$color-grey-font2;
+    &:active{
+      outline: none;
+    }
+    &:focus{
+      outline: none;
+    }
   }
   li.active>a{
     border-radius: 0;
     border-top:2px solid $color-blue-font;
     background-color: white;
+    &:active{
+      outline: none;
+    }
+    &:focus{
+      outline: none;
+    }
   }
 
 
 }
 
 .tab-content-inbox{
-  padding: 10px 0 10px 10px;
+  padding: 10px 0 10px 0;
 }
 
 .message-item{
@@ -44,7 +67,7 @@
     align-items: stretch;
   }
   @media only screen and(max-width:847px) {
-    flex-wrap: wrap;
+      flex-wrap: wrap;
   }
    @media only screen and(max-width:479px) {
       justify-content: flex-start;
@@ -117,16 +140,6 @@
       }
 
     }
-    .count{
-      text-align: center;
-      color: #d6d6d6;
-      font-size: 24px;
-      span {
-        display: block;
-        padding-right: 0;
-        font-size: 12px;
-      }
-    }
     a.btn {
       border: none;
       font-size: 25px;
@@ -162,3 +175,52 @@
 
   }
 }
+
+.message-item.chat-history {
+  @media only screen and(max-width:847px) {
+    flex-wrap: nowrap;
+  }
+  @media only screen and(max-width:479px) {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .img-box-mes-item{
+    @media only screen and(max-width:479px) {
+     margin: 0 7px 7px;
+    }
+
+
+  }
+  .from-mess{
+    flex-basis: 100%;
+    @media only screen and(max-width:847px) {
+      order:1;
+    }
+    @media only screen and(max-width:479px) {
+      order:2;
+      flex-basis:inherit;
+    }
+  }
+  .count {
+    text-align: left;
+    font-size: 18px;
+     span{
+       display: inline-block;
+     }
+  }
+  .viev{
+    @media only screen and (max-width: 1056px)
+    {
+      min-width:129px;
+    }
+    @media only screen and(max-width:479px) {
+      text-align: left;
+      min-width: 80px;
+    }
+
+  }
+
+}
+
+

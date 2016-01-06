@@ -56,10 +56,10 @@ $(document).ready(function() {
         }
         $('#max-age').val(znachMax);
     });
-    $('a.btn.advanced-srch').click(function(){
-        $('.invisible-form').slideToggle();
-        $(this).toggleClass('my-color');
-        $('#icon').toggleClass('glyphicon-triangle-top');
+     $('a.btn.advanced-srch').click(function(){
+            $('.invisible-form').slideToggle();
+            $(this).toggleClass('my-color');
+            $('#icon').toggleClass('glyphicon-triangle-top');
     });
     $('#myModal, #myModalchat').modal('show');
 
