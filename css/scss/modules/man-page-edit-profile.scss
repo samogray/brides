@@ -1,0 +1,139 @@
+@import "../variables.scss";
+
+.title-edit-profile{
+  color:#1192b2;
+  font-size: $font-size-sm;
+}
+
+.my-progress{
+  padding: 25px;
+  background-color:$color-grey-dark;
+  margin:20px 0;
+
+  .progress{
+    height: 25px;
+    margin: 0;
+    background-image: none;
+    border-radius: 0;
+    background: white;
+    .progress-bar{
+      background-image: none;
+      background-color: $color-blue-font;
+      padding-top: 3px;
+    }
+  }
+
+}
+
+.nav-tabs.tabs-edit-profile {
+margin-top: 20px;
+li.active{
+  border: none;
+
+}
+  li>a {
+    color: black;
+    font-size: 14px;
+
+  }
+  li.active>a{
+    color:#1192b2;
+    background: #f9f9f9;
+    border: none;
+
+  }
+li {
+  span{
+    width: 20px;
+    height: 22px;
+    /* margin-top: -5px; */
+    display: inline-block;
+    vertical-align: text-bottom;
+
+    a{
+      font-size: 14px;
+      color: black;
+    }
+  }
+  span.my-up-ico{
+    background: url(../img/tabs-ico.png) 1px 3px no-repeat;
+  }
+  span.my-add-ico{
+    background: url(../img/tabs-ico.png) -197px 3px no-repeat;
+  }
+  span.my-acc-ico{
+    background: url(../img/tabs-ico.png) -462px 3px no-repeat;
+  }
+
+}
+
+
+li>a{
+  padding-left: 35px;
+ }
+
+}
+
+.tab-content.tabs-edit-profile {
+  background: #f9f9f9;
+  position: relative;
+
+}
+.my-panel{
+  font-family:$font-normal;
+  text-align: center;
+  padding: 60px 0;
+  h1{
+    font-size: 27px;
+    color:black;
+    margin-top:0;
+    @media only screen and(max-width:479px) {
+      font-size: 18px;
+    }
+  }
+
+  p{
+    font-size: 14px;
+    color: #b0afaf;
+    width: 300px;
+    margin: 0 auto;
+    line-height: 21px;
+    margin-bottom: 25px;
+    @media only screen and(max-width:479px) {
+      width: 100%;
+      padding: 0 15px;
+    }
+  }
+  a.btn{
+    border:none;
+    color:white;
+    background: $color-green;
+    padding: 10px 23px;
+    font-family: $font-bold;
+    font-size: 14px;
+    @include transition(all .3s ease-in-out);
+
+    &:hover {
+      transform: Scale(.9,.9);
+    }
+  }
+}
+.my-panel.panel-view-profile {
+  background: #f6f9fa;
+  padding: 40px 0;
+  border: 2px dashed #30b5ff;
+  margin-top: 30px;
+
+  a.btn {
+    background-color: #85a4d3;
+  }
+}
+.top-view-profile {
+  display: block;
+  position: absolute;
+  right: 0;
+  font-size: 12px;
+  top: -24px;
+  color: #16B4DC;
+}
+

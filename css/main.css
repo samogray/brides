@@ -72,6 +72,7 @@ a.btn {
 }
 a.btn {
 	border: 1px solid #a9a9a9;
+	font-family: "OpenSansRegular";
 }
 .slide-cont, div.container-fluid{
 	padding: 0;
