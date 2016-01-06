@@ -197,27 +197,7 @@ a.menu-account-btn{
 }
 .other-photo-slider2{
 
-  span.glyphicon.glyphicon-triangle-right {
-    padding: 6px 6px 6px 7px;
-    right: 15px;
 
-  }
-  span.glyphicon.glyphicon-triangle-left, span.glyphicon.glyphicon-triangle-right {
-    background: rgb(67, 182, 216);
-    border-radius: 50%;
-    top: 30%;
-    font-size: 20px;
-    position: absolute;
-    z-index: 2000;
-    cursor: pointer;
-    color: white;
-    opacity: .6;
-    @include transition(all .3s ease-in-out);
-
-      &:hover{
-        opacity: .8;
-      }
-  }
   .prev-anketa img {
     max-width: 100%;
     min-height: 250px;
@@ -230,4 +210,26 @@ article.new-men {
 
 h1.lady-catalog-title.men-catalog {
   padding: 10px 68px 10px 0;
+}
+
+span.glyphicon.glyphicon-triangle-right {
+  padding: 6px 6px 6px 7px;
+  right: 15px;
+
+}
+span.glyphicon.glyphicon-triangle-left, span.glyphicon.glyphicon-triangle-right {
+  background: rgb(67, 182, 216);
+  border-radius: 50%;
+  top: 30%;
+  font-size: 20px;
+  position: absolute;
+  z-index: 2000;
+  cursor: pointer;
+  color: white;
+  opacity: .6;
+  @include transition(all .3s ease-in-out);
+
+  &:hover{
+    opacity: .8;
+  }
 }
