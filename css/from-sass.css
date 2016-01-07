@@ -3794,12 +3794,12 @@ span.date-massage {
   width: 100%;
 }
 .carousel-birthd .prev span.glyphicon.glyphicon-triangle-left {
-  left: -38px;
+  left: -34px;
   padding-right: 8px;
   font-size: 18px;
 }
 .carousel-birthd .next span.glyphicon.glyphicon-triangle-right {
-  right: -38px;
+  right: -34px;
   padding-left: 8px;
   font-size: 18px;
 }
@@ -3952,6 +3952,151 @@ span.date-massage {
   font-size: 12px;
   top: -24px;
   color: #16B4DC;
+}
+
+.message-item.full-item {
+  align-items: stretch;
+}
+.message-item.full-item span.id-girl.time {
+  display: block;
+  font-size: 12px;
+}
+.message-item.full-item:hover {
+  border: 1px solid #dbdbdb;
+  background-color: white;
+}
+.message-item.full-item .from-mess.full-viev p {
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
+  font-style: normal;
+}
+.message-item.full-item .files {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.message-item.full-item .files h3 {
+  margin-bottom: 15px;
+}
+.message-item.full-item .files a {
+  font-size: 14px;
+}
+.message-item.full-item .files span {
+  margin-right: 10px;
+}
+.message-item.full-item .files a.btn, .message-item.full-item .files .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .message-item.full-item .files a.gift, .message-item.full-item .files .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .message-item.full-item .files a.translate {
+  font-size: 16px;
+  color: #bebebe;
+  border: 1px solid #e9e9e9;
+  padding-top: 65px;
+  width: 206px;
+  height: 108px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #f8f8f8 url("../img/button-for-mess.png") no-repeat;
+}
+.message-item.full-item .files a.btn:hover, .message-item.full-item .files .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .message-item.full-item .files a.gift:hover, .message-item.full-item .files .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .message-item.full-item .files a.translate:hover {
+  transform: Scale(0.9, 0.9);
+}
+.message-item.full-item .files a.reply {
+  background-position: 69px 13px;
+}
+.message-item.full-item .files a.spam {
+  background-position: -135px 13px;
+}
+.message-item.full-item .files a.del-mess {
+  background-position: -347px 13px;
+}
+
+.create-mess {
+  border: 1px solid #dbdbdb;
+  padding: 15px;
+}
+.create-mess .col-xs-12 {
+  text-align: left;
+}
+
+.col-lg-1 {
+  padding: 0;
+}
+
+.row {
+  margin-bottom: 25px;
+}
+
+b {
+  color: #b1b1b1;
+  font-size: 14px;
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  color: #444444;
+  font-size: 24px;
+  margin-bottom: 52px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #EEEEEE;
+}
+@media only screen and (max-width: 767px) {
+  input {
+    margin-top: 15px;
+  }
+}
+
+input[type="file"] {
+  border: none;
+  margin-top: 15px;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  height: 300px;
+  border: none;
+}
+@media only screen and (max-width: 767px) {
+  textarea {
+    margin-top: 15px;
+  }
+}
+
+.input-file + span {
+  font-size: 12px;
+}
+
+.send-letter-btn {
+  border-top: 1px solid #dedede;
+  padding-top: 20px;
+  margin-top: 15px;
+}
+.send-letter-btn a.btn, .send-letter-btn .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .send-letter-btn a.gift, .send-letter-btn .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .send-letter-btn a.translate {
+  border: none;
+  background: #64b118;
+  color: white;
+  font-size: 14px;
+  padding: 13px 13px;
+}
+.send-letter-btn a.btn:hover, .send-letter-btn .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .send-letter-btn a.gift:hover, .send-letter-btn .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .send-letter-btn a.translate:hover {
+  background: green;
+}
+.send-letter-btn a.btn.trash, .send-letter-btn .chat-wrap .type-mess a.trash.gift, .chat-wrap .type-mess .send-letter-btn a.trash.gift, .send-letter-btn .chat-wrap .type-mess a.trash.translate, .chat-wrap .type-mess .send-letter-btn a.trash.translate {
+  background: none;
+  color: #565656;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.send-letter-btn a.btn.trash:hover, .send-letter-btn .chat-wrap .type-mess a.trash.gift:hover, .chat-wrap .type-mess .send-letter-btn a.trash.gift:hover, .send-letter-btn .chat-wrap .type-mess a.trash.translate:hover, .chat-wrap .type-mess .send-letter-btn a.trash.translate:hover {
+  color: red;
+}
+.send-letter-btn a.btn.trash span, .send-letter-btn .chat-wrap .type-mess a.trash.gift span, .chat-wrap .type-mess .send-letter-btn a.trash.gift span, .send-letter-btn .chat-wrap .type-mess a.trash.translate span, .chat-wrap .type-mess .send-letter-btn a.trash.translate span {
+  margin-right: 5px;
 }
 
 /*# sourceMappingURL=from-sass.css.map */
