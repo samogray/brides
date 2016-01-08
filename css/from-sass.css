@@ -4301,6 +4301,12 @@ input {
   padding-left: 7px;
 }
 
+@media only screen and (max-width: 991px) {
+  .phone-calls .nav-pills > li {
+    float: none;
+  }
+}
+
 .form-rezerv {
   margin-top: 35px;
   margin-bottom: 100px;
@@ -4312,6 +4318,21 @@ input {
   /*---------------------------*/
   /*----------!!!------------------------*/
   /*----------------------------------*/
+}
+@media only screen and (max-width: 767px) {
+  .form-rezerv .f-right {
+    float: right;
+    padding: 0;
+    border-top: none;
+    border-bottom: none;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .form-rezerv label {
+    margin-bottom: 7px;
+    text-align: center;
+    width: 100%;
+  }
 }
 .form-rezerv h3 {
   font-size: 24px;
@@ -4327,6 +4348,7 @@ input {
 .form-rezerv .panel-search .img-box-mes-item {
   width: 98px;
   float: left;
+  margin-right: 15px;
 }
 .form-rezerv .panel-search .form-group label {
   display: block;
@@ -4350,6 +4372,12 @@ input {
   margin-top: 35px;
   margin-bottom: 15px;
 }
+@media only screen and (max-width: 479px) {
+  .form-rezerv .title-form-rezerv {
+    font-size: 24px;
+    text-align: center;
+  }
+}
 .form-rezerv .panel-form-rezerv {
   padding: 35px 15px;
   background-color: #F4F4F4;
@@ -4364,6 +4392,11 @@ input {
   right: 9px;
   top: 12px;
 }
+@media only screen and (max-width: 479px) {
+  .form-rezerv .panel-form-rezerv span.fa.fa-calendar {
+    top: 45px;
+  }
+}
 .form-rezerv .panel-form-rezerv span {
   color: #6d6d6d;
   font-size: 14px;
@@ -4373,16 +4406,36 @@ input {
   font-size: 16px;
   padding-top: 11px;
 }
-.form-rezerv .panel-form-rezerv input, .form-rezerv .panel-form-rezerv select {
+.form-rezerv .panel-form-rezerv input, .form-rezerv .panel-form-rezerv select, .form-rezerv .panel-form-rezerv .group-number, .form-rezerv .panel-form-rezerv div#gmt-styler {
   height: 40px;
   width: 65%;
+}
+@media only screen and (max-width: 479px) {
+  .form-rezerv .panel-form-rezerv input, .form-rezerv .panel-form-rezerv select, .form-rezerv .panel-form-rezerv .group-number, .form-rezerv .panel-form-rezerv div#gmt-styler {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 .form-rezerv .panel-form-rezerv input[type="number"] {
   width: 100px;
   height: 40px;
 }
+@media only screen and (max-width: 871px) {
+  .form-rezerv .panel-form-rezerv input[type="number"] {
+    width: 67px;
+  }
+}
+.form-rezerv .panel-form-rezerv .f-right.group-number {
+  text-align: right;
+}
 .form-rezerv .jq-number__field {
   width: 102px;
+  border-radius: 0;
+}
+@media only screen and (max-width: 871px) {
+  .form-rezerv .jq-number__field {
+    width: 70px;
+  }
 }
 .form-rezerv .jq-number .jq-number__spin {
   top: 5px;
@@ -4413,6 +4466,11 @@ input {
   line-height: 21px;
   margin-bottom: 15px;
 }
+@media screen and (max-width: 847px) {
+  .form-rezerv .info-time-zone h3 {
+    padding-right: 0;
+  }
+}
 .form-rezerv .info-time-zone p {
   color: #939393;
   font-size: 14px;
@@ -4433,6 +4491,11 @@ input {
 .form-rezerv .contact-number .email-group input {
   width: 65%;
   float: right;
+}
+@media only screen and (max-width: 479px) {
+  .form-rezerv .contact-number .email-group input {
+    width: 100%;
+  }
 }
 .form-rezerv .order-phone {
   margin-top: 40px;

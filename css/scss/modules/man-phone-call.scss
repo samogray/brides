@@ -2,11 +2,36 @@
 input{
   padding-left: 7px;
 }
+.phone-calls .nav-pills>li{
+  @media only screen and (max-width: 991px){
+    float:none;
+  }
+
+}
 .form-rezerv{
 
     margin-top:35px;
   margin-bottom: 100px;
 
+  .f-right {
+
+    @media only screen and (max-width: 767px)
+    {
+      float:right;
+      padding: 0;
+      border-top:none;
+      border-bottom:none;
+    }
+
+  }
+label{
+  @media only screen and (max-width: 479px)
+  {
+    margin-bottom: 7px;
+    text-align: center;
+    width: 100%;
+  }
+}
   h3{
     font-size: 24px;
     color:#353535;
@@ -22,6 +47,7 @@ input{
     .img-box-mes-item{
       width: 98px;
       float:left;
+      margin-right: 15px;
     }
 
     .form-group{
@@ -50,6 +76,11 @@ input{
     font-size: 36px;
     margin-top:35px;
     margin-bottom: 15px;
+    @media only screen and (max-width: 479px)
+    {
+      font-size: 24px;
+      text-align: center;
+    }
   }
 /*--------------------!!!!!-------------------*/
   .panel-form-rezerv{
@@ -65,6 +96,11 @@ input{
       position: absolute;
       right: 9px;
       top: 12px;
+      @media only screen and (max-width: 479px)
+      {
+        top:45px;
+     }
+
     }
     span{
       color:#6d6d6d;
@@ -75,18 +111,36 @@ input{
       font-size: 16px;
       padding-top: 11px;
     }
-    input,select{
+    input,select,.group-number, div#gmt-styler{
       height: 40px;
       width: 65%;
+      @media only screen and (max-width: 479px)
+      {
+        width: 100%;
+        margin: 0 auto;
+      }
     }
     input[type="number"]{
       width: 100px;
       height: 40px;
+      @media only screen and (max-width:871px)
+      {
+        width: 67px;
+      }
+    }
+    .f-right.group-number {
+      text-align: right;
     }
   }
 /*--------------------------------------*/
   .jq-number__field {
     width: 102px;
+    border-radius: 0;
+
+    @media only screen and (max-width:871px)
+    {
+      width:70px;
+    }
   }
   .jq-number .jq-number__spin{
     top:5px;
@@ -119,6 +173,9 @@ input{
       padding-right: 126px;
       line-height: 21px;
       margin-bottom: 15px;
+      @media screen and (max-width: 847px) {
+padding-right: 0;
+      }
     }
 
     p{
@@ -150,6 +207,11 @@ input{
      input{
        width: 65%;
        float: right;
+
+       @media only screen and (max-width: 479px)
+       {
+         width: 100%;
+       }
      }
    }
 
