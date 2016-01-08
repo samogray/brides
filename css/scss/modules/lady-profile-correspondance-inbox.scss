@@ -77,20 +77,7 @@
       border: 1px solid #4ec4e3;
       background-color: #f1f6f7;
     }
-  .img-box-mes-item {
-    min-width: 98px;
-    height: 98px;
-    padding: 3px;
-    border: 1px solid #16B4DC;
-    margin-right: 20px;
-    @media only screen and(max-width:479px) {
-      margin: 0 auto;
-    }
-    img{
-      width: 88px;
-      height: 88px;
-    }
-  }
+
   
   .from-mess{
     @media only screen and(max-width:847px) {
@@ -253,5 +240,19 @@ span.date-massage{
   .viev {
     min-width: 117px;
     text-align: right;
+  }
+}
+.img-box-mes-item {
+  min-width: 98px;
+  height: 98px;
+  padding: 3px;
+  border: 1px solid #16B4DC;
+  margin-right: 20px;
+  @media only screen and(max-width:479px) {
+    margin: 0 auto;
+  }
+  img{
+    width: 88px;
+    height: 88px;
   }
 }

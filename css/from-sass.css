@@ -3490,22 +3490,6 @@ h1.lady-catalog-title.men-catalog {
   border: 1px solid #4ec4e3;
   background-color: #f1f6f7;
 }
-.message-item .img-box-mes-item {
-  min-width: 98px;
-  height: 98px;
-  padding: 3px;
-  border: 1px solid #16B4DC;
-  margin-right: 20px;
-}
-@media only screen and (max-width: 479px) {
-  .message-item .img-box-mes-item {
-    margin: 0 auto;
-  }
-}
-.message-item .img-box-mes-item img {
-  width: 88px;
-  height: 88px;
-}
 @media only screen and (max-width: 847px) {
   .message-item .from-mess {
     width: 100%;
@@ -3672,6 +3656,23 @@ span.date-massage {
   text-align: right;
 }
 
+.img-box-mes-item {
+  min-width: 98px;
+  height: 98px;
+  padding: 3px;
+  border: 1px solid #16B4DC;
+  margin-right: 20px;
+}
+@media only screen and (max-width: 479px) {
+  .img-box-mes-item {
+    margin: 0 auto;
+  }
+}
+.img-box-mes-item img {
+  width: 88px;
+  height: 88px;
+}
+
 .wrap-change-password {
   background-color: #f7f7f7;
   padding: 20px;
@@ -3821,6 +3822,101 @@ span.date-massage {
 }
 .how-does .col-lg-6.no-pading {
   padding: 0;
+}
+
+.btn.ladies-available, .chat-wrap .type-mess .ladies-available.gift, .chat-wrap .type-mess .ladies-available.translate {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border: none;
+  background: #16b4dc;
+  color: #fff;
+  font-size: 16px;
+  padding: 9px 26px;
+  opacity: .6;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.btn.ladies-available:hover, .chat-wrap .type-mess .ladies-available.gift:hover, .chat-wrap .type-mess .ladies-available.translate:hover {
+  opacity: 1;
+}
+
+.pop-up-slider {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 5000;
+  width: 100%;
+  height: 450px;
+  background: white;
+}
+.pop-up-slider .ladies-available-down {
+  position: absolute;
+  top: -61px;
+  background: #16b4dc;
+  color: #fff;
+  font-size: 16px;
+  padding: 9px 26px;
+  right: 0;
+}
+.pop-up-slider h1 {
+  font-size: 30px;
+}
+.pop-up-slider .prev-anketa.center-block {
+  max-width: 195px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.pop-up-slider .prev-anketa.center-block a.v-prof.btn, .pop-up-slider .prev-anketa.center-block .chat-wrap .type-mess a.v-prof.gift, .chat-wrap .type-mess .pop-up-slider .prev-anketa.center-block a.v-prof.gift, .pop-up-slider .prev-anketa.center-block .chat-wrap .type-mess a.v-prof.translate, .chat-wrap .type-mess .pop-up-slider .prev-anketa.center-block a.v-prof.translate {
+  float: none;
+  display: block;
+  width: 112px;
+  margin: 6px auto;
+  background-color: white;
+  border: 1px solid #16b4dc;
+  border-radius: 0;
+  color: #16b4dc;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.pop-up-slider .prev-anketa.center-block a.v-prof.btn:hover, .pop-up-slider .prev-anketa.center-block .chat-wrap .type-mess a.v-prof.gift:hover, .chat-wrap .type-mess .pop-up-slider .prev-anketa.center-block a.v-prof.gift:hover, .pop-up-slider .prev-anketa.center-block .chat-wrap .type-mess a.v-prof.translate:hover, .chat-wrap .type-mess .pop-up-slider .prev-anketa.center-block a.v-prof.translate:hover {
+  background-color: #64b118;
+  border: 1px solid #64b118;
+  border-radius: 0;
+  color: WHITE;
+}
+.pop-up-slider .prev-anketa.center-block h3.my-name {
+  font-size: 18px;
+  padding-top: 13px;
+  float: none;
+  text-align: center;
+}
+.pop-up-slider .prev-anketa.center-block span.from-city {
+  display: inline;
+}
+.pop-up-slider span.fa.fa-angle-right, .pop-up-slider span.fa.fa-angle-left {
+  background: transparent;
+  top: 30%;
+  font-size: 60px;
+  position: absolute;
+  z-index: 2000;
+  cursor: pointer;
+  color: #43b6d8;
+  opacity: .6;
+  transition: all .3s ease-in-out;
+}
+.pop-up-slider span.fa.fa-angle-right {
+  padding: 6px 6px 6px 7px;
+  right: -48px;
+}
+.pop-up-slider span.fa.fa-angle-left {
+  padding: 6px 6px 6px 7px;
+  left: -48px;
 }
 
 .title-edit-profile {
@@ -4015,76 +4111,67 @@ span.date-massage {
 .create-mess .col-xs-12 {
   text-align: left;
 }
-
-.col-lg-1 {
+.create-mess .col-lg-1 {
   padding: 0;
 }
-
-.row {
+.create-mess .row {
   margin-bottom: 25px;
 }
-
-b {
+.create-mess b {
   color: #b1b1b1;
   font-size: 14px;
   font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   font-weight: 400;
 }
-
-h3 {
+.create-mess h3 {
   color: #444444;
   font-size: 24px;
   margin-bottom: 52px;
 }
-
-input {
+.create-mess input {
   width: 100%;
   border: none;
   border-bottom: 1px solid #EEEEEE;
 }
 @media only screen and (max-width: 767px) {
-  input {
+  .create-mess input {
     margin-top: 15px;
   }
 }
-
-input[type="file"] {
+.create-mess input[type="file"] {
   border: none;
   margin-top: 15px;
 }
-
-textarea {
+.create-mess textarea {
   width: 100%;
   resize: none;
   height: 300px;
   border: none;
 }
 @media only screen and (max-width: 767px) {
-  textarea {
+  .create-mess textarea {
     margin-top: 15px;
   }
 }
-
-.input-file + span {
+.create-mess .input-file + span {
   font-size: 12px;
 }
-
-.send-letter-btn {
+.create-mess .send-letter-btn {
   border-top: 1px solid #dedede;
   padding-top: 20px;
   margin-top: 15px;
 }
-.send-letter-btn a.btn, .send-letter-btn .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .send-letter-btn a.gift, .send-letter-btn .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .send-letter-btn a.translate {
+.create-mess .send-letter-btn a.btn, .create-mess .send-letter-btn .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .create-mess .send-letter-btn a.gift, .create-mess .send-letter-btn .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .create-mess .send-letter-btn a.translate {
   border: none;
   background: #64b118;
   color: white;
   font-size: 14px;
   padding: 13px 13px;
 }
-.send-letter-btn a.btn:hover, .send-letter-btn .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .send-letter-btn a.gift:hover, .send-letter-btn .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .send-letter-btn a.translate:hover {
+.create-mess .send-letter-btn a.btn:hover, .create-mess .send-letter-btn .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .create-mess .send-letter-btn a.gift:hover, .create-mess .send-letter-btn .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .create-mess .send-letter-btn a.translate:hover {
   background: green;
 }
-.send-letter-btn a.btn.trash, .send-letter-btn .chat-wrap .type-mess a.trash.gift, .chat-wrap .type-mess .send-letter-btn a.trash.gift, .send-letter-btn .chat-wrap .type-mess a.trash.translate, .chat-wrap .type-mess .send-letter-btn a.trash.translate {
+.create-mess .send-letter-btn a.btn.trash, .create-mess .send-letter-btn .chat-wrap .type-mess a.trash.gift, .chat-wrap .type-mess .create-mess .send-letter-btn a.trash.gift, .create-mess .send-letter-btn .chat-wrap .type-mess a.trash.translate, .chat-wrap .type-mess .create-mess .send-letter-btn a.trash.translate {
   background: none;
   color: #565656;
   -moz-transition: all 0.3s ease-in-out;
@@ -4092,11 +4179,294 @@ textarea {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.send-letter-btn a.btn.trash:hover, .send-letter-btn .chat-wrap .type-mess a.trash.gift:hover, .chat-wrap .type-mess .send-letter-btn a.trash.gift:hover, .send-letter-btn .chat-wrap .type-mess a.trash.translate:hover, .chat-wrap .type-mess .send-letter-btn a.trash.translate:hover {
+.create-mess .send-letter-btn a.btn.trash:hover, .create-mess .send-letter-btn .chat-wrap .type-mess a.trash.gift:hover, .chat-wrap .type-mess .create-mess .send-letter-btn a.trash.gift:hover, .create-mess .send-letter-btn .chat-wrap .type-mess a.trash.translate:hover, .chat-wrap .type-mess .create-mess .send-letter-btn a.trash.translate:hover {
   color: red;
 }
-.send-letter-btn a.btn.trash span, .send-letter-btn .chat-wrap .type-mess a.trash.gift span, .chat-wrap .type-mess .send-letter-btn a.trash.gift span, .send-letter-btn .chat-wrap .type-mess a.trash.translate span, .chat-wrap .type-mess .send-letter-btn a.trash.translate span {
+.create-mess .send-letter-btn a.btn.trash span, .create-mess .send-letter-btn .chat-wrap .type-mess a.trash.gift span, .chat-wrap .type-mess .create-mess .send-letter-btn a.trash.gift span, .create-mess .send-letter-btn .chat-wrap .type-mess a.trash.translate span, .chat-wrap .type-mess .create-mess .send-letter-btn a.trash.translate span {
   margin-right: 5px;
+}
+
+.man-bay-credit p {
+  line-height: 21px;
+  font-size: 14px;
+}
+.man-bay-credit .form-width {
+  max-width: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .man-bay-credit .flex-item.form-width {
+    max-width: 318px;
+    padding: 0;
+    margin: 10px auto;
+  }
+}
+
+.exact-amount {
+  font-size: 28px;
+  margin-top: 15px;
+}
+.exact-amount input {
+  border: none;
+  background-color: #e1f3f8;
+  height: 55px;
+  width: 110px;
+  padding: 4px;
+}
+.exact-amount td {
+  width: 50px;
+  text-align: center;
+}
+.exact-amount td.input {
+  width: 111px;
+}
+.exact-amount label {
+  font-size: 14px;
+  display: inherit;
+  padding-top: 6px;
+}
+
+#price {
+  color: #16b4dc;
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
+}
+
+input#amount {
+  margin-left: 0;
+}
+
+.border {
+  margin-top: 20px;
+  border-top: 1px solid #bebebe;
+}
+
+input.discount {
+  margin-top: 15px;
+  width: 70%;
+  height: 35px;
+}
+
+label.discount {
+  font-size: 14px;
+  color: #939393;
+}
+
+.total {
+  padding: 15px;
+  background-color: #ebf4f5;
+}
+.total h3 {
+  color: #16b4dc;
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
+  margin-bottom: 15px;
+}
+.total ul li:last-child {
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
+}
+.total ul li {
+  display: block;
+  width: 100%;
+  color: black;
+  padding: 5px 0;
+}
+.total ul li .total-credit, .total ul li .total-discount,
+.total ul li .grand-total {
+  float: right;
+}
+.total ul li .grand-total {
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
+}
+.total a.btn, .total .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .total a.gift, .total .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .total a.translate {
+  color: white;
+  background-color: #64b118;
+  border: none;
+  float: right;
+  margin-top: 20px;
+  padding: 11px 12px;
+}
+
+.man-bay-credit-pay .cvv-wrap {
+  margin-top: 0;
+}
+.man-bay-credit-pay input {
+  border-radius: 0;
+}
+.man-bay-credit-pay .form-control {
+  height: 33px;
+}
+.man-bay-credit-pay .link-mcafee, .man-bay-credit-pay .link-norton {
+  padding: 0;
+}
+
+input {
+  padding-left: 7px;
+}
+
+.form-rezerv {
+  margin-top: 35px;
+  margin-bottom: 100px;
+  /*----------------!!!!------------------*/
+  /*-------------------------------------------*/
+  /*--------------------!!!!!-------------------*/
+  /*--------------------------------------*/
+  /*----------------!!!!!!!!!!!-----------------*/
+  /*---------------------------*/
+  /*----------!!!------------------------*/
+  /*----------------------------------*/
+}
+.form-rezerv h3 {
+  font-size: 24px;
+  color: #353535;
+  margin-bottom: 35px;
+}
+.form-rezerv .panel-search {
+  background-color: #dbf1f6;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 35px;
+}
+.form-rezerv .panel-search .img-box-mes-item {
+  width: 98px;
+  float: left;
+}
+.form-rezerv .panel-search .form-group label {
+  display: block;
+  font-size: 18px;
+  color: #353535;
+  text-align: left;
+  padding-top: 11px;
+  margin-bottom: 11px;
+}
+.form-rezerv .panel-search .form-group input {
+  height: 35px;
+}
+.form-rezerv p {
+  font-size: 14px;
+  color: #575757;
+  line-height: 20px;
+}
+.form-rezerv .title-form-rezerv {
+  color: #16b4dc;
+  font-size: 36px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+.form-rezerv .panel-form-rezerv {
+  padding: 35px 15px;
+  background-color: #F4F4F4;
+  margin-bottom: 50px;
+}
+.form-rezerv .panel-form-rezerv .form-goup {
+  margin-bottom: 30px;
+  position: relative;
+}
+.form-rezerv .panel-form-rezerv span.fa.fa-calendar {
+  position: absolute;
+  right: 9px;
+  top: 12px;
+}
+.form-rezerv .panel-form-rezerv span {
+  color: #6d6d6d;
+  font-size: 14px;
+}
+.form-rezerv .panel-form-rezerv label {
+  color: #6d6d6d;
+  font-size: 16px;
+  padding-top: 11px;
+}
+.form-rezerv .panel-form-rezerv input, .form-rezerv .panel-form-rezerv select {
+  height: 40px;
+  width: 65%;
+}
+.form-rezerv .panel-form-rezerv input[type="number"] {
+  width: 100px;
+  height: 40px;
+}
+.form-rezerv .jq-number__field {
+  width: 102px;
+}
+.form-rezerv .jq-number .jq-number__spin {
+  top: 5px;
+}
+.form-rezerv .jq-selectbox__select {
+  height: 40px;
+  background-image: none;
+  background-color: white;
+  border-radius: 0;
+}
+.form-rezerv div#gmt-styler {
+  width: 65%;
+}
+.form-rezerv .jq-selectbox__trigger {
+  border-left: none;
+}
+.form-rezerv .info-time-zone {
+  background-color: #ffffe9;
+  border: 2px dashed #16b4dc;
+  padding: 15px;
+  margin-bottom: 35px;
+}
+.form-rezerv .info-time-zone h3 {
+  font-size: 18px;
+  color: #16b4dc;
+  margin-top: 15px;
+  padding-right: 126px;
+  line-height: 21px;
+  margin-bottom: 15px;
+}
+.form-rezerv .info-time-zone p {
+  color: #939393;
+  font-size: 14px;
+}
+.form-rezerv .info-time-zone p span {
+  color: black;
+  display: block;
+}
+.form-rezerv .contact-number h3 {
+  font-size: 18px;
+  color: #6d6d6d;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+.form-rezerv .contact-number input {
+  width: 100%;
+}
+.form-rezerv .contact-number .email-group input {
+  width: 65%;
+  float: right;
+}
+.form-rezerv .order-phone {
+  margin-top: 40px;
+  text-align: right;
+}
+.form-rezerv .order-phone p {
+  display: inline-block;
+  color: #939393;
+  font-size: 14px;
+}
+.form-rezerv .order-phone p a {
+  color: #939393;
+  text-decoration: underline;
+}
+.form-rezerv .order-phone a.btn, .form-rezerv .order-phone .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .form-rezerv .order-phone a.gift, .form-rezerv .order-phone .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .form-rezerv .order-phone a.translate {
+  background-color: #002a80;
+  color: white;
+  border: none;
+  margin: 15px;
+  margin-right: 0;
+  padding: 10px 18px;
+  font-size: 14px;
+}
+.form-rezerv h3 {
+  color: #353535;
+}
+.form-rezerv p.how-work {
+  font-size: 16px;
+  color: #696969;
+  line-height: 30px;
+}
+
+.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-top {
+  z-index: 2000;
 }
 
 /*# sourceMappingURL=from-sass.css.map */

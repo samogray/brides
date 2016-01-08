@@ -90,3 +90,98 @@ text-align: center;
   }
 }
 
+.btn.ladies-available {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border: none;
+  background: #16b4dc;
+  color: #fff;
+  font-size: 16px;
+  padding: 9px 26px;
+  opacity: .6;
+  @include transition(all .3s ease-in-out);
+
+  &:hover {
+    opacity: 1;
+  }
+}
+.pop-up-slider {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 5000;
+  width: 100%;
+  height: 450px;
+  background: white;
+  .ladies-available-down{
+    position: absolute;
+    top:-61px;
+    background: #16b4dc;
+    color: #fff;
+    font-size: 16px;
+    padding: 9px 26px;
+    right: 0;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .prev-anketa.center-block {
+    max-width: 195px;
+    text-align: center;
+    margin-bottom: 0;
+
+    a.v-prof.btn {
+      float: none;
+      display: block;
+      width: 112px;
+      margin: 6px auto;
+      background-color: white;
+      border: 1px solid $color-blue-font;
+      border-radius: 0;
+      color: $color-blue-font;
+      @include transition(all .3s ease-in-out);
+
+      &:hover {
+        background-color: $color-green;
+        border: 1px solid $color-green;
+        border-radius: 0;
+        color: WHITE;
+      }
+    }
+    h3.my-name {
+      font-size: 18px;
+      padding-top: 13px;
+      float: none;
+      text-align: center;
+    }
+    span.from-city {
+      display: inline;
+    }
+  }
+
+  span.fa.fa-angle-right, span.fa.fa-angle-left {
+    background: transparent;
+    top: 30%;
+    font-size: 60px;
+    position: absolute;
+    z-index: 2000;
+    cursor: pointer;
+    color:#43b6d8;
+    opacity: .6;
+    transition: all .3s ease-in-out;
+
+  }
+
+  span.fa.fa-angle-right {
+    padding: 6px 6px 6px 7px;
+    right:-48px;
+  }
+  span.fa.fa-angle-left {
+    padding: 6px 6px 6px 7px;
+    left:-48px;
+  }
+}
