@@ -127,6 +127,13 @@ text-align: center;
 
   h1 {
     font-size: 30px;
+    padding-left:15px;
+  }
+  .my-wrap{
+    max-width: 2000px;
+  }
+  .slider-available.slick-initialized.slick-slider{
+    max-width: 92%;
   }
 
   .prev-anketa.center-block {

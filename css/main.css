@@ -451,12 +451,13 @@ a.online {
 	background: rgba(0, 0, 0, 0.34) url("../img/profile-btn.png") no-repeat -155px 16px;
 	transition: all .2s ease-in-out;
 	font-family: 'Open Sans', sans-serif;
+	transition: all .2s ease-in-out;
+
 }
 a.v-prof:hover{
 	text-decoration: none;
 	color:white;
-	padding: 18px 18px 10px 35px;
-
+	padding-bottom: 20px;
 }
 ul.action{
 	box-sizing: border-box;

@@ -3280,6 +3280,9 @@ span.glyphicon.glyphicon-triangle-left:hover, span.glyphicon.glyphicon-triangle-
   margin: 0 5px 5px 0;
   max-height: 190px;
 }
+.flex-container-my-photo .my-photo-flex img {
+  max-height: 190px;
+}
 .flex-container-my-photo .my-photo-flex a {
   display: block;
   position: relative;
@@ -3347,29 +3350,29 @@ h1.lady-catalog-title.men-catalog {
   padding-right: 50px;
 }
 
-.my-finance {
+.my-finance, .phone-calls {
   /* .scroll-element.scroll-x {
      display:block;
    }*/
 }
 @media screen and (max-width: 390px) {
-  .my-finance .nav-pills > li {
+  .my-finance .nav-pills > li, .phone-calls .nav-pills > li {
     float: none;
   }
 }
-.my-finance .nav > li > a {
+.my-finance .nav > li > a, .phone-calls .nav > li > a {
   padding: 6px 10px;
   font-size: 14px;
 }
-.my-finance .scrollbar-inner {
+.my-finance .scrollbar-inner, .phone-calls .scrollbar-inner {
   height: auto;
   min-height: inherit;
 }
-.my-finance .nav-pills > li.active > a {
+.my-finance .nav-pills > li.active > a, .phone-calls .nav-pills > li.active > a {
   background-color: #16b4dc;
   font-size: 14px;
 }
-.my-finance table.table-money {
+.my-finance table.table-money, .phone-calls table.table-money {
   width: 100%;
   max-width: 100%;
   margin-bottom: 20px;
@@ -3382,24 +3385,28 @@ h1.lady-catalog-title.men-catalog {
   border-bottom: 1px solid #DDDDDD;
   border-right: 1px solid #DDDDDD;
 }
-.my-finance table.table-money thead th {
+.my-finance table.table-money thead th, .phone-calls table.table-money thead th {
   border: none;
   color: #16b4dc;
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
 }
-.my-finance table.table-money tbody a {
+.my-finance table.table-money tbody a, .phone-calls table.table-money tbody a {
   color: #16b4dc;
   text-decoration: underline;
 }
-.my-finance table.table-money tbody th.succes {
+.my-finance table.table-money tbody th.succes, .phone-calls table.table-money tbody th.succes {
   color: #64b118;
 }
-.my-finance table.table-money tbody th.error {
+.my-finance table.table-money tbody th.error, .phone-calls table.table-money tbody th.error {
   color: red;
 }
-.my-finance table.table-money tbody th.pending {
+.my-finance table.table-money tbody th.pending, .phone-calls table.table-money tbody th.pending {
   color: #565656;
 }
-.my-finance table.table-money .th-border {
+.my-finance table.table-money tbody .id-girl, .phone-calls table.table-money tbody .id-girl {
+  font-size: 14px;
+}
+.my-finance table.table-money .th-border, .phone-calls table.table-money .th-border {
   border-left: 1px solid #DDDDDD;
 }
 
@@ -3864,6 +3871,13 @@ span.date-massage {
 }
 .pop-up-slider h1 {
   font-size: 30px;
+  padding-left: 15px;
+}
+.pop-up-slider .my-wrap {
+  max-width: 2000px;
+}
+.pop-up-slider .slider-available.slick-initialized.slick-slider {
+  max-width: 92%;
 }
 .pop-up-slider .prev-anketa.center-block {
   max-width: 195px;
@@ -4530,6 +4544,10 @@ input {
 
 .datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-top {
   z-index: 2000;
+}
+
+div#gmt-styler {
+  z-index: 1 !important;
 }
 
 /*# sourceMappingURL=from-sass.css.map */

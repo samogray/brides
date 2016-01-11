@@ -253,6 +253,9 @@ margin-top: 40px;
   }
 }
 
-.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-top {
-  z-index: 2000;
+.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-top{
+  z-index:2000;
+}
+div#gmt-styler {
+  z-index: 1!important;
 }
