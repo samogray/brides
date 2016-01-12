@@ -1445,7 +1445,7 @@ a.btn.advanced-srch {
 	font-size: 12px;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
-	z-index: 2000;
+	z-index:50;
 }
 h3.res-serch-title {
 	color: #979797;
@@ -1798,7 +1798,6 @@ a.btn.create-new-ac:hover{
 }
 
 .wrap-number{
-	width: 173px;
 }
 .invisible-form .wrap-number {
 	width: 100%;
@@ -1812,7 +1811,6 @@ a.btn.create-new-ac:hover{
 .wrap-number span.to{
 	display: inline-block;
 	padding-top: 13px;
-	padding-left: 8px;
 }
 ul.nav.my-nav{
 	position: relative;

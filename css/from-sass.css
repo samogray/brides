@@ -4979,4 +4979,63 @@ div#gmt-styler {
   text-decoration: none;
 }
 
+form#search-girl .jq-selectbox__select-text {
+  color: #bebebe;
+}
+form#search-girl .jq-number .jq-number__field {
+  width: 66px;
+  border-radius: 0;
+  color: #bebebe;
+}
+form#search-girl select {
+  width: 184px;
+}
+form#search-girl .jq-selectbox__select {
+  border-radius: 0;
+  background-color: white;
+  background-image: none;
+}
+form#search-girl .jq-selectbox.jqselect.my-list {
+  width: 184px;
+  text-align: left;
+}
+form#search-girl .jq-selectbox__dropdown {
+  z-index: 2500 !important;
+}
+form#search-girl .jq-selectbox__dropdown {
+  border-radius: 0;
+  border: none;
+}
+form#search-girl .jq-selectbox__trigger {
+  border-left: none;
+}
+form#search-girl input {
+  border-radius: 0;
+  color: #bebebe;
+}
+@media only screen and (max-width: 479px) {
+  form#search-girl input.my-number {
+    margin: 0;
+  }
+}
+form#search-girl span.label-input {
+  padding-bottom: 5px;
+}
+form#search-girl .col {
+  margin-bottom: 15px;
+}
+form#search-girl .invisible-form .wrap-number {
+  margin-bottom: 8px;
+}
+form#search-girl .invisible-form .wrap-number .jq-number__field {
+  border-radius: 0;
+}
+form#search-girl .invisible-form .jq-selectbox.jqselect.my-list {
+  width: 100%;
+  text-align: left;
+}
+form#search-girl .invisible-form input {
+  border-radius: 0;
+}
+
 /*# sourceMappingURL=from-sass.css.map */

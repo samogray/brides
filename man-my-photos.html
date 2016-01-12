@@ -121,41 +121,22 @@
                                         </div>
                                         <div class="col no-padding">
                                             <span class="label-input">Ladies name or ID</span>
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" id="name" placeholder="For example: Olga">
-                                            </div>
+                                            <input type="text" class="form-control" id="name" placeholder="For example: Olga">
+
                                         </div>
                                         <div class="col no-padding">
                                             <span class="label-input">Age Restrictions</span>
-                                            <div class="wrap-number clearfix">
-                                                <div class="form-group number left-number">
-                                                    <input type="number" class="form-control" id="min-age" placeholder="18" min="18" max="70"  value="18">
-                                                    <span class="min-up-btn"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></span>
-                                                    <span class="min-down-btn"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></span>
-                                                </div>
-                                                <span class="to">to</span>
-                                                <div class="form-group number right right-number">
-                                                    <input type="number" class="form-control" id="max-age" placeholder="60" min="18" max="70" value="18">
-                                                    <span class="max-up-btn"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></span>
-                                                    <span class="max-down-btn"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></span>
-                                                </div>
-                                            </div>
+                                            <input type="number" class="my-number"  id="min-age" placeholder="18" min="18" max="70"  value="18">
+                                            <span class="to">to</span>
+                                            <input type="number"  class="my-number" id="max-age" placeholder="60" min="18" max="70" value="18">
                                         </div>
                                         <div class="col no-padding">
                                             <span class="label-input">Hair</span>
-                                            <div class="form-group">
-                                                <div class="btn-group select-em">
-                                                    <a href="#0" class="btn  select-em" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Action<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                            <select  id="hair" class="my-list">
+                                                <option selected>blond</option>
+                                                <option value="hai2">hair2</option>
+                                                <option value="hair3">hair3</option>
+                                            </select>
                                         </div>
                                         <div class="col no-padding btn-search">
                                             <div class="form-group ">
@@ -175,18 +156,9 @@
                                         </div>
                                         <div class="col-lg-8 col-sm-8 no-padding">
                                             <div class="wrap-number clearfix">
-                                                <div class="form-group number left-number">
-                                                    <input type="number" class="form-control" id="test1" placeholder="18" min="18" max="70"  value="18">
-                                                    <span class="min-up-btn"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></span>
-                                                    <span class="min-down-btn"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></span>
-
-                                                </div>
+                                                <input type="number" class="my-number" id="test1" placeholder="18" min="18" max="70"  value="18">
                                                 <span class="to">to</span>
-                                                <div class="form-group number right right-number">
-                                                    <input type="number" class="form-control" id="test2" placeholder="60" min="18" max="70" value="18">
-                                                    <span class="max-up-btn"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></span>
-                                                    <span class="max-down-btn"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></span>
-                                                </div>
+                                                <input type="number" class="my-number" id="test2" placeholder="60" min="18" max="70" value="18">
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-sm-4 no-padding">
@@ -194,35 +166,22 @@
                                         </div>
                                         <div class="col-lg-8 col-sm-8  no-padding">
                                             <div class="wrap-number clearfix">
-                                                <div class="form-group number left-number">
-                                                    <input type="number" class="form-control" id="tt" placeholder="18" min="18" max="70"  value="18">
-                                                    <span class="min-up-btn"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></span>
-                                                    <span class="min-down-btn"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></span>
-                                                </div>
+                                                <input type="number" class="my-number" id="tt" placeholder="18" min="18" max="70"  value="18">
                                                 <span class="to">to</span>
-                                                <div class="form-group number right right-number">
-                                                    <input type="number" class="form-control" id="tt3" placeholder="60" min="18" max="70" value="18">
-                                                    <span class="max-up-btn"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></span>
-                                                    <span class="max-down-btn"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></span>
-                                                </div>
+                                                <input type="number"class="my-number" id="tt3" placeholder="60" min="18" max="70" value="18">
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-sm-4 no-padding">
                                             <h3 class="label-advanced-search">Eyes</h3>
                                         </div>
                                         <div class="col-lg-8  no-padding">
-
                                             <div class="form-group select-cont">
                                                 <div class="btn-group select-em">
-                                                    <a href="#0" class="btn  select-em" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Action<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                    </ul>
+                                                    <select  id="eyes" class="my-list">
+                                                        <option selected>green</option>
+                                                        <option value="hai2">hair2</option>
+                                                        <option value="hair3">hair3</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
@@ -232,15 +191,11 @@
                                         <div class="col-lg-8  no-padding">
                                             <div class="form-group select-cont">
                                                 <div class="btn-group select-em">
-                                                    <a href="#0" class="btn  select-em" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Action<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                    </ul>
+                                                    <select  id="hair2" class="my-list">
+                                                        <option selected>Blond</option>
+                                                        <option value="hai2">hair2</option>
+                                                        <option value="hair3">hair3</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
@@ -250,15 +205,11 @@
                                         <div class="col-lg-8  no-padding">
                                             <div class="form-group select-cont">
                                                 <div class="btn-group select-em">
-                                                    <a href="#0" class="btn  select-em" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Action<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                    </ul>
+                                                    <select  id="build" class="my-list">
+                                                        <option selected>Select</option>
+                                                        <option value="hai2">hair2</option>
+                                                        <option value="hair3">hair3</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
@@ -278,15 +229,11 @@
                                         <div class="col-lg-8  no-padding">
                                             <div class="form-group select-cont">
                                                 <div class="btn-group select-em">
-                                                    <a href="#0" class="btn  select-em" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Action<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                    </ul>
+                                                    <select  id="children" class="my-list">
+                                                        <option selected>Select</option>
+                                                        <option value="hai2">hair2</option>
+                                                        <option value="hair3">hair3</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
@@ -296,15 +243,11 @@
                                         <div class="col-lg-8 no-padding">
                                             <div class="form-group select-cont">
                                                 <div class="btn-group select-em">
-                                                    <a href="#0" class="btn  select-em" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Action<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                    </ul>
+                                                    <select  id="want-children" class="my-list">
+                                                        <option selected>Select</option>
+                                                        <option value="hai2">hair2</option>
+                                                        <option value="hair3">hair3</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
@@ -314,15 +257,11 @@
                                         <div class="col-lg-8  no-padding">
                                             <div class="form-group select-cont">
                                                 <div class="btn-group select-em">
-                                                    <a href="#0" class="btn  select-em" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Action<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                    </ul>
+                                                    <select  id="glasses" class="my-list">
+                                                        <option selected>Select</option>
+                                                        <option value="hai2">hair2</option>
+                                                        <option value="hair3">hair3</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
@@ -332,15 +271,11 @@
                                         <div class="col-lg-8 no-padding">
                                             <div class="form-group select-cont">
                                                 <div class="btn-group select-em">
-                                                    <a href="#0" class="btn  select-em" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Action<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                    </ul>
+                                                    <select  id="religion" class="my-list">
+                                                        <option selected>Select</option>
+                                                        <option value="hai2">hair2</option>
+                                                        <option value="hair3">hair3</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
@@ -350,15 +285,11 @@
                                         <div class="col-lg-8  no-padding">
                                             <div class="form-group select-cont">
                                                 <div class="btn-group select-em">
-                                                    <a href="#0" class="btn  select-em" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Action<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                    </ul>
+                                                    <select  id="drink" class="my-list">
+                                                        <option selected>Select</option>
+                                                        <option value="hai2">hair2</option>
+                                                        <option value="hair3">hair3</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
@@ -368,15 +299,11 @@
                                         <div class="col-lg-8  no-padding">
                                             <div class="form-group select-cont">
                                                 <div class="btn-group select-em">
-                                                    <a href="#0" class="btn  select-em" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Action<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                    </ul>
+                                                    <select  id="smoke" class="my-list">
+                                                        <option selected>Select</option>
+                                                        <option value="hai2">hair2</option>
+                                                        <option value="hair3">hair3</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
@@ -388,15 +315,11 @@
                                         <div class="col-lg-8  no-padding">
                                             <div class="form-group select-cont">
                                                 <div class="btn-group select-em">
-                                                    <a href="#0" class="btn  select-em" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Action<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                    </ul>
+                                                    <select  id="edu" class="my-list">
+                                                        <option selected>Select</option>
+                                                        <option value="hai2">hair2</option>
+                                                        <option value="hair3">hair3</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
@@ -406,15 +329,11 @@
                                         <div class="col-lg-8  no-padding">
                                             <div class="form-group select-cont">
                                                 <div class="btn-group select-em">
-                                                    <a href="#0" class="btn  select-em" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Action<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                    </ul>
+                                                    <select  id="zodiak" class="my-list">
+                                                        <option selected>Select</option>
+                                                        <option value="hai2">hair2</option>
+                                                        <option value="hair3">hair3</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
@@ -424,15 +343,11 @@
                                         <div class="col-lg-8  no-padding">
                                             <div class="form-group select-cont">
                                                 <div class="btn-group select-em">
-                                                    <a href="#0" class="btn  select-em" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Action<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                    </ul>
+                                                    <select  id="field-work" class="my-list">
+                                                        <option selected>Select</option>
+                                                        <option value="hai2">hair2</option>
+                                                        <option value="hair3">hair3</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
@@ -442,15 +357,11 @@
                                         <div class="col-lg-8  no-padding">
                                             <div class="form-group select-cont">
                                                 <div class="btn-group select-em">
-                                                    <a href="#0" class="btn  select-em" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Action<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                        <li><a href="#">Blond</a></li>
-                                                    </ul>
+                                                    <select  id="martial" class="my-list">
+                                                        <option selected>Select</option>
+                                                        <option value="hai2">hair2</option>
+                                                        <option value="hair3">hair3</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
@@ -690,6 +601,7 @@
         mobileFirst:true,
         infinite:true
     });
+    $('.my-list,.my-number').styler();
 
     $('.menu-account-btn').click(function(){
         $('.menu-drop').slideToggle();
