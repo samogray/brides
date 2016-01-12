@@ -51,13 +51,13 @@ h1.lady-catalog-title.men-catalog{
           color: $color-blue-font;
           text-decoration: underline;
         }
-        th.succes {
+        td.succes {
           color: $color-green;
         }
-        th.error {
+        td.error {
           color: red;
         }
-        th.pending {
+        td.pending {
           color: $color-grey-font2;
         }
       .id-girl{
@@ -76,3 +76,12 @@ h1.lady-catalog-title.men-catalog{
     border: none;
   }
 }
+col.col1 {
+  width: 70%;
+}
+.my-photo-flex-wrap{
+  position: relative;
+}
+
+
+

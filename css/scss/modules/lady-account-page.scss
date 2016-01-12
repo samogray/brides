@@ -53,8 +53,11 @@ a.menu-account-btn{
       text-decoration: none;
       display: block;
       width: 100%;
+      @include transition(all .3s ease-in-out);
+
       &:hover{
-        text-decoration: underline;
+        text-decoration:none;
+        font-family: $font-bold;
       }
       &:hover .badge {
         background: $color-blue-font;

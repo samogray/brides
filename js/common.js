@@ -61,6 +61,12 @@ $(document).ready(function() {
             $(this).toggleClass('my-color');
             $('#icon').toggleClass('glyphicon-triangle-top');
     });
+
+    $('.catalog .menu_item a span.fa').click(function(){
+        $(this).toggleClass('fa-caret-up');
+    });
+
+
     $('#myModal, #myModalchat').modal('show');
 
 
