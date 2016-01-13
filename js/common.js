@@ -1,7 +1,21 @@
 $(document).ready(function() {
     $('#date').datepicker({
-
     });
+$('.main-menu').click(function(){
+    $('#main-menu').slideToggle();
+});
+
+$('.lang').click(function(){
+    $('ul.menu-lang').slideToggle();
+});
+
+    $('.btn.drop-form').click(function(){
+        $('#search-girl').slideToggle();
+    });
+  /*  $('.tiptop-menu').click(function(){
+        $('.tiptop').toggle();
+    });*/
+
 
     $('#datepicker, #datapicker-mobile').datepicker({
 
@@ -60,6 +74,10 @@ $(document).ready(function() {
             $('.invisible-form').slideToggle();
             $(this).toggleClass('my-color');
             $('#icon').toggleClass('glyphicon-triangle-top');
+    });
+
+    $('a.btn.dashboard-menu').click(function(){
+        $('.drop-dashboard').slideToggle();
     });
 
     $('.catalog .menu_item a span.fa').click(function(){

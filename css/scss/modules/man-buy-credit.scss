@@ -68,48 +68,62 @@ input#amount{
     color:#939393;
   }
 
+  .total.my-total{
+    padding: 15px;
+    background-color: #ebf4f5;
 
-.total{
-  padding: 15px;
-  background-color: #ebf4f5;
-
-  h3{
-    color:$color-blue-font;
-    font-family: $font-bold;
-    margin-bottom: 15px;
-  }
- ul li:last-child{
-    font-family: $font-bold;
-  }
-  ul li{
-    display: block;
-    width: 100%;
-    color: black;
-    padding: 5px 0;
-
-    .total-credit, .total-discount,
-    .grand-total {
-      float:right;
+    h3{
+      color:$color-blue-font;
+      font-family: $font-bold;
+      margin-bottom: 15px;
     }
-    .grand-total{
+    ul li:last-child{
       font-family: $font-bold;
     }
+    ul li{
+      display: block;
+      width: 100%;
+      color: black;
+      padding: 5px 0;
 
+      .total-credit, .total-discount,
+      .grand-total {
+        float:right;
+      }
+      .grand-total{
+        font-family: $font-bold;
+      }
+
+    }
+
+    a.btn{
+      color:white;
+      background-color: $color-green;
+      border:none;
+      float:right;
+      margin-top: 20px;
+      padding: 11px 12px;
+
+      &:hover{
+        background-color: #006600;
+      }
+    }
   }
 
-  a.btn{
-    color:white;
-    background-color: $color-green;
-    border:none;
-    float:right;
-    margin-top: 20px;
-    padding: 11px 12px;
-  }
-}
+
 
 .man-bay-credit-pay{
   .cvv-wrap{
     margin-top:0;
+    @media only screen and(max-width:479px) {
+      width: auto;
+    }
+    span.glyphicon.glyphicon-question-sign {
+      @media only screen and(max-width:479px) {
+        float:none;
+      }
+    }
+
   }
   input{
     border-radius: 0;
@@ -122,3 +136,54 @@ input#amount{
     padding:0;
   }
 }
+.form-group label {
+  padding-bottom: 10px;
+}
+
+/*-------Menu Dashboard--------------*/
+
+a.btn.dashboard-menu{
+  margin: 10px auto;
+  width: 90%;
+  display: none;
+  color: white;
+  border-color: white;
+  border-radius: 4px;
+  @media only screen and(max-width:390px) {
+    display: block;
+  }
+
+}
+span.dashboard{
+
+  @media only screen and(max-width:390px) {
+    float:none;
+  }
+}
+.drop-dashboard{
+  .navbar-nav>li{
+      @media only screen and(max-width:750px) {
+        display: inline-block;
+        float: none;
+      }
+  }
+
+  @media only screen and(max-width:390px) {
+    display: none;
+  }
+  @media only screen and(min-width:390px) {
+    display:block!important;
+  }
+}
+ul.nav.navbar-nav.navbar-right.lady-catalog-menu ul.dropdown-menu.menu-dashboard{
+  @media only screen and(max-width:390px) {
+    position: relative;
+  }
+}
+li.dropdown.open{
+  ul.dropdown-menu li a{
+    text-align: center;
+  }
+}
+
+/*--------------------------------*/

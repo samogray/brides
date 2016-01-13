@@ -281,7 +281,7 @@
  }
 }
 /* Only for menu */
-@media only screen and (max-width : 871px){
+@media only screen and (max-width : 750px){
  .my-custom{
   display: none;
  }
@@ -331,7 +331,6 @@
   text-transform: uppercase;
  }
  nav.navbar.nav-lady-catalog {
-  padding-bottom: 20px;
  }
  .header-login-page{
   display: none;
@@ -340,7 +339,7 @@
 
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
  .looking a.btn {
   font-size: 15px;
   padding: 8px 20px;
@@ -392,7 +391,6 @@
   background-position: 28% 12px;
  }
   ul.nav.navbar-nav.navbar-right li.dropdown a {
-  text-align: center;
   width: 200px;
   margin: 0 auto;
    }
@@ -426,7 +424,7 @@
  ul.nav.navbar-nav.my-custom-lady-catalog.dropdown,
  nav.navbar.navbar-inverse.nav-inverse-lady-catalog ul.nav.navbar-nav.navbar-right.lady-catalog-menu {
   float:none;
-  width: 300px;
+  width: 312px;
   margin: 0 auto;
  }
 
@@ -531,7 +529,6 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  }
  form#search-girl .row.right {
   text-align: left;
-  border-top: 1px solid darkgrey;
  }
  form#search-girl a.btn.search {
   width: 100%;
@@ -678,7 +675,18 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  }
 }
 @media only screen and (max-width : 390px) {
-
+ ul.nav.navbar-nav.my-custom-lady-catalog.dropdown li{
+  float:none;
+ }
+ ul.nav.navbar-nav.navbar-right.lady-catalog-menu>li{
+  float: none;
+ }
+ ul.nav.navbar-nav.navbar-right.lady-catalog-menu li.dropdown a{
+  text-align: left;
+ }
+ ul.nav.navbar-nav.navbar-right.lady-catalog-menu li a{
+  text-align: left;
+ }
  form#question input {
   font-size: 18px;
   padding: 10px 0 10px 10px;
@@ -693,7 +701,6 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
   padding: 20px 0;
  }
  ul.nav.navbar-nav.my-custom-lady-catalog.dropdown, nav.navbar.navbar-inverse.nav-inverse-lady-catalog .navbar-nav{
-  margin: 7.5px -15px;
  }
  ul.nav.navbar-nav.my-custom-lady-catalog.dropdown,
  nav.navbar.navbar-inverse.nav-inverse-lady-catalog ul.nav.navbar-nav.navbar-right.lady-catalog-menu {

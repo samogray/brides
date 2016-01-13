@@ -1,0 +1,163 @@
+@import "../variables.scss";
+.navbar-lang{
+  @media only screen and(max-width:847px) {
+    display:none;
+  }
+}
+a.btn.menu-drop-btn.lang{
+  display: none;
+  @media only screen and(max-width:847px) {
+    display: inline-block;
+  }
+}
+a.btn.menu-drop-btn {
+  width: 50px;
+  /* height: 50px; */
+  text-align: center;
+  padding: 5px 15px;
+  font-size: 18px;
+  border-radius: 4px;
+  border-color:white;
+  float: right;
+  margin: 0 7px;
+  @include transition(all .3s ease-in-out);
+
+
+  &:hover{
+    border-color:$color-grey-line;
+  }
+  span{
+    margin: 0;
+  }
+}
+a.btn.menu-drop-btn.main-menu{
+  display: none;
+  @media only screen and(max-width:750px) {
+    display: inline-block;
+  }
+}
+
+ul#main-menu {
+  margin:0;
+  @media only screen and(max-width:750px) {
+    float: right;
+  }
+
+}
+
+ul.nav.navbar-nav.my-custom li {
+  @media only screen and(max-width:750px) {
+    float: none;
+    text-align: right;
+  }
+  @media only screen and(min-width:750px) {
+    display: block!important;
+  }
+
+}
+
+.menu-lang {
+  width: 131px;
+  /* text-align: right; */
+  position: absolute;
+  right:0;
+  top: 37px;
+  background: white;
+  display: none;
+  z-index: 2000;
+  /* text-align: center; */
+  li{
+    display: block;
+    width: 100%;
+    padding: 4px;
+    text-align: left;
+  a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-size: 14px;
+    &:hover{
+      text-decoration: none;
+      color:$color-blue-font;
+    }
+    span{
+      display: inline-block;
+      margin-right: 7px;
+    }
+  }
+}
+}
+ul.nav.navbar-nav.navbar-right li.dropdown a{
+  width: auto;
+}
+li.dropdown{
+/*  display: none;*/
+}
+span.dashboard {
+  @media only screen and(max-width:1056px) {
+    float:none;
+  }
+  @media only screen and(max-width:750px) {
+    display:none;
+  }
+}
+.wrap-lang{
+  position: relative;
+  float:right;
+}
+.flag {
+  width: 25px;
+  height: 15px;
+  background:url(../img/flags.png) no-repeat;
+}
+
+.flag.flag-es {background-position: -25px 0}
+.flag.flag-gb {background-position: 0 -15px}
+.flag.flag-ru {background-position: -25px -15px}
+
+a.btn.drop-form {
+  float: right;
+  border: 1px solid white;
+  border-radius: 4px;
+  display: none;
+  @include transition(all .3s ease-in-out);
+
+
+  &:hover{
+    border: 1px solid $color-grey-line;
+
+  }
+  @media only screen and(max-width:768px) {
+    display:block;
+  }
+}
+form#search-girl{
+  clear: both;
+h1{
+  @media only screen and(max-width:768px) {
+    display:none;
+  }
+}
+  @media only screen and(max-width:768px) {
+    display:none;
+    border: none;
+  }
+
+  @media only screen and(min-width:768px) {
+    display:block;
+  }
+
+
+}
+
+.menu-account-btn{
+text-transform: uppercase;
+}
+.dropdown-menu {
+  min-width: 147px;
+}
+
+  .select-em ul {
+    text-align: left;
+    top:-2px;
+  }

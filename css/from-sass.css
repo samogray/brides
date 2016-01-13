@@ -3897,6 +3897,7 @@ span.date-massage {
 .birthd-item a.btn:hover, .birthd-item .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .birthd-item a.gift:hover, .birthd-item .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .birthd-item a.translate:hover {
   text-decoration: none;
   transform: Scale(0.9, 0.9);
+  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
 
 .carousel-birthd {
@@ -4323,10 +4324,6 @@ span.date-massage {
   margin-right: 5px;
 }
 
-li.tiptop-menu:hover .tiptop {
-  display: block;
-}
-
 li.tiptop:hover {
   background-color: #494a47;
 }
@@ -4471,32 +4468,32 @@ label.discount {
   color: #939393;
 }
 
-.total {
+.total.my-total {
   padding: 15px;
   background-color: #ebf4f5;
 }
-.total h3 {
+.total.my-total h3 {
   color: #16b4dc;
   font-family: "OpenSansBold", "HelveticaBold", sans-serif;
   margin-bottom: 15px;
 }
-.total ul li:last-child {
+.total.my-total ul li:last-child {
   font-family: "OpenSansBold", "HelveticaBold", sans-serif;
 }
-.total ul li {
+.total.my-total ul li {
   display: block;
   width: 100%;
   color: black;
   padding: 5px 0;
 }
-.total ul li .total-credit, .total ul li .total-discount,
-.total ul li .grand-total {
+.total.my-total ul li .total-credit, .total.my-total ul li .total-discount,
+.total.my-total ul li .grand-total {
   float: right;
 }
-.total ul li .grand-total {
+.total.my-total ul li .grand-total {
   font-family: "OpenSansBold", "HelveticaBold", sans-serif;
 }
-.total a.btn, .total .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .total a.gift, .total .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .total a.translate {
+.total.my-total a.btn, .total.my-total .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .total.my-total a.gift, .total.my-total .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .total.my-total a.translate {
   color: white;
   background-color: #64b118;
   border: none;
@@ -4504,9 +4501,22 @@ label.discount {
   margin-top: 20px;
   padding: 11px 12px;
 }
+.total.my-total a.btn:hover, .total.my-total .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .total.my-total a.gift:hover, .total.my-total .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .total.my-total a.translate:hover {
+  background-color: #006600;
+}
 
 .man-bay-credit-pay .cvv-wrap {
   margin-top: 0;
+}
+@media only screen and (max-width: 479px) {
+  .man-bay-credit-pay .cvv-wrap {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .man-bay-credit-pay .cvv-wrap span.glyphicon.glyphicon-question-sign {
+    float: none;
+  }
 }
 .man-bay-credit-pay input {
   border-radius: 0;
@@ -4518,6 +4528,59 @@ label.discount {
   padding: 0;
 }
 
+.form-group label {
+  padding-bottom: 10px;
+}
+
+/*-------Menu Dashboard--------------*/
+a.btn.dashboard-menu, .chat-wrap .type-mess a.dashboard-menu.gift, .chat-wrap .type-mess a.dashboard-menu.translate {
+  margin: 10px auto;
+  width: 90%;
+  display: none;
+  color: white;
+  border-color: white;
+  border-radius: 4px;
+}
+@media only screen and (max-width: 390px) {
+  a.btn.dashboard-menu, .chat-wrap .type-mess a.dashboard-menu.gift, .chat-wrap .type-mess a.dashboard-menu.translate {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  span.dashboard {
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .drop-dashboard .navbar-nav > li {
+    display: inline-block;
+    float: none;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .drop-dashboard {
+    display: none;
+  }
+}
+@media only screen and (min-width: 390px) {
+  .drop-dashboard {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  ul.nav.navbar-nav.navbar-right.lady-catalog-menu ul.dropdown-menu.menu-dashboard {
+    position: relative;
+  }
+}
+
+li.dropdown.open ul.dropdown-menu li a {
+  text-align: center;
+}
+
+/*--------------------------------*/
 input {
   padding-left: 7px;
 }
@@ -5036,6 +5099,199 @@ form#search-girl .invisible-form .jq-selectbox.jqselect.my-list {
 }
 form#search-girl .invisible-form input {
   border-radius: 0;
+}
+
+@media only screen and (max-width: 847px) {
+  .navbar-lang {
+    display: none;
+  }
+}
+
+a.btn.menu-drop-btn.lang, .chat-wrap .type-mess a.menu-drop-btn.lang.gift, .chat-wrap .type-mess a.menu-drop-btn.lang.translate {
+  display: none;
+}
+@media only screen and (max-width: 847px) {
+  a.btn.menu-drop-btn.lang, .chat-wrap .type-mess a.menu-drop-btn.lang.gift, .chat-wrap .type-mess a.menu-drop-btn.lang.translate {
+    display: inline-block;
+  }
+}
+
+a.btn.menu-drop-btn, .chat-wrap .type-mess a.menu-drop-btn.gift, .chat-wrap .type-mess a.menu-drop-btn.translate {
+  width: 50px;
+  /* height: 50px; */
+  text-align: center;
+  padding: 5px 15px;
+  font-size: 18px;
+  border-radius: 4px;
+  border-color: white;
+  float: right;
+  margin: 0 7px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a.btn.menu-drop-btn:hover, .chat-wrap .type-mess a.menu-drop-btn.gift:hover, .chat-wrap .type-mess a.menu-drop-btn.translate:hover {
+  border-color: #bebebe;
+}
+a.btn.menu-drop-btn span, .chat-wrap .type-mess a.menu-drop-btn.gift span, .chat-wrap .type-mess a.menu-drop-btn.translate span {
+  margin: 0;
+}
+
+a.btn.menu-drop-btn.main-menu, .chat-wrap .type-mess a.menu-drop-btn.main-menu.gift, .chat-wrap .type-mess a.menu-drop-btn.main-menu.translate {
+  display: none;
+}
+@media only screen and (max-width: 750px) {
+  a.btn.menu-drop-btn.main-menu, .chat-wrap .type-mess a.menu-drop-btn.main-menu.gift, .chat-wrap .type-mess a.menu-drop-btn.main-menu.translate {
+    display: inline-block;
+  }
+}
+
+ul#main-menu {
+  margin: 0;
+}
+@media only screen and (max-width: 750px) {
+  ul#main-menu {
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  ul.nav.navbar-nav.my-custom li {
+    float: none;
+    text-align: right;
+  }
+}
+@media only screen and (min-width: 750px) {
+  ul.nav.navbar-nav.my-custom li {
+    display: block !important;
+  }
+}
+
+.menu-lang {
+  width: 131px;
+  /* text-align: right; */
+  position: absolute;
+  right: 0;
+  top: 37px;
+  background: white;
+  display: none;
+  z-index: 2000;
+  /* text-align: center; */
+}
+.menu-lang li {
+  display: block;
+  width: 100%;
+  padding: 4px;
+  text-align: left;
+}
+.menu-lang li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  font-size: 14px;
+}
+.menu-lang li a:hover {
+  text-decoration: none;
+  color: #16b4dc;
+}
+.menu-lang li a span {
+  display: inline-block;
+  margin-right: 7px;
+}
+
+ul.nav.navbar-nav.navbar-right li.dropdown a {
+  width: auto;
+}
+
+li.dropdown {
+  /*  display: none;*/
+}
+
+@media only screen and (max-width: 1056px) {
+  span.dashboard {
+    float: none;
+  }
+}
+@media only screen and (max-width: 750px) {
+  span.dashboard {
+    display: none;
+  }
+}
+
+.wrap-lang {
+  position: relative;
+  float: right;
+}
+
+.flag {
+  width: 25px;
+  height: 15px;
+  background: url(../img/flags.png) no-repeat;
+}
+
+.flag.flag-es {
+  background-position: -25px 0;
+}
+
+.flag.flag-gb {
+  background-position: 0 -15px;
+}
+
+.flag.flag-ru {
+  background-position: -25px -15px;
+}
+
+a.btn.drop-form, .chat-wrap .type-mess a.drop-form.gift, .chat-wrap .type-mess a.drop-form.translate {
+  float: right;
+  border: 1px solid white;
+  border-radius: 4px;
+  display: none;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a.btn.drop-form:hover, .chat-wrap .type-mess a.drop-form.gift:hover, .chat-wrap .type-mess a.drop-form.translate:hover {
+  border: 1px solid #bebebe;
+}
+@media only screen and (max-width: 768px) {
+  a.btn.drop-form, .chat-wrap .type-mess a.drop-form.gift, .chat-wrap .type-mess a.drop-form.translate {
+    display: block;
+  }
+}
+
+form#search-girl {
+  clear: both;
+}
+@media only screen and (max-width: 768px) {
+  form#search-girl h1 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  form#search-girl {
+    display: none;
+    border: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  form#search-girl {
+    display: block;
+  }
+}
+
+.menu-account-btn {
+  text-transform: uppercase;
+}
+
+.dropdown-menu {
+  min-width: 147px;
+}
+
+.select-em ul {
+  text-align: left;
+  top: -2px;
 }
 
 /*# sourceMappingURL=from-sass.css.map */
