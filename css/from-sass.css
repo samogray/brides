@@ -229,6 +229,8 @@
   align-self: flex-start;
   padding: 10px;
   box-sizing: border-box;
+  max-height: 74vh;
+  border-bottom: 1px solid #C7EDFC;
 }
 .chat-wrap .title-chat-item {
   font-family: "OpenSansBold", "HelveticaBold", sans-serif;
@@ -768,6 +770,8 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   align-self: flex-start;
   padding: 10px;
   box-sizing: border-box;
+  max-height: 74vh;
+  border-bottom: 1px solid #C7EDFC;
 }
 .chat-wrap .title-chat-item {
   font-family: "OpenSansBold", "HelveticaBold", sans-serif;
@@ -5772,6 +5776,12 @@ form#search-girl .invisible-form input {
   border-left: none;
 }
 
+@media only screen and (max-width: 768px) {
+  ul.nav.navbar-nav.navbar-right.navbar-lang-index {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 847px) {
   .navbar-lang {
     display: none;
@@ -5783,6 +5793,15 @@ a.btn.menu-drop-btn.lang, .chat-wrap .type-mess a.menu-drop-btn.lang.gift, .chat
 }
 @media only screen and (max-width: 847px) {
   a.btn.menu-drop-btn.lang, .chat-wrap .type-mess a.menu-drop-btn.lang.gift, .chat-wrap .type-mess a.menu-drop-btn.lang.translate {
+    display: inline-block;
+  }
+}
+
+a.btn.menu-drop-btn.lang.lang-index, .chat-wrap .type-mess a.menu-drop-btn.lang.lang-index.gift, .chat-wrap .type-mess a.menu-drop-btn.lang.lang-index.translate {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  a.btn.menu-drop-btn.lang.lang-index, .chat-wrap .type-mess a.menu-drop-btn.lang.lang-index.gift, .chat-wrap .type-mess a.menu-drop-btn.lang.lang-index.translate {
     display: inline-block;
   }
 }
@@ -5814,6 +5833,15 @@ a.btn.menu-drop-btn.main-menu, .chat-wrap .type-mess a.menu-drop-btn.main-menu.g
 }
 @media only screen and (max-width: 750px) {
   a.btn.menu-drop-btn.main-menu, .chat-wrap .type-mess a.menu-drop-btn.main-menu.gift, .chat-wrap .type-mess a.menu-drop-btn.main-menu.translate {
+    display: inline-block;
+  }
+}
+
+a.btn.menu-drop-btn.main-menu-index, .chat-wrap .type-mess a.menu-drop-btn.main-menu-index.gift, .chat-wrap .type-mess a.menu-drop-btn.main-menu-index.translate {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  a.btn.menu-drop-btn.main-menu-index, .chat-wrap .type-mess a.menu-drop-btn.main-menu-index.gift, .chat-wrap .type-mess a.menu-drop-btn.main-menu-index.translate {
     display: inline-block;
   }
 }
@@ -5963,6 +5991,55 @@ form#search-girl {
 .select-em ul {
   text-align: left;
   top: -2px;
+}
+
+a.btn.right.sign-in, .chat-wrap .type-mess a.right.sign-in.gift, .chat-wrap .type-mess a.right.sign-in.translate {
+  border: 1px solid transparent;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width: 991px) {
+  a.btn.right.sign-in, .chat-wrap .type-mess a.right.sign-in.gift, .chat-wrap .type-mess a.right.sign-in.translate {
+    padding: 10px 12px;
+    font-size: 17px;
+  }
+}
+a.btn.right.sign-in:hover, .chat-wrap .type-mess a.right.sign-in.gift:hover, .chat-wrap .type-mess a.right.sign-in.translate:hover {
+  border: 1px solid #bebebe;
+}
+
+@media only screen and (max-width: 768px) {
+  a.btn.drop-form.main-menu-index, .chat-wrap .type-mess a.drop-form.main-menu-index.gift, .chat-wrap .type-mess a.drop-form.main-menu-index.translate {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .hide-text {
+    display: none;
+  }
+}
+
+ul#main-menu {
+  margin: 0;
+  margin-left: 20px;
+}
+
+.col-lg-12.container-menu {
+  padding: 15px 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .my-custom {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .my-custom {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=from-sass.css.map */

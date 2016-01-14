@@ -1,12 +1,26 @@
 @import "../variables.scss";
+
+
+ul.nav.navbar-nav.navbar-right.navbar-lang-index{
+  @media only screen and(max-width:768px) {
+    display:none;
+  }
+}
 .navbar-lang{
   @media only screen and(max-width:847px) {
     display:none;
   }
 }
+
 a.btn.menu-drop-btn.lang{
   display: none;
   @media only screen and(max-width:847px) {
+    display: inline-block;
+  }
+}
+a.btn.menu-drop-btn.lang.lang-index{
+  display: none;
+  @media only screen and(max-width:768px) {
     display: inline-block;
   }
 }
@@ -33,6 +47,12 @@ a.btn.menu-drop-btn {
 a.btn.menu-drop-btn.main-menu{
   display: none;
   @media only screen and(max-width:750px) {
+    display: inline-block;
+  }
+}
+a.btn.menu-drop-btn.main-menu-index{
+  display: none;
+  @media only screen and(max-width:768px) {
     display: inline-block;
   }
 }
@@ -161,3 +181,46 @@ text-transform: uppercase;
     text-align: left;
     top:-2px;
   }
+
+
+a.btn.right.sign-in{
+  border:1px solid transparent;
+  @include transition(all .3s ease-in-out);
+
+  @media only screen and(max-width:991px) {
+    padding: 10px 12px;
+    font-size: 17px;
+  }
+
+  &:hover{
+    border:1px solid $color-grey-line;
+  }
+}
+a.btn.drop-form.main-menu-index{
+  @media only screen and(max-width:768px) {
+    display:block;
+  }
+}
+
+ .hide-text {
+   @media only screen and(max-width:991px) {
+     display:none;
+   }
+ }
+ul#main-menu {
+  margin: 0;
+  margin-left: 20px;
+}
+.col-lg-12.container-menu {
+  padding: 15px 20px;
+}
+
+ .my-custom{
+   @media only screen and(max-width:768px) {
+     display:none;
+   }
+   @media only screen and(min-width:768px) {
+     display:block;
+   }
+
+}

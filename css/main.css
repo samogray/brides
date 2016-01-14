@@ -969,7 +969,7 @@ textarea{
 .article-news-image img {
 	max-width: 100%;
 	border-bottom: 8px inset transparent;
-	max-height: 233px;
+	max-height: 179px;
 }
 .article-news-image img:hover {
 	border-bottom: 8px inset #e4e4e0;
@@ -1894,7 +1894,6 @@ ul.sec-ico {
 	margin-bottom: 30px;
 }
 .media-body.article-media-body.news-media-body {
-	padding-left: 20px;
 }
 p.text-news.my-news {
 	padding-bottom: 20px;
