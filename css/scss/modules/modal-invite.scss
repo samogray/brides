@@ -173,7 +173,10 @@ table {
    padding: 8px;
   }
 }
-
+.slider-selection{
+  background-image: none;
+  box-shadow: none;
+}
 .slider.slider-horizontal {
   width: 100%;
   height: 20px;
@@ -259,7 +262,7 @@ table {
 
 a.invite-btn{
   color:white;
-  background-color: $color-green;
+  background-color: #57b711;
   font-size: $font-size-sm;
   font-family:$font-normal;
   padding: 10px 15px;
@@ -268,8 +271,9 @@ a.invite-btn{
   @include transition(all .3s ease-in-out);
 
   &:hover{
-    transform: Scale(.9,.9);
     color:white;
+    background-color: #468C18;
+
   }
   &:visited{
     color:white;
@@ -285,8 +289,8 @@ a.invite-btn{
 .my-tooltip{
   position: absolute;
   z-index:-1;
-  left: -16px;
-  top: -150px;
+  top: 51px;
+  left: 0;
   opacity: 0;
   transition: all .3s ease-in-out;
   .link-girl{

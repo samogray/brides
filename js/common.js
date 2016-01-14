@@ -85,7 +85,7 @@ $('.lang').click(function(){
     });
 
 
-    $('#myModal, #myModalchat').modal('show');
+    $('#myModal').modal('show');
 
 
     $('#ex1').slider({

@@ -391,7 +391,8 @@ a.my-left {
 	left: -41px;
 }
 a.my-right:hover, a.my-left:hover{
-	transform: Scale(1.2,1.2);
+	color: #0088dd;
+
 }
 h3.title-ledies-group {
 	font-size: 24px;
@@ -434,11 +435,22 @@ span.line-decor {
 	font-size: 18px;
 	padding: 3px 7px;
 	text-decoration: none;
+
 }
 a.online:hover{
-	box-shadow:inset 0px 0px 0px 1px #fffdf8;
 	text-decoration: none;
-	color:white;
+	color: white;
+cursor: default;
+}
+a.online:visited{
+	text-decoration: none;
+	color: white;
+	cursor: default;
+}
+a.online:focus{
+	text-decoration: none;
+	color: white;
+	cursor: default;
 }
 a.online {
 	background-color: #57b711;
@@ -541,7 +553,6 @@ h1.title-news {
 	height: 90px;
 }
 .media-heading a {
-	text-decoration: underline;
 	font-size: 13.6px;
 	color: #16b4dc;
 }
@@ -655,14 +666,14 @@ p.about-brides  a {
 }
 .looking a.btn {
 	border-radius: 0;
-	background-color: #1892b1;
+	background-color:#16b4dc;
 	color: white;
 	font-size: 21px;
 	padding: 10px 44px;
 	transition: all .2s ease-in-out;
 }
 .looking a.btn:hover{
-	transform: Scale(1.1);
+	background-color: #1683a7;
 }
 footer.footer-page {
 	background-color: #f1f1f1;
@@ -729,6 +740,9 @@ transform: Scale(.9);
 }
 .footer-title-gr li a{
 	color:#979797;
+}
+.footer-title-gr li a:hover{
+	color:#16B4DC;
 }
 ul.footer-title-gr.agency {
 	padding-bottom: 72px;
@@ -819,18 +833,21 @@ ul.footer-title-gr.agency.service li.service-trip{
 	border-bottom: 1px solid #eee;
 	text-align: center;
 	background-color: #f4f4f4;
-	padding-top: 52px;
+	padding-top:20px;
 	color: #000;
 	max-width: 2000px;
 	margin: 0 auto;
 	clear: both;
 }
 .page-header h1 {
-	font-size: 52px;
+	font-size: 40px;
 	font-family: "HelveticaRegular", sans-serif;
+	margin: 0;
+	margin-bottom: 20px;
 }
 .breadcrumb {
 	padding-top: 0;
+	margin-bottom: 0;
 }
 .breadcrumb a{
 	color:#868686;
@@ -838,15 +855,15 @@ ul.footer-title-gr.agency.service li.service-trip{
 }
 h2.news-head {
 	text-align: center;
-	font-size: 48px;
+	font-size: 34px;
 	margin-top: 55px;
 	color:#484848;
 	font-family: "Georgia", sans-serif;
 }
 .text-wrap{
 	padding-left: 50px;
-	font-size: 24px;
-	line-height: 36px;
+	font-size: 18px;
+	line-height: 26px;
 	font-family: "Georgia", sans-serif;
 	color: #484848;
 	margin-top: 60px;
@@ -913,7 +930,6 @@ span.glyphicon.glyphicon-triangle-left {
 
 }
 .mini-slider .carousel-indicators li:hover{
-	transform: Scale(1.1);
 }
 .mini-slider .carousel-indicators li:first-child{
 	padding-left: 0;
@@ -947,10 +963,13 @@ p.article-news-text{
 .other-news-wrap{
 	margin-bottom: 100px;
 }
+textarea{
+	resize: none;
+}
 .article-news-image img {
 	max-width: 100%;
 	border-bottom: 8px inset transparent;
-	min-height: 233px;
+	max-height: 233px;
 }
 .article-news-image img:hover {
 	border-bottom: 8px inset #e4e4e0;
@@ -976,17 +995,21 @@ p.article-news-text{
 	margin-left: 0;
 }
 .article-media-body p.text-news{
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 14px;
+	line-height: 21px;
 	padding-top: 10px;
-	padding-bottom: 35px;
+	padding-bottom: 20px;
 	padding-left: 0;
 	margin-left: 0;
+	font-family: "OpenSansRegular";
 }
 .article-media-body a.btn{
 	border-radius: 0;
 	margin-left: 0;
 	padding: 6px 15px;
+}
+.article-page-aside {
+	margin-bottom: 75px;
 }
 /*----------------CONTACT-UA------------------------*/
 .page-header.question {
@@ -1013,7 +1036,7 @@ form#question input {
 	padding: 10px 0 10px 10px;
 	height: 50px;
 	border-radius: 0;
-	width: 300px;
+	width: 450px;
 	display:inline-block;
 	border: none;
 	margin-right: 10px;
@@ -1058,11 +1081,12 @@ img.faq-img {
 }
 a.public-faq {
 	color: #5a9ce6;
-	text-decoration: underline;
 	transition: all .2s ease-in-out;
 }
 a.public-faq:hover{
 	color: #4a629d;
+	text-decoration: underline;
+
 }
 .media-body.media-body-faq p {
 	margin-top: 45px;
@@ -1070,6 +1094,7 @@ a.public-faq:hover{
 	padding-left:0;
 	color:#9f9f9f;
 	font-size: 18px;
+	line-height: 20px;
 }
 .wrap-img h1 {
 	color: white;
@@ -1178,7 +1203,7 @@ h2.news-head.about-brides-head {
 }
 
 .inner-page-img {
-	max-width: 400px;
+	max-width: 220px;
 	float: right;
 	margin: 20px 0 20px 20px;
 }
@@ -1228,7 +1253,6 @@ ul.nav.navbar-nav.my-custom-lady-catalog a {
 	text-align: left;
 }
 ul.nav.navbar-nav.my-custom-lady-catalog a:hover span{
-	transform: Scale(1.2,1.2);
 }
 ul.nav.navbar-nav.my-custom-lady-catalog a:hover {
 	/* text-decoration: underline; */
@@ -1475,7 +1499,6 @@ a.v-prof.btn {
 	transition: all .2s;
 }
 a.v-prof.btn:hover{
-	transform: Scale(1.1,1.1);
 }
 .prev-anketa.center-block.anketa-result span.from-city {
 	clear: both;
@@ -1517,6 +1540,10 @@ input.check-star {
 	background-image: url("../img/star1.png");
 	background-repeat: no-repeat;
 }
+.check-star+label:hover:before{
+	background-image: url("../img/star2.png");
+}
+
 .check-star:not(checked) + label:after {
 	content: '';
 	background-image:url("../img/star2.png");
@@ -1534,6 +1561,9 @@ input.check-star {
 	transition: all .2s;
 	background-repeat: no-repeat;
 }
+input.check-star:hover .check-star + label:before{
+	background-image: url("../img/star2.png");
+}
 label.hidden-my {
 	position: absolute;
 	right: 0;
@@ -1543,6 +1573,7 @@ label.hidden-my {
 	content: '';
 	background-image: url("../img/star2.png");
 }
+
 .prev-anketa.center-block.anketa-result {
 	margin-bottom: 60px;
 }

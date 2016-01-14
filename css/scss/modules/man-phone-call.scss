@@ -14,7 +14,6 @@ input{
   margin-bottom: 100px;
 
   .f-right {
-
     @media only screen and (max-width: 767px)
     {
       float:right;
@@ -233,13 +232,19 @@ margin-top: 40px;
       }
     }
     a.btn{
-      background-color: #002a80;
+      background-color:$color-blue-font;
       color:white;
       border:none;
       margin: 15px;
       margin-right: 0;
       padding: 10px 18px;
       font-size: 14px;
+      @include transition(all .3s ease-in-out);
+
+
+      &:hover{
+        background-color: #1696BA;
+      }
     }
   }
 

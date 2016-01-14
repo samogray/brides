@@ -28,6 +28,9 @@ article.detail-lady.clearfix {
   span{
     font-size: $font-size-xxs;
   }
+  @media (max-width: 991px){
+    text-align: center;
+  }
 }
 .value{
   color:black;
@@ -82,6 +85,9 @@ article.detail-lady.clearfix {
       }
     @media (max-width: 1056px){
       width: 83px;
+    }
+    @media (max-width: 991px){
+      margin-top:20px;
     }
   }
   a.inv {
@@ -140,7 +146,11 @@ article.detail-lady.clearfix {
   text-align: left;
 }
 /*--------------------------------------*/
-
+.photo-profile{
+  .prev-anketa.center-block.anketa-result{
+    margin-bottom: 0;
+  }
+}
 /*----profile-fotos-----------------------*/
 .profile-fotos{
   h3.title-ledies-group{
@@ -169,11 +179,6 @@ article.detail-lady.clearfix {
       @include transition(all .3s ease-in-out);
     }
     &:hover span{
-      -webkit-transform: Scale(1.5, 1.5);
-      -moz-transform: Scale(1.5, 1.5);
-      -ms-transform: Scale(1.5, 1.5);
-      -o-transform: Scale(1.5, 1.5);
-      transform: Scale(1.5, 1.5);
       color: $color-blue-font;
 
     }
@@ -223,7 +228,6 @@ margin-top: 45px;
     }
     &:hover img{
       text-decoration: none;
-     transform: Scale(1.1,1.1);
 
     }
 

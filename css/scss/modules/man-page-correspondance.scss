@@ -44,7 +44,8 @@
 
       background: #f8f8f8 url("../img/button-for-mess.png") no-repeat;
       &:hover {
-        transform: Scale(.9,.9);
+        border:1px solid #AAAAAA;
+        color:#aaaaaa;
       }
    }
     a.reply{
@@ -103,6 +104,7 @@
     resize: none;
     height: 300px;
     border: none;
+    border: 1px solid #EEEEEE;
 
     @media only screen and(max-width:767px) {
       margin-top: 15px;

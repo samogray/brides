@@ -117,19 +117,18 @@ li{
   border: 1px solid $color-grey;
   cursor: pointer;
   width: 188px;
-  @include transition(all .3s ease-in-out);
 
 
   &:hover .event-present{
     top: 220px;
-    opacity: 1;
+    display: block;
     box-sizing: border-box;
     width: 188px;
     border: 1px solid $color-blue-font;
     border-top:none;
     padding: 8px;
     background-color: #e9f3f5;
-    left:-1px;
+    left:-1;
   }
   &:hover{
     border: 1px solid $color-blue-font;
@@ -140,19 +139,18 @@ li{
   }
 }
 .event-present{
+  top: 220px;
   box-sizing: border-box;
   text-align:left;
   font-size: 12px;
   margin-top: 15px;
   padding: 8px;
   width: 188px;
-  opacity: 0;
+  display: none;
   position: absolute;
-  background-color: $color-grey;
+  border: 1px solid $color-grey;
   z-index: 3000;
-  top:0;
   left:-1px;
-  @include transition(all .3s ease-in-out);
 
 
   a.btn{

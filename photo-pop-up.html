@@ -32,21 +32,19 @@
         <div class="modal-content invite-contetnt">
             <div class="container-fluid">
                 <div class="slick-wrap2">
-                    <div><img src="img/popup.jpg" alt="daryna" class="img-responsive"></div>
-                    <div><img src="img/popup.jpg" alt="daryna" class="img-responsive"></div>
-                    <div><img src="img/popup.jpg" alt="daryna" class="img-responsive"></div>
+                    <div><img src="img/popup.jpg" alt="daryna" class="pop-up-image"></div>
+                    <div><img src="img/popup.jpg" alt="daryna" class="pop-up-image"></div>
+                    <div><img src="img/popup.jpg" alt="daryna" class="pop-up-image"></div>
                 </div>
                 <div class="pop-up-footer clearfix">
                    <div class="name-girl">
                        <h3>Olga Kachanova</h3>
                        <span class="id-girl">ID: 2659</span>
                    </div>
-                    <div class="rate">
-                       <span>Rate the photo</span> <span class="photo-rating">Photo rating</span>
+                    <div class="rate clearfix">
+                       <h3>Rate the photo</h3>
                         <input id="input-21e" value="0" type="number" class="rating form-control hide" min=0 max=5 step=0.5 data-size="xs" >
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -76,6 +74,8 @@
         arrows:true,
         focusOnSelect:true,
         infinite:true,
+        adaptiveHeight:true,
+        fade:true,
         nextArrow:'<span class="next"><i class="fa fa-angle-right"></i></span>',
         prevArrow:'<span class="prev"><i class="fa fa-angle-left"></i></span>'
     });

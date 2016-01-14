@@ -101,6 +101,18 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
+
+ .page-header.question h2 {
+  font-size: 22px;
+  margin-bottom: 25px;
+ }
+
+ .page-header.question h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 0;
+ }
+
  a.v-prof.btn {
   padding: 4px 4px;
   margin: 0;
@@ -126,7 +138,7 @@
   text-align: center;;
  }
  h1.title-login-page {
-  font-size: 30px;
+  font-size:24px;
   text-align: center;
  }
  .cont-girl {
@@ -247,11 +259,9 @@
   text-align: center;
  }
  .article-news-image {
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: 300px;
  }
  .article-media-body h4, .article-media-body p.text-news, .article-media-body span.date-news {
-  text-align: center;
  }
  .news-media-body h4, .news-media-body span.date-news{
   text-align: left;
@@ -259,13 +269,12 @@
  }
  .article-media-body p.text-news {
   text-align: left;
-  padding: 0 70px;
  }
  p.text-news.my-news {
   padding: 10px;
  }
  .article-media-body a.btn{
-  margin: 10px 0 30px 70px;
+  margin-bottom: 20px;
  }
  .news-media-body a.btn {
   margin: 10px 0 30px 10px;
@@ -282,6 +291,21 @@
 }
 /* Only for menu */
 @media only screen and (max-width : 750px){
+
+ form#question input {
+  font-size: 18px;
+  padding: 10px 0 10px 10px;
+  height: 50px;
+  border-radius: 0;
+  width: 80%;
+  display: inline-block;
+  border: none;
+  margin: 10px auto;
+  display: block;
+ }
+
+
+
  .my-custom{
   display: none;
  }
@@ -483,6 +507,7 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  }
  .text-aside-login-page{
   text-align: left;
+  font-size: 14px;
  }
  ul.navbar-right a.dropdown-toggle.btn {
   margin-bottom: 10px;
@@ -668,7 +693,7 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  }
  form#login-form {
   background-color: #ebebeb;
-  padding: 35px 1%;
+  padding: 35px 7%;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -677,9 +702,11 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
 @media only screen and (max-width : 390px) {
  ul.nav.navbar-nav.my-custom-lady-catalog.dropdown li{
   float:none;
+  display: block;
  }
  ul.nav.navbar-nav.navbar-right.lady-catalog-menu>li{
   float: none;
+  display: block;
  }
  ul.nav.navbar-nav.navbar-right.lady-catalog-menu li.dropdown a{
   text-align: left;
@@ -710,6 +737,23 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
 /*---------------------------------*/
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 479px) {
+
+
+ .page-header.question h1 {
+  font-size: 24px;
+  padding-top: 0px;
+  margin-bottom: 17px;
+ }
+
+ .page-header.question h2 {
+  font-size: 13px;
+  margin-bottom: 27px;
+ }
+ .media-body-faq>h4.media-heading {
+  text-align: center;
+  margin-top: 23px;
+  font-size: 24px;
+ }
  .col-lg-4.col-md-4.col-sm-6.col-xs-6.custom-grid {
   float: none;
   width: 100%;
@@ -808,7 +852,7 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  /*---------Article page ---------*/
 
  .page-header h1, .article-media-body h4.media-heading a, h2.news-head{
-  font-size: 1em;
+  font-size: 20px;
  }
  .text-wrap {
   padding-left:0;
