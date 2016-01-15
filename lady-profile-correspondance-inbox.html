@@ -829,6 +829,7 @@
 <script src="js/jquery.scrollbar.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/jquery.formstyler.min.js"></script>
+<script src="js/common.js"></script>
 
 <script>
     $('.menu-account-btn').click(function(){
@@ -843,9 +844,21 @@
     });
     $('.my-list,.my-number').styler();
 
+    $('.main-menu').click(function(){
+        $('#main-menu').slideToggle();
+    });
+
+    $('.lang').click(function(){
+        $('ul.menu-lang').slideToggle();
+    });
+
+
+    $('.btn.drop-form').click(function(){
+        $('#search-girl').slideToggle();
+    });
+
 </script>
 
-<script src="js/common.js"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

@@ -27,6 +27,8 @@ $('.lang').click(function(){
     $('#datepicker, #datapicker-mobile').datepicker({
 
     });
+
+
     $('#carousel-girl-popular, .my-popular-ctrl ').hover(
         function(){
         $('.my-popular-ctrl').fadeIn( 1000 );

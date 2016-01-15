@@ -234,11 +234,21 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="libs/bootstrap-datepicker-1.5.0-dist/js/bootstrap-datepicker.min.js"></script>
 <script>
-    $('.main-menu-index').click(function(){
+    $('.btn.drop-form').click(function(){
+        $('#search-girl').slideToggle();
+    });
+
+
+    $('.main-menu').click(function(){
         $('#main-menu').slideToggle();
     });
+
     $('.lang').click(function(){
         $('ul.menu-lang').slideToggle();
+    });
+
+    $('.menu-account-btn').click(function(){
+        $('.menu-drop').slideToggle();
     });
 </script>
 

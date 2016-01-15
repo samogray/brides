@@ -676,9 +676,24 @@
 <script src="js/common.js"></script>
 
 <script>
+    $('.btn.drop-form').click(function(){
+        $('#search-girl').slideToggle();
+    });
+
+
+    $('.main-menu').click(function(){
+        $('#main-menu').slideToggle();
+    });
+
+    $('.lang').click(function(){
+        $('ul.menu-lang').slideToggle();
+    });
+
     $('.menu-account-btn').click(function(){
         $('.menu-drop').slideToggle();
     });
+
+
     $('.scrollbar-inner').scrollbar();
     $('.my-list,.my-number').styler();
 

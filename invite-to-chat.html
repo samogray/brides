@@ -23,7 +23,7 @@
 </head>
 <body>
 <h1>Modal windowm loading</h1>
-<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="myModalchat">
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="myModal">
     <div class="modal-dialog modal-lg">
         <div class="modal-content invite-contetnt">
             <div class="container-fluid">
@@ -128,6 +128,17 @@
 <script src="libs/bootstrap-datepicker-1.5.0-dist/js/bootstrap-datepicker.min.js"></script>
 <script src="js/bootstrap-slider.js"></script>
 <script src="js/common.js"></script>
+<script>
+    $('#myModal').modal('show');
+
+    $('#datepicker, #datapicker-mobile').datepicker({ });
+    $('#ex1').slider({
+        formatter: function(value) {
+            return 'Current value: ' + value;
+        }
+    });
+
+</script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

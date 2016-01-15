@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="libs/bootstrap/bootstrap-theme.min.css"/>
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="libs/bootstrap-datepicker-1.5.0-dist/css/bootstrap-datepicker.min.css"/>
+    <link rel="stylesheet" href="css/jquery.formstyler.css"/>
+    <link rel="stylesheet" href="css/star-rating.min.css"/>
+
+
     <link rel="stylesheet" href="css/style-min.css"/>
 
 </head>
@@ -853,6 +857,8 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="libs/bootstrap-datepicker-1.5.0-dist/js/bootstrap-datepicker.min.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/star-rating.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
 <script>
     $('.slick-wrap,.other-photo-slider').slick({
         speed: 300,
@@ -894,7 +900,30 @@
         ]
 
     });
+
+    $('.main-menu').click(function(){
+        $('#main-menu').slideToggle();
+    });
+    $('.lang').click(function(){
+        $('ul.menu-lang').slideToggle();
+    });
+
+    $('.btn.drop-form').click(function(){
+        $('#search-girl').slideToggle();
+    });
+
+    $('a.btn.advanced-srch').click(function(){
+        $('.invisible-form').slideToggle();
+        $(this).toggleClass('my-color');
+        $('#icon').toggleClass('glyphicon-triangle-top');
+    });
+
+    $('.my-list,.my-number').styler();
+
+
 </script>
+<script src="js/common.js"></script>
+
 
 
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
