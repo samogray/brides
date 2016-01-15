@@ -1,60 +1,76 @@
 /*==========  Desktop First Method  ==========*/
-@media (min-width:991px) and (max-width:1477px) {
- .panel.panel-default.promo.custom-panel {
-  bottom: -17px;
-  max-width: 100%;
- }
+@media (min-width:991px) and (max-width:1404px) {
  .panel.panel-default.promo.panel-form {
-  bottom: 148px;
-  right: 233px;
-  max-width: 55.258%;
+  bottom: 0;
+  right: 8%;
+  left: auto;
+  max-width: 25%;
  }
+
  .promo-block {
-  background: url("../img/promo-panel.png")no-repeat;
-  margin-top: 0;
-  font-size: 17px;
+  font-size: 26px;
   font-weight: 600;
-  padding: 15px 0 18px 88px;
-  margin: 0;
-  margin-right: 42px;
-  margin-left: 97px;
-  margin-bottom: 0px;
-  float: left;
+  padding: 0px 0 11px 88px;
+  width: 45%;
+  margin: 20px 0;
  }
- .promo-account {
-  background-position: 19px 2px;
- }
- .promo-secure {
-  background-position: 19px -99px;
-  margin-top: 0;
- }
- .promo-ledies {
-  background-position: -400px 6px;
+
+/*
+ .panel.panel-default.promo.custom-panel {
+   bottom: -17px;
+   max-width: 100%;
+  }
+  .panel.panel-default.promo.panel-form {
+   bottom: 148px;
+   right: 233px;
+   max-width: 55.258%;
+  }
+  .promo-block {
+   background: url("../img/promo-panel.png")no-repeat;
+   margin-top: 0;
+   font-size: 17px;
+   font-weight: 600;
+   padding: 15px 0 18px 88px;
+   margin: 0;
+   margin-right: 42px;
+   margin-left: 97px;
+   margin-bottom: 0px;
+   float: left;
+  }
+  .promo-account {
+   background-position: 19px 2px;
+  }
+  .promo-secure {
+   background-position: 19px -99px;
+   margin-top: 0;
+  }
+  .promo-ledies {
+   background-position: -400px 6px;
 
 
- }
- .promo-privates {
-  background-position: -400px -99px;
-  margin-top: 0;
+  }
+  .promo-privates {
+   background-position: -400px -99px;
+   margin-top: 0;
 
+  }
+  .looking a.btn {
+   font-size: 15px;
+   padding: 10px 31px;
+  }
+  .looking p {
+   font-size: 20px;
+   margin-bottom: 40px;
+  }
+  .looking h3 {
+   font-size: 38px;
+   padding-bottom: 15px;
+  }
+  .col-lg-4.col-md-4.col-sm-6.col-xs-6.custom-grid {
+   border-right:none;
+  }*/
  }
- .looking a.btn {
-  font-size: 15px;
-  padding: 10px 31px;
- }
- .looking p {
-  font-size: 20px;
-  margin-bottom: 40px;
- }
- .looking h3 {
-  font-size: 38px;
-  padding-bottom: 15px;
- }
- .col-lg-4.col-md-4.col-sm-6.col-xs-6.custom-grid {
-  border-right:none;
- }
-}
-/* Large Devices, Wide Screens */
+
 @media only screen and (max-width : 1056px) {
 
  .col-lg-4.col-md-4.col-sm-6.col-xs-6.custom-grid {
@@ -101,7 +117,19 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
+ .slide-cont{
+background: url("../img/banner.jpg") no-repeat 50% 27%;
+ }
 
+ .panel.panel-default.promo.custom-panel {
+  left:0;
+  right: auto;
+ }
+ .panel.panel-default.promo.panel-form {
+  bottom: 0;
+  right: 0;
+  left: auto;
+ }
  .page-header.question h2 {
   font-size: 22px;
   margin-bottom: 25px;

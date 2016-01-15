@@ -104,26 +104,26 @@ ul.navbar-right .dropdown-menu>li>a:focus, ul.navbar-right .dropdown-menu>li>a:h
 	top: 94%;
 	min-width: 116px;
 }
-ul.nav.navbar-nav.navbar-right li.dropdown a {
+ul.nav.navbar-nav.navbar-right li.dropdown a, ul.menu-lang li a{
 	background: url("../img/flag.png") no-repeat;
-	padding-left: 40px;
-	padding-right: 10px;
 	border: none;
 	box-shadow: none;
+	padding: 8px 10px 8px 40px;
+	display: block;
 }
 ul.nav.navbar-nav.navbar-right li.dropdown a:active{
 	box-shadow: none;
 }
-ul.nav.navbar-nav.navbar-right li.dropdown a.eng {
+ul.nav.navbar-nav.navbar-right li.dropdown a.eng, ul.menu-lang li a.eng {
 	 background-position: 4px 12px;
  }
-ul.nav.navbar-nav.navbar-right li.dropdown a.ger {
+ul.nav.navbar-nav.navbar-right li.dropdown a.ger, ul.menu-lang li a.ger {
 	background-position: 4px -27px;
 }
-ul.nav.navbar-nav.navbar-right li.dropdown a.span {
+ul.nav.navbar-nav.navbar-right li.dropdown a.span, ul.menu-lang li a.span {
 	background-position: 4px -53px;
 }
-ul.nav.navbar-nav.navbar-right li.dropdown a.ital {
+ul.nav.navbar-nav.navbar-right li.dropdown a.ital, ul.menu-lang li a.ital {
 	background-position: 6px -81px;
 	padding-left: 40px;
 }
@@ -218,24 +218,30 @@ ul.nav.navbar-nav.navbar-right {
 	border: none;
 	border-radius: 0;
 }
-.panel.panel-default.promo.custom-panel{
+.panel.panel-default.promo.custom-panel {
 	bottom: 0;
-	max-width: 66.1290%;
-
+	max-width: 56%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	left: 76px;
+	right: auto;
+	justify-content: center;
 }
 .panel.panel-default.promo.panel-form{
 	bottom: 0;
 	right: 0;
-	max-width: 32.2580%;
+	max-width:370px;
+	right: 8%;
+	left: auto;
 }
 .promo-block {
-	float: left;
-	background: url("../img/promo-panel.png")no-repeat;
+	background: url(../img/promo-panel.png) no-repeat;
 	font-size: 26px;
 	font-weight: 600;
 	padding: 15px 0 15px 88px;
-	margin-bottom: 40px;
-	margin-top: 45px;
+	width: 45%;
+	margin: 20px 0;
 }
 .promo-info {
 	display: block;
@@ -244,11 +250,10 @@ ul.nav.navbar-nav.navbar-right {
 	margin-top: 7px;
 }
 .promo-account {
-	background-position: 19px 2px;
+	background-position: 19px 9px;
 }
 .promo-secure {
 	background-position: 19px -99px;
-	margin-top: 0;
 }
 .promo-ledies {
 	background-position: -400px 6px;
@@ -257,7 +262,6 @@ ul.nav.navbar-nav.navbar-right {
 }
 .promo-privates {
 	background-position: -400px -99px;
-	margin-top: 0;
 
 }
 
@@ -459,13 +463,14 @@ a.online {
 }
 .v-prof {
 	bottom: 0;
-	padding: 13px 13px 5px 30px;
-	background: rgba(0, 0, 0, 0.34) url("../img/profile-btn.png") no-repeat -155px 16px;
 	transition: all .2s ease-in-out;
 	font-family: 'Open Sans', sans-serif;
+	padding: 8px 13px 8px 30px;
+	background: url(../img/profile-btn.png) -155px 12px no-repeat rgba(0,0,0,.34);
 	transition: all .2s ease-in-out;
 
 }
+
 a.v-prof:hover{
 	text-decoration: none;
 	color:white;
@@ -2020,7 +2025,7 @@ img.load-img {
 	top: -40px;
 	left: 75px;
 	animation:heart-puls ;
-	animation-duration: 1s;
+	animation-duration: .4s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
@@ -2031,4 +2036,9 @@ img.load-img {
 	100%{
 		transform: Scale(1.2,1.2);
 	}
+}
+.carousel {
+	position: relative;
+	max-width: 2000px;
+	margin: 0 auto;
 }

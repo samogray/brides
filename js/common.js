@@ -1,4 +1,9 @@
 $(document).ready(function() {
+
+
+    $('#lang-select').styler();
+
+
     $('#date').datepicker({
     });
 $('.main-menu').click(function(){
@@ -12,9 +17,11 @@ $('.lang').click(function(){
     $('.btn.drop-form').click(function(){
         $('#search-girl').slideToggle();
     });
-  /*  $('.tiptop-menu').click(function(){
-        $('.tiptop').toggle();
-    });*/
+
+
+    $('.main-menu-index').click(function(){
+        $('.menu-drop').slideToggle();
+    });
 
 
     $('#datepicker, #datapicker-mobile').datepicker({

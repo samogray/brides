@@ -129,8 +129,46 @@
     }
   }
   .my-photo-flex{
+    position: relative;
     &:hover .hover-view{
       opacity: 1;
     }
   }
 
+  .like-heart{
+position: absolute;
+    width: 40px;
+    height: 40px;
+    top:5px;
+    right: 5px;
+
+   input {
+     width: 40px;
+     height: 33px;
+     opacity: 0;
+     cursor: pointer;
+
+   }
+    input.like:checked + i.fa-heart-o:before{
+      content: "\f004";
+    }
+    input.like:not(checked) + i.fa-heart-o:before{
+      content: "\f08a";
+    }
+
+    label {
+      position: relative;
+      color:#FFC600;
+      cursor: pointer;
+
+      &:hover .fa-heart-o:before{
+        content: "\f004"!important;
+      }
+    }
+    i.fa.fa-heart-o {
+      position: absolute;
+      left: 5px;
+      top: 7px;
+      font-size: 27px;
+    }
+  }

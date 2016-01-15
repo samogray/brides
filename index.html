@@ -17,28 +17,31 @@
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-theme.min.css"/>
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="libs/bootstrap-datepicker-1.5.0-dist/css/bootstrap-datepicker.min.css"/>
+	<link rel="stylesheet" href="css/jquery.formstyler.css"/>
+
 	<link rel="stylesheet" href="css/style-min.css"/>
 </head>
 <body>
 <div class="container-fluid">
 	<div class="row">
 		<header>
-			<div class="col-lg-12 container-menu">
-				<div class="my-wrap">
+			<div class="col-lg-12 container-menu clearfix">
+				<div class="my-wrap clearfix">
 					<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
 						<a href="#0" class="logo navbar-brand">Brides <span>dating</span></a>
 						<div class="wrap-lang clearfix">
 							<a href="#" class="btn menu-drop-btn lang lang-index"><span class="fa fa-language"></span></a>
 							<ul class="menu-lang">
-								<li><a href="#"><span class="flag flag-gb"></span>English</a></li>
-								<li><a href="#"><span class="flag flag-es"></span>Spanish</a></li>
-								<li><a href="#"><span class="flag flag-ru"></span>Russian</a></li>
+								<li><a href="#" class="eng">English</a></li>
+								<li><a href="#" class="span">Spanish</a></li>
+								<li><a href="#" class="ital">Italian</a></li>
+								<li><a href="#" class="ger">German</a></li>
 							</ul>
 						</div>
 						<a href="#0" class="btn menu-drop-btn main-menu-index"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
 					</div>
 					<div class="col-lg-8 col-md-8 col-sm-10 col-xs-12">
-						<ul class="nav navbar-nav my-custom" id="main-menu">
+						<ul class="nav navbar-nav my-custom menu-drop" id="main-menu">
 							<li><a href="#0">Agency</a></li>
 							<li><a href="#0">Ladies</a></li>
 							<li><a href="#0">Services</a></li>
@@ -46,7 +49,8 @@
 						</ul>
 					</div>
 					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-						<ul class="nav navbar-nav navbar-right navbar-lang-index">
+
+					<ul class="nav navbar-nav navbar-right navbar-lang-index">
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle btn eng" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English<span class="caret custom-caret"></span></a>
 								<ul class="dropdown-menu">
@@ -59,10 +63,55 @@
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid slide-cont">
-				<div class="row">
+			<div class="container-fluid">
+				<div class="row clearfix">
 					<div class="col-lg-12 slide-cont">
 						<div id="carousel-header" class="carousel slide" data-ride="carousel">
+							<div class="panel panel-default promo panel-form">
+								<form id="my-form">
+									<div class="col-xs-12"><h2>First time on Brides.dating?</h2></div>
+									<div class=" form-group col-xs-12 text-center">
+										<button type="button" class="btn  btn-primary fb fb-left"><i class="fa fa-facebook"></i></button><button type="button" class="btn  btn-primary fb">Sign In using Facebook</button>
+									</div>
+									<div class="form-group col-xs-12">
+										<div class="col-xs-4 col-md-3 right"><label for="name">Name</label></div>
+										<div class="col-xs-6 col-md-9 number "><input type="text" class="form-control" id="name" placeholder="Jane Doe"></div>
+									</div>
+									<div class="form-group col-xs-12">
+										<div class="col-xs-4 col-md-3 right"><label>Birth date</label></div>
+										<div class="col-xs-6 col-md-9 number"><input pattern="\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3} "type="datetime" class="form-control" id="date" placeholder="Your Birth date" ></div>
+									</div>
+									<div class="form-group col-xs-12">
+										<div class="col-xs-4 col-md-3 right"><label for="email">Email</label></div>
+										<div class="col-xs-6 col-md-9 number"><input type="email" class="form-control" id="email" placeholder="example@com.ua"></div>
+									</div>
+									<div class="form-group col-xs-12">
+										<div class="col-xs-4 col-md-3 right"><label for="pass">Password</label></div>
+										<div class="col-xs-6 col-md-9 number"><input type="password" class="form-control" id="pass" placeholder="You password"></div>
+									</div>
+									<div class="form-group col-xs-12">
+										<div class="col-xs-4 col-md-3 right"><label for="repass">Repeat Password</label></div>
+										<div class="col-xs-6 col-md-9 number"><input type="password" class="form-control" id="repass" placeholder="You re-password"></div>
+									</div>
+									<button type="submit" class="btn btn-default center-block custom-submit">Create New Account</button>
+									<footer class="form-footer">
+										By continuing you agree<br>
+										to the <a href="#0">Terms of Use</a> and <a href="#0">Privacy Policy</a>
+									</footer>
+								</form>
+							</div>
+							<div class="panel panel-default promo custom-panel">
+								<div class="promo-block promo-account ">1000+ Accounts <span class="promo-info">Only real single ladies</span></div>
+								<div class="promo-block promo-ledies ">
+									100% Secure <span  class="promo-info">Highest protection of personal data</span>
+								</div>
+								<div class="promo-block promo-secure ">
+									Only Real Ladies <span  class="promo-info">from Ukraine & Russia</span>
+								</div>
+								<div class="promo-block promo-privates ">
+									100% Privates <span  class="promo-info"> Highest level of security</span>
+								</div>
+							</div>
 							<!-- Indicators -->
 							<!-- Wrapper for slides -->
 							<div class="carousel-inner" role="listbox">
@@ -75,62 +124,7 @@
 								<div class="item">
 									<img src="img/banner.jpg" alt="Slide" class="img-responsive">
 								</div>
-								<div class="my-wrap">
-									<div class="panel panel-default promo panel-form">
-										<form id="my-form">
-											<div class="col-xs-12"><h2>First time on Brides.dating?</h2></div>
-											<div class=" form-group col-xs-12 text-center">
-												<button type="button" class="btn  btn-primary fb fb-left"><i class="fa fa-facebook"></i></button><button type="button" class="btn  btn-primary fb">Sign In using Facebook</button>
-											</div>
-											<div class="form-group col-xs-12">
-												<div class="col-xs-4 col-md-3 right"><label for="name">Name</label></div>
-												<div class="col-xs-6 col-md-9 number "><input type="text" class="form-control" id="name" placeholder="Jane Doe"></div>
-											</div>
-											<div class="form-group col-xs-12">
-												<div class="col-xs-4 col-md-3 right"><label>Birth date</label></div>
-												<div class="col-xs-6 col-md-9 number"><input pattern="\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3} "type="datetime" class="form-control" id="date" placeholder="Your Birth date" ></div>
-											</div>
-											<div class="form-group col-xs-12">
-												<div class="col-xs-4 col-md-3 right"><label for="email">Email</label></div>
-												<div class="col-xs-6 col-md-9 number"><input type="email" class="form-control" id="email" placeholder="example@com.ua"></div>
-											</div>
-											<div class="form-group col-xs-12">
-												<div class="col-xs-4 col-md-3 right"><label for="pass">Password</label></div>
-												<div class="col-xs-6 col-md-9 number"><input type="password" class="form-control" id="pass" placeholder="You password"></div>
-											</div>
-											<div class="form-group col-xs-12">
-												<div class="col-xs-4 col-md-3 right"><label for="repass">Repeat Password</label></div>
-												<div class="col-xs-6 col-md-9 number"><input type="password" class="form-control" id="repass" placeholder="You re-password"></div>
-											</div>
-											<button type="submit" class="btn btn-default center-block custom-submit">Create New Account</button>
-											<footer class="form-footer">
-												By continuing you agree<br>
-												to the <a href="#0">Terms of Use</a> and <a href="#0">Privacy Policy</a>
-											</footer>
-										</form>
-									</div>
-									<div class="panel panel-default promo custom-panel">
-										<div class="row">
-											<div class="col-xs-12 col-sm-6">
-												<div class="promo-block promo-account ">1000+ Accounts <span class="promo-info">Only real single ladies</span></div>
-											</div>
-											<div class="col-xs-12 col-sm-6">
-												<div class="promo-block promo-ledies ">
-													100% Secure <span  class="promo-info">Highest protection of personal data</span>
-												</div>
-											</div>
-											<div class="col-xs-12 col-sm-6">
-												<div class="promo-block promo-secure ">
-													Only Real Ladies <span  class="promo-info">from Ukraine & Russia</span>
-												</div>
-											</div>
-											<div class="col-xs-12 col-sm-6 ">
-												<div class="promo-block promo-privates ">
-													100% Privates <span  class="promo-info"> Highest level of security</span>
-												</div>
-											</div>
-										</div>
-									</div>
+								<div class="my-wrap clearfix">
 								</div>
 								<!-- Controls -->
 								<a class="left carousel-control" href="#carousel-header" role="button" data-slide="prev">
@@ -499,6 +493,7 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="libs/bootstrap-datepicker-1.5.0-dist/js/bootstrap-datepicker.min.js"></script>
 	<script src="js/slick.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
 
 
 
