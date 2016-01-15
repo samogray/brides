@@ -6161,11 +6161,6 @@ div#lang-select-styler .jq-selectbox__select:hover .jq-selectbox__trigger-arrow 
   padding-left: 25px;
 }
 
-.jq-selectbox li {
-  padding-left: 35px;
-  background-position: 10px 6px;
-}
-
 .jq-selectbox li:first-child {
   padding-left: 10px;
 }
