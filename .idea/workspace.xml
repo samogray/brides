@@ -21,101 +21,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lady-profile-income.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lady-profile-income.html">
+      <file leaf-file-name="man-my-photos.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/man-my-photos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.307692">
-              <caret line="693" column="7" selection-start-line="678" selection-start-column="3" selection-end-line="693" selection-end-column="7" />
+            <state vertical-scroll-proportion="-15.038462">
+              <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view-my-profile-somebody.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view-my-profile-somebody.html">
+      <file leaf-file-name="chat-index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chat-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.192307">
-              <caret line="602" column="36" selection-start-line="602" selection-start-column="36" selection-end-line="602" selection-end-column="36" />
+            <state vertical-scroll-proportion="-1.3076923">
+              <caret line="187" column="78" selection-start-line="187" selection-start-column="78" selection-end-line="187" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="man-change-password.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/man-change-password.html">
+      <file leaf-file-name="chat-index.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/scss/modules/chat-index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.653847">
-              <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.92608696">
+              <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="man-page-edit-profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/man-page-edit-profile.html">
+      <file leaf-file-name="man-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/man-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.5">
-              <caret line="139" column="114" selection-start-line="139" selection-start-column="114" selection-end-line="139" selection-end-column="114" />
+            <state vertical-scroll-proportion="-13.730769">
+              <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/scss/modules/menu.scss">
+      <file leaf-file-name="man-page-chat-history-opened.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/man-page-chat-history-opened.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.846154">
-              <caret line="250" column="0" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="38" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6055313">
-              <caret line="117" column="33" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modal-present.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/scss/modules/modal-present.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
-              <caret line="256" column="10" selection-start-line="256" selection-start-column="6" selection-end-line="256" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gift-card-mess.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/scss/modules/gift-card-mess.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6181817">
-              <caret line="99" column="20" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modal-gift-form.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/scss/modules/modal-gift-form.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
-              <caret line="282" column="6" selection-start-line="282" selection-start-column="2" selection-end-line="282" selection-end-column="6" />
+            <state vertical-scroll-proportion="-11.115385">
+              <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -137,56 +87,56 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/scss/modules/man-phone-call.scss" />
-        <option value="$PROJECT_DIR$/css/scss/modules/modal-present.scss" />
         <option value="$PROJECT_DIR$/css/scss/variables.scss" />
-        <option value="$PROJECT_DIR$/css/scss/modules/modal-gift-form.scss" />
         <option value="$PROJECT_DIR$/css/scss/modules/slick.scss" />
-        <option value="$PROJECT_DIR$/css/scss/modules/man-page-correspondance.scss" />
-        <option value="$PROJECT_DIR$/css/scss/modules/man-page.scss" />
         <option value="$PROJECT_DIR$/css/scss/modules/modal-invite.scss" />
         <option value="$PROJECT_DIR$/css/scss/modules/form-search.scss" />
         <option value="$PROJECT_DIR$/css/scss/modules/photo-popup.scss" />
-        <option value="$PROJECT_DIR$/css/scss/modules/lady.scss" />
         <option value="$PROJECT_DIR$/css/scss/modules/man-page-edit-profile.scss" />
-        <option value="$PROJECT_DIR$/present-lady-modal.html" />
-        <option value="$PROJECT_DIR$/css/media.css" />
         <option value="$PROJECT_DIR$/css/scss/modules/lady-account-my-photo.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/article.html" />
         <option value="$PROJECT_DIR$/chat-index.html" />
         <option value="$PROJECT_DIR$/inner-page.html" />
+        <option value="$PROJECT_DIR$/news.html" />
+        <option value="$PROJECT_DIR$/contact-ua.html" />
+        <option value="$PROJECT_DIR$/invite-to-chat.html" />
+        <option value="$PROJECT_DIR$/ladies-catalog.html" />
+        <option value="$PROJECT_DIR$/js/common.js" />
+        <option value="$PROJECT_DIR$/loading.html" />
+        <option value="$PROJECT_DIR$/photo-pop-up.html" />
+        <option value="$PROJECT_DIR$/css/scss/modules/gift-card-mess.scss" />
+        <option value="$PROJECT_DIR$/view-my-profile-somebody.html" />
+        <option value="$PROJECT_DIR$/Login-page.html" />
+        <option value="$PROJECT_DIR$/css/scss/modules/menu.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/scss/modules/lady.scss" />
+        <option value="$PROJECT_DIR$/css/media.css" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/css/scss/modules/modal-gift-form.scss" />
+        <option value="$PROJECT_DIR$/present-lady-modal.html" />
+        <option value="$PROJECT_DIR$/css/scss/modules/modal-present.scss" />
+        <option value="$PROJECT_DIR$/css/scss/modules/man-page.scss" />
+        <option value="$PROJECT_DIR$/css/scss/modules/man-page-correspondance.scss" />
+        <option value="$PROJECT_DIR$/man-page.html" />
+        <option value="$PROJECT_DIR$/lady-account.html" />
+        <option value="$PROJECT_DIR$/lady-account-mens-online.html" />
+        <option value="$PROJECT_DIR$/lady-account-my-best-photo.html" />
         <option value="$PROJECT_DIR$/lady-account-my-photo.html" />
+        <option value="$PROJECT_DIR$/lady-page.html" />
+        <option value="$PROJECT_DIR$/lady-profile-change-password.html" />
+        <option value="$PROJECT_DIR$/lady-profile-correspondance-inbox.html" />
+        <option value="$PROJECT_DIR$/lady-profile-income.html" />
         <option value="$PROJECT_DIR$/man-buy-credits.html" />
         <option value="$PROJECT_DIR$/man-buy-credits-pay.html" />
         <option value="$PROJECT_DIR$/man-change-password.html" />
         <option value="$PROJECT_DIR$/man-my-favorites.html" />
         <option value="$PROJECT_DIR$/man-my-orders.html" />
         <option value="$PROJECT_DIR$/man-my-photos.html" />
-        <option value="$PROJECT_DIR$/man-page.html" />
         <option value="$PROJECT_DIR$/man-page-chat-history-opened.html" />
         <option value="$PROJECT_DIR$/man-page-edit-profile.html" />
         <option value="$PROJECT_DIR$/man-phone-calls.html" />
         <option value="$PROJECT_DIR$/man-photos-i-liked.html" />
-        <option value="$PROJECT_DIR$/news.html" />
-        <option value="$PROJECT_DIR$/contact-ua.html" />
-        <option value="$PROJECT_DIR$/invite-to-chat.html" />
-        <option value="$PROJECT_DIR$/ladies-catalog.html" />
-        <option value="$PROJECT_DIR$/lady-account.html" />
-        <option value="$PROJECT_DIR$/lady-account-mens-online.html" />
-        <option value="$PROJECT_DIR$/lady-profile-correspondance-inbox.html" />
-        <option value="$PROJECT_DIR$/lady-page.html" />
-        <option value="$PROJECT_DIR$/js/common.js" />
-        <option value="$PROJECT_DIR$/lady-account-my-best-photo.html" />
-        <option value="$PROJECT_DIR$/lady-profile-change-password.html" />
-        <option value="$PROJECT_DIR$/lady-profile-income.html" />
-        <option value="$PROJECT_DIR$/loading.html" />
-        <option value="$PROJECT_DIR$/Login-page.html" />
         <option value="$PROJECT_DIR$/css/scss/modules/chat-index.scss" />
-        <option value="$PROJECT_DIR$/photo-pop-up.html" />
-        <option value="$PROJECT_DIR$/css/scss/modules/gift-card-mess.scss" />
-        <option value="$PROJECT_DIR$/view-my-profile-somebody.html" />
-        <option value="$PROJECT_DIR$/css/scss/modules/menu.scss" />
-        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -226,6 +176,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -328,8 +280,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,18 +357,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32258064" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24968234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -465,260 +415,94 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/scss/modules/man-page-edit-profile.scss">
+    <entry file="file://$PROJECT_DIR$/photo-pop-up.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5173913">
-          <caret line="132" column="17" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
+        <state vertical-scroll-proportion="-18.692308">
+          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
+    <entry file="file://$PROJECT_DIR$/css/from-sass.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33519554">
-          <caret line="225" column="16" selection-start-line="225" selection-start-column="16" selection-end-line="225" selection-end-column="16" />
+        <state vertical-scroll-proportion="-18.448277">
+          <caret line="6059" column="0" selection-start-line="6059" selection-start-column="0" selection-end-line="6061" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/error.html">
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/lady-account-mens-online.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.5272727">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/modules/man-page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/scss/modules/lady-account-my-photo.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0">
+        <state vertical-scroll-proportion="-8.218182">
           <caret line="166" column="5" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/jQueryFormStyler-master/jQueryFormStyler-master/demo/demo.js">
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/lady-profile-change-password.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.5272727">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/jQueryFormStyler-master/jQueryFormStyler-master/demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462">
-          <caret line="392" column="39" selection-start-line="392" selection-start-column="39" selection-end-line="392" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/jQueryFormStyler-master/jQueryFormStyler-master/demo/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.413794">
-          <caret line="235" column="1" selection-start-line="235" selection-start-column="1" selection-end-line="235" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lady-account-my-photo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59130436">
-          <caret line="171" column="41" selection-start-line="171" selection-start-column="41" selection-end-line="171" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inner-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8869565">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat-index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.26923">
-          <caret line="175" column="41" selection-start-line="175" selection-start-column="41" selection-end-line="175" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/man-buy-credits.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34492755">
-          <caret line="161" column="79" selection-start-line="161" selection-start-column="79" selection-end-line="161" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/man-my-photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3231884">
-          <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/man-my-favorites.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6405797">
-          <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/man-buy-credits-pay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59130436">
-          <caret line="171" column="41" selection-start-line="171" selection-start-column="41" selection-end-line="171" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/man-my-orders.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="1" column="74" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/present-lady-modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41014493">
-          <caret line="28" column="120" selection-start-line="28" selection-start-column="120" selection-end-line="28" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/man-photos-i-liked.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6405797">
-          <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/man-phone-calls.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9115942">
-          <caret line="172" column="41" selection-start-line="172" selection-start-column="41" selection-end-line="172" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/man-page-chat-history-opened.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79130435">
-          <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.014556041">
-          <caret line="125" column="14" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/invite-to-chat.html">
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/lady-profile-correspondance-inbox.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.2768116">
-          <caret line="133" column="53" selection-start-line="133" selection-start-column="53" selection-end-line="133" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.5272727">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ladies-catalog.html">
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/man-page-edit-profile.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44347826">
-          <caret line="171" column="41" selection-start-line="171" selection-start-column="41" selection-end-line="171" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.5272727">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lady-account-mens-online.html">
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/man-phone-call.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8130435">
-          <caret line="171" column="41" selection-start-line="171" selection-start-column="41" selection-end-line="171" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/man-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.615385">
-          <caret line="171" column="41" selection-start-line="171" selection-start-column="41" selection-end-line="171" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lady-profile-correspondance-inbox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8028985">
-          <caret line="857" column="7" selection-start-line="857" selection-start-column="7" selection-end-line="857" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.5272727">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact-ua.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.461538">
-          <caret line="242" column="7" selection-start-line="237" selection-start-column="3" selection-end-line="242" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.28405797">
+          <caret line="212" column="84" selection-start-line="212" selection-start-column="84" selection-end-line="212" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lady-page.html">
+    <entry file="file://$PROJECT_DIR$/inner-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56666666">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.05112782">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lady-account.html">
+    <entry file="file://$PROJECT_DIR$/Login-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.384615">
-          <caret line="827" column="38" selection-start-line="824" selection-start-column="3" selection-end-line="827" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.02463768">
+          <caret line="127" column="94" selection-start-line="127" selection-start-column="94" selection-end-line="127" selection-end-column="94" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.7058825">
-          <caret line="298" column="7" selection-start-line="292" selection-start-column="2" selection-end-line="298" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lady-account-my-best-photo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9615383">
-          <caret line="651" column="7" selection-start-line="649" selection-start-column="3" selection-end-line="651" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lady-profile-change-password.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67826086">
-          <caret line="644" column="7" selection-start-line="629" selection-start-column="2" selection-end-line="644" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/from-sass.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1927376">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/modules/admin.scss">
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/lady-account-page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.04387292">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -726,130 +510,314 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/modules/chat-index.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.051437218">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="-14.0">
+          <caret line="519" column="35" selection-start-line="519" selection-start-column="35" selection-end-line="519" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news.html">
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/lady.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23043478">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.28139183">
+          <caret line="158" column="1" selection-start-line="158" selection-start-column="1" selection-end-line="158" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Login-page.html">
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/form-search.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92608696">
-          <caret line="251" column="7" selection-start-line="251" selection-start-column="7" selection-end-line="251" selection-end-column="7" />
+        <state vertical-scroll-proportion="19.884615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loading.html">
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/lady-profile-income.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.692308">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="32" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photo-pop-up.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.692308">
-          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/modules/modal-gift-form.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0">
-          <caret line="282" column="6" selection-start-line="282" selection-start-column="2" selection-end-line="282" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/modules/modal-present.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0">
-          <caret line="256" column="10" selection-start-line="256" selection-start-column="6" selection-end-line="256" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.5272727">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/scss/modules/gift-card-mess.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6181817">
+        <state vertical-scroll-proportion="1.8139184">
           <caret line="99" column="20" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lady-profile-income.html">
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/modal-invite.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.307692">
-          <caret line="693" column="7" selection-start-line="678" selection-start-column="3" selection-end-line="693" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view-my-profile-somebody.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.192307">
-          <caret line="602" column="36" selection-start-line="602" selection-start-column="36" selection-end-line="602" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/man-change-password.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.653847">
-          <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/man-page-edit-profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5">
-          <caret line="139" column="114" selection-start-line="139" selection-start-column="114" selection-end-line="139" selection-end-column="114" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/modules/menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.846154">
-          <caret line="250" column="0" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="38" selection-end-column="33" />
+        <state vertical-scroll-proportion="-0.04387292">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6055313">
-          <caret line="117" column="33" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
+        <state vertical-scroll-proportion="-10.24138">
+          <caret line="2010" column="0" selection-start-line="2010" selection-start-column="0" selection-end-line="2010" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/modal-gift-form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.981818">
+          <caret line="327" column="3" selection-start-line="327" selection-start-column="3" selection-end-line="327" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jquery.scrollbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6040757">
+          <caret line="789" column="13" selection-start-line="789" selection-start-column="0" selection-end-line="789" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/man-buy-credit.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5272727">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/man-page-correspondance.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-49.145454">
+          <caret line="159" column="12" selection-start-line="159" selection-start-column="12" selection-end-line="159" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/man-page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0015128592">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33282906">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/modal-present.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.537065">
+          <caret line="369" column="3" selection-start-line="367" selection-start-column="2" selection-end-line="369" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23435226">
+          <caret line="670" column="14" selection-start-line="670" selection-start-column="14" selection-end-line="670" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/present-lady-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7004539">
+          <caret line="107" column="109" selection-start-line="107" selection-start-column="100" selection-end-line="107" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lady-account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lady-account-my-best-photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54202896">
+          <caret line="211" column="40" selection-start-line="211" selection-start-column="40" selection-end-line="211" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lady-account-mens-online.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.961538">
+          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lady-account-my-photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lady-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lady-profile-change-password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="210" column="39" selection-start-line="210" selection-start-column="39" selection-end-line="210" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lady-profile-correspondance-inbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.73077">
+          <caret line="210" column="39" selection-start-line="210" selection-start-column="39" selection-end-line="210" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lady-profile-income.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.653847">
+          <caret line="210" column="0" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-buy-credits.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-buy-credits-pay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="210" column="0" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-change-password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-page-chat-history-opened.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view-my-profile-somebody.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10144927">
+          <caret line="602" column="36" selection-start-line="602" selection-start-column="36" selection-end-line="602" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-page-edit-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.073913045">
+          <caret line="192" column="41" selection-start-line="192" selection-start-column="41" selection-end-line="192" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-phone-calls.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.615942">
+          <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-photos-i-liked.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56666666">
+          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-my-favorites.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27101448">
+          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-my-orders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32028985">
+          <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-my-photos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="187" column="78" selection-start-line="187" selection-start-column="78" selection-end-line="187" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/chat-index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.92608696">
+          <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
           <folding />
         </state>
       </provider>

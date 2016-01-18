@@ -27,7 +27,14 @@
     margin: 0 auto;
   }
 }
+.present-content {
 
+  .nav-pills>li {
+    @media only screen and(max-width: 479px){
+      float:none;
+    }
+  }
+}
 
 .scrollbar-inner{
   overflow: hidden;
@@ -106,6 +113,7 @@ li{
   padding-right: 12px;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-bottom: 50px;
   @media only screen and(max-width: 661px){
     justify-content: center;
   }
@@ -159,10 +167,13 @@ li{
     background-color: $color-green;
     color: white;
     vertical-align: top;
+    height: 32px;
     &:hover{
       background-color:#4F9F11;
     }
   }
+
+
 }
 .form-group.number.left-number.cart-number{
   float: none;
@@ -214,7 +225,7 @@ li{
 span.glyphicon-gift{
   font-size: 44px;
   float: left;
-  margin-right: 20px;
+  margin: 0 10px;
   vertical-align: baseline;
 }
 
@@ -247,10 +258,20 @@ p{
   border-bottom: 1px solid white;
   clear: both;
   margin-top: 15px;
+  @media only screen and (max-width: 479px){
+    padding: 15px 0;
+  }
 
   .item-cart{
     display: block;
     margin-bottom: 20px;
+    @media only screen and (max-width: 479px){
+      display: block;
+      margin-bottom: 20px;
+      border-top: 1px solid;
+      border-bottom: 1px solid;
+      padding: 10px;
+    }
 
     a{
       color:white;
@@ -279,6 +300,14 @@ p{
         padding-right: 21px;
         position: relative;
 
+        @media only screen and (max-width: 479px){
+          float:none;
+          display: block;
+          width: 71px;
+          margin-left:0;
+          margin-top: 10px;
+        }
+
         .close-item{
           position: absolute;
           right: 0;
@@ -294,9 +323,7 @@ p{
       img{
         float:left;
         margin-right: 15px;
-        @media (max-width: 390px){
-          float:none;
-        }
+
       }
 
   }
@@ -332,4 +359,24 @@ p{
 .have-credit{
   color:$color-green;
   font-family:$color-green;
+}
+.jq-number__field {
+  border-radius: 0;
+}
+
+input.my-number{
+  @media only screen and (max-width: 479px){
+    margin: 0;
+  }
+}
+
+.nav-tabs>li:focus{
+  outline: none;
+  border: none;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  color:$color-blue-font;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
 }

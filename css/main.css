@@ -96,7 +96,7 @@ ul.navbar-right .dropdown-menu>li>a:focus, ul.navbar-right .dropdown-menu>li>a:h
 }
 .navbar-right .dropdown-menu {
 	right: 10px;
-	left: 0px;
+	left: -10px;
 	border: none;
 
 }
@@ -204,7 +204,7 @@ ul.dropdown-menu.menu {
 }
 ul.nav.navbar-nav.navbar-right {
 	padding: 0;
-	margin-top: 6px;
+	margin-top: 18px;
 }
 .carousel-inner .my-wrap{
 
@@ -231,7 +231,7 @@ ul.nav.navbar-nav.navbar-right {
 .panel.panel-default.promo.panel-form{
 	bottom: 0;
 	right: 0;
-	max-width:370px;
+	max-width:400px;
 	right: 8%;
 	left: auto;
 }
@@ -1114,7 +1114,7 @@ a.public-faq:hover{
 }
 form#send-email, form#reg-form {
 	background-color: #f4f4f4;
-	padding: 50px 20px 30px 0;
+	padding: 50px 10px 21px 10px;
 	margin-bottom: 40px;
 }
 .form#reg-form{
@@ -1455,6 +1455,7 @@ form#search-girl a.btn.search {
 	color: white;
 	padding: 7px 22px;
 	padding-bottom: 6px;
+	margin-top: 8px;
 }
 .col {
 	display: inline-block;
@@ -2005,10 +2006,8 @@ img.img-responsive.img-404 {
 }
 div#myModal {
 	display: flex;
-	height: 100vh;
 	flex-direction: row;
 	flex-wrap: wrap;
-	align-items: center;
 }
 .modal-dialog.modal-sm {
 	margin: 0 auto;

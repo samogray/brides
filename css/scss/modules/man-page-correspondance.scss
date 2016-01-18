@@ -161,7 +161,7 @@ li.tiptop:hover{
     content: '';
     position: absolute;
     left: 15px;
-    top: -28px;
+    top: -30px;
     border: 15px solid transparent;
     border-bottom: 15px solid #3c3c3c;
   }
@@ -186,6 +186,10 @@ li.tiptop:hover{
   .f-right {
     float: right;
     width: 66%;
+    @media only screen and (max-width: 767px){
+      border-top:none;
+      border-bottom: none;
+    }
     a.btn{
       border:1px solid white !important;
       background-color: transparent;

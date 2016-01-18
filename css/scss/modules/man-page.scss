@@ -122,7 +122,9 @@
   padding: 9px 26px;
   opacity: .6;
   @include transition(all .3s ease-in-out);
-
+  @media only screen and (max-width: 625px){
+    display:none ;
+  }
   &:hover {
     opacity: 1;
   }
@@ -154,7 +156,8 @@
     max-width: 2000px;
   }
   .slider-available.slick-initialized.slick-slider{
-    max-width: 92%;
+    max-width: 90%;
+    margin: 0 auto;
   }
 
   .prev-anketa.center-block {
@@ -215,6 +218,8 @@
 }
 
 
-.tiptop{
-
+.new-men{
+  span.line-decor{
+    width: 15%;
+  }
 }

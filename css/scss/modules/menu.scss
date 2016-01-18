@@ -213,6 +213,10 @@ ul#main-menu {
 }
 .col-lg-12.container-menu {
   padding: 15px 20px;
+  @media only screen and (max-width : 479px){
+
+    padding: 15px 0;
+  }
 }
 
  .my-custom{

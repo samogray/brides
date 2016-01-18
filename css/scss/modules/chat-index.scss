@@ -47,15 +47,25 @@
 }
 
 
-.girl-list {
+ul.girl-list {
   background-color:$color-grey;
   width: 100%;
   padding: 10px 0;
+
 
       @media only screen and(max-width: 991px){
         height: auto;
       }
 
+
+  .link-girl{
+    .bl{
+      border-radius: 50%;
+      .img-box{
+        border-radius: 50%;
+      }
+    }
+  }
   h3.item-girl-name{
     color:$color-blue-font;
     font-family: $font-bold;
@@ -124,6 +134,7 @@
 .item-girl{
   display: block;
 
+
 .name-girl{
   @media only screen  and(max-width:991px){
   }
@@ -164,6 +175,10 @@
     float: left;
     border: 1px solid $color-blue-font;
     margin-right: 15px;
+    border-radius: 0;
+    .img-box {
+      border-radius: 0;
+    }
   }
 }
 
@@ -185,7 +200,7 @@
 }
 
 .name-girl{
-  padding-top: 16px;
+  padding-top: 20px;
 
       .item-girl-name{
         font-family: $font-normal;
@@ -422,14 +437,13 @@ textarea{
   background-color: $color-grey;
   padding: 5px;
   margin-top: 50px;
-height: 100vh;
   @media only screen and(max-width: 991px){
-    margin-top: 0;
+    margin-top: 32px;
   }
 
   @media only screen and(max-width: 767px){
     height:auto;
-    margin-top: 0;
+    margin-top: 32px;
   }
 
   .item-girl {
@@ -475,7 +489,7 @@ height: 100vh;
     padding-left: 100px;
     background-position:75px 5px;
     padding-top: 6px;
-    margin-left: 21px;
+    margin-left: 15px;
   }
 
 

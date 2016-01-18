@@ -209,12 +209,8 @@
                                 <div class="col-lg-9 no-padding">
                                     <div class="row right">
                                         <div class="col no-padding">
-                                            <label for="name" class="label-search">Search</label>
-                                        </div>
-                                        <div class="col no-padding">
                                             <span class="label-input">Ladies name or ID</span>
                                             <input type="text" class="form-control" id="name" placeholder="For example: Olga">
-
                                         </div>
                                         <div class="col no-padding">
                                             <span class="label-input">Age Restrictions</span>
@@ -523,7 +519,7 @@
                         <li><a href="#0">Change Password</a></li>
                         <li><a href="#0"> Log Out</a></li>
                     </ul>
-                    <ul class="menu-account">
+                    <ul class="menu-account slide-menu">
                         <li class="birthd-title">Upcoming Birthday`s</li>
                         <li>
                             <div class="carousel-birthd clearfix">
@@ -761,11 +757,10 @@
                         </div>
                     </div>
                 </article>
-                    <a href="#0" class=" btn ladies-available"><i class="fa fa-angle-double-up"></i> <span> 34</span> Ladies Available</a>
-                    <div class="pop-up-slider fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <a href="#0" class="btn ladies-available"  data-toggle="modal" data-target=".pop-up-slider"><i class="fa fa-angle-double-up"></i> <span> 34</span> Ladies Available</a>
+                    <div class="pop-up-slider">
                        <div class="my-wrap">
-                           <a href="#0" class=" btn ladies-available-down" ata-dismiss="modal"><i class="fa fa-angle-double-down"></i> <span> 34</span> Ladies Available</a>
-
+                           <a href="#0" class="btn ladies-available-down"><i class="fa fa-angle-double-down"></i> <span> 34</span> Ladies Available</a>
                            <h1><span>34</span> Ladies available for video chats</h1>
                             <div class="slider-available">
                                 <div>
@@ -779,6 +774,7 @@
                                         <span class="from-city">25 years old from Lviv</span>
                                     </div>
                                 </div>
+
                                 <div>
                                     <div class="prev-anketa center-block anketa-result">
                                         <div class="link-img">
@@ -956,6 +952,7 @@
         infinite:true,
         focusOnSelect:false,
         arrows:true,
+        prevArrow:'<span class="prev"><span class="fa fa-angle-left"></span></span>',
         nextArrow:'<span class="next"><span class="fa fa-angle-right"></span></span>',
         responsive: [
             {
@@ -1011,14 +1008,16 @@
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 2,
+                    dots:false
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    dots:false
                 }
             }
 
@@ -1027,18 +1026,22 @@
     });
     $('.menu-account-btn').click(function(){
         $('.menu-drop').slideToggle();
-    })
+    });
+
     $('.ladies-available').click(function(){
-        $('.pop-up-slider').slideToggle();
-        $('.pop-up-slider').modal('toggle');
+      $('.pop-up-slider').slideToggle();
 
     });
 
     $('.ladies-available-down').click(function(){
-        $('.pop-up-slider').slideToggle();
-        $('.pop-up-slider').modal('hide');
+        $('.pop-up-slider').slideToggle(function (){
+            $(this).modal('hide');
+        });
+       //$('.pop-up-slider').modal('hide');
 
     });
+
+
     $('.my-list,.my-number').styler();
 
 

@@ -1,20 +1,43 @@
 /*==========  Desktop First Method  ==========*/
 @media (min-width:991px) and (max-width:1404px) {
+ .panel.panel-default.promo.custom-panel {
+  bottom: 0;
+  max-width: 46%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  left: 76px;
+  right: auto;
+  justify-content: center;
+ }
+ .promo-block {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 0 18px 88px;
+  width: 45%;
+  margin: 9px 0;
+ }
+ .promo-secure {
+  background-position: 19px -99px;
+ }
+ .promo-privates {
+  background-position: -400px -101px;
+ }
+ .promo-ledies {
+  background-position: -400px 1px;
+ }
+ .promo-account {
+  background-position: 19px 3px;
+ }
  .panel.panel-default.promo.panel-form {
   bottom: 0;
   right: 8%;
   left: auto;
-  max-width: 25%;
+  width: 370px;
  }
-
- .promo-block {
-  font-size: 26px;
-  font-weight: 600;
-  padding: 0px 0 11px 88px;
-  width: 45%;
-  margin: 20px 0;
+ .promo-info {
+  font-size: 12px;
  }
-
 /*
  .panel.panel-default.promo.custom-panel {
    bottom: -17px;
@@ -649,6 +672,9 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  }
 }
 @media only screen and (max-width : 625px){
+ span.line-decor{
+  display: none;
+ }
  .wrap-img {
   max-width: 200px;
   height: 200px;
@@ -761,6 +787,15 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 479px) {
 
+ .col-lg-12.container-menu {
+  padding: 15px 0;
+ }
+
+
+ a.logo{
+  margin-right: 0;
+ }
+
 
  .page-header.question h1 {
   font-size: 24px;
@@ -863,9 +898,7 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  span.glyphicon.fa.fa-facebook {
  display: none;
  }
- span.line-decor{
-  display: none;
- }
+
 
  ul.nav.navbar-nav.navbar-right li.dropdown a.eng {
   background-position: 31% 12px;
