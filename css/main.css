@@ -407,7 +407,7 @@ h3.title-ledies-group {
 	margin-bottom:40px;
 }
 span.line-decor {
-	width: 183px;
+	width: 20%;
 	border-bottom: 1px solid #6a696e;
 	display: inline-block;
 	margin: 6px 34px;
@@ -1075,6 +1075,7 @@ img.faq-img {
 	font-weight: 300;
 	font-size: 30px;
 	width: 57.57%;
+	padding-left: 15px;
 }
 .media-body.media-body-faq h4, .media-body.media-body-faq p {
 	padding-left:0;
@@ -1485,18 +1486,19 @@ h3.res-serch-title {
 	margin: 25px 0;
 }
 .prev-anketa.center-block.anketa-result h3.my-name{
-	font-size: 24px;
+	font-size: 20px;
 	padding-top:13px;
 	float:left;
 }
 a.v-prof.btn {
-	background-color: #57B711;
+	background-color: rgba(66, 133, 17, 1);
 	color: white;
 	font-size: 12px;
 	padding: 5px 5px;
 	border-radius: 6px;
 	border: none;
 	display: inline-block;
+	border: 1px inset transparent;
 	margin: 0;
 	position: relative;
 	float:right;
@@ -1505,7 +1507,9 @@ a.v-prof.btn {
 	transition: all .2s;
 }
 a.v-prof.btn:hover{
+	border: 1px inset #6fd11c;
 }
+
 .prev-anketa.center-block.anketa-result span.from-city {
 	clear: both;
 	display: block;
@@ -1546,9 +1550,7 @@ input.check-star {
 	background-image: url("../img/star1.png");
 	background-repeat: no-repeat;
 }
-.check-star+label:hover:before{
-	background-image: url("../img/star2.png");
-}
+
 
 .check-star:not(checked) + label:after {
 	content: '';

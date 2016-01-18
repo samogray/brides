@@ -1,5 +1,5 @@
 /*==========  Desktop First Method  ==========*/
-@media (min-width:991px) and (max-width:1404px) {
+@media (min-width:992px) and (max-width:1404px) {
  .panel.panel-default.promo.custom-panel {
   bottom: 0;
   max-width: 46%;
@@ -240,6 +240,7 @@ background: url("../img/banner.jpg") no-repeat 50% 27%;
   font-weight: 600;
   padding: 23px 0 15px 88px;
   margin: 0;
+  width: 337px;
  }
 
  .promo-info {
@@ -435,10 +436,14 @@ background: url("../img/banner.jpg") no-repeat 50% 27%;
  .panel-body h1 {
   margin: 80px 0;
  }
+
  .promo-block {
   float: none;
-  width: 272px;
-  margin: 0 auto;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 23px 0 15px 88px;
+  margin: 0;
+  width: 337px;
  }
   ul.nav.navbar-nav.navbar-right li.dropdown a.eng {
   margin-top: 30px;

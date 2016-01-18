@@ -208,6 +208,18 @@ a.menu-account-btn{
 }
 article.new-men {
   margin:75px 0 150px;
+
+  span.line-decor{
+    width: 10%;
+  }
+}
+article.men-online{
+  span.line-decor{
+    width: 10%;
+    @media only screen and(max-width:991px){
+      width: 7%;
+    }
+  }
 }
 
 

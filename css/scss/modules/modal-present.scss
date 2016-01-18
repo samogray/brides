@@ -58,17 +58,29 @@ li{
     font-size: $font-size-sm;
     color: $color-grey-line;
     border: none;
+    &:hover{
+      background-color: transparent;
+
+    }
   }
   @media (max-width: 847px){
     float:none;
-    background-color: white!important;
+    background-color: transparent!important;
   }
 }
+  .nav>li>a:hover{
+    background-color:transparent;
+    color:$color-blue-font;
+
+    &:hover{
+      color:$color-blue-font;
+    }
+  }
   li.active>a{
     color:$color-green;
     background-color: $color-grey;
     @media only screen and(max-width: 847px){
-      background-color: white;
+      background-color:transparent;
       border: none;
       &:focus{
         background-color: white;

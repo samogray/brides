@@ -2536,11 +2536,21 @@ label.cvv {
   color: #bebebe;
   border: none;
 }
+.present-tabs li a:hover {
+  background-color: transparent;
+}
 @media (max-width: 847px) {
   .present-tabs li {
     float: none;
-    background-color: white !important;
+    background-color: transparent !important;
   }
+}
+.present-tabs .nav > li > a:hover {
+  background-color: transparent;
+  color: #16b4dc;
+}
+.present-tabs .nav > li > a:hover:hover {
+  color: #16b4dc;
 }
 .present-tabs li.active > a {
   color: #64b118;
@@ -2548,7 +2558,7 @@ label.cvv {
 }
 @media only screen and (max-width: 847px) {
   .present-tabs li.active > a {
-    background-color: white;
+    background-color: transparent;
     border: none;
   }
   .present-tabs li.active > a:focus {
@@ -3417,6 +3427,18 @@ a.menu-account-btn:hover {
 article.new-men {
   margin: 75px 0 150px;
 }
+article.new-men span.line-decor {
+  width: 10%;
+}
+
+article.men-online span.line-decor {
+  width: 10%;
+}
+@media only screen and (max-width: 991px) {
+  article.men-online span.line-decor {
+    width: 7%;
+  }
+}
 
 h1.lady-catalog-title.men-catalog {
   padding: 10px 68px 10px 0;
@@ -3449,7 +3471,7 @@ span.glyphicon.glyphicon-triangle-left:hover, span.glyphicon.glyphicon-triangle-
 .flex-container-my-photo {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   width: 100%;
 }
 @media only screen and (max-width: 847px) {
@@ -4037,7 +4059,6 @@ span.date-massage {
 }
 .wrap-change-password .form-group {
   margin-bottom: 20px;
-  padding: 0 30px;
 }
 @media (max-width: 479px) {
   .wrap-change-password .form-group {
