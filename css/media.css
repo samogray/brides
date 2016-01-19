@@ -183,7 +183,7 @@ background: url("../img/banner.jpg") no-repeat 50% 27%;
  }
  form#login-form {
   background-color: #ebebeb;
-  padding: 35px 10%;
+  padding: 35px 2%;
   max-width: 70%;
   margin: 0 auto;
   text-align: center;;
@@ -370,7 +370,7 @@ background: url("../img/banner.jpg") no-repeat 50% 27%;
  }
  form#login-form {
   background-color: #ebebeb;
-  padding: 35px 7%;
+  padding: 35px 2%;
   max-width: 70%;
   margin: 0 auto;
   text-align: center;
@@ -747,21 +747,14 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
  }
  form#login-form {
   background-color: #ebebeb;
-  padding: 35px 7%;
+  padding: 35px 2%;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
  }
 }
 @media only screen and (max-width : 390px) {
- ul.nav.navbar-nav.my-custom-lady-catalog.dropdown li{
-  float:none;
-  display: block;
- }
- ul.nav.navbar-nav.navbar-right.lady-catalog-menu>li{
-  float: none;
-  display: block;
- }
+
  ul.nav.navbar-nav.navbar-right.lady-catalog-menu li.dropdown a{
   text-align: left;
  }
@@ -791,6 +784,15 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
 /*---------------------------------*/
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 479px) {
+ ul.nav.navbar-nav.my-custom-lady-catalog.dropdown li{
+  float:none;
+  display: block;
+ }
+ ul.nav.navbar-nav.navbar-right.lady-catalog-menu>li{
+  float: none;
+  display: block;
+  text-align: left;
+ }
 
  .col-lg-12.container-menu {
   padding: 15px 0;

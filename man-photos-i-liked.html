@@ -161,18 +161,18 @@
                         <div class="my-wrap">
                             <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                                 <a href="#0" class="logo navbar-brand">Brides <span>dating</span></a>
-                                <div class="wrap-lang clearfix">
-                                    <a href="#" class="btn menu-drop-btn lang"><span class="fa fa-language"></span></a>
-                                    <ul class="menu-lang">
+                                <div class="wrap-lang dropdown clearfix">
+                                    <a href="#" class="btn menu-drop-btn lang lang-index" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-language"></span></a>
+                                    <ul class="menu-lang dropdown-menu">
                                         <li><a href="#" class="eng">English</a></li>
                                         <li><a href="#" class="span">Spanish</a></li>
                                         <li><a href="#" class="ital">Italian</a></li>
                                         <li><a href="#" class="ger">German</a></li>
                                     </ul>
                                 </div>
-                                <a href="#0" class="btn menu-drop-btn main-menu"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+                                <a href="#0" class="btn menu-drop-btn main-menu-index"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
                             </div>
-                            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                            <div class="col-lg-8 col-md-8 col-sm-9 col-xs-12 no-padding-r">
                                 <ul class="nav navbar-nav my-custom menu-lady-catalog" id="main-menu">
                                     <li><a href="#0">Gallery of Ladies</a></li>
                                     <li><a href="#0">New Profiles</a></li>
@@ -180,18 +180,16 @@
                                     <li><a href="#0">My Favorites</a></li>
                                 </ul>
                             </div>
-                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-                                <ul class="nav navbar-nav navbar-right navbar-lang">
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle btn eng" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English<span class="caret custom-caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#" class="ger">German</a></li>
-                                            <li><a href="#" class="span">Spanish</a></li>
-                                            <li><a href="#" class="ital">Italian</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
+                            <ul class="nav navbar-nav navbar-right navbar-lang-index">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle btn eng" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English<span class="caret custom-caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#" class="ger">German</a></li>
+                                        <li><a href="#" class="span">Spanish</a></li>
+                                        <li><a href="#" class="ital">Italian</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </nav>
@@ -482,7 +480,7 @@
     </div>
     <div class="row">
         <div class="my-wrap">
-            <div class="col-lg-3  col-md-3 col-sm-5 no-padding">
+            <div class="col-lg-3  col-md-3 col-sm-5 no-padding-r">
                 <a href="#0" class="btn menu-account-btn"><span class="glyphicon glyphicon-menu-hamburger"></span>МЕНЮ</a>
                 <div class="menu-drop">
                     <ul class="menu-account ">
@@ -549,7 +547,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-9 col-lg-9  col-md-9 col-sm-7 no-padding">
+            <div class="col-lg-9 col-lg-9  col-md-9 col-sm-7 no-padding-l">
                 <h1 class="hello-name">Photos I Liked</h1>
                 <article class="gallery-my-photo">
                     <div class="flex-container-my-photo">
@@ -700,8 +698,13 @@
         infinite:true
     });
 
+
+
     $('.menu-account-btn').click(function(){
         $('.menu-drop').slideToggle();
+    });
+    $('.main-menu-index').click(function(){
+        $('#main-menu').slideToggle();
     });
     $('.my-list,.my-number').styler();
 

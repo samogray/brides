@@ -1,5 +1,9 @@
 @import "../variables.scss";
 form#search-girl{
+
+  @media only screen and(min-width:769px) {
+    display:block!important;
+  }
   .jq-selectbox__dropdown{
     z-index: 2500!important;
   }

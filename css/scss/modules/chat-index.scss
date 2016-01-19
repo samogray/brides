@@ -110,7 +110,7 @@ ul.girl-list {
         input:-ms-input-placeholder      {text-transform: uppercase;}
 
             input.form-control{
-              width: 80%;
+              width: 87%;
               float: right;
               background-color:$color-grey ;
               border: none;
@@ -118,6 +118,7 @@ ul.girl-list {
               box-shadow: none;
               padding: 0;
               padding-left: 10px;
+              height: 32px;
               font-family: $font-normal;
 
 
@@ -436,14 +437,11 @@ textarea{
 .view-profile-wrap{
   background-color: $color-grey;
   padding: 5px;
-  margin-top: 50px;
   @media only screen and(max-width: 991px){
-    margin-top: 32px;
   }
 
   @media only screen and(max-width: 767px){
     height:auto;
-    margin-top: 32px;
   }
 
   .item-girl {
@@ -545,5 +543,19 @@ a.btn.invite{
 }
 .start{
   background:url("../img/play.png") no-repeat 13px 8px;
+}
+
+.chat-name{
+  font-family: $font-light;
+  font-size: 28px;
+  color:$color-grey-line;
+  padding-left: 15px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #C7EDFC;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  i.fa.fa-comments-o {
+    color: #16B9E5;
+  }
 }
 

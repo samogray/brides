@@ -28,9 +28,9 @@
                 <div class="my-wrap">
                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                         <a href="#0" class="logo navbar-brand">Brides <span>dating</span></a>
-                        <div class="wrap-lang clearfix">
-                            <a href="#" class="btn menu-drop-btn lang lang-index"><span class="fa fa-language"></span></a>
-                            <ul class="menu-lang">
+                        <div class="wrap-lang dropdown clearfix">
+                            <a href="#" class="btn menu-drop-btn lang lang-index" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-language"></span></a>
+                            <ul class="menu-lang dropdown-menu">
                                 <li><a href="#" class="eng">English</a></li>
                                 <li><a href="#" class="span">Spanish</a></li>
                                 <li><a href="#" class="ital">Italian</a></li>
@@ -238,8 +238,9 @@
     $('.main-menu-index').click(function(){
         $('#main-menu').slideToggle();
     });
+
     $('.lang').click(function(){
-        $('ul.menu-lang').slideToggle();
+        $('#main-menu').hide();
     });
 
 </script>

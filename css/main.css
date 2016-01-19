@@ -204,7 +204,7 @@ ul.dropdown-menu.menu {
 }
 ul.nav.navbar-nav.navbar-right {
 	padding: 0;
-	margin-top: 18px;
+	margin-top: 9px;
 }
 .carousel-inner .my-wrap{
 
@@ -220,7 +220,7 @@ ul.nav.navbar-nav.navbar-right {
 }
 .panel.panel-default.promo.custom-panel {
 	bottom: 0;
-	max-width: 56%;
+	max-width: 700px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -1115,7 +1115,7 @@ a.public-faq:hover{
 }
 form#send-email, form#reg-form {
 	background-color: #f4f4f4;
-	padding: 50px 10px 21px 10px;
+	padding: 50px 0 21px 0;
 	margin-bottom: 40px;
 }
 .form#reg-form{
@@ -1326,7 +1326,7 @@ ul.nav.navbar-nav.my-custom.menu-lady-catalog li a {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	transition: all .5s ease-in-out;
-	padding: 14px 15px;
+	padding: 14px 11px;
 }
 ul.nav.navbar-nav.my-custom.menu-lady-catalog li a:hover {
 	background-color: #c1ebf6;
@@ -1741,7 +1741,7 @@ h1.title-login-page {
 	margin-bottom: 75px;
 }
 .cont-girl .prev-anketa.center-block.anketa-result {
-	max-width: 175px;
+	max-width: 243px;
 	margin-bottom: 33px;
 }
 .cont-girl .prev-anketa.center-block.anketa-result .online {
@@ -1762,10 +1762,11 @@ h1.title-login-page {
 	line-height: 24px;
 	color: #9f9f9f;
 	margin-bottom: 25px;
+	font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
 form#login-form{
 	background-color: #ebebeb;
-	padding: 35px 25px;
+	padding: 35px 10px;
 }
 .group-fb .input-group-addon:first-child, a.btn.using-fb {
 	color: white;

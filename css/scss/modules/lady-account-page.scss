@@ -31,6 +31,7 @@ a.menu-account-btn{
 
 .menu-account{
   margin-top: 40px;
+  min-width: 280px;
   li.title{
     background:url("../img/menu-account.png") no-repeat;
     color:black;
@@ -224,7 +225,7 @@ article.men-online{
 
 
 h1.lady-catalog-title.men-catalog {
-  padding: 10px 68px 10px 0;
+  padding: 10px 68px 10px 15px;
 }
 
 span.glyphicon.glyphicon-triangle-right {

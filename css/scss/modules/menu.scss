@@ -59,10 +59,22 @@ a.btn.menu-drop-btn.main-menu-index{
 
 ul#main-menu {
   margin:0;
+  margin-left: 20px;
+
+  @media only screen and(max-width:768px) {
+    display:none;
+    margin-left: 0;
+  }
+  @media only screen and(max-width:991px) {
+    margin-left: 0;
+  }
+
   @media only screen and(max-width:750px) {
     float: right;
   }
-
+  @media only screen and(min-width:769px) {
+   display: block!important;
+  }
 }
 
 ul.nav.navbar-nav.my-custom li {
@@ -124,6 +136,10 @@ span.dashboard {
 .wrap-lang{
   position: relative;
   float:right;
+
+  ul.dropdown-menu{
+    left:-88px;
+  }
 }
 .flag {
   width: 25px;
@@ -207,10 +223,7 @@ a.btn.drop-form.main-menu-index{
      display:none;
    }
  }
-ul#main-menu {
-  margin: 0;
-  margin-left: 20px;
-}
+
 .col-lg-12.container-menu {
   padding: 15px 20px;
   @media only screen and (max-width : 479px){
@@ -219,15 +232,7 @@ ul#main-menu {
   }
 }
 
- .my-custom{
-   @media only screen and(max-width:768px) {
-     display:none;
-   }
-   @media only screen and(min-width:768px) {
-     display:block;
-   }
 
-}
 .eng{
   background: url("../img/flag.png") no-repeat 4px 12px;
 }
@@ -309,7 +314,6 @@ text-align: right;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAcRJREFUeNqkk71OG0EUhc+dn13bYGwlZZQ8QHCRgipSKiRaKhrEI4CiPFFSIqWAFJHSR6KhpSASTxDFFhvzY5udmZyZ9S4LZTzSaHdn9p77nXtnJISAVYbCisPI0ckpSr8LT5JIMw+4OHyFYhHg/JJOa/jBAK9HI/in2c9MDP7+cYePuBUwXQCbbzPcLTxc7U4puLUeht++AuvrgDDUGlx92H5vYuZiXmL/y6/KEDNvf3qJ6/mjQFAabmOA4cEe0M9BNODzcWUBAkz4M7qaAvxQAb1Ohnu0BGjBdTvMzgz9HgVKYFosBTgmxEUmJBMEvlprYZhF/KOAMhmQM0nOEMdEN9ctgpljFDclrgRk9JdRoKwrFgm4BivVNCS5bRM8RIFlR42HNpY1cg1BFNCmFtBV/RuCJBAgRqcupBVasE49EfBpXZLVhHrXsvCndFDcTG03klpk6bMtkOpZWxDO+4ZAMClJQDThQQouEuawWbRQHyRTCeSqKqTmc/a3JhCMA6vczdiB+FtSYAzn83PbN9UkEVwjgOn453m/Ocozj8ut3xjPYheWBCygH77Amx8FSYpGj7vTWJF3EfI/75KTVa/zPwEGAOCWsO19nu/2AAAAAElFTkSuQmCC) no-repeat 0 7px;
 }
 .changed .jq-selectbox__select-text {
-  padding-left: 25px;
 }
 
 .jq-selectbox li:first-child {
@@ -331,3 +335,60 @@ text-align: right;
     top: 47%;
   }
 }
+
+#my-form {
+  .datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-bottom{
+    z-index: 2500!important;
+  }
+}
+.navbar>.container-fluid .navbar-brand {
+  margin-left: 0px;
+}
+/*-------Menu Dashboard--------------*/
+
+a.btn.dashboard-menu{
+  margin: 10px auto;
+  width: 90%;
+  display: none;
+  color: white;
+  border-color: white;
+  border-radius: 4px;
+  @media only screen and(max-width:479px) {
+    display: block;
+  }
+
+}
+span.dashboard{
+
+  @media only screen and(max-width:479px) {
+    float:none;
+
+  }
+}
+.drop-dashboard{
+  .navbar-nav>li{
+    @media only screen and(max-width:750px) {
+      display: inline-block;
+      float: none;
+    }
+  }
+
+  @media only screen and(max-width:479px) {
+    display: none;
+  }
+  @media only screen and(min-width:480px) {
+    display:block!important;
+  }
+}
+ul.nav.navbar-nav.navbar-right.lady-catalog-menu ul.dropdown-menu.menu-dashboard{
+  @media only screen and(max-width:479px) {
+    position: relative;
+  }
+}
+li.dropdown.open{
+  ul.dropdown-menu li a{
+    text-align: center;
+  }
+}
+
+/*--------------------------------*/

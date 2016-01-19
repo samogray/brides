@@ -17,13 +17,24 @@
   padding: 10px;
 }
 .invie-to{
+
+  @media only screen and(max-width: 479px){
+    font-size: 24px;
+  }
+
+
   font-family: $font-normal;
   font-size: $font-size-big;
   text-decoration-style: dotted;
   padding: 30px 15px 0 0;
   margin-bottom: 20px;
   position: relative;
+  .id-girl {
 
+    @media only screen and(max-width: 479px){
+      display: none;
+    }
+  }
 }
 .invite-link {
   position: relative;
@@ -34,6 +45,10 @@
     opacity: 1;
     z-index: 5000;
     visibility: visible;
+    @media only screen and(max-width: 479px){
+      left: -105px;
+    }
+   
   }
 }
 .id-girl{
@@ -214,6 +229,10 @@ table {
     float: left;
     margin-top:15px;
   }
+  @media only screen and(max-width: 625px){
+    float:none;
+    margin-top:15px;
+  }
 
   span {
     font-size: $font-size-xsm;
@@ -231,7 +250,11 @@ table {
     float: left;
 
   }
-
+  @media only screen and(max-width: 625px){
+    float:none;
+    margin-top:15px;
+    display: block;
+  }
 }
 .lady-time-zone{
   @media only screen and(max-width: 1199px){
@@ -239,6 +262,11 @@ table {
     font-size:98% ;
     vertical-align: middle;
     float: left;
+  }
+  @media only screen and(max-width: 625px){
+    float:none;
+    margin-top:15px;
+    display: block;
   }
 }
 .invite-time {
@@ -266,7 +294,7 @@ a.invite-btn{
   font-size: $font-size-sm;
   font-family:$font-normal;
   padding: 10px 15px;
-  margin-top: 25px;
+  margin-top: 58px;
   float: right;
   @include transition(all .3s ease-in-out);
 
@@ -282,7 +310,7 @@ a.invite-btn{
   @media only screen and(max-width: 1199px){
     float:left;
     clear: both;
-    margin: 10px 10px 10px 0;
+    margin: 25px 10px 10px 0;
   }
 }
 
@@ -323,6 +351,13 @@ a.invite-btn{
   z-index: 5000;
 
 }
+.select-time{
+  @media only screen and(max-width: 625px){
+
+    margin-top:50px;
+
+  }
+}
 .my-tooltip:after{
   margin-left: -9px;
   border-bottom: 10px solid #FFF;
@@ -339,4 +374,8 @@ a.invite-btn{
     display: block;
     width:100%;
   }
+}
+
+.slider-handle{
+  z-index: 2500;
 }

@@ -122,7 +122,7 @@
   padding: 9px 26px;
   opacity: .6;
   @include transition(all .3s ease-in-out);
-  @media only screen and (max-width: 625px){
+  @media only screen and (max-width: 750px){
     display:none ;
   }
   &:hover {
@@ -130,7 +130,8 @@
   }
 }
 .pop-up-slider {
-  display: none;
+  display: block;
+  visibility: hidden;
   position: fixed;
   bottom: 0;
   right: 0;

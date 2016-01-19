@@ -149,6 +149,46 @@
 li.tiptop:hover{
   background-color: #494a47;
 }
+li.tiptop-menu{
+  .tiptop.dropdown-menu{
+    width: 350px;
+    @media only screen and(max-width:767px) {
+      position: absolute;
+      background-color: #3c3c3c;
+      top: 42px;
+      left: -78px;
+    }
+    &:before {
+      @media only screen and(max-width:767px) {
+        top: -25px;
+        left: -104px;
+      }
+
+   /*   border: 15px solid rgba(255, 255, 255, 0);
+      border-bottom: 15px solid #494a4a;*/
+    }
+    @media only screen and(max-width:479px) {
+      position:static;
+      width: 100%;
+    }
+  }
+
+  li {
+    display: block;
+    width: 100%;
+    .img-box-mes-item{
+      @media only screen and(max-width:479px) {
+        display: none;
+      }
+    }
+    .f-right {
+      @media only screen and(max-width:479px) {
+        width: 100%;
+      }
+    }
+  }
+
+}
 .tiptop{
   background-color: #3c3c3c;
   position: absolute;
@@ -187,7 +227,7 @@ li.tiptop:hover{
     float: right;
     width: 66%;
     @media only screen and (max-width: 767px){
-      border-top:none;
+     border-top:none;
       border-bottom: none;
     }
     a.btn{

@@ -166,16 +166,16 @@
                         <div class="my-wrap">
                             <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                                 <a href="#0" class="logo navbar-brand">Brides <span>dating</span></a>
-                                <div class="wrap-lang clearfix">
-                                    <a href="#" class="btn menu-drop-btn lang"><span class="fa fa-language"></span></a>
-                                    <ul class="menu-lang">
+                                <div class="wrap-lang dropdown clearfix">
+                                    <a href="#" class="btn menu-drop-btn lang lang-index" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-language"></span></a>
+                                    <ul class="menu-lang dropdown-menu">
                                         <li><a href="#" class="eng">English</a></li>
                                         <li><a href="#" class="span">Spanish</a></li>
                                         <li><a href="#" class="ital">Italian</a></li>
                                         <li><a href="#" class="ger">German</a></li>
                                     </ul>
                                 </div>
-                                <a href="#0" class="btn menu-drop-btn main-menu"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+                                <a href="#0" class="btn menu-drop-btn main-menu-index"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12">
                                 <ul class="nav navbar-nav my-custom menu-lady-catalog" id="main-menu">
@@ -186,7 +186,7 @@
                                 </ul>
                             </div>
                             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-                                <ul class="nav navbar-nav navbar-right navbar-lang">
+                                <ul class="nav navbar-nav navbar-right navbar-lang-index">
                                     <li class="dropdown">
                                         <a href="#" class="dropdown-toggle btn eng" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English<span class="caret custom-caret"></span></a>
                                         <ul class="dropdown-menu">
@@ -486,6 +486,9 @@
         </header>
     </div>
     <div class="row">
+        <div class="my-wrap">
+            <h1 class="chat-name"> chat <i class="fa fa-comments-o"></i></h1>
+        </div>
         <div class="flex-container">
             <div class="flex-item aside-left">
                 <aside>
@@ -818,9 +821,13 @@
 <script>
     $('.my-list,.my-number').styler();
     $('.scrollbar-inner').scrollbar();
+
     $('.translate').click(function(){
         $('.mess-translate').slideToggle();
-    })
+    });
+    $('.main-menu-index').click(function(){
+        $('#main-menu').slideToggle();
+    });
 
 </script>
 

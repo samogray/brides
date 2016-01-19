@@ -55,6 +55,7 @@ input#amount{
 .border{
   margin-top: 20px;
   border-top:1px solid $color-grey-line;
+  margin-bottom: 50px;
 
 }
 
@@ -134,59 +135,13 @@ input#amount{
     height: 33px;
 
   }
-  .link-mcafee, .link-norton {
-    padding:0;
-  }
+
 }
 .form-group label {
   padding-bottom: 10px;
 }
 
-/*-------Menu Dashboard--------------*/
-
-a.btn.dashboard-menu{
-  margin: 10px auto;
-  width: 90%;
-  display: none;
-  color: white;
-  border-color: white;
-  border-radius: 4px;
-  @media only screen and(max-width:390px) {
-    display: block;
-  }
-
+.link-mcafee, .link-norton {
+  padding:0;
+  max-width: 120px;
 }
-span.dashboard{
-
-  @media only screen and(max-width:390px) {
-    float:none;
-
-  }
-}
-.drop-dashboard{
-  .navbar-nav>li{
-      @media only screen and(max-width:750px) {
-        display: inline-block;
-        float: none;
-      }
-  }
-
-  @media only screen and(max-width:390px) {
-    display: none;
-  }
-  @media only screen and(min-width:390px) {
-    display:block!important;
-  }
-}
-ul.nav.navbar-nav.navbar-right.lady-catalog-menu ul.dropdown-menu.menu-dashboard{
-  @media only screen and(max-width:390px) {
-    position: relative;
-  }
-}
-li.dropdown.open{
-  ul.dropdown-menu li a{
-    text-align: center;
-  }
-}
-
-/*--------------------------------*/
