@@ -390,5 +390,8 @@ li.dropdown.open{
     text-align: center;
   }
 }
-
+.dropdown-menu>li>a:hover{
+  background: url(../img/flag.png) no-repeat;
+  background-color: transparent;
+}
 /*--------------------------------*/

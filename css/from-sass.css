@@ -15,6 +15,7 @@
 
 .flex-item.aside-right {
   flex-basis: 23.225%;
+  background-color: #F6F6F6;
 }
 @media only screen and (max-width: 1056px) {
   .flex-item.aside-right {
@@ -569,6 +570,7 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
 
 .flex-item.aside-right {
   flex-basis: 23.225%;
+  background-color: #F6F6F6;
 }
 @media only screen and (max-width: 1056px) {
   .flex-item.aside-right {
@@ -6434,6 +6436,11 @@ a.btn.dashboard-menu, .chat-wrap .type-mess a.dashboard-menu.gift, .chat-wrap .t
 
 li.dropdown.open ul.dropdown-menu li a {
   text-align: center;
+}
+
+.dropdown-menu > li > a:hover {
+  background: url(../img/flag.png) no-repeat;
+  background-color: transparent;
 }
 
 /*--------------------------------*/

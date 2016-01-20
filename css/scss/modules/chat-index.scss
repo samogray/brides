@@ -14,6 +14,7 @@
 }
 .flex-item.aside-right{
   flex-basis: 23.225%;
+  background-color: #F6F6F6;
   @media only screen and(max-width:1056px){
     flex-basis:30%;
     order:2
