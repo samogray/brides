@@ -47,7 +47,101 @@
   }
 }
 
+.input-search{
+  display: block;
+  width: 100%;
+  margin-bottom: 2px;
+  background-color:$color-grey ;
+  color:$color-grey-line;
+  padding: 10px;
 
+  a.btn{
+    display: inline-block;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius:4px;
+    float: right;
+    margin-bottom: 5px;
+    display: none;
+    @include transition(all .3s ease-in-out);
+    @media only screen and(max-width:1056px){
+           display: inline-block;
+    }
+    @media only screen and(max-width:390px){
+      display: block;
+      float:none;
+      border-color:$color-blue-font;
+    }
+    &:hover{
+      border-color:$color-blue-font;
+      color:$color-blue-font;
+
+      .badge{
+        background-color: $color-blue-font;
+      }
+    }
+
+
+  }
+  .glyphicon {
+    top: 4px;
+    left: 9px;
+    @media only screen and(max-width: 479px){
+
+    }
+  }
+
+  form.form-inline {
+    border-bottom: 1px solid $color-grey-line;
+
+    @media only screen and(max-width:1056px){
+      width: 100%;
+      display: inline-block;
+    }
+  }
+
+  .form-group{
+    @media only screen and(max-width:1056px){
+      width: 100%;
+    }
+    @media only screen and(max-width: 767px){
+      margin-bottom: 17px;
+    }
+    @media only screen and(max-width: 479px){
+      margin-bottom: 30px;
+    }
+
+  }
+
+  input::-webkit-input-placeholder {text-transform: uppercase;}
+  input::-moz-placeholder          {text-transform: uppercase;}/* Firefox 19+ */
+  input:-moz-placeholder           {text-transform: uppercase;}/* Firefox 18- */
+  input:-ms-input-placeholder      {text-transform: uppercase;}
+
+  input.form-control{
+    width: 87%;
+    float: right;
+    background-color:$color-grey ;
+    border: none;
+    @include border-radius(0);
+    box-shadow: none;
+    padding: 0;
+    padding-left: 10px;
+    height: 32px;
+    font-family: $font-normal;
+    @media only screen and(max-width:1056px){
+      width: 50%;
+      display: inline-block;
+      float:none;
+    }
+
+
+    &:focus{
+      border:none;
+      box-shadow: none;
+    }
+  }
+}
 ul.girl-list {
   background-color:$color-grey;
   width: 100%;
@@ -57,7 +151,9 @@ ul.girl-list {
       @media only screen and(max-width: 991px){
         height: auto;
       }
-
+  @media only screen and(max-width:1056px){
+    display: none;
+  }
 
   .link-girl{
     .bl{
@@ -75,61 +171,7 @@ ul.girl-list {
   .item-girl-from{
     color:#646464;
   }
-      .input-search{
-        display: block;
-        width: 100%;
-        margin-bottom: 2px;
-        background-color:$color-grey ;
-        color:$color-grey-line;
-        padding: 10px;
 
-            .glyphicon {
-                top: 9px;
-                left: 13px;
-              @media only screen and(max-width: 479px){
-                top: 17px;
-              }
-              }
-
-              form.form-inline {
-                border-bottom: 1px solid $color-grey-line;
-              }
-
-              .form-group{
-                @media only screen and(max-width: 767px){
-                  margin-bottom: 17px;
-                }
-                @media only screen and(max-width: 479px){
-                  margin-bottom: 30px;
-                }
-
-              }
-
-        input::-webkit-input-placeholder {text-transform: uppercase;}
-        input::-moz-placeholder          {text-transform: uppercase;}/* Firefox 19+ */
-        input:-moz-placeholder           {text-transform: uppercase;}/* Firefox 18- */
-        input:-ms-input-placeholder      {text-transform: uppercase;}
-
-            input.form-control{
-              width: 87%;
-              float: right;
-              background-color:$color-grey ;
-              border: none;
-              @include border-radius(0);
-              box-shadow: none;
-              padding: 0;
-              padding-left: 10px;
-              height: 32px;
-              font-family: $font-normal;
-
-
-
-                    &:focus{
-                      border:none;
-                      box-shadow: none;
-                    }
-            }
-      }
 
 
 }

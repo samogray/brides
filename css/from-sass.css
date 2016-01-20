@@ -54,30 +54,7 @@
   }
 }
 
-ul.girl-list {
-  background-color: #f6f6f6;
-  width: 100%;
-  padding: 10px 0;
-}
-@media only screen and (max-width: 991px) {
-  ul.girl-list {
-    height: auto;
-  }
-}
-ul.girl-list .link-girl .bl {
-  border-radius: 50%;
-}
-ul.girl-list .link-girl .bl .img-box {
-  border-radius: 50%;
-}
-ul.girl-list h3.item-girl-name {
-  color: #16b4dc;
-  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
-}
-ul.girl-list .item-girl-from {
-  color: #646464;
-}
-ul.girl-list .input-search {
+.input-search {
   display: block;
   width: 100%;
   margin-bottom: 2px;
@@ -87,41 +64,79 @@ ul.girl-list .input-search {
   /* Firefox 19+ */
   /* Firefox 18- */
 }
-ul.girl-list .input-search .glyphicon {
-  top: 9px;
-  left: 13px;
+.input-search a.btn, .input-search .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .input-search a.gift, .input-search .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .input-search a.translate {
+  display: inline-block;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  float: right;
+  margin-bottom: 5px;
+  display: none;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-@media only screen and (max-width: 479px) {
-  ul.girl-list .input-search .glyphicon {
-    top: 17px;
+@media only screen and (max-width: 1056px) {
+  .input-search a.btn, .input-search .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .input-search a.gift, .input-search .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .input-search a.translate {
+    display: inline-block;
   }
 }
-ul.girl-list .input-search form.form-inline {
+@media only screen and (max-width: 390px) {
+  .input-search a.btn, .input-search .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .input-search a.gift, .input-search .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .input-search a.translate {
+    display: block;
+    float: none;
+    border-color: #16b4dc;
+  }
+}
+.input-search a.btn:hover, .input-search .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .input-search a.gift:hover, .input-search .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .input-search a.translate:hover {
+  border-color: #16b4dc;
+  color: #16b4dc;
+}
+.input-search a.btn:hover .badge, .input-search .chat-wrap .type-mess a.gift:hover .badge, .chat-wrap .type-mess .input-search a.gift:hover .badge, .input-search .chat-wrap .type-mess a.translate:hover .badge, .chat-wrap .type-mess .input-search a.translate:hover .badge {
+  background-color: #16b4dc;
+}
+.input-search .glyphicon {
+  top: 4px;
+  left: 9px;
+}
+.input-search form.form-inline {
   border-bottom: 1px solid #bebebe;
 }
+@media only screen and (max-width: 1056px) {
+  .input-search form.form-inline {
+    width: 100%;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 1056px) {
+  .input-search .form-group {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 767px) {
-  ul.girl-list .input-search .form-group {
+  .input-search .form-group {
     margin-bottom: 17px;
   }
 }
 @media only screen and (max-width: 479px) {
-  ul.girl-list .input-search .form-group {
+  .input-search .form-group {
     margin-bottom: 30px;
   }
 }
-ul.girl-list .input-search input::-webkit-input-placeholder {
+.input-search input::-webkit-input-placeholder {
   text-transform: uppercase;
 }
-ul.girl-list .input-search input::-moz-placeholder {
+.input-search input::-moz-placeholder {
   text-transform: uppercase;
 }
-ul.girl-list .input-search input:-moz-placeholder {
+.input-search input:-moz-placeholder {
   text-transform: uppercase;
 }
-ul.girl-list .input-search input:-ms-input-placeholder {
+.input-search input:-ms-input-placeholder {
   text-transform: uppercase;
 }
-ul.girl-list .input-search input.form-control {
+.input-search input.form-control {
   width: 87%;
   float: right;
   background-color: #f6f6f6;
@@ -136,9 +151,45 @@ ul.girl-list .input-search input.form-control {
   height: 32px;
   font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
-ul.girl-list .input-search input.form-control:focus {
+@media only screen and (max-width: 1056px) {
+  .input-search input.form-control {
+    width: 50%;
+    display: inline-block;
+    float: none;
+  }
+}
+.input-search input.form-control:focus {
   border: none;
   box-shadow: none;
+}
+
+ul.girl-list {
+  background-color: #f6f6f6;
+  width: 100%;
+  padding: 10px 0;
+}
+@media only screen and (max-width: 991px) {
+  ul.girl-list {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1056px) {
+  ul.girl-list {
+    display: none;
+  }
+}
+ul.girl-list .link-girl .bl {
+  border-radius: 50%;
+}
+ul.girl-list .link-girl .bl .img-box {
+  border-radius: 50%;
+}
+ul.girl-list h3.item-girl-name {
+  color: #16b4dc;
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
+}
+ul.girl-list .item-girl-from {
+  color: #646464;
 }
 
 .item-girl {
@@ -609,30 +660,7 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   }
 }
 
-ul.girl-list {
-  background-color: #f6f6f6;
-  width: 100%;
-  padding: 10px 0;
-}
-@media only screen and (max-width: 991px) {
-  ul.girl-list {
-    height: auto;
-  }
-}
-ul.girl-list .link-girl .bl {
-  border-radius: 50%;
-}
-ul.girl-list .link-girl .bl .img-box {
-  border-radius: 50%;
-}
-ul.girl-list h3.item-girl-name {
-  color: #16b4dc;
-  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
-}
-ul.girl-list .item-girl-from {
-  color: #646464;
-}
-ul.girl-list .input-search {
+.input-search {
   display: block;
   width: 100%;
   margin-bottom: 2px;
@@ -642,41 +670,79 @@ ul.girl-list .input-search {
   /* Firefox 19+ */
   /* Firefox 18- */
 }
-ul.girl-list .input-search .glyphicon {
-  top: 9px;
-  left: 13px;
+.input-search a.btn, .input-search .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .input-search a.gift, .input-search .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .input-search a.translate {
+  display: inline-block;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  float: right;
+  margin-bottom: 5px;
+  display: none;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-@media only screen and (max-width: 479px) {
-  ul.girl-list .input-search .glyphicon {
-    top: 17px;
+@media only screen and (max-width: 1056px) {
+  .input-search a.btn, .input-search .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .input-search a.gift, .input-search .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .input-search a.translate {
+    display: inline-block;
   }
 }
-ul.girl-list .input-search form.form-inline {
+@media only screen and (max-width: 390px) {
+  .input-search a.btn, .input-search .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .input-search a.gift, .input-search .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .input-search a.translate {
+    display: block;
+    float: none;
+    border-color: #16b4dc;
+  }
+}
+.input-search a.btn:hover, .input-search .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .input-search a.gift:hover, .input-search .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .input-search a.translate:hover {
+  border-color: #16b4dc;
+  color: #16b4dc;
+}
+.input-search a.btn:hover .badge, .input-search .chat-wrap .type-mess a.gift:hover .badge, .chat-wrap .type-mess .input-search a.gift:hover .badge, .input-search .chat-wrap .type-mess a.translate:hover .badge, .chat-wrap .type-mess .input-search a.translate:hover .badge {
+  background-color: #16b4dc;
+}
+.input-search .glyphicon {
+  top: 4px;
+  left: 9px;
+}
+.input-search form.form-inline {
   border-bottom: 1px solid #bebebe;
 }
+@media only screen and (max-width: 1056px) {
+  .input-search form.form-inline {
+    width: 100%;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 1056px) {
+  .input-search .form-group {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 767px) {
-  ul.girl-list .input-search .form-group {
+  .input-search .form-group {
     margin-bottom: 17px;
   }
 }
 @media only screen and (max-width: 479px) {
-  ul.girl-list .input-search .form-group {
+  .input-search .form-group {
     margin-bottom: 30px;
   }
 }
-ul.girl-list .input-search input::-webkit-input-placeholder {
+.input-search input::-webkit-input-placeholder {
   text-transform: uppercase;
 }
-ul.girl-list .input-search input::-moz-placeholder {
+.input-search input::-moz-placeholder {
   text-transform: uppercase;
 }
-ul.girl-list .input-search input:-moz-placeholder {
+.input-search input:-moz-placeholder {
   text-transform: uppercase;
 }
-ul.girl-list .input-search input:-ms-input-placeholder {
+.input-search input:-ms-input-placeholder {
   text-transform: uppercase;
 }
-ul.girl-list .input-search input.form-control {
+.input-search input.form-control {
   width: 87%;
   float: right;
   background-color: #f6f6f6;
@@ -691,9 +757,45 @@ ul.girl-list .input-search input.form-control {
   height: 32px;
   font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
-ul.girl-list .input-search input.form-control:focus {
+@media only screen and (max-width: 1056px) {
+  .input-search input.form-control {
+    width: 50%;
+    display: inline-block;
+    float: none;
+  }
+}
+.input-search input.form-control:focus {
   border: none;
   box-shadow: none;
+}
+
+ul.girl-list {
+  background-color: #f6f6f6;
+  width: 100%;
+  padding: 10px 0;
+}
+@media only screen and (max-width: 991px) {
+  ul.girl-list {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1056px) {
+  ul.girl-list {
+    display: none;
+  }
+}
+ul.girl-list .link-girl .bl {
+  border-radius: 50%;
+}
+ul.girl-list .link-girl .bl .img-box {
+  border-radius: 50%;
+}
+ul.girl-list h3.item-girl-name {
+  color: #16b4dc;
+  font-family: "OpenSansBold", "HelveticaBold", sans-serif;
+}
+ul.girl-list .item-girl-from {
+  color: #646464;
 }
 
 .item-girl {

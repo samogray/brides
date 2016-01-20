@@ -492,15 +492,16 @@
         <div class="flex-container">
             <div class="flex-item aside-left">
                 <aside>
+                    <div class="input-search">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <span class="glyphicon glyphicon-search"></span>
+                                <input type="text" class="form-control" id="search" placeholder="Search">
+                                <a href="#0" class="btn" id="srch-girl">found <span class="badge">42</span></a>
+                            </div>
+                        </form>
+                    </div>
                     <ul class="girl-list">
-                        <li class="input-search">
-                            <form class="form-inline">
-                                <div class="form-group">
-                                    <span class="glyphicon glyphicon-search"></span>
-                                    <input type="text" class="form-control" id="search" placeholder="Search">
-                                </div>
-                            </form>
-                        </li>
                         <li class="item-girl">
                             <a href="#0" class="link-girl clearfix active">
                                 <div class="bl">
@@ -828,6 +829,12 @@
     $('.main-menu-index').click(function(){
         $('#main-menu').slideToggle();
     });
+
+    $('#srch-girl').click(function(){
+        $('.girl-list').slideToggle();
+        var height=$("body").height();
+        $("body").animate({"scrollTop":height},'slow');
+    })
 
 </script>
 

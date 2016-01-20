@@ -21,51 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="menu.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="menu.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/scss/modules/menu.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8521739">
+            <state vertical-scroll-proportion="-22.615385">
               <caret line="393" column="45" selection-start-line="393" selection-start-column="45" selection-end-line="393" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view-my-profile-somebody.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view-my-profile-somebody.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.076923">
-              <caret line="429" column="46" selection-start-line="429" selection-start-column="46" selection-end-line="429" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="man-page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/man-page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.923077">
-              <caret line="1050" column="0" selection-start-line="1050" selection-start-column="0" selection-end-line="1050" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="man-page.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/scss/modules/man-page.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.218182">
-              <caret line="132" column="16" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="photo-pop-up.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/photo-pop-up.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,28 +34,28 @@
       <file leaf-file-name="chat-index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
-              <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
+            <state vertical-scroll-proportion="-7.072727">
+              <caret line="833" column="38" selection-start-line="833" selection-start-column="38" selection-end-line="833" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat-index.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chat-index.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/scss/modules/chat-index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6181817">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.5128593">
+              <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="invite-to-chat.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invite-to-chat.html">
+      <file leaf-file-name="man-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/man-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="54" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="54" />
+            <state vertical-scroll-proportion="-6.269231">
+              <caret line="1020" column="17" selection-start-line="1020" selection-start-column="17" selection-end-line="1020" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -106,16 +66,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="man-buy-credits.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/man-buy-credits.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="790" column="7" selection-start-line="784" selection-start-column="4" selection-end-line="790" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -148,7 +98,6 @@
         <option value="$PROJECT_DIR$/css/scss/modules/man-page-edit-profile.scss" />
         <option value="$PROJECT_DIR$/Login-page.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/chat-index.html" />
         <option value="$PROJECT_DIR$/css/scss/modules/lady-account-my-photo.scss" />
         <option value="$PROJECT_DIR$/css/scss/modules/lady-account-page.scss" />
         <option value="$PROJECT_DIR$/css/scss/modules/man-page-correspondance.scss" />
@@ -183,10 +132,11 @@
         <option value="$PROJECT_DIR$/view-my-profile-somebody.html" />
         <option value="$PROJECT_DIR$/invite-to-chat.html" />
         <option value="$PROJECT_DIR$/css/scss/modules/modal-invite.scss" />
-        <option value="$PROJECT_DIR$/css/scss/modules/chat-index.scss" />
         <option value="$PROJECT_DIR$/man-page.html" />
         <option value="$PROJECT_DIR$/css/scss/modules/man-page.scss" />
         <option value="$PROJECT_DIR$/css/scss/modules/menu.scss" />
+        <option value="$PROJECT_DIR$/chat-index.html" />
+        <option value="$PROJECT_DIR$/css/scss/modules/chat-index.scss" />
       </list>
     </option>
   </component>
@@ -465,14 +415,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/scss/modules/slick-theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.04387292">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/scss/modules/slick.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.04387292">
@@ -776,30 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/modules/modal-invite.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat-index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/modules/chat-index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6181817">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/photo-pop-up.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -816,14 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/man-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.923077">
-          <caret line="1050" column="0" selection-start-line="1050" selection-start-column="0" selection-end-line="1050" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/scss/modules/man-page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.218182">
@@ -832,10 +742,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/present-lady-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19710144">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.269231">
+          <caret line="1020" column="17" selection-start-line="1020" selection-start-column="17" selection-end-line="1020" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/modal-invite.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/scss/modules/menu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8521739">
+        <state vertical-scroll-proportion="-22.615385">
           <caret line="393" column="45" selection-start-line="393" selection-start-column="45" selection-end-line="393" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.072727">
+          <caret line="833" column="38" selection-start-line="833" selection-start-column="38" selection-end-line="833" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/chat-index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5128593">
+          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
           <folding />
         </state>
       </provider>
