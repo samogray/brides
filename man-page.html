@@ -758,7 +758,7 @@
                     </div>
                 </article>
                     <a href="#0" class="btn ladies-available"  data-toggle="modal" data-target=".pop-up-slider"><i class="fa fa-angle-double-up"></i> <span> 34</span> Ladies Available</a>
-                    <div class="pop-up-slider">
+                    <div class="pop-up-slider fade">
                        <div class="my-wrap">
                            <a href="#0" class="btn ladies-available-down"><i class="fa fa-angle-double-down"></i> <span> 34</span> Ladies Available</a>
                            <h1><span>34</span> Ladies available for video chats</h1>
@@ -1044,9 +1044,19 @@
        //$('.pop-up-slider').modal('hide');
 
     });
+$('html').click(function(){
 
+});
 
     $('.my-list,.my-number').styler();
+
+
+    var el = $('.pop-up-slider');
+
+        if (!el.is(":focus"))  console.log('Not focused');
+        else console.log('focus');
+
+
 
 
 </script>

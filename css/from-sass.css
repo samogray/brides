@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*-----------CHAT-INDEX.SCSS----------------*/
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -36,7 +37,7 @@
 @media only screen and (max-width: 1056px) {
   .flex-item.aside-left {
     flex-basis: 100%;
-    order: 3;
+    order: 2;
     border-bottom: 1px solid #16B4DC;
     margin-bottom: 1px;
   }
@@ -605,6 +606,26 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   color: #16B9E5;
 }
 
+.wrap-tab {
+  border-bottom: 1px solid #C7EDFC;
+  padding: 15px;
+}
+.wrap-tab a.btn, .wrap-tab .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .wrap-tab a.gift, .wrap-tab .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .wrap-tab a.translate {
+  padding: 0px 15px;
+  font-size: 18px;
+  border: 3px solid transparent;
+  text-transform: uppercase;
+}
+.wrap-tab a.btn:hover, .wrap-tab .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .wrap-tab a.gift:hover, .wrap-tab .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .wrap-tab a.translate:hover {
+  color: #16b4dc;
+}
+.wrap-tab a.class-active {
+  border-bottom-color: #C7EDFC;
+}
+
+/*----------END-CHAT-INDEX.SCSS----------------*/
+/*------MODAL-INVITE.SCSS----------*/
+/*-----------CHAT-INDEX.SCSS----------------*/
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -642,7 +663,7 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
 @media only screen and (max-width: 1056px) {
   .flex-item.aside-left {
     flex-basis: 100%;
-    order: 3;
+    order: 2;
     border-bottom: 1px solid #16B4DC;
     margin-bottom: 1px;
   }
@@ -1211,6 +1232,24 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   color: #16B9E5;
 }
 
+.wrap-tab {
+  border-bottom: 1px solid #C7EDFC;
+  padding: 15px;
+}
+.wrap-tab a.btn, .wrap-tab .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .wrap-tab a.gift, .wrap-tab .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .wrap-tab a.translate {
+  padding: 0px 15px;
+  font-size: 18px;
+  border: 3px solid transparent;
+  text-transform: uppercase;
+}
+.wrap-tab a.btn:hover, .wrap-tab .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .wrap-tab a.gift:hover, .wrap-tab .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .wrap-tab a.translate:hover {
+  color: #16b4dc;
+}
+.wrap-tab a.class-active {
+  border-bottom-color: #C7EDFC;
+}
+
+/*----------END-CHAT-INDEX.SCSS----------------*/
 .invite-foto-wrap .link-girl {
   background-color: white;
   padding-left: 0;
@@ -1621,6 +1660,8 @@ a.invite-btn:visited {
   z-index: 2500;
 }
 
+/*-----END-MODAL-INVITE.SCSS---------*/
+/*-------------LADY.SCSS--------------*/
 /*----------detail-lady--------------------*/
 div.page-header.lady-page-header {
   text-align: left;
@@ -1983,7 +2024,8 @@ article.detail-lady.clearfix {
   padding: 0 10px;
 }
 
-/* Slider */
+/*------------END-LADY.SCSS--------------*/
+/* Slider SLICK*/
 .slick-slider {
   position: relative;
   display: block;
@@ -2075,6 +2117,8 @@ article.detail-lady.clearfix {
   display: none;
 }
 
+/*------END-SLICK.SCSS----------*/
+/*SLICK-THEME*/
 /* Slider */
 .slick-loading .slick-list {
   background: #fff url("./ajax-loader.gif") center center no-repeat;
@@ -2145,10 +2189,10 @@ article.detail-lady.clearfix {
   right: -25px;
 }
 .slick-prev:before {
-  content: "←";
+  content: "тЖР";
 }
 [dir="rtl"] .slick-prev:before {
-  content: "→";
+  content: "тЖТ";
 }
 
 .slick-next {
@@ -2159,10 +2203,10 @@ article.detail-lady.clearfix {
   right: auto;
 }
 .slick-next:before {
-  content: "→";
+  content: "тЖТ";
 }
 [dir="rtl"] .slick-next:before {
-  content: "←";
+  content: "тЖР";
 }
 
 /* Dots */
@@ -2211,7 +2255,7 @@ article.detail-lady.clearfix {
   position: absolute;
   top: 0;
   left: 0;
-  content: "•";
+  content: "тАв";
   width: 20px;
   height: 20px;
   font-family: "slick";
@@ -2228,6 +2272,9 @@ article.detail-lady.clearfix {
   opacity: 0.75;
 }
 
+/*END SLICK-THEME*/
+/*------MODAL-PRESENT.SCSS----------*/
+/*------MODAL-GIFT-FORM.SCSS----------*/
 div.gift-wrapper.gift-form {
   justify-content: space-between;
   flex-wrap: nowrap;
@@ -2646,6 +2693,7 @@ label.cvv {
   top: 18px;
 }
 
+/*-----END-MODAL-GIFT-FORM.SCSS----------*/
 .modal-dialog.modal-lg.big-lg {
   width: 90%;
   max-width: 1240px;
@@ -3038,6 +3086,8 @@ label.cvv {
   border: none;
 }
 
+/*-----END-MODAL-PRESENT.SCSS----------*/
+/*------GIFT-CARD-MESS.SCSS----------*/
 .img-wrap {
   position: relative;
   margin: 0 auto;
@@ -3205,6 +3255,8 @@ textarea.mess-gift.scrollbar-inner {
   }
 }
 
+/*-----END-GIFT-CARD-MESS.SCSS----------*/
+/*------PHOTO-POPUP.SCSS----------*/
 .modal-dialog.modal-lg.photo-popup {
   width: 90%;
   max-width: 960px;
@@ -3363,6 +3415,8 @@ img.pop-up-image {
   left: 32px;
 }
 
+/*-----END-PHOTO-POPUP.SCSS----------*/
+/*------LADY-ACCOUNT-PAGES.SCSS----------*/
 .menu-drop {
   margin-bottom: 100px;
 }
@@ -3634,6 +3688,8 @@ span.glyphicon.glyphicon-triangle-left:hover, span.glyphicon.glyphicon-triangle-
   opacity: .8;
 }
 
+/*-----END-LADY-ACCOUNT-PAGES.SCSS----------*/
+/*------LADY-ACCOUNT-MY-PHOTO.SCSS----------*/
 .flex-container-my-photo {
   display: flex;
   flex-direction: row;
@@ -3797,6 +3853,8 @@ span.glyphicon.glyphicon-triangle-left:hover, span.glyphicon.glyphicon-triangle-
   font-size: 27px;
 }
 
+/*-----END-LADY-ACCOUNT-MY-PHOTO.SCSS----------*/
+/*------LADY-ACCOUNT-MENS-ONLINE.SCSS----------*/
 .flex-container-mens-online {
   display: flex;
   flex-direction: row;
@@ -3851,6 +3909,8 @@ span.glyphicon.glyphicon-triangle-left:hover, span.glyphicon.glyphicon-triangle-
     top: 6px;
   }
 }
+/*-----END-LADY-ACCOUNT-MENS-ONLINE.SCSS----------*/
+/*------LADY-PROFILE-INCOME.SCSS----------*/
 h1.lady-catalog-title.men-catalog {
   padding-right: 50px;
 }
@@ -3928,6 +3988,8 @@ col.col1 {
   position: relative;
 }
 
+/*-----END-LADY-PROFILE-INCOME.SCSS----------*/
+/*------LADY-PROFILE-CORRESPONDANCE-INBOX.SCSS----------*/
 .count {
   text-align: center;
   color: #d6d6d6;
@@ -4193,6 +4255,8 @@ span.date-massage {
   height: 88px;
 }
 
+/*-----END-LADY-PROFILE-CORRESPONDANCE-INBOX.SCSS----------*/
+/*------LADY-PROFILE-CHANGE-PASSWORD.SCSS----------*/
 .wrap-change-password {
   background-color: #f7f7f7;
   padding: 20px;
@@ -4255,6 +4319,8 @@ span.date-massage {
   background-color: #64b118;
 }
 
+/*-----END-LADY-PROFILE-CHANGE-PASSWORD.SCSS----------*/
+/*------MAN-PAGE.SCSS----------*/
 .menu-account li.title.service-menu {
   background: url("../img/service-ico.png") no-repeat 0 1px;
 }
@@ -4472,6 +4538,8 @@ span.date-massage {
   width: 15%;
 }
 
+/*-----END-MAN-PAGE.SCSS----------*/
+/*------MAN-PAGE-EDIT-PROFILE.SCSS----------*/
 .title-edit-profile {
   color: #1192b2;
   font-size: 18px;
@@ -5165,6 +5233,8 @@ span.date-massage {
   background-position: -175px -135px;
 }
 
+/*-----END-MAN-PAGE-EDIT-PROFILE.SCSS----------*/
+/*------MAN-PAGE-CORRESPONDANCE.SCSS----------*/
 .message-item.full-item {
   align-items: stretch;
 }
@@ -5431,6 +5501,8 @@ li.tiptop-menu li {
   position: relative;
 }
 
+/*------MAN-PAGE-CORRESPONDANCE.SCSS----------*/
+/*------MAN-BUY-CREDIT.SCSS----------*/
 .man-bay-credit p {
   line-height: 21px;
   font-size: 14px;
@@ -5566,6 +5638,8 @@ label.discount {
   max-width: 120px;
 }
 
+/*-----END-MAN-BUY-CREDIT.SCSS----------*/
+/*------MAN-PAGE-PHONE-CALL.SCSS----------*/
 input {
   padding-left: 7px;
 }
@@ -5812,10 +5886,11 @@ div#gmt-styler {
   z-index: 1 !important;
 }
 
+/*-----END-MAN-PAGE-PHONE-CALL.SCSS----------*/
 .page-header.admin-panel {
   margin: 0;
   padding: 15px 20px;
-  font-size: 28px;
+  font-size: ms(9);
   text-align: left;
 }
 .page-header.admin-panel .hello-name {
@@ -6034,6 +6109,7 @@ div#gmt-styler {
   text-decoration: none;
 }
 
+/*-------FORM-SEARCH.SCSS--------*/
 @media only screen and (min-width: 769px) {
   form#search-girl {
     display: block !important;
@@ -6108,6 +6184,8 @@ form#search-girl .invisible-form input {
   border-left: none;
 }
 
+/*------END-FORM-SEARCH.SCSS--------*/
+/*------MENU.SCSS----------*/
 @media only screen and (max-width: 768px) {
   ul.nav.navbar-nav.navbar-right.navbar-lang-index {
     display: none;
@@ -6546,5 +6624,6 @@ li.dropdown.open ul.dropdown-menu li a {
 }
 
 /*--------------------------------*/
+/*------END-mENU.SCSS----------*/
 
 /*# sourceMappingURL=from-sass.css.map */

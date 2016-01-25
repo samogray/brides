@@ -1,3 +1,5 @@
+/*-----------CHAT-INDEX.SCSS----------------*/
+
 @import "../variables.scss";
 .col-sm-12 {
 }
@@ -28,7 +30,7 @@
   background-color: #F6F6F6;
   @media only screen and(max-width:1056px){
     flex-basis:100%;
-    order:3;
+    order:2;
   border-bottom: 1px solid #16B4DC;
     margin-bottom: 1px;
   }
@@ -602,3 +604,23 @@ a.btn.invite{
   }
 }
 
+.wrap-tab{
+  border-bottom: 1px solid #C7EDFC;
+  padding: 15px;
+
+   a.btn{
+     padding: 0px 15px;
+     font-size: 18px;
+     border: 3px solid transparent;
+     text-transform: uppercase;
+
+      &:hover{
+        color:$color-blue-font;
+      }
+   }
+  a.class-active{
+    border-bottom-color:#C7EDFC;
+  }
+}
+
+/*----------END-CHAT-INDEX.SCSS----------------*/

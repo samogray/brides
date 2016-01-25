@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+    $('#myModal').modal('show');
 
     $('#lang-select').styler();
 
@@ -62,7 +62,7 @@ $('.lang').click(function(){
     });
 
 
-    $('#myModal').modal('show');
+
 
 
     $('#ex1').slider({
