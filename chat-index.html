@@ -553,11 +553,11 @@
     });
 
    $('#srch-girl').click(function(){
-        $('.aside-left').fadeToggle(function(){
+        $('.aside-left').fadeIn(function(){
             $('ul.girl-list').slideToggle();
         });
-        $('.chat-wrap').fadeToggle();
-        $('.aside-right').fadeToggle();
+        $('.chat-wrap').fadeOut();
+        $('.aside-right').fadeOut();
        $(this).addClass('class-active');
        chat.removeClass('class-active');
        $(this).toggle();
