@@ -75,11 +75,6 @@
   padding: 10px;
 }
 
-.glyphicon {
-  top: 4px;
-  left: 9px;
-}
-
 form.form-inline {
   border-bottom: 1px solid #bebebe;
 }
@@ -252,7 +247,7 @@ ul.girl-list .item-girl-from {
 .name-girl .item-girl-name {
   font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   color: #444444;
-  font-size: 24px;
+  font-size: 18px;
 }
 .name-girl .item-girl-from {
   font-family: "OpenSansLight", "HelveticaLight", "PT Sans", sans-serif;
@@ -384,7 +379,7 @@ ul.girl-list .item-girl-from {
   background-color: #e9e9e9;
   border: 2px dashed #16b4dc;
 }
-.chat-wrap .type-mess .btn, .chat-wrap .type-mess .gift, .chat-wrap .type-mess .translate {
+.chat-wrap .type-mess .btn, .chat-wrap .type-mess .translate {
   color: #16b4dc;
   padding: 10px;
   border: 1px solid #16b4dc;
@@ -402,10 +397,10 @@ ul.girl-list .item-girl-from {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.chat-wrap .type-mess .btn:active, .chat-wrap .type-mess .gift:active, .chat-wrap .type-mess .translate:active {
+.chat-wrap .type-mess .btn:active, .chat-wrap .type-mess .translate:active {
   outline: none;
 }
-.chat-wrap .type-mess .btn:focus, .chat-wrap .type-mess .gift:focus, .chat-wrap .type-mess .translate:focus {
+.chat-wrap .type-mess .btn:focus, .chat-wrap .type-mess .translate:focus {
   outline: none;
 }
 .chat-wrap .type-mess .smiles {
@@ -417,6 +412,9 @@ ul.girl-list .item-girl-from {
 }
 .chat-wrap .type-mess span.glyphicon {
   margin-right: 5px;
+}
+.chat-wrap .type-mess .gift {
+  width: 170px;
 }
 .chat-wrap .type-mess .gift:hover {
   background-color: #36bef4;
@@ -443,11 +441,11 @@ ul.girl-list .item-girl-from {
     right: 0 !important;
   }
 }
-.chat-wrap .type-mess .translate-wrap a.btn, .chat-wrap .type-mess .translate-wrap a.gift, .chat-wrap .type-mess .translate-wrap a.translate {
+.chat-wrap .type-mess .translate-wrap a.btn, .chat-wrap .type-mess .translate-wrap a.translate {
   border: none;
   color: #565656;
 }
-.chat-wrap .type-mess .translate-wrap a.btn:hover, .chat-wrap .type-mess .translate-wrap a.gift:hover, .chat-wrap .type-mess .translate-wrap a.translate:hover {
+.chat-wrap .type-mess .translate-wrap a.btn:hover, .chat-wrap .type-mess .translate-wrap a.translate:hover {
   color: #16b4dc;
 }
 .chat-wrap .type-mess .translate-wrap .btn-group {
@@ -548,7 +546,7 @@ ul.girl-list .item-girl-from {
   font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
 
-a.btn.custum-btn, .chat-wrap .type-mess a.custum-btn.gift, .chat-wrap .type-mess a.custum-btn.translate {
+a.btn.custum-btn, .chat-wrap .type-mess a.custum-btn.translate {
   padding: 12px;
   font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   border: 1px solid #16b4dc;
@@ -568,7 +566,7 @@ a.btn.custum-btn, .chat-wrap .type-mess a.custum-btn.gift, .chat-wrap .type-mess
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-a.btn.custum-btn:hover, .chat-wrap .type-mess a.custum-btn.gift:hover, .chat-wrap .type-mess a.custum-btn.translate:hover {
+a.btn.custum-btn:hover, .chat-wrap .type-mess a.custum-btn.translate:hover {
   background-color: #64b118;
   border: 1px solid #64b118;
 }
@@ -577,11 +575,11 @@ a.btn.custum-btn:hover, .chat-wrap .type-mess a.custum-btn.gift:hover, .chat-wra
   background: url("../img/web-camera.png") no-repeat 15px 10px;
 }
 
-a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invite.translate {
+a.btn.invite, .chat-wrap .type-mess a.invite.translate {
   margin-bottom: 15px;
 }
 @media only screen and (max-width: 767px) {
-  a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invite.translate {
+  a.btn.invite, .chat-wrap .type-mess a.invite.translate {
     margin-bottom: 0;
   }
 }
@@ -608,7 +606,7 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   border-bottom: 1px solid #C7EDFC;
   padding: 15px;
 }
-.wrap-tab a.btn, .wrap-tab .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .wrap-tab a.gift, .wrap-tab .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .wrap-tab a.translate {
+.wrap-tab a.btn, .wrap-tab .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .wrap-tab a.translate {
   padding: 0px 15px;
   font-size: 18px;
   border: 3px solid transparent;
@@ -620,18 +618,18 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   transition: all 0.3s ease-in-out;
 }
 @media only screen and (max-width: 390px) {
-  .wrap-tab a.btn, .wrap-tab .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .wrap-tab a.gift, .wrap-tab .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .wrap-tab a.translate {
+  .wrap-tab a.btn, .wrap-tab .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .wrap-tab a.translate {
     display: block;
   }
 }
-.wrap-tab a.btn:hover, .wrap-tab .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .wrap-tab a.gift:hover, .wrap-tab .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .wrap-tab a.translate:hover {
+.wrap-tab a.btn:hover, .wrap-tab .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .wrap-tab a.translate:hover {
   color: #16b4dc;
 }
-.wrap-tab a.btn:active, .wrap-tab .chat-wrap .type-mess a.gift:active, .chat-wrap .type-mess .wrap-tab a.gift:active, .wrap-tab .chat-wrap .type-mess a.translate:active, .chat-wrap .type-mess .wrap-tab a.translate:active {
+.wrap-tab a.btn:active, .wrap-tab .chat-wrap .type-mess a.translate:active, .chat-wrap .type-mess .wrap-tab a.translate:active {
   color: #bebebe;
   box-shadow: none;
 }
-.wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
+.wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
   text-transform: uppercase;
   border: 3px solid transparent;
   border-radius: 4px;
@@ -644,27 +642,27 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   transition: all 0.3s ease-in-out;
 }
 @media only screen and (max-width: 1056px) {
-  .wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
+  .wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
     display: inline-block;
   }
 }
 @media only screen and (max-width: 390px) {
-  .wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
+  .wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
     display: block;
     float: none;
   }
 }
-.wrap-tab a.btn.btn-search-girl:hover, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift:hover, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift:hover, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate:hover, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate:hover {
+.wrap-tab a.btn.btn-search-girl:hover, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate:hover, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate:hover {
   color: #16b4dc;
 }
-.wrap-tab a.btn.btn-search-girl:hover .badge, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift:hover .badge, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift:hover .badge, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate:hover .badge, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate:hover .badge {
+.wrap-tab a.btn.btn-search-girl:hover .badge, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate:hover .badge, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate:hover .badge {
   background-color: #16b4dc;
 }
 .wrap-tab .class-active {
   border-bottom-color: #C7EDFC;
 }
 
-a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess a.btn-search-girl.translate {
+a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.translate {
   text-transform: uppercase;
   border: 3px solid transparent;
   border-radius: 4px;
@@ -677,20 +675,20 @@ a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap 
   transition: all 0.3s ease-in-out;
 }
 @media only screen and (max-width: 1056px) {
-  a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess a.btn-search-girl.translate {
+  a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.translate {
     display: inline-block;
   }
 }
 @media only screen and (max-width: 390px) {
-  a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess a.btn-search-girl.translate {
+  a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.translate {
     display: block;
     float: none;
   }
 }
-a.btn.btn-search-girl:hover, .chat-wrap .type-mess a.btn-search-girl.gift:hover, .chat-wrap .type-mess a.btn-search-girl.translate:hover {
+a.btn.btn-search-girl:hover, .chat-wrap .type-mess a.btn-search-girl.translate:hover {
   color: #16b4dc;
 }
-a.btn.btn-search-girl:hover .badge, .chat-wrap .type-mess a.btn-search-girl.gift:hover .badge, .chat-wrap .type-mess a.btn-search-girl.translate:hover .badge {
+a.btn.btn-search-girl:hover .badge, .chat-wrap .type-mess a.btn-search-girl.translate:hover .badge {
   background-color: #16b4dc;
 }
 
@@ -776,11 +774,6 @@ a.btn.btn-search-girl:hover .badge, .chat-wrap .type-mess a.btn-search-girl.gift
   padding: 10px;
 }
 
-.glyphicon {
-  top: 4px;
-  left: 9px;
-}
-
 form.form-inline {
   border-bottom: 1px solid #bebebe;
 }
@@ -953,7 +946,7 @@ ul.girl-list .item-girl-from {
 .name-girl .item-girl-name {
   font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   color: #444444;
-  font-size: 24px;
+  font-size: 18px;
 }
 .name-girl .item-girl-from {
   font-family: "OpenSansLight", "HelveticaLight", "PT Sans", sans-serif;
@@ -1085,7 +1078,7 @@ ul.girl-list .item-girl-from {
   background-color: #e9e9e9;
   border: 2px dashed #16b4dc;
 }
-.chat-wrap .type-mess .btn, .chat-wrap .type-mess .gift, .chat-wrap .type-mess .translate {
+.chat-wrap .type-mess .btn, .chat-wrap .type-mess .translate {
   color: #16b4dc;
   padding: 10px;
   border: 1px solid #16b4dc;
@@ -1103,10 +1096,10 @@ ul.girl-list .item-girl-from {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.chat-wrap .type-mess .btn:active, .chat-wrap .type-mess .gift:active, .chat-wrap .type-mess .translate:active {
+.chat-wrap .type-mess .btn:active, .chat-wrap .type-mess .translate:active {
   outline: none;
 }
-.chat-wrap .type-mess .btn:focus, .chat-wrap .type-mess .gift:focus, .chat-wrap .type-mess .translate:focus {
+.chat-wrap .type-mess .btn:focus, .chat-wrap .type-mess .translate:focus {
   outline: none;
 }
 .chat-wrap .type-mess .smiles {
@@ -1118,6 +1111,9 @@ ul.girl-list .item-girl-from {
 }
 .chat-wrap .type-mess span.glyphicon {
   margin-right: 5px;
+}
+.chat-wrap .type-mess .gift {
+  width: 170px;
 }
 .chat-wrap .type-mess .gift:hover {
   background-color: #36bef4;
@@ -1144,11 +1140,11 @@ ul.girl-list .item-girl-from {
     right: 0 !important;
   }
 }
-.chat-wrap .type-mess .translate-wrap a.btn, .chat-wrap .type-mess .translate-wrap a.gift, .chat-wrap .type-mess .translate-wrap a.translate {
+.chat-wrap .type-mess .translate-wrap a.btn, .chat-wrap .type-mess .translate-wrap a.translate {
   border: none;
   color: #565656;
 }
-.chat-wrap .type-mess .translate-wrap a.btn:hover, .chat-wrap .type-mess .translate-wrap a.gift:hover, .chat-wrap .type-mess .translate-wrap a.translate:hover {
+.chat-wrap .type-mess .translate-wrap a.btn:hover, .chat-wrap .type-mess .translate-wrap a.translate:hover {
   color: #16b4dc;
 }
 .chat-wrap .type-mess .translate-wrap .btn-group {
@@ -1249,7 +1245,7 @@ ul.girl-list .item-girl-from {
   font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
 
-a.btn.custum-btn, .chat-wrap .type-mess a.custum-btn.gift, .chat-wrap .type-mess a.custum-btn.translate {
+a.btn.custum-btn, .chat-wrap .type-mess a.custum-btn.translate {
   padding: 12px;
   font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   border: 1px solid #16b4dc;
@@ -1269,7 +1265,7 @@ a.btn.custum-btn, .chat-wrap .type-mess a.custum-btn.gift, .chat-wrap .type-mess
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-a.btn.custum-btn:hover, .chat-wrap .type-mess a.custum-btn.gift:hover, .chat-wrap .type-mess a.custum-btn.translate:hover {
+a.btn.custum-btn:hover, .chat-wrap .type-mess a.custum-btn.translate:hover {
   background-color: #64b118;
   border: 1px solid #64b118;
 }
@@ -1278,11 +1274,11 @@ a.btn.custum-btn:hover, .chat-wrap .type-mess a.custum-btn.gift:hover, .chat-wra
   background: url("../img/web-camera.png") no-repeat 15px 10px;
 }
 
-a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invite.translate {
+a.btn.invite, .chat-wrap .type-mess a.invite.translate {
   margin-bottom: 15px;
 }
 @media only screen and (max-width: 767px) {
-  a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invite.translate {
+  a.btn.invite, .chat-wrap .type-mess a.invite.translate {
     margin-bottom: 0;
   }
 }
@@ -1309,7 +1305,7 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   border-bottom: 1px solid #C7EDFC;
   padding: 15px;
 }
-.wrap-tab a.btn, .wrap-tab .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .wrap-tab a.gift, .wrap-tab .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .wrap-tab a.translate {
+.wrap-tab a.btn, .wrap-tab .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .wrap-tab a.translate {
   padding: 0px 15px;
   font-size: 18px;
   border: 3px solid transparent;
@@ -1321,18 +1317,18 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   transition: all 0.3s ease-in-out;
 }
 @media only screen and (max-width: 390px) {
-  .wrap-tab a.btn, .wrap-tab .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .wrap-tab a.gift, .wrap-tab .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .wrap-tab a.translate {
+  .wrap-tab a.btn, .wrap-tab .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .wrap-tab a.translate {
     display: block;
   }
 }
-.wrap-tab a.btn:hover, .wrap-tab .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .wrap-tab a.gift:hover, .wrap-tab .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .wrap-tab a.translate:hover {
+.wrap-tab a.btn:hover, .wrap-tab .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .wrap-tab a.translate:hover {
   color: #16b4dc;
 }
-.wrap-tab a.btn:active, .wrap-tab .chat-wrap .type-mess a.gift:active, .chat-wrap .type-mess .wrap-tab a.gift:active, .wrap-tab .chat-wrap .type-mess a.translate:active, .chat-wrap .type-mess .wrap-tab a.translate:active {
+.wrap-tab a.btn:active, .wrap-tab .chat-wrap .type-mess a.translate:active, .chat-wrap .type-mess .wrap-tab a.translate:active {
   color: #bebebe;
   box-shadow: none;
 }
-.wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
+.wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
   text-transform: uppercase;
   border: 3px solid transparent;
   border-radius: 4px;
@@ -1345,27 +1341,27 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   transition: all 0.3s ease-in-out;
 }
 @media only screen and (max-width: 1056px) {
-  .wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
+  .wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
     display: inline-block;
   }
 }
 @media only screen and (max-width: 390px) {
-  .wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
+  .wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
     display: block;
     float: none;
   }
 }
-.wrap-tab a.btn.btn-search-girl:hover, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift:hover, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift:hover, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate:hover, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate:hover {
+.wrap-tab a.btn.btn-search-girl:hover, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate:hover, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate:hover {
   color: #16b4dc;
 }
-.wrap-tab a.btn.btn-search-girl:hover .badge, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift:hover .badge, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift:hover .badge, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate:hover .badge, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate:hover .badge {
+.wrap-tab a.btn.btn-search-girl:hover .badge, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate:hover .badge, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate:hover .badge {
   background-color: #16b4dc;
 }
 .wrap-tab .class-active {
   border-bottom-color: #C7EDFC;
 }
 
-a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess a.btn-search-girl.translate {
+a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.translate {
   text-transform: uppercase;
   border: 3px solid transparent;
   border-radius: 4px;
@@ -1378,20 +1374,20 @@ a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap 
   transition: all 0.3s ease-in-out;
 }
 @media only screen and (max-width: 1056px) {
-  a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess a.btn-search-girl.translate {
+  a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.translate {
     display: inline-block;
   }
 }
 @media only screen and (max-width: 390px) {
-  a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess a.btn-search-girl.translate {
+  a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.translate {
     display: block;
     float: none;
   }
 }
-a.btn.btn-search-girl:hover, .chat-wrap .type-mess a.btn-search-girl.gift:hover, .chat-wrap .type-mess a.btn-search-girl.translate:hover {
+a.btn.btn-search-girl:hover, .chat-wrap .type-mess a.btn-search-girl.translate:hover {
   color: #16b4dc;
 }
-a.btn.btn-search-girl:hover .badge, .chat-wrap .type-mess a.btn-search-girl.gift:hover .badge, .chat-wrap .type-mess a.btn-search-girl.translate:hover .badge {
+a.btn.btn-search-girl:hover .badge, .chat-wrap .type-mess a.btn-search-girl.translate:hover .badge {
   background-color: #16b4dc;
 }
 
@@ -1879,7 +1875,7 @@ article.detail-lady.clearfix {
 .event-btn {
   text-align: center;
 }
-.event-btn a.btn, .event-btn .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .event-btn a.gift, .event-btn .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .event-btn a.translate {
+.event-btn a.btn, .event-btn .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .event-btn a.translate {
   border: none;
   font-size: 12px;
   font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
@@ -1894,16 +1890,16 @@ article.detail-lady.clearfix {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.event-btn a.btn:hover, .event-btn .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .event-btn a.gift:hover, .event-btn .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .event-btn a.translate:hover {
+.event-btn a.btn:hover, .event-btn .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .event-btn a.translate:hover {
   transform: Scale(0.9, 0.9);
 }
 @media (max-width: 1056px) {
-  .event-btn a.btn, .event-btn .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .event-btn a.gift, .event-btn .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .event-btn a.translate {
+  .event-btn a.btn, .event-btn .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .event-btn a.translate {
     width: 83px;
   }
 }
 @media (max-width: 991px) {
-  .event-btn a.btn, .event-btn .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .event-btn a.gift, .event-btn .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .event-btn a.translate {
+  .event-btn a.btn, .event-btn .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .event-btn a.translate {
     margin-top: 20px;
   }
 }
@@ -2782,7 +2778,7 @@ label.cvv {
     width: 100%;
   }
 }
-.gift-wrapper.complete a.btn, .gift-wrapper.complete .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .gift-wrapper.complete a.gift, .gift-wrapper.complete .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .gift-wrapper.complete a.translate, .gift-wrapper.no-complete a.btn, .gift-wrapper.no-complete .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .gift-wrapper.no-complete a.gift, .gift-wrapper.no-complete .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .gift-wrapper.no-complete a.translate {
+.gift-wrapper.complete a.btn, .gift-wrapper.complete .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .gift-wrapper.complete a.translate, .gift-wrapper.no-complete a.btn, .gift-wrapper.no-complete .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .gift-wrapper.no-complete a.translate {
   margin-top: 15px;
   background: #1f68ba;
   color: white;
@@ -2796,21 +2792,21 @@ label.cvv {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.gift-wrapper.complete a.btn:hover, .gift-wrapper.complete .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .gift-wrapper.complete a.gift:hover, .gift-wrapper.complete .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .gift-wrapper.complete a.translate:hover, .gift-wrapper.no-complete a.btn:hover, .gift-wrapper.no-complete .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .gift-wrapper.no-complete a.gift:hover, .gift-wrapper.no-complete .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .gift-wrapper.no-complete a.translate:hover {
+.gift-wrapper.complete a.btn:hover, .gift-wrapper.complete .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .gift-wrapper.complete a.translate:hover, .gift-wrapper.no-complete a.btn:hover, .gift-wrapper.no-complete .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .gift-wrapper.no-complete a.translate:hover {
   background: #1f519c;
 }
 
 .gift-wrapper.complete h1 {
   color: #64b118;
 }
-.gift-wrapper.complete a.btn, .gift-wrapper.complete .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .gift-wrapper.complete a.gift, .gift-wrapper.complete .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .gift-wrapper.complete a.translate {
+.gift-wrapper.complete a.btn, .gift-wrapper.complete .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .gift-wrapper.complete a.translate {
   background: #64b118;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.gift-wrapper.complete a.btn:hover, .gift-wrapper.complete .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .gift-wrapper.complete a.gift:hover, .gift-wrapper.complete .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .gift-wrapper.complete a.translate:hover {
+.gift-wrapper.complete a.btn:hover, .gift-wrapper.complete .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .gift-wrapper.complete a.translate:hover {
   background: #3c7414;
 }
 
@@ -3016,7 +3012,7 @@ label.cvv {
   z-index: 3000;
   left: -1px;
 }
-.event-present a.btn, .event-present .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .event-present a.gift, .event-present .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .event-present a.translate {
+.event-present a.btn, .event-present .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .event-present a.translate {
   padding: 6px 6px;
   border: none;
   background-color: #64b118;
@@ -3024,7 +3020,7 @@ label.cvv {
   vertical-align: top;
   height: 32px;
 }
-.event-present a.btn:hover, .event-present .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .event-present a.gift:hover, .event-present .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .event-present a.translate:hover {
+.event-present a.btn:hover, .event-present .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .event-present a.translate:hover {
   background-color: #4F9F11;
 }
 
@@ -3090,7 +3086,7 @@ label.cvv {
   font-size: 24px;
   padding-top: 5px;
 }
-.cart a.btn, .cart .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .cart a.gift, .cart .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .cart a.translate {
+.cart a.btn, .cart .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .cart a.translate {
   background: #57B711;
   color: white;
   border: none;
@@ -3103,7 +3099,7 @@ label.cvv {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.cart a.btn:hover, .cart .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .cart a.gift:hover, .cart .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .cart a.translate:hover {
+.cart a.btn:hover, .cart .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .cart a.translate:hover {
   background: #4b9711;
 }
 
@@ -3738,7 +3734,7 @@ a.menu-account-btn:hover {
 .info-profile .btn-wrap {
   text-align: center;
 }
-.info-profile .btn-wrap a.btn, .info-profile .btn-wrap .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .info-profile .btn-wrap a.gift, .info-profile .btn-wrap .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .info-profile .btn-wrap a.translate {
+.info-profile .btn-wrap a.btn, .info-profile .btn-wrap .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .info-profile .btn-wrap a.translate {
   padding: 8px 15px;
   margin: 10px 5px;
   background-color: #16b4dc;
@@ -3750,7 +3746,7 @@ a.menu-account-btn:hover {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.info-profile .btn-wrap a.btn:hover, .info-profile .btn-wrap .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .info-profile .btn-wrap a.gift:hover, .info-profile .btn-wrap .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .info-profile .btn-wrap a.translate:hover {
+.info-profile .btn-wrap a.btn:hover, .info-profile .btn-wrap .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .info-profile .btn-wrap a.translate:hover {
   background-color: #64b118;
 }
 
@@ -3921,7 +3917,7 @@ span.glyphicon.glyphicon-triangle-left:hover, span.glyphicon.glyphicon-triangle-
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.hover-view a.btn, .hover-view .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .hover-view a.gift, .hover-view .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .hover-view a.translate {
+.hover-view a.btn, .hover-view .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .hover-view a.translate {
   width: 40px;
   height: 40px;
   color: white;
@@ -3937,27 +3933,27 @@ span.glyphicon.glyphicon-triangle-left:hover, span.glyphicon.glyphicon-triangle-
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.hover-view a.btn:hover, .hover-view .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .hover-view a.gift:hover, .hover-view .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .hover-view a.translate:hover {
+.hover-view a.btn:hover, .hover-view .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .hover-view a.translate:hover {
   color: #16b4dc;
 }
-.hover-view a.btn span, .hover-view .chat-wrap .type-mess a.gift span, .chat-wrap .type-mess .hover-view a.gift span, .hover-view .chat-wrap .type-mess a.translate span, .chat-wrap .type-mess .hover-view a.translate span {
+.hover-view a.btn span, .hover-view .chat-wrap .type-mess a.translate span, .chat-wrap .type-mess .hover-view a.translate span {
   position: static;
   color: white;
 }
-.hover-view a.btn.viev-btn, .hover-view .chat-wrap .type-mess a.viev-btn.gift, .chat-wrap .type-mess .hover-view a.viev-btn.gift, .hover-view .chat-wrap .type-mess a.viev-btn.translate, .chat-wrap .type-mess .hover-view a.viev-btn.translate {
+.hover-view a.btn.viev-btn, .hover-view .chat-wrap .type-mess a.viev-btn.translate, .chat-wrap .type-mess .hover-view a.viev-btn.translate {
   background-color: #64b118;
 }
-.hover-view a.btn.full-scr, .hover-view .chat-wrap .type-mess a.full-scr.gift, .chat-wrap .type-mess .hover-view a.full-scr.gift, .hover-view .chat-wrap .type-mess a.full-scr.translate, .chat-wrap .type-mess .hover-view a.full-scr.translate {
+.hover-view a.btn.full-scr, .hover-view .chat-wrap .type-mess a.full-scr.translate, .chat-wrap .type-mess .hover-view a.full-scr.translate {
   background-color: #16b4dc;
 }
-.hover-view a.btn.close-item, .hover-view .chat-wrap .type-mess a.close-item.gift, .chat-wrap .type-mess .hover-view a.close-item.gift, .hover-view .chat-wrap .type-mess a.close-item.translate, .chat-wrap .type-mess .hover-view a.close-item.translate {
+.hover-view a.btn.close-item, .hover-view .chat-wrap .type-mess a.close-item.translate, .chat-wrap .type-mess .hover-view a.close-item.translate {
   background-color: transparent;
   position: absolute;
   top: 0;
   right: 0;
   color: white;
 }
-.hover-view a.btn.close-item:hover, .hover-view .chat-wrap .type-mess a.close-item.gift:hover, .chat-wrap .type-mess .hover-view a.close-item.gift:hover, .hover-view .chat-wrap .type-mess a.close-item.translate:hover, .chat-wrap .type-mess .hover-view a.close-item.translate:hover {
+.hover-view a.btn.close-item:hover, .hover-view .chat-wrap .type-mess a.close-item.translate:hover, .chat-wrap .type-mess .hover-view a.close-item.translate:hover {
   color: red !important;
 }
 .hover-view h3 {
@@ -4038,7 +4034,7 @@ span.glyphicon.glyphicon-triangle-left:hover, span.glyphicon.glyphicon-triangle-
     width: 191px;
   }
 }
-.flex-container-mens-online .prev-anketa.center-block.anketa-result a.v-prof.btn, .flex-container-mens-online .prev-anketa.center-block.anketa-result .chat-wrap .type-mess a.v-prof.gift, .chat-wrap .type-mess .flex-container-mens-online .prev-anketa.center-block.anketa-result a.v-prof.gift, .flex-container-mens-online .prev-anketa.center-block.anketa-result .chat-wrap .type-mess a.v-prof.translate, .chat-wrap .type-mess .flex-container-mens-online .prev-anketa.center-block.anketa-result a.v-prof.translate, .flex-container-mens-online .prev-anketa.center-block.anketa-result span.from-city, .flex-container-mens-online .prev-anketa.center-block.anketa-result a.online {
+.flex-container-mens-online .prev-anketa.center-block.anketa-result a.v-prof.btn, .flex-container-mens-online .prev-anketa.center-block.anketa-result .chat-wrap .type-mess a.v-prof.translate, .chat-wrap .type-mess .flex-container-mens-online .prev-anketa.center-block.anketa-result a.v-prof.translate, .flex-container-mens-online .prev-anketa.center-block.anketa-result span.from-city, .flex-container-mens-online .prev-anketa.center-block.anketa-result a.online {
   font-size: 12px;
 }
 .flex-container-mens-online .prev-anketa.center-block.anketa-result h3.my-name {
@@ -4059,7 +4055,7 @@ span.glyphicon.glyphicon-triangle-left:hover, span.glyphicon.glyphicon-triangle-
 }
 
 @media only screen and (max-width: 991px) {
-  a.v-prof.btn, .chat-wrap .type-mess a.v-prof.gift, .chat-wrap .type-mess a.v-prof.translate {
+  a.v-prof.btn, .chat-wrap .type-mess a.v-prof.translate {
     padding: 4px;
     margin: 3px 0 0;
     position: relative;
@@ -4269,18 +4265,18 @@ col.col1 {
     min-width: 156px;
   }
 }
-.message-item .viev .count, .message-item .viev a.btn, .message-item .viev .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .message-item .viev a.gift, .message-item .viev .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .message-item .viev a.translate {
+.message-item .viev .count, .message-item .viev a.btn, .message-item .viev .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .message-item .viev a.translate {
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
 }
 @media only screen and (max-width: 1056px) {
-  .message-item .viev .count, .message-item .viev a.btn, .message-item .viev .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .message-item .viev a.gift, .message-item .viev .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .message-item .viev a.translate {
+  .message-item .viev .count, .message-item .viev a.btn, .message-item .viev .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .message-item .viev a.translate {
     margin-right: 0;
     margin-bottom: 10px;
   }
 }
-.message-item .viev a.btn, .message-item .viev .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .message-item .viev a.gift, .message-item .viev .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .message-item .viev a.translate {
+.message-item .viev a.btn, .message-item .viev .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .message-item .viev a.translate {
   border: none;
   font-size: 25px;
   border-radius: 50%;
@@ -4460,7 +4456,7 @@ span.date-massage {
   margin-bottom: 15px;
   text-align: left;
 }
-.wrap-change-password a.btn, .wrap-change-password .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .wrap-change-password a.gift, .wrap-change-password .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .wrap-change-password a.translate {
+.wrap-change-password a.btn, .wrap-change-password .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .wrap-change-password a.translate {
   border: none;
   color: white;
   background: #1f68ba;
@@ -4472,7 +4468,7 @@ span.date-massage {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.wrap-change-password a.btn:hover, .wrap-change-password .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .wrap-change-password a.gift:hover, .wrap-change-password .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .wrap-change-password a.translate:hover {
+.wrap-change-password a.btn:hover, .wrap-change-password .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .wrap-change-password a.translate:hover {
   background-color: #64b118;
 }
 
@@ -4505,7 +4501,7 @@ span.date-massage {
   font-size: 12px;
   color: #bebebe;
 }
-.birthd-item a.btn, .birthd-item .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .birthd-item a.gift, .birthd-item .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .birthd-item a.translate {
+.birthd-item a.btn, .birthd-item .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .birthd-item a.translate {
   display: block;
   box-sizing: border-box;
   margin: 10px auto;
@@ -4521,7 +4517,7 @@ span.date-massage {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.birthd-item a.btn:hover, .birthd-item .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .birthd-item a.gift:hover, .birthd-item .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .birthd-item a.translate:hover {
+.birthd-item a.btn:hover, .birthd-item .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .birthd-item a.translate:hover {
   text-decoration: none;
   font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
   background-color: #4F9316;
@@ -4582,7 +4578,7 @@ span.date-massage {
   padding: 0;
 }
 
-.btn.ladies-available, .chat-wrap .type-mess .ladies-available.gift, .chat-wrap .type-mess .ladies-available.translate {
+.btn.ladies-available, .chat-wrap .type-mess .ladies-available.translate {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -4598,11 +4594,11 @@ span.date-massage {
   transition: all 0.3s ease-in-out;
 }
 @media only screen and (max-width: 750px) {
-  .btn.ladies-available, .chat-wrap .type-mess .ladies-available.gift, .chat-wrap .type-mess .ladies-available.translate {
+  .btn.ladies-available, .chat-wrap .type-mess .ladies-available.translate {
     display: none;
   }
 }
-.btn.ladies-available:hover, .chat-wrap .type-mess .ladies-available.gift:hover, .chat-wrap .type-mess .ladies-available.translate:hover {
+.btn.ladies-available:hover, .chat-wrap .type-mess .ladies-available.translate:hover {
   opacity: 1;
 }
 
@@ -4642,7 +4638,7 @@ span.date-massage {
   text-align: center;
   margin-bottom: 0;
 }
-.pop-up-slider .prev-anketa.center-block a.v-prof.btn, .pop-up-slider .prev-anketa.center-block .chat-wrap .type-mess a.v-prof.gift, .chat-wrap .type-mess .pop-up-slider .prev-anketa.center-block a.v-prof.gift, .pop-up-slider .prev-anketa.center-block .chat-wrap .type-mess a.v-prof.translate, .chat-wrap .type-mess .pop-up-slider .prev-anketa.center-block a.v-prof.translate {
+.pop-up-slider .prev-anketa.center-block a.v-prof.btn, .pop-up-slider .prev-anketa.center-block .chat-wrap .type-mess a.v-prof.translate, .chat-wrap .type-mess .pop-up-slider .prev-anketa.center-block a.v-prof.translate {
   float: none;
   display: block;
   width: 112px;
@@ -4656,7 +4652,7 @@ span.date-massage {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.pop-up-slider .prev-anketa.center-block a.v-prof.btn:hover, .pop-up-slider .prev-anketa.center-block .chat-wrap .type-mess a.v-prof.gift:hover, .chat-wrap .type-mess .pop-up-slider .prev-anketa.center-block a.v-prof.gift:hover, .pop-up-slider .prev-anketa.center-block .chat-wrap .type-mess a.v-prof.translate:hover, .chat-wrap .type-mess .pop-up-slider .prev-anketa.center-block a.v-prof.translate:hover {
+.pop-up-slider .prev-anketa.center-block a.v-prof.btn:hover, .pop-up-slider .prev-anketa.center-block .chat-wrap .type-mess a.v-prof.translate:hover, .chat-wrap .type-mess .pop-up-slider .prev-anketa.center-block a.v-prof.translate:hover {
   background-color: #64b118;
   border: 1px solid #64b118;
   border-radius: 0;
@@ -4793,7 +4789,7 @@ span.date-massage {
     padding: 0 15px;
   }
 }
-.my-panel a.btn, .my-panel .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .my-panel a.gift, .my-panel .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .my-panel a.translate {
+.my-panel a.btn, .my-panel .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .my-panel a.translate {
   border: none;
   color: white;
   background: #64b118;
@@ -4805,7 +4801,7 @@ span.date-massage {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.my-panel a.btn:hover, .my-panel .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .my-panel a.gift:hover, .my-panel .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .my-panel a.translate:hover {
+.my-panel a.btn:hover, .my-panel .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .my-panel a.translate:hover {
   transform: Scale(0.9, 0.9);
 }
 
@@ -4816,7 +4812,7 @@ span.date-massage {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.my-panel.panel-view-profile a.btn, .my-panel.panel-view-profile .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .my-panel.panel-view-profile a.gift, .my-panel.panel-view-profile .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .my-panel.panel-view-profile a.translate {
+.my-panel.panel-view-profile a.btn, .my-panel.panel-view-profile .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .my-panel.panel-view-profile a.translate {
   background-color: #85a4d3;
 }
 
@@ -4856,7 +4852,7 @@ span.date-massage {
     float: none;
   }
 }
-.form-change a.btn, .form-change .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .form-change a.gift, .form-change .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .form-change a.translate {
+.form-change a.btn, .form-change .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .form-change a.translate {
   font-size: 14px;
   padding: 7px 50px;
   background-color: #57B711;
@@ -4868,7 +4864,7 @@ span.date-massage {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.form-change a.btn:hover, .form-change .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .form-change a.gift:hover, .form-change .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .form-change a.translate:hover {
+.form-change a.btn:hover, .form-change .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .form-change a.translate:hover {
   background-color: #4E9C11;
   border: 1px inset white;
 }
@@ -5420,7 +5416,7 @@ span.date-massage {
 .message-item.full-item .files span {
   margin-right: 10px;
 }
-.message-item.full-item .files a.btn, .message-item.full-item .files .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .message-item.full-item .files a.gift, .message-item.full-item .files .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .message-item.full-item .files a.translate {
+.message-item.full-item .files a.btn, .message-item.full-item .files .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .message-item.full-item .files a.translate {
   font-size: 16px;
   color: #bebebe;
   border: 1px solid #e9e9e9;
@@ -5433,7 +5429,7 @@ span.date-massage {
   transition: all 0.3s ease-in-out;
   background: #f8f8f8 url("../img/button-for-mess.png") no-repeat;
 }
-.message-item.full-item .files a.btn:hover, .message-item.full-item .files .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .message-item.full-item .files a.gift:hover, .message-item.full-item .files .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .message-item.full-item .files a.translate:hover {
+.message-item.full-item .files a.btn:hover, .message-item.full-item .files .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .message-item.full-item .files a.translate:hover {
   border: 1px solid #AAAAAA;
   color: #aaaaaa;
 }
@@ -5505,17 +5501,17 @@ span.date-massage {
   padding-top: 20px;
   margin-top: 15px;
 }
-.create-mess .send-letter-btn a.btn, .create-mess .send-letter-btn .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .create-mess .send-letter-btn a.gift, .create-mess .send-letter-btn .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .create-mess .send-letter-btn a.translate {
+.create-mess .send-letter-btn a.btn, .create-mess .send-letter-btn .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .create-mess .send-letter-btn a.translate {
   border: none;
   background: #64b118;
   color: white;
   font-size: 14px;
   padding: 13px 13px;
 }
-.create-mess .send-letter-btn a.btn:hover, .create-mess .send-letter-btn .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .create-mess .send-letter-btn a.gift:hover, .create-mess .send-letter-btn .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .create-mess .send-letter-btn a.translate:hover {
+.create-mess .send-letter-btn a.btn:hover, .create-mess .send-letter-btn .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .create-mess .send-letter-btn a.translate:hover {
   background: green;
 }
-.create-mess .send-letter-btn a.btn.trash, .create-mess .send-letter-btn .chat-wrap .type-mess a.trash.gift, .chat-wrap .type-mess .create-mess .send-letter-btn a.trash.gift, .create-mess .send-letter-btn .chat-wrap .type-mess a.trash.translate, .chat-wrap .type-mess .create-mess .send-letter-btn a.trash.translate {
+.create-mess .send-letter-btn a.btn.trash, .create-mess .send-letter-btn .chat-wrap .type-mess a.trash.translate, .chat-wrap .type-mess .create-mess .send-letter-btn a.trash.translate {
   background: none;
   color: #565656;
   -moz-transition: all 0.3s ease-in-out;
@@ -5523,10 +5519,10 @@ span.date-massage {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.create-mess .send-letter-btn a.btn.trash:hover, .create-mess .send-letter-btn .chat-wrap .type-mess a.trash.gift:hover, .chat-wrap .type-mess .create-mess .send-letter-btn a.trash.gift:hover, .create-mess .send-letter-btn .chat-wrap .type-mess a.trash.translate:hover, .chat-wrap .type-mess .create-mess .send-letter-btn a.trash.translate:hover {
+.create-mess .send-letter-btn a.btn.trash:hover, .create-mess .send-letter-btn .chat-wrap .type-mess a.trash.translate:hover, .chat-wrap .type-mess .create-mess .send-letter-btn a.trash.translate:hover {
   color: red;
 }
-.create-mess .send-letter-btn a.btn.trash span, .create-mess .send-letter-btn .chat-wrap .type-mess a.trash.gift span, .chat-wrap .type-mess .create-mess .send-letter-btn a.trash.gift span, .create-mess .send-letter-btn .chat-wrap .type-mess a.trash.translate span, .chat-wrap .type-mess .create-mess .send-letter-btn a.trash.translate span {
+.create-mess .send-letter-btn a.btn.trash span, .create-mess .send-letter-btn .chat-wrap .type-mess a.trash.translate span, .chat-wrap .type-mess .create-mess .send-letter-btn a.trash.translate span {
   margin-right: 5px;
 }
 
@@ -5620,7 +5616,7 @@ li.tiptop-menu li {
     border-bottom: none;
   }
 }
-.tiptop .f-right a.btn, .tiptop .f-right .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .tiptop .f-right a.gift, .tiptop .f-right .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .tiptop .f-right a.translate {
+.tiptop .f-right a.btn, .tiptop .f-right .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .tiptop .f-right a.translate {
   border: 1px solid white !important;
   background-color: transparent;
   color: white;
@@ -5634,7 +5630,7 @@ li.tiptop-menu li {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.tiptop .f-right a.btn:hover, .tiptop .f-right .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .tiptop .f-right a.gift:hover, .tiptop .f-right .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .tiptop .f-right a.translate:hover {
+.tiptop .f-right a.btn:hover, .tiptop .f-right .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .tiptop .f-right a.translate:hover {
   background-color: #16b4dc !important;
 }
 .tiptop h3.name {
@@ -5750,7 +5746,7 @@ label.discount {
 .total.my-total ul li .grand-total {
   font-family: "OpenSansBold", "HelveticaBold", sans-serif;
 }
-.total.my-total a.btn, .total.my-total .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .total.my-total a.gift, .total.my-total .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .total.my-total a.translate {
+.total.my-total a.btn, .total.my-total .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .total.my-total a.translate {
   color: white;
   background-color: #64b118;
   border: none;
@@ -5762,7 +5758,7 @@ label.discount {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.total.my-total a.btn:hover, .total.my-total .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .total.my-total a.gift:hover, .total.my-total .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .total.my-total a.translate:hover {
+.total.my-total a.btn:hover, .total.my-total .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .total.my-total a.translate:hover {
   background-color: #006600;
 }
 
@@ -6010,7 +6006,7 @@ input {
   color: #939393;
   text-decoration: underline;
 }
-.form-rezerv .order-phone a.btn, .form-rezerv .order-phone .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .form-rezerv .order-phone a.gift, .form-rezerv .order-phone .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .form-rezerv .order-phone a.translate {
+.form-rezerv .order-phone a.btn, .form-rezerv .order-phone .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .form-rezerv .order-phone a.translate {
   background-color: #16b4dc;
   color: white;
   border: none;
@@ -6023,7 +6019,7 @@ input {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.form-rezerv .order-phone a.btn:hover, .form-rezerv .order-phone .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .form-rezerv .order-phone a.gift:hover, .form-rezerv .order-phone .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .form-rezerv .order-phone a.translate:hover {
+.form-rezerv .order-phone a.btn:hover, .form-rezerv .order-phone .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .form-rezerv .order-phone a.translate:hover {
   background-color: #1696BA;
 }
 .form-rezerv h3 {
@@ -6355,25 +6351,25 @@ form#search-girl .invisible-form input {
   }
 }
 
-a.btn.menu-drop-btn.lang, .chat-wrap .type-mess a.menu-drop-btn.lang.gift, .chat-wrap .type-mess a.menu-drop-btn.lang.translate {
+a.btn.menu-drop-btn.lang, .chat-wrap .type-mess a.menu-drop-btn.lang.translate {
   display: none;
 }
 @media only screen and (max-width: 847px) {
-  a.btn.menu-drop-btn.lang, .chat-wrap .type-mess a.menu-drop-btn.lang.gift, .chat-wrap .type-mess a.menu-drop-btn.lang.translate {
+  a.btn.menu-drop-btn.lang, .chat-wrap .type-mess a.menu-drop-btn.lang.translate {
     display: inline-block;
   }
 }
 
-a.btn.menu-drop-btn.lang.lang-index, .chat-wrap .type-mess a.menu-drop-btn.lang.lang-index.gift, .chat-wrap .type-mess a.menu-drop-btn.lang.lang-index.translate {
+a.btn.menu-drop-btn.lang.lang-index, .chat-wrap .type-mess a.menu-drop-btn.lang.lang-index.translate {
   display: none;
 }
 @media only screen and (max-width: 768px) {
-  a.btn.menu-drop-btn.lang.lang-index, .chat-wrap .type-mess a.menu-drop-btn.lang.lang-index.gift, .chat-wrap .type-mess a.menu-drop-btn.lang.lang-index.translate {
+  a.btn.menu-drop-btn.lang.lang-index, .chat-wrap .type-mess a.menu-drop-btn.lang.lang-index.translate {
     display: inline-block;
   }
 }
 
-a.btn.menu-drop-btn, .chat-wrap .type-mess a.menu-drop-btn.gift, .chat-wrap .type-mess a.menu-drop-btn.translate {
+a.btn.menu-drop-btn, .chat-wrap .type-mess a.menu-drop-btn.translate {
   width: 50px;
   /* height: 50px; */
   text-align: center;
@@ -6388,27 +6384,27 @@ a.btn.menu-drop-btn, .chat-wrap .type-mess a.menu-drop-btn.gift, .chat-wrap .typ
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-a.btn.menu-drop-btn:hover, .chat-wrap .type-mess a.menu-drop-btn.gift:hover, .chat-wrap .type-mess a.menu-drop-btn.translate:hover {
+a.btn.menu-drop-btn:hover, .chat-wrap .type-mess a.menu-drop-btn.translate:hover {
   border-color: #bebebe;
 }
-a.btn.menu-drop-btn span, .chat-wrap .type-mess a.menu-drop-btn.gift span, .chat-wrap .type-mess a.menu-drop-btn.translate span {
+a.btn.menu-drop-btn span, .chat-wrap .type-mess a.menu-drop-btn.translate span {
   margin: 0;
 }
 
-a.btn.menu-drop-btn.main-menu, .chat-wrap .type-mess a.menu-drop-btn.main-menu.gift, .chat-wrap .type-mess a.menu-drop-btn.main-menu.translate {
+a.btn.menu-drop-btn.main-menu, .chat-wrap .type-mess a.menu-drop-btn.main-menu.translate {
   display: none;
 }
 @media only screen and (max-width: 750px) {
-  a.btn.menu-drop-btn.main-menu, .chat-wrap .type-mess a.menu-drop-btn.main-menu.gift, .chat-wrap .type-mess a.menu-drop-btn.main-menu.translate {
+  a.btn.menu-drop-btn.main-menu, .chat-wrap .type-mess a.menu-drop-btn.main-menu.translate {
     display: inline-block;
   }
 }
 
-a.btn.menu-drop-btn.main-menu-index, .chat-wrap .type-mess a.menu-drop-btn.main-menu-index.gift, .chat-wrap .type-mess a.menu-drop-btn.main-menu-index.translate {
+a.btn.menu-drop-btn.main-menu-index, .chat-wrap .type-mess a.menu-drop-btn.main-menu-index.translate {
   display: none;
 }
 @media only screen and (max-width: 768px) {
-  a.btn.menu-drop-btn.main-menu-index, .chat-wrap .type-mess a.menu-drop-btn.main-menu-index.gift, .chat-wrap .type-mess a.menu-drop-btn.main-menu-index.translate {
+  a.btn.menu-drop-btn.main-menu-index, .chat-wrap .type-mess a.menu-drop-btn.main-menu-index.translate {
     display: inline-block;
   }
 }
@@ -6528,7 +6524,7 @@ li.dropdown {
   background-position: -25px -15px;
 }
 
-a.btn.drop-form, .chat-wrap .type-mess a.drop-form.gift, .chat-wrap .type-mess a.drop-form.translate {
+a.btn.drop-form, .chat-wrap .type-mess a.drop-form.translate {
   float: right;
   border: 1px solid white;
   border-radius: 4px;
@@ -6538,11 +6534,11 @@ a.btn.drop-form, .chat-wrap .type-mess a.drop-form.gift, .chat-wrap .type-mess a
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-a.btn.drop-form:hover, .chat-wrap .type-mess a.drop-form.gift:hover, .chat-wrap .type-mess a.drop-form.translate:hover {
+a.btn.drop-form:hover, .chat-wrap .type-mess a.drop-form.translate:hover {
   border: 1px solid #bebebe;
 }
 @media only screen and (max-width: 768px) {
-  a.btn.drop-form, .chat-wrap .type-mess a.drop-form.gift, .chat-wrap .type-mess a.drop-form.translate {
+  a.btn.drop-form, .chat-wrap .type-mess a.drop-form.translate {
     display: block;
   }
 }
@@ -6580,7 +6576,7 @@ form#search-girl {
   top: -2px;
 }
 
-a.btn.right.sign-in, .chat-wrap .type-mess a.right.sign-in.gift, .chat-wrap .type-mess a.right.sign-in.translate {
+a.btn.right.sign-in, .chat-wrap .type-mess a.right.sign-in.translate {
   border: 1px solid transparent;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -6588,17 +6584,17 @@ a.btn.right.sign-in, .chat-wrap .type-mess a.right.sign-in.gift, .chat-wrap .typ
   transition: all 0.3s ease-in-out;
 }
 @media only screen and (max-width: 991px) {
-  a.btn.right.sign-in, .chat-wrap .type-mess a.right.sign-in.gift, .chat-wrap .type-mess a.right.sign-in.translate {
+  a.btn.right.sign-in, .chat-wrap .type-mess a.right.sign-in.translate {
     padding: 10px 12px;
     font-size: 17px;
   }
 }
-a.btn.right.sign-in:hover, .chat-wrap .type-mess a.right.sign-in.gift:hover, .chat-wrap .type-mess a.right.sign-in.translate:hover {
+a.btn.right.sign-in:hover, .chat-wrap .type-mess a.right.sign-in.translate:hover {
   border: 1px solid #bebebe;
 }
 
 @media only screen and (max-width: 768px) {
-  a.btn.drop-form.main-menu-index, .chat-wrap .type-mess a.drop-form.main-menu-index.gift, .chat-wrap .type-mess a.drop-form.main-menu-index.translate {
+  a.btn.drop-form.main-menu-index, .chat-wrap .type-mess a.drop-form.main-menu-index.translate {
     display: block;
   }
 }
@@ -6728,7 +6724,7 @@ div#lang-select-styler .jq-selectbox__select:hover .jq-selectbox__trigger-arrow 
 }
 
 /*-------Menu Dashboard--------------*/
-a.btn.dashboard-menu, .chat-wrap .type-mess a.dashboard-menu.gift, .chat-wrap .type-mess a.dashboard-menu.translate {
+a.btn.dashboard-menu, .chat-wrap .type-mess a.dashboard-menu.translate {
   margin: 10px auto;
   width: 90%;
   display: none;
@@ -6737,7 +6733,7 @@ a.btn.dashboard-menu, .chat-wrap .type-mess a.dashboard-menu.gift, .chat-wrap .t
   border-radius: 4px;
 }
 @media only screen and (max-width: 479px) {
-  a.btn.dashboard-menu, .chat-wrap .type-mess a.dashboard-menu.gift, .chat-wrap .type-mess a.dashboard-menu.translate {
+  a.btn.dashboard-menu, .chat-wrap .type-mess a.dashboard-menu.translate {
     display: block;
   }
 }

@@ -69,8 +69,6 @@
 
   }
   .glyphicon {
-    top: 4px;
-    left: 9px;
     @media only screen and(max-width: 479px){
 
     }
@@ -237,7 +235,7 @@ ul.girl-list {
       .item-girl-name{
         font-family: $font-normal;
         color:#444444;
-        font-size: $font-size-md;
+        font-size: $font-size-sm;
       }
 
       .item-girl-from{
@@ -403,7 +401,7 @@ flex-basis:100%;
       margin-right: 5px;
     }
     .gift{
-      @extend .btn;
+      width: 170px;
       &:hover{
         background-color:darken($color-blue,30%);
         color:white;

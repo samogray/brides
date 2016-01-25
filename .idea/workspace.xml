@@ -21,21 +21,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="chat-index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chat-index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8521739">
-              <caret line="574" column="10" selection-start-line="574" selection-start-column="10" selection-end-line="574" selection-end-column="10" />
+            <state vertical-scroll-proportion="-7.690909">
+              <caret line="473" column="64" selection-start-line="473" selection-start-column="60" selection-end-line="473" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat-index.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chat-index.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/scss/modules/chat-index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.1454544">
-              <caret line="623" column="14" selection-start-line="623" selection-start-column="14" selection-end-line="623" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.1785174">
+              <caret line="396" column="7" selection-start-line="396" selection-start-column="7" selection-end-line="396" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="from-sass.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/from-sass.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.344828">
+              <caret line="768" column="10" selection-start-line="768" selection-start-column="10" selection-end-line="768" selection-end-column="10" />
+              <folding>
+                <marker date="1453750786905" expanded="true" signature="17397:17402" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/scss/variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -115,8 +137,8 @@
         <option value="$PROJECT_DIR$/lady-profile-change-password.html" />
         <option value="$PROJECT_DIR$/css/scss/modules/lady-account-page.scss" />
         <option value="$PROJECT_DIR$/css/scss/modules/modal-present.scss" />
-        <option value="$PROJECT_DIR$/css/scss/modules/chat-index.scss" />
         <option value="$PROJECT_DIR$/chat-index.html" />
+        <option value="$PROJECT_DIR$/css/scss/modules/chat-index.scss" />
       </list>
     </option>
   </component>
@@ -500,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.615385">
-          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.384615">
@@ -650,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/from-sass.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-124.6648">
-          <caret line="610" column="0" selection-start-line="610" selection-start-column="0" selection-end-line="610" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -753,18 +761,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/scss/modules/chat-index.scss">
+    <entry file="file://$PROJECT_DIR$/css/scss/variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.1454544">
-          <caret line="623" column="14" selection-start-line="623" selection-start-column="14" selection-end-line="623" selection-end-column="14" />
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chat-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8521739">
-          <caret line="574" column="10" selection-start-line="574" selection-start-column="10" selection-end-line="574" selection-end-column="10" />
+        <state vertical-scroll-proportion="-7.690909">
+          <caret line="473" column="64" selection-start-line="473" selection-start-column="60" selection-end-line="473" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/from-sass.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.344828">
+          <caret line="768" column="10" selection-start-line="768" selection-start-column="10" selection-end-line="768" selection-end-column="10" />
+          <folding>
+            <marker date="1453750786905" expanded="true" signature="17397:17402" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scss/modules/chat-index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1785174">
+          <caret line="396" column="7" selection-start-line="396" selection-start-column="7" selection-end-line="396" selection-end-column="7" />
           <folding />
         </state>
       </provider>
