@@ -29,6 +29,11 @@
     flex-basis: 100%;
   }
 }
+@media only screen and (min-width: 1057px) {
+  .flex-item.aside-right {
+    display: block !important;
+  }
+}
 
 .flex-item.aside-left {
   flex-basis: 23.225%;
@@ -38,8 +43,14 @@
   .flex-item.aside-left {
     flex-basis: 100%;
     order: 2;
+    display: none;
     border-bottom: 1px solid #16B4DC;
     margin-bottom: 1px;
+  }
+}
+@media only screen and (min-width: 1057px) {
+  .flex-item.aside-left {
+    display: block !important;
   }
 }
 
@@ -62,82 +73,58 @@
   background-color: #f6f6f6;
   color: #bebebe;
   padding: 10px;
-  /* Firefox 19+ */
-  /* Firefox 18- */
 }
-.input-search a.btn, .input-search .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .input-search a.gift, .input-search .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .input-search a.translate {
-  display: inline-block;
-  text-transform: uppercase;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  float: right;
-  margin-bottom: 5px;
-  display: none;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-@media only screen and (max-width: 1056px) {
-  .input-search a.btn, .input-search .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .input-search a.gift, .input-search .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .input-search a.translate {
-    display: inline-block;
-  }
-}
-@media only screen and (max-width: 390px) {
-  .input-search a.btn, .input-search .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .input-search a.gift, .input-search .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .input-search a.translate {
-    display: block;
-    float: none;
-    border-color: #16b4dc;
-  }
-}
-.input-search a.btn:hover, .input-search .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .input-search a.gift:hover, .input-search .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .input-search a.translate:hover {
-  border-color: #16b4dc;
-  color: #16b4dc;
-}
-.input-search a.btn:hover .badge, .input-search .chat-wrap .type-mess a.gift:hover .badge, .chat-wrap .type-mess .input-search a.gift:hover .badge, .input-search .chat-wrap .type-mess a.translate:hover .badge, .chat-wrap .type-mess .input-search a.translate:hover .badge {
-  background-color: #16b4dc;
-}
-.input-search .glyphicon {
+
+.glyphicon {
   top: 4px;
   left: 9px;
 }
-.input-search form.form-inline {
+
+form.form-inline {
   border-bottom: 1px solid #bebebe;
 }
 @media only screen and (max-width: 1056px) {
-  .input-search form.form-inline {
+  form.form-inline {
     width: 100%;
     display: inline-block;
   }
 }
+
 @media only screen and (max-width: 1056px) {
-  .input-search .form-group {
+  .form-group {
     width: 100%;
   }
 }
 @media only screen and (max-width: 767px) {
-  .input-search .form-group {
+  .form-group {
     margin-bottom: 17px;
   }
 }
 @media only screen and (max-width: 479px) {
-  .input-search .form-group {
+  .form-group {
     margin-bottom: 30px;
   }
 }
-.input-search input::-webkit-input-placeholder {
+
+input::-webkit-input-placeholder {
   text-transform: uppercase;
 }
-.input-search input::-moz-placeholder {
+
+input::-moz-placeholder {
   text-transform: uppercase;
 }
-.input-search input:-moz-placeholder {
+
+/* Firefox 19+ */
+input:-moz-placeholder {
   text-transform: uppercase;
 }
-.input-search input:-ms-input-placeholder {
+
+/* Firefox 18- */
+input:-ms-input-placeholder {
   text-transform: uppercase;
 }
-.input-search input.form-control {
+
+input.form-control {
   width: 87%;
   float: right;
   background-color: #f6f6f6;
@@ -153,13 +140,13 @@
   font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
 @media only screen and (max-width: 1056px) {
-  .input-search input.form-control {
+  input.form-control {
     width: 50%;
     display: inline-block;
     float: none;
   }
 }
-.input-search input.form-control:focus {
+input.form-control:focus {
   border: none;
   box-shadow: none;
 }
@@ -168,6 +155,7 @@ ul.girl-list {
   background-color: #f6f6f6;
   width: 100%;
   padding: 10px 0;
+  display: block;
 }
 @media only screen and (max-width: 991px) {
   ul.girl-list {
@@ -177,6 +165,11 @@ ul.girl-list {
 @media only screen and (max-width: 1056px) {
   ul.girl-list {
     display: none;
+  }
+}
+@media only screen and (min-width: 1057px) {
+  ul.girl-list {
+    display: block !important;
   }
 }
 ul.girl-list .link-girl .bl {
@@ -277,6 +270,11 @@ ul.girl-list .item-girl-from {
   .chat-wrap {
     flex-basis: 70%;
     order: 2;
+  }
+}
+@media only screen and (min-width: 1057px) {
+  .chat-wrap {
+    display: flex !important;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -615,11 +613,88 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   font-size: 18px;
   border: 3px solid transparent;
   text-transform: uppercase;
+  color: #bebebe;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width: 390px) {
+  .wrap-tab a.btn, .wrap-tab .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .wrap-tab a.gift, .wrap-tab .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .wrap-tab a.translate {
+    display: block;
+  }
 }
 .wrap-tab a.btn:hover, .wrap-tab .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .wrap-tab a.gift:hover, .wrap-tab .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .wrap-tab a.translate:hover {
   color: #16b4dc;
 }
-.wrap-tab a.class-active {
+.wrap-tab a.btn:active, .wrap-tab .chat-wrap .type-mess a.gift:active, .chat-wrap .type-mess .wrap-tab a.gift:active, .wrap-tab .chat-wrap .type-mess a.translate:active, .chat-wrap .type-mess .wrap-tab a.translate:active {
+  color: #bebebe;
+  box-shadow: none;
+}
+.wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
+  text-transform: uppercase;
+  border: 3px solid transparent;
+  border-radius: 4px;
+  float: right;
+  margin-bottom: 5px;
+  display: none;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width: 1056px) {
+  .wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
+    display: block;
+    float: none;
+  }
+}
+.wrap-tab a.btn.btn-search-girl:hover, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift:hover, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift:hover, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate:hover, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate:hover {
+  color: #16b4dc;
+}
+.wrap-tab a.btn.btn-search-girl:hover .badge, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift:hover .badge, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift:hover .badge, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate:hover .badge, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate:hover .badge {
+  background-color: #16b4dc;
+}
+.wrap-tab .class-active {
+  border-bottom-color: #C7EDFC;
+}
+
+a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess a.btn-search-girl.translate {
+  text-transform: uppercase;
+  border: 3px solid transparent;
+  border-radius: 4px;
+  float: right;
+  margin-bottom: 5px;
+  display: none;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width: 1056px) {
+  a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess a.btn-search-girl.translate {
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 390px) {
+  a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess a.btn-search-girl.translate {
+    display: block;
+    float: none;
+  }
+}
+a.btn.btn-search-girl:hover, .chat-wrap .type-mess a.btn-search-girl.gift:hover, .chat-wrap .type-mess a.btn-search-girl.translate:hover {
+  color: #16b4dc;
+}
+a.btn.btn-search-girl:hover .badge, .chat-wrap .type-mess a.btn-search-girl.gift:hover .badge, .chat-wrap .type-mess a.btn-search-girl.translate:hover .badge {
+  background-color: #16b4dc;
+}
+
+.class-active {
   border-bottom-color: #C7EDFC;
 }
 
@@ -655,6 +730,11 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
     flex-basis: 100%;
   }
 }
+@media only screen and (min-width: 1057px) {
+  .flex-item.aside-right {
+    display: block !important;
+  }
+}
 
 .flex-item.aside-left {
   flex-basis: 23.225%;
@@ -664,8 +744,14 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   .flex-item.aside-left {
     flex-basis: 100%;
     order: 2;
+    display: none;
     border-bottom: 1px solid #16B4DC;
     margin-bottom: 1px;
+  }
+}
+@media only screen and (min-width: 1057px) {
+  .flex-item.aside-left {
+    display: block !important;
   }
 }
 
@@ -688,82 +774,58 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   background-color: #f6f6f6;
   color: #bebebe;
   padding: 10px;
-  /* Firefox 19+ */
-  /* Firefox 18- */
 }
-.input-search a.btn, .input-search .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .input-search a.gift, .input-search .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .input-search a.translate {
-  display: inline-block;
-  text-transform: uppercase;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  float: right;
-  margin-bottom: 5px;
-  display: none;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-@media only screen and (max-width: 1056px) {
-  .input-search a.btn, .input-search .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .input-search a.gift, .input-search .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .input-search a.translate {
-    display: inline-block;
-  }
-}
-@media only screen and (max-width: 390px) {
-  .input-search a.btn, .input-search .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .input-search a.gift, .input-search .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .input-search a.translate {
-    display: block;
-    float: none;
-    border-color: #16b4dc;
-  }
-}
-.input-search a.btn:hover, .input-search .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .input-search a.gift:hover, .input-search .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .input-search a.translate:hover {
-  border-color: #16b4dc;
-  color: #16b4dc;
-}
-.input-search a.btn:hover .badge, .input-search .chat-wrap .type-mess a.gift:hover .badge, .chat-wrap .type-mess .input-search a.gift:hover .badge, .input-search .chat-wrap .type-mess a.translate:hover .badge, .chat-wrap .type-mess .input-search a.translate:hover .badge {
-  background-color: #16b4dc;
-}
-.input-search .glyphicon {
+
+.glyphicon {
   top: 4px;
   left: 9px;
 }
-.input-search form.form-inline {
+
+form.form-inline {
   border-bottom: 1px solid #bebebe;
 }
 @media only screen and (max-width: 1056px) {
-  .input-search form.form-inline {
+  form.form-inline {
     width: 100%;
     display: inline-block;
   }
 }
+
 @media only screen and (max-width: 1056px) {
-  .input-search .form-group {
+  .form-group {
     width: 100%;
   }
 }
 @media only screen and (max-width: 767px) {
-  .input-search .form-group {
+  .form-group {
     margin-bottom: 17px;
   }
 }
 @media only screen and (max-width: 479px) {
-  .input-search .form-group {
+  .form-group {
     margin-bottom: 30px;
   }
 }
-.input-search input::-webkit-input-placeholder {
+
+input::-webkit-input-placeholder {
   text-transform: uppercase;
 }
-.input-search input::-moz-placeholder {
+
+input::-moz-placeholder {
   text-transform: uppercase;
 }
-.input-search input:-moz-placeholder {
+
+/* Firefox 19+ */
+input:-moz-placeholder {
   text-transform: uppercase;
 }
-.input-search input:-ms-input-placeholder {
+
+/* Firefox 18- */
+input:-ms-input-placeholder {
   text-transform: uppercase;
 }
-.input-search input.form-control {
+
+input.form-control {
   width: 87%;
   float: right;
   background-color: #f6f6f6;
@@ -779,13 +841,13 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
 }
 @media only screen and (max-width: 1056px) {
-  .input-search input.form-control {
+  input.form-control {
     width: 50%;
     display: inline-block;
     float: none;
   }
 }
-.input-search input.form-control:focus {
+input.form-control:focus {
   border: none;
   box-shadow: none;
 }
@@ -794,6 +856,7 @@ ul.girl-list {
   background-color: #f6f6f6;
   width: 100%;
   padding: 10px 0;
+  display: block;
 }
 @media only screen and (max-width: 991px) {
   ul.girl-list {
@@ -803,6 +866,11 @@ ul.girl-list {
 @media only screen and (max-width: 1056px) {
   ul.girl-list {
     display: none;
+  }
+}
+@media only screen and (min-width: 1057px) {
+  ul.girl-list {
+    display: block !important;
   }
 }
 ul.girl-list .link-girl .bl {
@@ -903,6 +971,11 @@ ul.girl-list .item-girl-from {
   .chat-wrap {
     flex-basis: 70%;
     order: 2;
+  }
+}
+@media only screen and (min-width: 1057px) {
+  .chat-wrap {
+    display: flex !important;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -1241,11 +1314,88 @@ a.btn.invite, .chat-wrap .type-mess a.invite.gift, .chat-wrap .type-mess a.invit
   font-size: 18px;
   border: 3px solid transparent;
   text-transform: uppercase;
+  color: #bebebe;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width: 390px) {
+  .wrap-tab a.btn, .wrap-tab .chat-wrap .type-mess a.gift, .chat-wrap .type-mess .wrap-tab a.gift, .wrap-tab .chat-wrap .type-mess a.translate, .chat-wrap .type-mess .wrap-tab a.translate {
+    display: block;
+  }
 }
 .wrap-tab a.btn:hover, .wrap-tab .chat-wrap .type-mess a.gift:hover, .chat-wrap .type-mess .wrap-tab a.gift:hover, .wrap-tab .chat-wrap .type-mess a.translate:hover, .chat-wrap .type-mess .wrap-tab a.translate:hover {
   color: #16b4dc;
 }
-.wrap-tab a.class-active {
+.wrap-tab a.btn:active, .wrap-tab .chat-wrap .type-mess a.gift:active, .chat-wrap .type-mess .wrap-tab a.gift:active, .wrap-tab .chat-wrap .type-mess a.translate:active, .chat-wrap .type-mess .wrap-tab a.translate:active {
+  color: #bebebe;
+  box-shadow: none;
+}
+.wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
+  text-transform: uppercase;
+  border: 3px solid transparent;
+  border-radius: 4px;
+  float: right;
+  margin-bottom: 5px;
+  display: none;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width: 1056px) {
+  .wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .wrap-tab a.btn.btn-search-girl, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate {
+    display: block;
+    float: none;
+  }
+}
+.wrap-tab a.btn.btn-search-girl:hover, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift:hover, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift:hover, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate:hover, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate:hover {
+  color: #16b4dc;
+}
+.wrap-tab a.btn.btn-search-girl:hover .badge, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.gift:hover .badge, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.gift:hover .badge, .wrap-tab .chat-wrap .type-mess a.btn-search-girl.translate:hover .badge, .chat-wrap .type-mess .wrap-tab a.btn-search-girl.translate:hover .badge {
+  background-color: #16b4dc;
+}
+.wrap-tab .class-active {
+  border-bottom-color: #C7EDFC;
+}
+
+a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess a.btn-search-girl.translate {
+  text-transform: uppercase;
+  border: 3px solid transparent;
+  border-radius: 4px;
+  float: right;
+  margin-bottom: 5px;
+  display: none;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width: 1056px) {
+  a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess a.btn-search-girl.translate {
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 390px) {
+  a.btn.btn-search-girl, .chat-wrap .type-mess a.btn-search-girl.gift, .chat-wrap .type-mess a.btn-search-girl.translate {
+    display: block;
+    float: none;
+  }
+}
+a.btn.btn-search-girl:hover, .chat-wrap .type-mess a.btn-search-girl.gift:hover, .chat-wrap .type-mess a.btn-search-girl.translate:hover {
+  color: #16b4dc;
+}
+a.btn.btn-search-girl:hover .badge, .chat-wrap .type-mess a.btn-search-girl.gift:hover .badge, .chat-wrap .type-mess a.btn-search-girl.translate:hover .badge {
+  background-color: #16b4dc;
+}
+
+.class-active {
   border-bottom-color: #C7EDFC;
 }
 
@@ -2748,9 +2898,14 @@ label.cvv {
   font-size: 18px;
   color: #bebebe;
   border: none;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .present-tabs li a:hover {
   background-color: transparent;
+  color: #16b4dc;
 }
 @media (max-width: 847px) {
   .present-tabs li {
@@ -3082,8 +3237,10 @@ label.cvv {
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
   color: #16b4dc;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #F6F6F6;
   border: none;
+  border: 1px solid #D5D5D5;
+  border-bottom: none;
 }
 
 /*-----END-MODAL-PRESENT.SCSS----------*/
@@ -3420,7 +3577,7 @@ img.pop-up-image {
 .menu-drop {
   margin-bottom: 100px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .menu-drop {
     display: none;
     max-width: 300px;
@@ -3445,7 +3602,7 @@ a.menu-account-btn {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   a.menu-account-btn {
     display: block;
   }

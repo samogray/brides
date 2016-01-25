@@ -205,8 +205,8 @@
     </div>
     <div class="row">
         <div class="my-wrap wrap-tab">
-            <a href="#0" class="chat-name btn class-active"> chat <i class="fa fa-comments-o"></i></a>
-            <a href="#0" class="btn" id="srch-girl">found <span class="badge">42</span></a>
+            <a href="#0" class="chat-name btn class-active" id="chat"> chat <i class="fa fa-comments-o"></i></a>
+            <a href="#0" class="btn btn-search-girl" id="srch-girl">search <span class="badge"> 42</span></a>
         </div>
         <div class="flex-container">
             <div class="flex-item aside-left">
@@ -538,6 +538,10 @@
 <script src="js/jquery.scrollbar.min.js"></script>
 <script src="libs/bootstrap-datepicker-1.5.0-dist/js/bootstrap-datepicker.min.js"></script>
 <script>
+
+   var chat = $('#chat');
+  // chat.unbind('click');
+
     $('.my-list,.my-number').styler();
     $('.scrollbar-inner').scrollbar();
 
@@ -548,15 +552,31 @@
         $('#main-menu').slideToggle();
     });
 
-    $('#srch-girl').click(function(){
-        $('.girl-list').slideToggle();
-       /* var height=$("body").height();
-        $("body").animate({"scrollTop":height},'slow');*/
-    })
+   $('#srch-girl').click(function(){
+        $('.aside-left').fadeToggle(function(){
+            $('ul.girl-list').slideToggle();
+        });
+        $('.chat-wrap').fadeToggle();
+        $('.aside-right').fadeToggle();
+       $(this).addClass('class-active');
+       chat.removeClass('class-active');
+       $(this).toggle();
+
+    });
+
+    chat.click(function(){
+
+       $('.aside-left').fadeOut();
+        $('.chat-wrap').fadeIn();
+        $('.aside-right').fadeIn();
+        $(this).addClass('class-active');
+        $('#srch-girl').removeClass('class-active');
+        $('#srch-girl').fadeIn();
+        $('ul.girl-list').slideToggle();
+    });
 
 </script>
 
-<script src="js/common.js"></script>
 
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->

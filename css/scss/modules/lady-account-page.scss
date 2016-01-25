@@ -2,7 +2,7 @@
 @import "../variables.scss";
 .menu-drop{
   margin-bottom:100px;
-  @media only screen and(max-width:768px){
+  @media only screen and(max-width:767px){
   display: none;
     max-width: 300px;
     margin: 0 auto;
@@ -19,7 +19,7 @@ a.menu-account-btn{
   display: none;
   outline: none;
   @include transition(all .3s ease-in-out);
-  @media only screen and(max-width:768px){
+  @media only screen and(max-width:767px){
     display: block;
   }
 

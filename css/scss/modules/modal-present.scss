@@ -60,8 +60,10 @@ li{
     font-size: $font-size-sm;
     color: $color-grey-line;
     border: none;
+    @include transition(all .3s ease-in-out);
     &:hover{
       background-color: transparent;
+      color:$color-blue-font;
 
     }
   }
@@ -389,10 +391,12 @@ input.my-number{
   border: none;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
-  color:$color-blue-font;
+  color: #16b4dc;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #F6F6F6;
   border: none;
+  border: 1px solid #D5D5D5;
+  border-bottom: none;
 }
 
 /*-----END-MODAL-PRESENT.SCSS----------*/

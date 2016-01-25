@@ -24,6 +24,9 @@
   @media only screen and(max-width: 767px){
     flex-basis: 100%;
     }
+  @media only screen and(min-width:1057px){
+    display: block!important;
+  }
 }
 .flex-item.aside-left {
   flex-basis: 23.225%;
@@ -31,8 +34,12 @@
   @media only screen and(max-width:1056px){
     flex-basis:100%;
     order:2;
+    display: none;
   border-bottom: 1px solid #16B4DC;
     margin-bottom: 1px;
+  }
+  @media only screen and(min-width:1057px){
+   display: block!important;
   }
   @media only screen and(max-width: 767px){
 
@@ -57,31 +64,7 @@
   color:$color-grey-line;
   padding: 10px;
 
-  a.btn{
-    display: inline-block;
-    text-transform: uppercase;
-    border: 1px solid transparent;
-    border-radius:4px;
-    float: right;
-    margin-bottom: 5px;
-    display: none;
-    @include transition(all .3s ease-in-out);
-    @media only screen and(max-width:1056px){
-           display: inline-block;
-    }
-    @media only screen and(max-width:390px){
-      display: block;
-      float:none;
-      border-color:$color-blue-font;
-    }
-    &:hover{
-      border-color:$color-blue-font;
-      color:$color-blue-font;
 
-      .badge{
-        background-color: $color-blue-font;
-      }
-    }
 
 
   }
@@ -143,18 +126,21 @@
       box-shadow: none;
     }
   }
-}
+
 ul.girl-list {
   background-color:$color-grey;
   width: 100%;
   padding: 10px 0;
-
+  display:block;
 
       @media only screen and(max-width: 991px){
         height: auto;
       }
   @media only screen and(max-width:1056px){
     display: none;
+  }
+  @media only screen and(min-width:1057px){
+    display:block!important;
   }
 
   .link-girl{
@@ -271,6 +257,9 @@ ul.girl-list {
   @media only screen and(max-width:1056px){
     flex-basis: 70%;
     order: 2;
+  }
+  @media only screen and(min-width:1057px){
+    display: flex!important;
   }
 
   @media only screen and(max-width: 767px){
@@ -613,14 +602,72 @@ a.btn.invite{
      font-size: 18px;
      border: 3px solid transparent;
      text-transform: uppercase;
-
+     color:$color-grey-line;
+     @include transition(all .3s ease-in-out);
+     @media only screen and(max-width: 390px) {
+       display: block;
+     }
       &:hover{
         color:$color-blue-font;
       }
+     &:active{
+       color:$color-grey-line;
+       box-shadow: none;
+     }
    }
-  a.class-active{
+  a.btn.btn-search-girl {
+    text-transform: uppercase;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 5px;
+    display: none;
+    @include transition(all .3s ease-in-out);
+    @media only screen and(max-width: 1056px) {
+      display: inline-block;
+    }
+    @media only screen and(max-width: 390px) {
+      display: block;
+      float: none;
+    }
+    &:hover {
+      color: $color-blue-font;
+
+      .badge {
+        background-color: $color-blue-font;
+      }
+    }
+  }
+  .class-active{
     border-bottom-color:#C7EDFC;
   }
+}
+
+a.btn.btn-search-girl {
+  text-transform: uppercase;
+  border: 3px solid transparent;
+  border-radius: 4px;
+  float: right;
+  margin-bottom: 5px;
+  display: none;
+  @include transition(all .3s ease-in-out);
+  @media only screen and(max-width: 1056px) {
+    display: inline-block;
+  }
+  @media only screen and(max-width: 390px) {
+    display: block;
+    float: none;
+    }
+  &:hover {
+    color: $color-blue-font;
+
+    .badge {
+      background-color: $color-blue-font;
+    }
+  }
+}
+.class-active{
+  border-bottom-color:#C7EDFC;
 }
 
 /*----------END-CHAT-INDEX.SCSS----------------*/
