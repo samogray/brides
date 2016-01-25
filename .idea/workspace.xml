@@ -34,8 +34,8 @@
       <file leaf-file-name="chat-index.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/scss/modules/chat-index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1785174">
-              <caret line="396" column="7" selection-start-line="396" selection-start-column="7" selection-end-line="396" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.5900151">
+              <caret line="428" column="35" selection-start-line="428" selection-start-column="35" selection-end-line="428" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -44,10 +44,10 @@
       <file leaf-file-name="from-sass.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/from-sass.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.344828">
-              <caret line="768" column="10" selection-start-line="768" selection-start-column="10" selection-end-line="768" selection-end-column="10" />
+            <state vertical-scroll-proportion="-24.896551">
+              <caret line="786" column="1" selection-start-line="786" selection-start-column="1" selection-end-line="786" selection-end-column="1" />
               <folding>
-                <marker date="1453750786905" expanded="true" signature="17397:17402" placeholder="{...}" />
+                <marker date="1453751370149" expanded="true" signature="25247:25249" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -779,18 +779,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/from-sass.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.344828">
-          <caret line="768" column="10" selection-start-line="768" selection-start-column="10" selection-end-line="768" selection-end-column="10" />
+        <state vertical-scroll-proportion="-24.896551">
+          <caret line="786" column="1" selection-start-line="786" selection-start-column="1" selection-end-line="786" selection-end-column="1" />
           <folding>
-            <marker date="1453750786905" expanded="true" signature="17397:17402" placeholder="{...}" />
+            <marker date="1453751370149" expanded="true" signature="25247:25249" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/scss/modules/chat-index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1785174">
-          <caret line="396" column="7" selection-start-line="396" selection-start-column="7" selection-end-line="396" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.5900151">
+          <caret line="428" column="35" selection-start-line="428" selection-start-column="35" selection-end-line="428" selection-end-column="35" />
           <folding />
         </state>
       </provider>

@@ -419,9 +419,15 @@ flex-basis:100%;
       ul.dropdown-menu{
        right: 0;
         bottom: 37px;
-        max-width: 120px;
+        min-width: 98px;
         @media only screen and(max-width: 479px){
           right: 0!important;
+        }
+        li a{
+          background-image: none;
+          &:hover{
+            color:$color-blue-font;
+          }
         }
       }
       a.btn {

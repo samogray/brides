@@ -434,12 +434,18 @@ ul.girl-list .item-girl-from {
 .chat-wrap .type-mess .translate-wrap ul.dropdown-menu {
   right: 0;
   bottom: 37px;
-  max-width: 120px;
+  min-width: 98px;
 }
 @media only screen and (max-width: 479px) {
   .chat-wrap .type-mess .translate-wrap ul.dropdown-menu {
     right: 0 !important;
   }
+}
+.chat-wrap .type-mess .translate-wrap ul.dropdown-menu li a {
+  background-image: none;
+}
+.chat-wrap .type-mess .translate-wrap ul.dropdown-menu li a:hover {
+  color: #16b4dc;
 }
 .chat-wrap .type-mess .translate-wrap a.btn, .chat-wrap .type-mess .translate-wrap a.translate {
   border: none;
@@ -1133,12 +1139,18 @@ ul.girl-list .item-girl-from {
 .chat-wrap .type-mess .translate-wrap ul.dropdown-menu {
   right: 0;
   bottom: 37px;
-  max-width: 120px;
+  min-width: 98px;
 }
 @media only screen and (max-width: 479px) {
   .chat-wrap .type-mess .translate-wrap ul.dropdown-menu {
     right: 0 !important;
   }
+}
+.chat-wrap .type-mess .translate-wrap ul.dropdown-menu li a {
+  background-image: none;
+}
+.chat-wrap .type-mess .translate-wrap ul.dropdown-menu li a:hover {
+  color: #16b4dc;
 }
 .chat-wrap .type-mess .translate-wrap a.btn, .chat-wrap .type-mess .translate-wrap a.translate {
   border: none;
