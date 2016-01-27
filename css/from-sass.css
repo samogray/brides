@@ -75,32 +75,50 @@
   padding: 10px;
 }
 
-form.form-inline {
-  border-bottom: 1px solid #bebebe;
-}
-@media only screen and (max-width: 1056px) {
-  form.form-inline {
-    width: 100%;
-    display: inline-block;
-  }
-}
+ /* form.form-inline {
+    border-bottom: 1px solid $color-grey-line;
 
-@media only screen and (max-width: 1056px) {
-  .form-group {
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .form-group {
-    margin-bottom: 17px;
-  }
-}
-@media only screen and (max-width: 479px) {
-  .form-group {
-    margin-bottom: 30px;
-  }
-}
+    @media only screen and(max-width:1056px){
+      width: 100%;
+      display: inline-block;
+    }
+    .form-group{
+      @media only screen and(max-width:1056px){
+        width: 100%;
+      }
+      @media only screen and(max-width: 767px){
+        margin-bottom: 17px;
+      }
+      @media only screen and(max-width: 479px){
+        margin-bottom: 30px;
+      }
 
+    }
+    input.form-control{
+      width: 87%;
+      float: right;
+      background-color:$color-grey ;
+      border: none;
+      @include border-radius(0);
+      box-shadow: none;
+      padding: 0;
+      padding-left: 10px;
+      height: 32px;
+      font-family: $font-normal;
+      @media only screen and(max-width:1056px){
+        width: 50%;
+        display: inline-block;
+        float:none;
+      }
+
+
+      &:focus{
+        border:none;
+        box-shadow: none;
+      }
+    }
+  }
+*/
 input::-webkit-input-placeholder {
   text-transform: uppercase;
 }
@@ -117,33 +135,6 @@ input:-moz-placeholder {
 /* Firefox 18- */
 input:-ms-input-placeholder {
   text-transform: uppercase;
-}
-
-input.form-control {
-  width: 87%;
-  float: right;
-  background-color: #f6f6f6;
-  border: none;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  border-radius: 0;
-  box-shadow: none;
-  padding: 0;
-  padding-left: 10px;
-  height: 32px;
-  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
-}
-@media only screen and (max-width: 1056px) {
-  input.form-control {
-    width: 50%;
-    display: inline-block;
-    float: none;
-  }
-}
-input.form-control:focus {
-  border: none;
-  box-shadow: none;
 }
 
 ul.girl-list {
@@ -780,32 +771,50 @@ a.btn.btn-search-girl:hover .badge, .chat-wrap .type-mess a.btn-search-girl.tran
   padding: 10px;
 }
 
-form.form-inline {
-  border-bottom: 1px solid #bebebe;
-}
-@media only screen and (max-width: 1056px) {
-  form.form-inline {
-    width: 100%;
-    display: inline-block;
-  }
-}
+ /* form.form-inline {
+    border-bottom: 1px solid $color-grey-line;
 
-@media only screen and (max-width: 1056px) {
-  .form-group {
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .form-group {
-    margin-bottom: 17px;
-  }
-}
-@media only screen and (max-width: 479px) {
-  .form-group {
-    margin-bottom: 30px;
-  }
-}
+    @media only screen and(max-width:1056px){
+      width: 100%;
+      display: inline-block;
+    }
+    .form-group{
+      @media only screen and(max-width:1056px){
+        width: 100%;
+      }
+      @media only screen and(max-width: 767px){
+        margin-bottom: 17px;
+      }
+      @media only screen and(max-width: 479px){
+        margin-bottom: 30px;
+      }
 
+    }
+    input.form-control{
+      width: 87%;
+      float: right;
+      background-color:$color-grey ;
+      border: none;
+      @include border-radius(0);
+      box-shadow: none;
+      padding: 0;
+      padding-left: 10px;
+      height: 32px;
+      font-family: $font-normal;
+      @media only screen and(max-width:1056px){
+        width: 50%;
+        display: inline-block;
+        float:none;
+      }
+
+
+      &:focus{
+        border:none;
+        box-shadow: none;
+      }
+    }
+  }
+*/
 input::-webkit-input-placeholder {
   text-transform: uppercase;
 }
@@ -822,33 +831,6 @@ input:-moz-placeholder {
 /* Firefox 18- */
 input:-ms-input-placeholder {
   text-transform: uppercase;
-}
-
-input.form-control {
-  width: 87%;
-  float: right;
-  background-color: #f6f6f6;
-  border: none;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  border-radius: 0;
-  box-shadow: none;
-  padding: 0;
-  padding-left: 10px;
-  height: 32px;
-  font-family: "OpenSansRegular", "HelveticaRegular", "PT Sans", sans-serif;
-}
-@media only screen and (max-width: 1056px) {
-  input.form-control {
-    width: 50%;
-    display: inline-block;
-    float: none;
-  }
-}
-input.form-control:focus {
-  border: none;
-  box-shadow: none;
 }
 
 ul.girl-list {
@@ -6438,7 +6420,7 @@ ul#main-menu {
 }
 @media only screen and (max-width: 750px) {
   ul#main-menu {
-    float: right;
+    float: left;
   }
 }
 @media only screen and (min-width: 769px) {

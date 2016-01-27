@@ -784,6 +784,22 @@ nav.nav-home-page a.dropdown-toggle.btn.no-visible.navbar-right {
 /*---------------------------------*/
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 479px) {
+
+ #my-form>.form-group{
+  margin-bottom: 0;
+ }
+
+ #my-form>.form-group label {
+  padding-bottom: 0;
+ }
+
+
+ #my-form>.btn-primary.fb{
+  margin-bottom: 20px;
+ }
+
+
+
  ul.nav.navbar-nav.my-custom-lady-catalog.dropdown li{
   float:none;
   display: block;

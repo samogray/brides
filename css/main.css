@@ -288,6 +288,7 @@ footer.form-footer a:hover {
 	font-weight: 300;
 }
 
+
 /*button.btn.btn-primary.center-block.fb span.glyphicon.fa.fa-facebook {
 	margin-right: 10px;
 	border-right: 1px solid #464546;
@@ -318,6 +319,7 @@ span.glyphicon.fa.fb i.fa.fa-facebook {
 }
 button.btn.btn-primary.fb {
 	border-radius: 0;
+	margin-bottom: 15px;
 }
 
 button.btn.btn-primary.fb.fb-left i.fa.fa-facebook {

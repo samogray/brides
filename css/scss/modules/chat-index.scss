@@ -74,56 +74,58 @@
     }
   }
 
-  form.form-inline {
+ /* form.form-inline {
     border-bottom: 1px solid $color-grey-line;
 
     @media only screen and(max-width:1056px){
       width: 100%;
       display: inline-block;
     }
-  }
+    .form-group{
+      @media only screen and(max-width:1056px){
+        width: 100%;
+      }
+      @media only screen and(max-width: 767px){
+        margin-bottom: 17px;
+      }
+      @media only screen and(max-width: 479px){
+        margin-bottom: 30px;
+      }
 
-  .form-group{
-    @media only screen and(max-width:1056px){
-      width: 100%;
     }
-    @media only screen and(max-width: 767px){
-      margin-bottom: 17px;
-    }
-    @media only screen and(max-width: 479px){
-      margin-bottom: 30px;
-    }
+    input.form-control{
+      width: 87%;
+      float: right;
+      background-color:$color-grey ;
+      border: none;
+      @include border-radius(0);
+      box-shadow: none;
+      padding: 0;
+      padding-left: 10px;
+      height: 32px;
+      font-family: $font-normal;
+      @media only screen and(max-width:1056px){
+        width: 50%;
+        display: inline-block;
+        float:none;
+      }
 
+
+      &:focus{
+        border:none;
+        box-shadow: none;
+      }
+    }
   }
+*/
+
 
   input::-webkit-input-placeholder {text-transform: uppercase;}
   input::-moz-placeholder          {text-transform: uppercase;}/* Firefox 19+ */
   input:-moz-placeholder           {text-transform: uppercase;}/* Firefox 18- */
   input:-ms-input-placeholder      {text-transform: uppercase;}
 
-  input.form-control{
-    width: 87%;
-    float: right;
-    background-color:$color-grey ;
-    border: none;
-    @include border-radius(0);
-    box-shadow: none;
-    padding: 0;
-    padding-left: 10px;
-    height: 32px;
-    font-family: $font-normal;
-    @media only screen and(max-width:1056px){
-      width: 50%;
-      display: inline-block;
-      float:none;
-    }
 
-
-    &:focus{
-      border:none;
-      box-shadow: none;
-    }
-  }
 
 ul.girl-list {
   background-color:$color-grey;

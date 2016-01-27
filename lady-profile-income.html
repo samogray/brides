@@ -669,8 +669,6 @@
 <script src="js/jquery.scrollbar.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/jquery.formstyler.min.js"></script>
-<script src="js/common.js"></script>
-
 <script>
     $('.btn.drop-form').click(function(){
         $('#search-girl').slideToggle();
@@ -698,6 +696,11 @@
         $(this).toggleClass('my-color');
         $('#icon').toggleClass('glyphicon-triangle-top');
     });
+    $('a.btn.dashboard-menu').click(function(){
+        $('.drop-dashboard').slideToggle();
+    });
+
+
 
 </script>
 
