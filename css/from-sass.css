@@ -55,12 +55,27 @@
 }
 .flex-item.aside-left input#search {
   background-color: #F6F6F6;
-  border-radius: 0;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  border: none;
   box-shadow: none;
   width: 90%;
+  border-bottom: 1px solid;
+}
+@media only screen and (max-width: 1056px) {
+  .flex-item.aside-left input#search {
+    width: 96%;
+  }
+}
+.flex-item.aside-left input#search:active {
+  border: none;
+  border-bottom: 1px solid;
+  box-shadow: none;
+  outline: 0;
+}
+.flex-item.aside-left input#search:focus {
+  border: none;
+  border-bottom: 1px solid;
+  box-shadow: none;
+  outline: 0;
 }
 .flex-item.aside-left .form-inline .form-group {
   width: 100%;
@@ -763,12 +778,27 @@ a.btn.btn-search-girl:hover .badge, .chat-wrap .type-mess a.btn-search-girl.tran
 }
 .flex-item.aside-left input#search {
   background-color: #F6F6F6;
-  border-radius: 0;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  border: none;
   box-shadow: none;
   width: 90%;
+  border-bottom: 1px solid;
+}
+@media only screen and (max-width: 1056px) {
+  .flex-item.aside-left input#search {
+    width: 96%;
+  }
+}
+.flex-item.aside-left input#search:active {
+  border: none;
+  border-bottom: 1px solid;
+  box-shadow: none;
+  outline: 0;
+}
+.flex-item.aside-left input#search:focus {
+  border: none;
+  border-bottom: 1px solid;
+  box-shadow: none;
+  outline: 0;
 }
 .flex-item.aside-left .form-inline .form-group {
   width: 100%;
