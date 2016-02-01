@@ -554,7 +554,7 @@
 
    $('#srch-girl').click(function(){
         $('.aside-left').fadeIn(function(){
-            $('ul.girl-list').slideToggle();
+           if($('ul.girl-list').is(':hidden')) $('ul.girl-list').slideToggle();
         });
         $('.chat-wrap').fadeOut();
         $('.aside-right').fadeOut();
@@ -565,7 +565,7 @@
     });
 
     chat.click(function(){
-        if ($('#srch-girl'),css)
+
        $('.aside-left').fadeOut();
         $('.chat-wrap').fadeIn();
         $('.aside-right').fadeIn();

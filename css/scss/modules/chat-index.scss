@@ -45,6 +45,20 @@
 
   }
 
+  input#search {
+    background-color: #F6F6F6;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+    width: 90%;
+  }
+  .form-inline .form-group  {
+    width: 100%;
+  }
+
+
 }
 .f-right{
   float:right;

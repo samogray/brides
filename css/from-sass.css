@@ -53,6 +53,18 @@
     display: block !important;
   }
 }
+.flex-item.aside-left input#search {
+  background-color: #F6F6F6;
+  border-radius: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+  width: 90%;
+}
+.flex-item.aside-left .form-inline .form-group {
+  width: 100%;
+}
 
 .f-right {
   float: right;
@@ -748,6 +760,18 @@ a.btn.btn-search-girl:hover .badge, .chat-wrap .type-mess a.btn-search-girl.tran
   .flex-item.aside-left {
     display: block !important;
   }
+}
+.flex-item.aside-left input#search {
+  background-color: #F6F6F6;
+  border-radius: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+  width: 90%;
+}
+.flex-item.aside-left .form-inline .form-group {
+  width: 100%;
 }
 
 .f-right {
